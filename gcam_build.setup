@@ -1,0 +1,14 @@
+export CXX=icpc
+export GCAM_WORKSPACE=$HOME/gcam_5_2_1_beta
+export JAVA_LIB=${JAVA_HOME}/jre/lib/amd64/server
+export JAVA_INCLUDE=${JAVA_HOME}/include
+export BOOST_LIB=${EBROOTBOOST}/lib
+export BOOST_INCLUDE=${EBROOTBOOST}/include
+export XERCES_LIB=${EBROOTXERCES}/lib
+export XERCES_INCLUDE=${EBROOTXERCES}/include/xercsc
+export JARS_LIB=${GCAM_WORKSPACE}/libs/jars/*
+export MKL_CFLAGS=-mkl 
+export MKL_LDFLAGS=-mkl
+export MKL_LIB=${MKLROOT}/lib/intel64
+export USE_MKL=1
+export USE_GCAM_PARALLEL=1
