@@ -40,7 +40,7 @@ sleep 3s
 echo "copying miscelaneous files you will need to run into gcam directory"
 cd ${INSTALLDIR}
 cp -fR configuration-sets ${GCAMDIR}
-cp -fR addons ${GCAMDIR}/input
+#cp -fR addons ${GCAMDIR}/input
 cp -fR libs ${GCAMDIR}
 
 

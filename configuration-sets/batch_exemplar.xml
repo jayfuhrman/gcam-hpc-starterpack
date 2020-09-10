@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This exemplar batch permutation file contains the structure to run 2 component sets x 2 file sets each for a total of 4 runs-->
+<BatchRunner xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="batch_runner.xsd">
+	<ComponentSet name="componentset1">
+			<FileSet name="comp1fileset1">
+				<!--add paths to the additional input files you want read in on top of the base (config) set here-->
+			</FileSet>
+
+			<FileSet name="comp1fileset2">
+					<!--add paths to the additional input files you want read in on top of the base (config) set here-->
+			</FileSet>
+
+	</ComponentSet>
+
+	<ComponentSet name="componentset2">
+			<FileSet name="comp2fileset1">
+				<!--add paths to the additional input files you want read in on top of the base (config) set here-->
+			</FileSet>
+
+			<FileSet name="comp2fileset2">
+				<!--add paths to the additional input files you want read in on top of the base (config) set here-->
+			</FileSet>
+
+	</ComponentSet>
+</BatchRunner>
+
+
