@@ -3,13 +3,5 @@ This repository automates the compilation/build process of the Global Change Ana
 
 
 
-To begin, download the gcam-core zipfile from https://github.com/JGCRI/gcam-core
-You will also need the hector-gcam-integration zipfile from https://github.com/JGCRI/hector/archive/gcam-integration.zip
-
-After downloading both zipfiles and this directory, place both zip files in the top level of this directory.  
-
-The makescript included here should automatically move into place and unpack the zipfiles during the build process, creating a separate "gcam" directory from which you will actually run the model.  
-
-Note also that you will need to substute your computing ID in the makescript, run_model, and master shell scripts before attempting to compile/run GCAM.
 
 
