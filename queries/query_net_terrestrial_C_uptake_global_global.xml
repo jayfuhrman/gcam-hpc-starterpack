@@ -1,0 +1,16 @@
+<queries>
+
+<aQuery>
+	<region name="Global" /> 
+	
+
+<ClimateQuery title="net terrestrial C uptake">
+            <axis1 name="net-terrestrial-uptake">none</axis1>
+            <axis2 name="Year">net-terrestrial-uptake[@year]</axis2>
+            <xPath buildList="true" dataName="net-terrestrial-uptake" group="false" sumAll="false">climate-model/net-terrestrial-uptake/text()</xPath>
+            <comments />
+         </ClimateQuery>
+   </aQuery>
+
+
+</queries>

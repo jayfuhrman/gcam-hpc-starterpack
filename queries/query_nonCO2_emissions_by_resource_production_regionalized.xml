@@ -1,0 +1,201 @@
+<queries>
+
+<aQuery><region name="Global" /><emissionsQueryBuilder title="nonCO2 emissions by resource production">
+            <axis1 name="GHG">GHG</axis1>
+            <axis2 name="Year">emissions</axis2>
+            <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type = 'resource']//*[@type = 'GHG']/emissions/node()</xPath>
+            <comments />
+         </emissionsQueryBuilder>
+         </aQuery><aQuery><region name="USA" /><emissionsQueryBuilder title="nonCO2 emissions by resource production">
+            <axis1 name="GHG">GHG</axis1>
+            <axis2 name="Year">emissions</axis2>
+            <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type = 'resource']//*[@type = 'GHG']/emissions/node()</xPath>
+            <comments />
+         </emissionsQueryBuilder>
+         </aQuery><aQuery><region name="Africa_Eastern" /><emissionsQueryBuilder title="nonCO2 emissions by resource production">
+            <axis1 name="GHG">GHG</axis1>
+            <axis2 name="Year">emissions</axis2>
+            <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type = 'resource']//*[@type = 'GHG']/emissions/node()</xPath>
+            <comments />
+         </emissionsQueryBuilder>
+         </aQuery><aQuery><region name="Africa_Northern" /><emissionsQueryBuilder title="nonCO2 emissions by resource production">
+            <axis1 name="GHG">GHG</axis1>
+            <axis2 name="Year">emissions</axis2>
+            <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type = 'resource']//*[@type = 'GHG']/emissions/node()</xPath>
+            <comments />
+         </emissionsQueryBuilder>
+         </aQuery><aQuery><region name="Africa_Southern" /><emissionsQueryBuilder title="nonCO2 emissions by resource production">
+            <axis1 name="GHG">GHG</axis1>
+            <axis2 name="Year">emissions</axis2>
+            <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type = 'resource']//*[@type = 'GHG']/emissions/node()</xPath>
+            <comments />
+         </emissionsQueryBuilder>
+         </aQuery><aQuery><region name="Africa_Western" /><emissionsQueryBuilder title="nonCO2 emissions by resource production">
+            <axis1 name="GHG">GHG</axis1>
+            <axis2 name="Year">emissions</axis2>
+            <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type = 'resource']//*[@type = 'GHG']/emissions/node()</xPath>
+            <comments />
+         </emissionsQueryBuilder>
+         </aQuery><aQuery><region name="Australia_NZ" /><emissionsQueryBuilder title="nonCO2 emissions by resource production">
+            <axis1 name="GHG">GHG</axis1>
+            <axis2 name="Year">emissions</axis2>
+            <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type = 'resource']//*[@type = 'GHG']/emissions/node()</xPath>
+            <comments />
+         </emissionsQueryBuilder>
+         </aQuery><aQuery><region name="Brazil" /><emissionsQueryBuilder title="nonCO2 emissions by resource production">
+            <axis1 name="GHG">GHG</axis1>
+            <axis2 name="Year">emissions</axis2>
+            <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type = 'resource']//*[@type = 'GHG']/emissions/node()</xPath>
+            <comments />
+         </emissionsQueryBuilder>
+         </aQuery><aQuery><region name="Canada" /><emissionsQueryBuilder title="nonCO2 emissions by resource production">
+            <axis1 name="GHG">GHG</axis1>
+            <axis2 name="Year">emissions</axis2>
+            <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type = 'resource']//*[@type = 'GHG']/emissions/node()</xPath>
+            <comments />
+         </emissionsQueryBuilder>
+         </aQuery><aQuery><region name="Central America and Caribbean" /><emissionsQueryBuilder title="nonCO2 emissions by resource production">
+            <axis1 name="GHG">GHG</axis1>
+            <axis2 name="Year">emissions</axis2>
+            <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type = 'resource']//*[@type = 'GHG']/emissions/node()</xPath>
+            <comments />
+         </emissionsQueryBuilder>
+         </aQuery><aQuery><region name="Central Asia" /><emissionsQueryBuilder title="nonCO2 emissions by resource production">
+            <axis1 name="GHG">GHG</axis1>
+            <axis2 name="Year">emissions</axis2>
+            <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type = 'resource']//*[@type = 'GHG']/emissions/node()</xPath>
+            <comments />
+         </emissionsQueryBuilder>
+         </aQuery><aQuery><region name="China" /><emissionsQueryBuilder title="nonCO2 emissions by resource production">
+            <axis1 name="GHG">GHG</axis1>
+            <axis2 name="Year">emissions</axis2>
+            <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type = 'resource']//*[@type = 'GHG']/emissions/node()</xPath>
+            <comments />
+         </emissionsQueryBuilder>
+         </aQuery><aQuery><region name="EU-12" /><emissionsQueryBuilder title="nonCO2 emissions by resource production">
+            <axis1 name="GHG">GHG</axis1>
+            <axis2 name="Year">emissions</axis2>
+            <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type = 'resource']//*[@type = 'GHG']/emissions/node()</xPath>
+            <comments />
+         </emissionsQueryBuilder>
+         </aQuery><aQuery><region name="EU-15" /><emissionsQueryBuilder title="nonCO2 emissions by resource production">
+            <axis1 name="GHG">GHG</axis1>
+            <axis2 name="Year">emissions</axis2>
+            <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type = 'resource']//*[@type = 'GHG']/emissions/node()</xPath>
+            <comments />
+         </emissionsQueryBuilder>
+         </aQuery><aQuery><region name="Europe_Eastern" /><emissionsQueryBuilder title="nonCO2 emissions by resource production">
+            <axis1 name="GHG">GHG</axis1>
+            <axis2 name="Year">emissions</axis2>
+            <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type = 'resource']//*[@type = 'GHG']/emissions/node()</xPath>
+            <comments />
+         </emissionsQueryBuilder>
+         </aQuery><aQuery><region name="Europe_Non_EU" /><emissionsQueryBuilder title="nonCO2 emissions by resource production">
+            <axis1 name="GHG">GHG</axis1>
+            <axis2 name="Year">emissions</axis2>
+            <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type = 'resource']//*[@type = 'GHG']/emissions/node()</xPath>
+            <comments />
+         </emissionsQueryBuilder>
+         </aQuery><aQuery><region name="European Free Trade Association" /><emissionsQueryBuilder title="nonCO2 emissions by resource production">
+            <axis1 name="GHG">GHG</axis1>
+            <axis2 name="Year">emissions</axis2>
+            <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type = 'resource']//*[@type = 'GHG']/emissions/node()</xPath>
+            <comments />
+         </emissionsQueryBuilder>
+         </aQuery><aQuery><region name="India" /><emissionsQueryBuilder title="nonCO2 emissions by resource production">
+            <axis1 name="GHG">GHG</axis1>
+            <axis2 name="Year">emissions</axis2>
+            <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type = 'resource']//*[@type = 'GHG']/emissions/node()</xPath>
+            <comments />
+         </emissionsQueryBuilder>
+         </aQuery><aQuery><region name="Indonesia" /><emissionsQueryBuilder title="nonCO2 emissions by resource production">
+            <axis1 name="GHG">GHG</axis1>
+            <axis2 name="Year">emissions</axis2>
+            <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type = 'resource']//*[@type = 'GHG']/emissions/node()</xPath>
+            <comments />
+         </emissionsQueryBuilder>
+         </aQuery><aQuery><region name="Japan" /><emissionsQueryBuilder title="nonCO2 emissions by resource production">
+            <axis1 name="GHG">GHG</axis1>
+            <axis2 name="Year">emissions</axis2>
+            <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type = 'resource']//*[@type = 'GHG']/emissions/node()</xPath>
+            <comments />
+         </emissionsQueryBuilder>
+         </aQuery><aQuery><region name="Mexico" /><emissionsQueryBuilder title="nonCO2 emissions by resource production">
+            <axis1 name="GHG">GHG</axis1>
+            <axis2 name="Year">emissions</axis2>
+            <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type = 'resource']//*[@type = 'GHG']/emissions/node()</xPath>
+            <comments />
+         </emissionsQueryBuilder>
+         </aQuery><aQuery><region name="Middle East" /><emissionsQueryBuilder title="nonCO2 emissions by resource production">
+            <axis1 name="GHG">GHG</axis1>
+            <axis2 name="Year">emissions</axis2>
+            <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type = 'resource']//*[@type = 'GHG']/emissions/node()</xPath>
+            <comments />
+         </emissionsQueryBuilder>
+         </aQuery><aQuery><region name="Pakistan" /><emissionsQueryBuilder title="nonCO2 emissions by resource production">
+            <axis1 name="GHG">GHG</axis1>
+            <axis2 name="Year">emissions</axis2>
+            <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type = 'resource']//*[@type = 'GHG']/emissions/node()</xPath>
+            <comments />
+         </emissionsQueryBuilder>
+         </aQuery><aQuery><region name="Russia" /><emissionsQueryBuilder title="nonCO2 emissions by resource production">
+            <axis1 name="GHG">GHG</axis1>
+            <axis2 name="Year">emissions</axis2>
+            <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type = 'resource']//*[@type = 'GHG']/emissions/node()</xPath>
+            <comments />
+         </emissionsQueryBuilder>
+         </aQuery><aQuery><region name="South Africa" /><emissionsQueryBuilder title="nonCO2 emissions by resource production">
+            <axis1 name="GHG">GHG</axis1>
+            <axis2 name="Year">emissions</axis2>
+            <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type = 'resource']//*[@type = 'GHG']/emissions/node()</xPath>
+            <comments />
+         </emissionsQueryBuilder>
+         </aQuery><aQuery><region name="South America_Northern" /><emissionsQueryBuilder title="nonCO2 emissions by resource production">
+            <axis1 name="GHG">GHG</axis1>
+            <axis2 name="Year">emissions</axis2>
+            <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type = 'resource']//*[@type = 'GHG']/emissions/node()</xPath>
+            <comments />
+         </emissionsQueryBuilder>
+         </aQuery><aQuery><region name="South America_Southern" /><emissionsQueryBuilder title="nonCO2 emissions by resource production">
+            <axis1 name="GHG">GHG</axis1>
+            <axis2 name="Year">emissions</axis2>
+            <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type = 'resource']//*[@type = 'GHG']/emissions/node()</xPath>
+            <comments />
+         </emissionsQueryBuilder>
+         </aQuery><aQuery><region name="South Asia" /><emissionsQueryBuilder title="nonCO2 emissions by resource production">
+            <axis1 name="GHG">GHG</axis1>
+            <axis2 name="Year">emissions</axis2>
+            <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type = 'resource']//*[@type = 'GHG']/emissions/node()</xPath>
+            <comments />
+         </emissionsQueryBuilder>
+         </aQuery><aQuery><region name="South Korea" /><emissionsQueryBuilder title="nonCO2 emissions by resource production">
+            <axis1 name="GHG">GHG</axis1>
+            <axis2 name="Year">emissions</axis2>
+            <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type = 'resource']//*[@type = 'GHG']/emissions/node()</xPath>
+            <comments />
+         </emissionsQueryBuilder>
+         </aQuery><aQuery><region name="Southeast Asia" /><emissionsQueryBuilder title="nonCO2 emissions by resource production">
+            <axis1 name="GHG">GHG</axis1>
+            <axis2 name="Year">emissions</axis2>
+            <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type = 'resource']//*[@type = 'GHG']/emissions/node()</xPath>
+            <comments />
+         </emissionsQueryBuilder>
+         </aQuery><aQuery><region name="Taiwan" /><emissionsQueryBuilder title="nonCO2 emissions by resource production">
+            <axis1 name="GHG">GHG</axis1>
+            <axis2 name="Year">emissions</axis2>
+            <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type = 'resource']//*[@type = 'GHG']/emissions/node()</xPath>
+            <comments />
+         </emissionsQueryBuilder>
+         </aQuery><aQuery><region name="Argentina" /><emissionsQueryBuilder title="nonCO2 emissions by resource production">
+            <axis1 name="GHG">GHG</axis1>
+            <axis2 name="Year">emissions</axis2>
+            <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type = 'resource']//*[@type = 'GHG']/emissions/node()</xPath>
+            <comments />
+         </emissionsQueryBuilder>
+         </aQuery><aQuery><region name="Colombia" /><emissionsQueryBuilder title="nonCO2 emissions by resource production">
+            <axis1 name="GHG">GHG</axis1>
+            <axis2 name="Year">emissions</axis2>
+            <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type = 'resource']//*[@type = 'GHG']/emissions/node()</xPath>
+            <comments />
+         </emissionsQueryBuilder>
+         </aQuery></queries>

@@ -1,0 +1,17 @@
+<queries>
+
+<aQuery>
+	<region name="Global" /> 
+	
+
+<supplyDemandQuery title="irrigation water withdrawals by crop type">
+               <axis1 name="sector">sector</axis1>
+               <axis2 name="Year">demand-physical[@vintage]</axis2>
+               <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector']//*[@type='input' (:collapse:) and contains(@name, 'water_td_irr') and ends-with(@name, '_W')]/
+               demand-physical/node()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery>
+
+
+</queries>

@@ -1,0 +1,201 @@
+<queries>
+
+<aQuery><region name="Global" /><supplyDemandQuery title="resource production">
+            <axis1 name="resource">resource</axis1>
+            <axis2 name="Year">output</axis2>
+            <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='resource']//output/node()</xPath>
+            <comments />
+         </supplyDemandQuery>
+         </aQuery><aQuery><region name="USA" /><supplyDemandQuery title="resource production">
+            <axis1 name="resource">resource</axis1>
+            <axis2 name="Year">output</axis2>
+            <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='resource']//output/node()</xPath>
+            <comments />
+         </supplyDemandQuery>
+         </aQuery><aQuery><region name="Africa_Eastern" /><supplyDemandQuery title="resource production">
+            <axis1 name="resource">resource</axis1>
+            <axis2 name="Year">output</axis2>
+            <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='resource']//output/node()</xPath>
+            <comments />
+         </supplyDemandQuery>
+         </aQuery><aQuery><region name="Africa_Northern" /><supplyDemandQuery title="resource production">
+            <axis1 name="resource">resource</axis1>
+            <axis2 name="Year">output</axis2>
+            <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='resource']//output/node()</xPath>
+            <comments />
+         </supplyDemandQuery>
+         </aQuery><aQuery><region name="Africa_Southern" /><supplyDemandQuery title="resource production">
+            <axis1 name="resource">resource</axis1>
+            <axis2 name="Year">output</axis2>
+            <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='resource']//output/node()</xPath>
+            <comments />
+         </supplyDemandQuery>
+         </aQuery><aQuery><region name="Africa_Western" /><supplyDemandQuery title="resource production">
+            <axis1 name="resource">resource</axis1>
+            <axis2 name="Year">output</axis2>
+            <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='resource']//output/node()</xPath>
+            <comments />
+         </supplyDemandQuery>
+         </aQuery><aQuery><region name="Australia_NZ" /><supplyDemandQuery title="resource production">
+            <axis1 name="resource">resource</axis1>
+            <axis2 name="Year">output</axis2>
+            <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='resource']//output/node()</xPath>
+            <comments />
+         </supplyDemandQuery>
+         </aQuery><aQuery><region name="Brazil" /><supplyDemandQuery title="resource production">
+            <axis1 name="resource">resource</axis1>
+            <axis2 name="Year">output</axis2>
+            <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='resource']//output/node()</xPath>
+            <comments />
+         </supplyDemandQuery>
+         </aQuery><aQuery><region name="Canada" /><supplyDemandQuery title="resource production">
+            <axis1 name="resource">resource</axis1>
+            <axis2 name="Year">output</axis2>
+            <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='resource']//output/node()</xPath>
+            <comments />
+         </supplyDemandQuery>
+         </aQuery><aQuery><region name="Central America and Caribbean" /><supplyDemandQuery title="resource production">
+            <axis1 name="resource">resource</axis1>
+            <axis2 name="Year">output</axis2>
+            <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='resource']//output/node()</xPath>
+            <comments />
+         </supplyDemandQuery>
+         </aQuery><aQuery><region name="Central Asia" /><supplyDemandQuery title="resource production">
+            <axis1 name="resource">resource</axis1>
+            <axis2 name="Year">output</axis2>
+            <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='resource']//output/node()</xPath>
+            <comments />
+         </supplyDemandQuery>
+         </aQuery><aQuery><region name="China" /><supplyDemandQuery title="resource production">
+            <axis1 name="resource">resource</axis1>
+            <axis2 name="Year">output</axis2>
+            <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='resource']//output/node()</xPath>
+            <comments />
+         </supplyDemandQuery>
+         </aQuery><aQuery><region name="EU-12" /><supplyDemandQuery title="resource production">
+            <axis1 name="resource">resource</axis1>
+            <axis2 name="Year">output</axis2>
+            <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='resource']//output/node()</xPath>
+            <comments />
+         </supplyDemandQuery>
+         </aQuery><aQuery><region name="EU-15" /><supplyDemandQuery title="resource production">
+            <axis1 name="resource">resource</axis1>
+            <axis2 name="Year">output</axis2>
+            <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='resource']//output/node()</xPath>
+            <comments />
+         </supplyDemandQuery>
+         </aQuery><aQuery><region name="Europe_Eastern" /><supplyDemandQuery title="resource production">
+            <axis1 name="resource">resource</axis1>
+            <axis2 name="Year">output</axis2>
+            <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='resource']//output/node()</xPath>
+            <comments />
+         </supplyDemandQuery>
+         </aQuery><aQuery><region name="Europe_Non_EU" /><supplyDemandQuery title="resource production">
+            <axis1 name="resource">resource</axis1>
+            <axis2 name="Year">output</axis2>
+            <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='resource']//output/node()</xPath>
+            <comments />
+         </supplyDemandQuery>
+         </aQuery><aQuery><region name="European Free Trade Association" /><supplyDemandQuery title="resource production">
+            <axis1 name="resource">resource</axis1>
+            <axis2 name="Year">output</axis2>
+            <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='resource']//output/node()</xPath>
+            <comments />
+         </supplyDemandQuery>
+         </aQuery><aQuery><region name="India" /><supplyDemandQuery title="resource production">
+            <axis1 name="resource">resource</axis1>
+            <axis2 name="Year">output</axis2>
+            <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='resource']//output/node()</xPath>
+            <comments />
+         </supplyDemandQuery>
+         </aQuery><aQuery><region name="Indonesia" /><supplyDemandQuery title="resource production">
+            <axis1 name="resource">resource</axis1>
+            <axis2 name="Year">output</axis2>
+            <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='resource']//output/node()</xPath>
+            <comments />
+         </supplyDemandQuery>
+         </aQuery><aQuery><region name="Japan" /><supplyDemandQuery title="resource production">
+            <axis1 name="resource">resource</axis1>
+            <axis2 name="Year">output</axis2>
+            <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='resource']//output/node()</xPath>
+            <comments />
+         </supplyDemandQuery>
+         </aQuery><aQuery><region name="Mexico" /><supplyDemandQuery title="resource production">
+            <axis1 name="resource">resource</axis1>
+            <axis2 name="Year">output</axis2>
+            <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='resource']//output/node()</xPath>
+            <comments />
+         </supplyDemandQuery>
+         </aQuery><aQuery><region name="Middle East" /><supplyDemandQuery title="resource production">
+            <axis1 name="resource">resource</axis1>
+            <axis2 name="Year">output</axis2>
+            <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='resource']//output/node()</xPath>
+            <comments />
+         </supplyDemandQuery>
+         </aQuery><aQuery><region name="Pakistan" /><supplyDemandQuery title="resource production">
+            <axis1 name="resource">resource</axis1>
+            <axis2 name="Year">output</axis2>
+            <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='resource']//output/node()</xPath>
+            <comments />
+         </supplyDemandQuery>
+         </aQuery><aQuery><region name="Russia" /><supplyDemandQuery title="resource production">
+            <axis1 name="resource">resource</axis1>
+            <axis2 name="Year">output</axis2>
+            <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='resource']//output/node()</xPath>
+            <comments />
+         </supplyDemandQuery>
+         </aQuery><aQuery><region name="South Africa" /><supplyDemandQuery title="resource production">
+            <axis1 name="resource">resource</axis1>
+            <axis2 name="Year">output</axis2>
+            <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='resource']//output/node()</xPath>
+            <comments />
+         </supplyDemandQuery>
+         </aQuery><aQuery><region name="South America_Northern" /><supplyDemandQuery title="resource production">
+            <axis1 name="resource">resource</axis1>
+            <axis2 name="Year">output</axis2>
+            <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='resource']//output/node()</xPath>
+            <comments />
+         </supplyDemandQuery>
+         </aQuery><aQuery><region name="South America_Southern" /><supplyDemandQuery title="resource production">
+            <axis1 name="resource">resource</axis1>
+            <axis2 name="Year">output</axis2>
+            <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='resource']//output/node()</xPath>
+            <comments />
+         </supplyDemandQuery>
+         </aQuery><aQuery><region name="South Asia" /><supplyDemandQuery title="resource production">
+            <axis1 name="resource">resource</axis1>
+            <axis2 name="Year">output</axis2>
+            <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='resource']//output/node()</xPath>
+            <comments />
+         </supplyDemandQuery>
+         </aQuery><aQuery><region name="South Korea" /><supplyDemandQuery title="resource production">
+            <axis1 name="resource">resource</axis1>
+            <axis2 name="Year">output</axis2>
+            <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='resource']//output/node()</xPath>
+            <comments />
+         </supplyDemandQuery>
+         </aQuery><aQuery><region name="Southeast Asia" /><supplyDemandQuery title="resource production">
+            <axis1 name="resource">resource</axis1>
+            <axis2 name="Year">output</axis2>
+            <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='resource']//output/node()</xPath>
+            <comments />
+         </supplyDemandQuery>
+         </aQuery><aQuery><region name="Taiwan" /><supplyDemandQuery title="resource production">
+            <axis1 name="resource">resource</axis1>
+            <axis2 name="Year">output</axis2>
+            <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='resource']//output/node()</xPath>
+            <comments />
+         </supplyDemandQuery>
+         </aQuery><aQuery><region name="Argentina" /><supplyDemandQuery title="resource production">
+            <axis1 name="resource">resource</axis1>
+            <axis2 name="Year">output</axis2>
+            <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='resource']//output/node()</xPath>
+            <comments />
+         </supplyDemandQuery>
+         </aQuery><aQuery><region name="Colombia" /><supplyDemandQuery title="resource production">
+            <axis1 name="resource">resource</axis1>
+            <axis2 name="Year">output</axis2>
+            <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='resource']//output/node()</xPath>
+            <comments />
+         </supplyDemandQuery>
+         </aQuery></queries>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries>
+
+<aQuery>
+	<region name="Global" /> 
+	
+    <supplyDemandQuery title="costs by tech">
+            <axis1 name="technology">technology</axis1>
+            <axis2 name="Year">technology</axis2>
+            <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (local-name()!='AgSupplySector')]/*[@type = 'subsector']/*[@type = 'technology']/cost/text()</xPath>
+            <comments>Excludes AgProductionTechnology costs, where data written out are no meaningful</comments>
+         </supplyDemandQuery>
+</aQuery>
+
+
+</queries>

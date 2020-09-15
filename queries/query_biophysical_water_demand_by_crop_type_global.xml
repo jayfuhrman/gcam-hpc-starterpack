@@ -1,0 +1,17 @@
+<queries>
+
+<aQuery>
+	<region name="Global" /> 
+	
+
+<supplyDemandQuery title="biophysical water demand by crop type">
+               <axis1 name="sector">sector</axis1>
+               <axis2 name="Year">demand-physical[@vintage]</axis2>
+               <xPath buildList="true" dataName="input" group="false" sumAll="false">AgSupplySector//*[@type='input' (:collapse:) and
+               (@name='biophysical water consumption')]/demand-physical/node()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery>
+
+
+</queries>

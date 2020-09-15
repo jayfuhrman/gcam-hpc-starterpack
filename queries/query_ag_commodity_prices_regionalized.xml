@@ -1,0 +1,201 @@
+<queries>
+
+<aQuery><region name="Global" /><supplyDemandQuery title="ag commodity prices">
+            <axis1 name="sector">sector</axis1>
+            <axis2 name="Year">cost</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (local-name()='AgSupplySector')]/cost/text()</xPath>
+            <comments />
+         </supplyDemandQuery>
+        </aQuery><aQuery><region name="USA" /><supplyDemandQuery title="ag commodity prices">
+            <axis1 name="sector">sector</axis1>
+            <axis2 name="Year">cost</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (local-name()='AgSupplySector')]/cost/text()</xPath>
+            <comments />
+         </supplyDemandQuery>
+        </aQuery><aQuery><region name="Africa_Eastern" /><supplyDemandQuery title="ag commodity prices">
+            <axis1 name="sector">sector</axis1>
+            <axis2 name="Year">cost</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (local-name()='AgSupplySector')]/cost/text()</xPath>
+            <comments />
+         </supplyDemandQuery>
+        </aQuery><aQuery><region name="Africa_Northern" /><supplyDemandQuery title="ag commodity prices">
+            <axis1 name="sector">sector</axis1>
+            <axis2 name="Year">cost</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (local-name()='AgSupplySector')]/cost/text()</xPath>
+            <comments />
+         </supplyDemandQuery>
+        </aQuery><aQuery><region name="Africa_Southern" /><supplyDemandQuery title="ag commodity prices">
+            <axis1 name="sector">sector</axis1>
+            <axis2 name="Year">cost</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (local-name()='AgSupplySector')]/cost/text()</xPath>
+            <comments />
+         </supplyDemandQuery>
+        </aQuery><aQuery><region name="Africa_Western" /><supplyDemandQuery title="ag commodity prices">
+            <axis1 name="sector">sector</axis1>
+            <axis2 name="Year">cost</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (local-name()='AgSupplySector')]/cost/text()</xPath>
+            <comments />
+         </supplyDemandQuery>
+        </aQuery><aQuery><region name="Australia_NZ" /><supplyDemandQuery title="ag commodity prices">
+            <axis1 name="sector">sector</axis1>
+            <axis2 name="Year">cost</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (local-name()='AgSupplySector')]/cost/text()</xPath>
+            <comments />
+         </supplyDemandQuery>
+        </aQuery><aQuery><region name="Brazil" /><supplyDemandQuery title="ag commodity prices">
+            <axis1 name="sector">sector</axis1>
+            <axis2 name="Year">cost</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (local-name()='AgSupplySector')]/cost/text()</xPath>
+            <comments />
+         </supplyDemandQuery>
+        </aQuery><aQuery><region name="Canada" /><supplyDemandQuery title="ag commodity prices">
+            <axis1 name="sector">sector</axis1>
+            <axis2 name="Year">cost</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (local-name()='AgSupplySector')]/cost/text()</xPath>
+            <comments />
+         </supplyDemandQuery>
+        </aQuery><aQuery><region name="Central America and Caribbean" /><supplyDemandQuery title="ag commodity prices">
+            <axis1 name="sector">sector</axis1>
+            <axis2 name="Year">cost</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (local-name()='AgSupplySector')]/cost/text()</xPath>
+            <comments />
+         </supplyDemandQuery>
+        </aQuery><aQuery><region name="Central Asia" /><supplyDemandQuery title="ag commodity prices">
+            <axis1 name="sector">sector</axis1>
+            <axis2 name="Year">cost</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (local-name()='AgSupplySector')]/cost/text()</xPath>
+            <comments />
+         </supplyDemandQuery>
+        </aQuery><aQuery><region name="China" /><supplyDemandQuery title="ag commodity prices">
+            <axis1 name="sector">sector</axis1>
+            <axis2 name="Year">cost</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (local-name()='AgSupplySector')]/cost/text()</xPath>
+            <comments />
+         </supplyDemandQuery>
+        </aQuery><aQuery><region name="EU-12" /><supplyDemandQuery title="ag commodity prices">
+            <axis1 name="sector">sector</axis1>
+            <axis2 name="Year">cost</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (local-name()='AgSupplySector')]/cost/text()</xPath>
+            <comments />
+         </supplyDemandQuery>
+        </aQuery><aQuery><region name="EU-15" /><supplyDemandQuery title="ag commodity prices">
+            <axis1 name="sector">sector</axis1>
+            <axis2 name="Year">cost</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (local-name()='AgSupplySector')]/cost/text()</xPath>
+            <comments />
+         </supplyDemandQuery>
+        </aQuery><aQuery><region name="Europe_Eastern" /><supplyDemandQuery title="ag commodity prices">
+            <axis1 name="sector">sector</axis1>
+            <axis2 name="Year">cost</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (local-name()='AgSupplySector')]/cost/text()</xPath>
+            <comments />
+         </supplyDemandQuery>
+        </aQuery><aQuery><region name="Europe_Non_EU" /><supplyDemandQuery title="ag commodity prices">
+            <axis1 name="sector">sector</axis1>
+            <axis2 name="Year">cost</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (local-name()='AgSupplySector')]/cost/text()</xPath>
+            <comments />
+         </supplyDemandQuery>
+        </aQuery><aQuery><region name="European Free Trade Association" /><supplyDemandQuery title="ag commodity prices">
+            <axis1 name="sector">sector</axis1>
+            <axis2 name="Year">cost</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (local-name()='AgSupplySector')]/cost/text()</xPath>
+            <comments />
+         </supplyDemandQuery>
+        </aQuery><aQuery><region name="India" /><supplyDemandQuery title="ag commodity prices">
+            <axis1 name="sector">sector</axis1>
+            <axis2 name="Year">cost</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (local-name()='AgSupplySector')]/cost/text()</xPath>
+            <comments />
+         </supplyDemandQuery>
+        </aQuery><aQuery><region name="Indonesia" /><supplyDemandQuery title="ag commodity prices">
+            <axis1 name="sector">sector</axis1>
+            <axis2 name="Year">cost</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (local-name()='AgSupplySector')]/cost/text()</xPath>
+            <comments />
+         </supplyDemandQuery>
+        </aQuery><aQuery><region name="Japan" /><supplyDemandQuery title="ag commodity prices">
+            <axis1 name="sector">sector</axis1>
+            <axis2 name="Year">cost</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (local-name()='AgSupplySector')]/cost/text()</xPath>
+            <comments />
+         </supplyDemandQuery>
+        </aQuery><aQuery><region name="Mexico" /><supplyDemandQuery title="ag commodity prices">
+            <axis1 name="sector">sector</axis1>
+            <axis2 name="Year">cost</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (local-name()='AgSupplySector')]/cost/text()</xPath>
+            <comments />
+         </supplyDemandQuery>
+        </aQuery><aQuery><region name="Middle East" /><supplyDemandQuery title="ag commodity prices">
+            <axis1 name="sector">sector</axis1>
+            <axis2 name="Year">cost</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (local-name()='AgSupplySector')]/cost/text()</xPath>
+            <comments />
+         </supplyDemandQuery>
+        </aQuery><aQuery><region name="Pakistan" /><supplyDemandQuery title="ag commodity prices">
+            <axis1 name="sector">sector</axis1>
+            <axis2 name="Year">cost</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (local-name()='AgSupplySector')]/cost/text()</xPath>
+            <comments />
+         </supplyDemandQuery>
+        </aQuery><aQuery><region name="Russia" /><supplyDemandQuery title="ag commodity prices">
+            <axis1 name="sector">sector</axis1>
+            <axis2 name="Year">cost</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (local-name()='AgSupplySector')]/cost/text()</xPath>
+            <comments />
+         </supplyDemandQuery>
+        </aQuery><aQuery><region name="South Africa" /><supplyDemandQuery title="ag commodity prices">
+            <axis1 name="sector">sector</axis1>
+            <axis2 name="Year">cost</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (local-name()='AgSupplySector')]/cost/text()</xPath>
+            <comments />
+         </supplyDemandQuery>
+        </aQuery><aQuery><region name="South America_Northern" /><supplyDemandQuery title="ag commodity prices">
+            <axis1 name="sector">sector</axis1>
+            <axis2 name="Year">cost</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (local-name()='AgSupplySector')]/cost/text()</xPath>
+            <comments />
+         </supplyDemandQuery>
+        </aQuery><aQuery><region name="South America_Southern" /><supplyDemandQuery title="ag commodity prices">
+            <axis1 name="sector">sector</axis1>
+            <axis2 name="Year">cost</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (local-name()='AgSupplySector')]/cost/text()</xPath>
+            <comments />
+         </supplyDemandQuery>
+        </aQuery><aQuery><region name="South Asia" /><supplyDemandQuery title="ag commodity prices">
+            <axis1 name="sector">sector</axis1>
+            <axis2 name="Year">cost</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (local-name()='AgSupplySector')]/cost/text()</xPath>
+            <comments />
+         </supplyDemandQuery>
+        </aQuery><aQuery><region name="South Korea" /><supplyDemandQuery title="ag commodity prices">
+            <axis1 name="sector">sector</axis1>
+            <axis2 name="Year">cost</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (local-name()='AgSupplySector')]/cost/text()</xPath>
+            <comments />
+         </supplyDemandQuery>
+        </aQuery><aQuery><region name="Southeast Asia" /><supplyDemandQuery title="ag commodity prices">
+            <axis1 name="sector">sector</axis1>
+            <axis2 name="Year">cost</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (local-name()='AgSupplySector')]/cost/text()</xPath>
+            <comments />
+         </supplyDemandQuery>
+        </aQuery><aQuery><region name="Taiwan" /><supplyDemandQuery title="ag commodity prices">
+            <axis1 name="sector">sector</axis1>
+            <axis2 name="Year">cost</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (local-name()='AgSupplySector')]/cost/text()</xPath>
+            <comments />
+         </supplyDemandQuery>
+        </aQuery><aQuery><region name="Argentina" /><supplyDemandQuery title="ag commodity prices">
+            <axis1 name="sector">sector</axis1>
+            <axis2 name="Year">cost</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (local-name()='AgSupplySector')]/cost/text()</xPath>
+            <comments />
+         </supplyDemandQuery>
+        </aQuery><aQuery><region name="Colombia" /><supplyDemandQuery title="ag commodity prices">
+            <axis1 name="sector">sector</axis1>
+            <axis2 name="Year">cost</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (local-name()='AgSupplySector')]/cost/text()</xPath>
+            <comments />
+         </supplyDemandQuery>
+        </aQuery></queries>

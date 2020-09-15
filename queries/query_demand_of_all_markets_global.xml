@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries>
+
+<aQuery>
+	<region name="Global" /> 
+	
+    <marketQuery title="demand of all markets">
+            <axis1 name="market">market</axis1>
+            <axis2 name="Year">market</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true()]/demand/node()</xPath>
+            <comments/>
+         </marketQuery>
+</aQuery>
+
+
+</queries>
