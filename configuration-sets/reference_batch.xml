@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Note that this is the batch permutation file required to run the (single) reference scenario. This configuration is used ONLY when not adding on any additional input files to the base config-->
 <BatchRunner xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="batch_runner.xsd">
 	<ComponentSet name="Ref">
 			<FileSet name="Reference">
