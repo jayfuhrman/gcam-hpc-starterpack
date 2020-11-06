@@ -3,6 +3,9 @@
 # This is the main script used for running GCAM on the Evergreen cluster
 # It is adapted from the NERSC version!
 
+echo "To ensure most up-to-date configuration-sets directory, run copy_config.sh"
+./copy_config.sh
+
 EXPECTED_ARGS=2
 
 RUN_SCRIPT=run_model.sh
@@ -26,10 +29,10 @@ fi
 
 # skip sync of files (possibly would want to do this from HOME to EMSL_HOME?)
 RUN_DIR_NAME=
-WORKSPACE_DIR_NAME=/sfs/qumulo/qhome/jgf5fz/gcam_5_3
+#WORKSPACE_DIR_NAME=/sfs/qumulo/qhome/jgf5fz/gcam_dac_high_elec
 INPUT_OPTIONS="--include=*.xml --include=Hist_to_2008_Annual.csv --exclude=.svn --exclude=*.*"
 
-GCAMDIR=/sfs/qumulo/qhome/jgf5fz/gcam_5_3
+GCAMDIR=/sfs/qumulo/qhome/jgf5fz/gcam_dac_high_elec
 SCRATCHDIR=/sfs/lustre/bahamut/scratch/jgf5fz
 
 #otherwise will append
@@ -113,7 +116,8 @@ if [[ $run = 'y' ]]; then
 
 	echo "copying addons to scratch..."
 	#this is to avoid deleting addons directory when we go to build updated versions of GCAM source code, which require overwriting the gcam dir.
-	cp -fR ../gcam_addons ${SCRATCHDIR}/input/addons
+	#cp -fR ../gcam_addons ${SCRATCHDIR}/input/addons
+	./copy_addons.sh
 	echo "done copying addon input files to scratch"
 
 		
