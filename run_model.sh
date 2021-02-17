@@ -1,9 +1,9 @@
 #!/bin/bash
 
 module purge
-module load gcc
-module load intel
-module load intelmpi
+module load gcc/7.1.0
+module load intel/18.0
+module load intelmpi/18.0
 module load boost
 module load xerces
 module load java

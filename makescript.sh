@@ -3,9 +3,9 @@ echo "WARNING: THIS WILL DELETE YOUR EXISTING GCAM DIRECTORY.  IF YOU DON'T NEED
 #sleep 20s
 module purge
 
-module load gcc
-module load intel
-module load intelmpi
+module load gcc/7.1.0
+module load intel/18.0
+module load intelmpi/18.0
 module load boost
 module load xerces
 module load java
