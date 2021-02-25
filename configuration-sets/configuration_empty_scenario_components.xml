@@ -17,6 +17,7 @@
 		<Value write-output="0" append-scenario-name="0" name="landAllocatorGraphName">LandAllocatorGraph.dot</Value>
 	</Files>
 	<ScenarioComponents>
+		<!--This contains no input file paths (i.e., empty scenario components).  Therefore, you will need to specify a "base" set of input files in your batch/permutation file, if you use this as your config)-->
 	</ScenarioComponents>
 	<Strings>
 		<!--Value name="scenarioName">Reference</Value-->
