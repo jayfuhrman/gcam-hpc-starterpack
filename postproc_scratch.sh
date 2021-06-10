@@ -2,11 +2,11 @@
 
 module load java
 
-TARGETFILE=xmldb_batch_water_withdrawals_by_tech_global.xml
-QUERYFILE=query_water_withdrawals_by_tech_global.xml
+TARGETFILE=xmldb_batch_co2_concentrations_global.xml
+QUERYFILE=query_co2_concentrations_global.xml
 
-SCRATCHDIR=/scratch/jgf5fz
-HOMEDIR=/home/jgf5fz/gcam_5_2_1_beta
+SCRATCHDIR=/qfs/people/fuhr472/wrk/gcam-core
+HOMEDIR=/qfs/people/fuhr472/wrk/gcam-core
 mkdir ${SCRATCHDIR}/output
 mkdir ${SCRATCHDIR}/output/queries
 
@@ -15,7 +15,7 @@ mkdir ${SCRATCHDIR}/output/queries
 cp ${HOMEDIR}/output/queries/$QUERYFILE ${SCRATCHDIR}/output/queries
 echo "copied query file $QUERYFILE to scratch dir"
 echo "starting loop. target file = $TARGETFILE"
-for i in {0..8} #specify the exe_n range you wish to run queries on, here
+for i in {0..0} #specify the exe_n range you wish to run queries on, here
 do
 	(
 	cp $HOMEDIR/exe/$TARGETFILE ${SCRATCHDIR}/exe_$i

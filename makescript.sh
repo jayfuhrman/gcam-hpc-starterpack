@@ -14,11 +14,12 @@ module load java
 
 module list
 
-GCAMDIR=/home/jgf5fz/gcam_5_3 #defines the directory that will be created with the new GCAM version.  NOTE THIS SHOULD BE DIFFERENT FROM YOUR STABLE INSTALL OTHERWISE YOU WILL DELETE IT
+GCAMDIR=/home/cff2aa/GCAM-core #defines the directory that will be created with the new GCAM version.  NOTE THIS SHOULD BE DIFFERENT FROM YOUR STABLE INSTALL OTHERWISE YOU WILL DELETE IT
 
-INSTALLDIR=/home/jgf5fz/gcam_install #defines the directory from which all the dependent files to actually run GCAM are located 
+INSTALLDIR=/home/cff2aa/GCAM-install #defines the directory from which all the dependent files to actually run GCAM are located 
 HECTORDIR=${GCAMDIR}/cvs/objects/climate/source #defines where hector-gcam-integration will be installed
 PACKAGE=gcam-core-master #defines zip filename from github NOTE: DO NOT INCLUDE THE .ZIP IN THE PATH AS IT WILL BE APPENDED IN THE SCRIPT WHERE NEEDED
+PACKAGE_UNZIPPED=gcam-core-gcam-v5.3
 
 rm -rf ${GCAMDIR}
 mkdir ${GCAMDIR}
@@ -27,7 +28,7 @@ cp ${INSTALLDIR}/${PACKAGE}.zip ${GCAMDIR}
 cd ${GCAMDIR}
 unzip ${PACKAGE}.zip
 
-mv ${GCAMDIR}/${PACKAGE}/* ${GCAMDIR}/.* . 
+mv ${GCAMDIR}/${PACKAGE_UNZIPPED}/* ${GCAMDIR}/.* . 
 #move up all files in the directory we just unpacked up to main dir.
 
 
