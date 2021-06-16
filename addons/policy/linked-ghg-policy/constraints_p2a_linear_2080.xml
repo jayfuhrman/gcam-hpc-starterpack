@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+    <world>
+        <region name="Africa_Eastern">
+            <ghgpolicy name="GHG">
+                <market>row</market>
+                <constraint year="2020">999999</constraint>
+                <constraint year="2025">13220.86</constraint>
+                <constraint year="2030">14533.92</constraint>
+                <constraint year="2035">13087</constraint>
+                <constraint year="2040">11640</constraint>
+                <constraint year="2045">10193</constraint>
+                <constraint year="2050">8746</constraint>
+                <constraint year="2055">7299</constraint>
+                <constraint year="2060">5853</constraint>
+                <constraint year="2065">4406</constraint>
+                <constraint year="2070">2959</constraint>
+                <constraint year="2075">1512</constraint>
+                <constraint year="2080">65</constraint>
+                <constraint year="2085">65</constraint>
+                <constraint year="2090">65</constraint>
+                <constraint year="2095">65</constraint>
+                <constraint year="2100">65</constraint>
+            </ghgpolicy>
+        </region>
+        <region name="Argentina">
+            <ghgpolicy name="GHG">
+                <market>Argentina</market>
+                <constraint year="2020">999999</constraint>
+                <constraint year="2025">467.7</constraint>
+                <constraint year="2030">458.41</constraint>
+                <constraint year="2035">413</constraint>
+                <constraint year="2040">368</constraint>
+                <constraint year="2045">322</constraint>
+                <constraint year="2050">277</constraint>
+                <constraint year="2055">232</constraint>
+                <constraint year="2060">186</constraint>
+                <constraint year="2065">141</constraint>
+                <constraint year="2070">96</constraint>
+                <constraint year="2075">50</constraint>
+                <constraint year="2080">5</constraint>
+                <constraint year="2085">5</constraint>
+                <constraint year="2090">5</constraint>
+                <constraint year="2095">5</constraint>
+                <constraint year="2100">5</constraint>
+            </ghgpolicy>
+        </region>
+        <region name="Australia_NZ">
+            <ghgpolicy name="GHG">
+                <market>Australia_NZ</market>
+                <constraint year="2020">499</constraint>
+                <constraint year="2025">476.83</constraint>
+                <constraint year="2030">454.66</constraint>
+                <constraint year="2035">410</constraint>
+                <constraint year="2040">365</constraint>
+                <constraint year="2045">320</constraint>
+                <constraint year="2050">275</constraint>
+                <constraint year="2055">230</constraint>
+                <constraint year="2060">185</constraint>
+                <constraint year="2065">140</constraint>
+                <constraint year="2070">95</constraint>
+                <constraint year="2075">50</constraint>
+                <constraint year="2080">5</constraint>
+                <constraint year="2085">5</constraint>
+                <constraint year="2090">5</constraint>
+                <constraint year="2095">5</constraint>
+                <constraint year="2100">5</constraint>
+            </ghgpolicy>
+        </region>
+        <region name="Brazil">
+            <ghgpolicy name="GHG">
+                <market>Brazil</market>
+                <constraint year="2020">2022.5</constraint>
+                <constraint year="2025">1323</constraint>
+                <constraint year="2030">1197</constraint>
+                <constraint year="2035">1078</constraint>
+                <constraint year="2040">959</constraint>
+                <constraint year="2045">839</constraint>
+                <constraint year="2050">720</constraint>
+                <constraint year="2055">601</constraint>
+                <constraint year="2060">482</constraint>
+                <constraint year="2065">363</constraint>
+                <constraint year="2070">243</constraint>
+                <constraint year="2075">124</constraint>
+                <constraint year="2080">5</constraint>
+                <constraint year="2085">5</constraint>
+                <constraint year="2090">5</constraint>
+                <constraint year="2095">5</constraint>
+                <constraint year="2100">5</constraint>
+            </ghgpolicy>
+        </region>
+        <region name="Canada">
+            <ghgpolicy name="GHG">
+                <market>Canada</market>
+                <constraint year="2020">655.7</constraint>
+                <constraint year="2025">604.35</constraint>
+                <constraint year="2030">553</constraint>
+                <constraint year="2035">498</constraint>
+                <constraint year="2040">443</constraint>
+                <constraint year="2045">389</constraint>
+                <constraint year="2050">334</constraint>
+                <constraint year="2055">279</constraint>
+                <constraint year="2060">224</constraint>
+                <constraint year="2065">169</constraint>
+                <constraint year="2070">115</constraint>
+                <constraint year="2075">60</constraint>
+                <constraint year="2080">5</constraint>
+                <constraint year="2085">5</constraint>
+                <constraint year="2090">5</constraint>
+                <constraint year="2095">5</constraint>
+                <constraint year="2100">5</constraint>
+            </ghgpolicy>
+        </region>
+        <region name="China">
+            <ghgpolicy name="GHG">
+                <market>China</market>
+                <constraint year="2020">13480.17623</constraint>
+                <constraint year="2025">13509.84897</constraint>
+                <constraint year="2030">14070.99899</constraint>
+                <constraint year="2035">12665</constraint>
+                <constraint year="2040">11259</constraint>
+                <constraint year="2045">9853</constraint>
+                <constraint year="2050">8447</constraint>
+                <constraint year="2055">7040</constraint>
+                <constraint year="2060">5634</constraint>
+                <constraint year="2065">4228</constraint>
+                <constraint year="2070">2822</constraint>
+                <constraint year="2075">1416</constraint>
+                <constraint year="2080">10</constraint>
+                <constraint year="2085">10</constraint>
+                <constraint year="2090">10</constraint>
+                <constraint year="2095">10</constraint>
+                <constraint year="2100">10</constraint>
+            </ghgpolicy>
+        </region>
+        <region name="Colombia">
+            <ghgpolicy name="GHG">
+                <market>Colombia</market>
+                <constraint year="2020">999999</constraint>
+                <constraint year="2025">263.51</constraint>
+                <constraint year="2030">268</constraint>
+                <constraint year="2035">242</constraint>
+                <constraint year="2040">215</constraint>
+                <constraint year="2045">189</constraint>
+                <constraint year="2050">163</constraint>
+                <constraint year="2055">137</constraint>
+                <constraint year="2060">110</constraint>
+                <constraint year="2065">84</constraint>
+                <constraint year="2070">58</constraint>
+                <constraint year="2075">31</constraint>
+                <constraint year="2080">5</constraint>
+                <constraint year="2085">5</constraint>
+                <constraint year="2090">5</constraint>
+                <constraint year="2095">5</constraint>
+                <constraint year="2100">5</constraint>
+            </ghgpolicy>
+        </region>
+        <region name="EU-12">
+            <ghgpolicy name="GHG">
+                <market>EU</market>
+                <constraint year="2020">4003.90129</constraint>
+                <constraint year="2025">3482.656299</constraint>
+                <constraint year="2030">3102.797441</constraint>
+                <constraint year="2035">2793</constraint>
+                <constraint year="2040">2483</constraint>
+                <constraint year="2045">2173</constraint>
+                <constraint year="2050">1864</constraint>
+                <constraint year="2055">1554</constraint>
+                <constraint year="2060">1244</constraint>
+                <constraint year="2065">934</constraint>
+                <constraint year="2070">625</constraint>
+                <constraint year="2075">315</constraint>
+                <constraint year="2080">5</constraint>
+                <constraint year="2085">5</constraint>
+                <constraint year="2090">5</constraint>
+                <constraint year="2095">5</constraint>
+                <constraint year="2100">5</constraint>
+            </ghgpolicy>
+        </region>
+        <region name="European Free Trade Association">
+            <ghgpolicy name="GHG">
+                <market>European Free Trade Association</market>
+                <constraint year="2020">95.97864432</constraint>
+                <constraint year="2025">107.97</constraint>
+                <constraint year="2030">119.95</constraint>
+                <constraint year="2035">108</constraint>
+                <constraint year="2040">97</constraint>
+                <constraint year="2045">85</constraint>
+                <constraint year="2050">74</constraint>
+                <constraint year="2055">62</constraint>
+                <constraint year="2060">51</constraint>
+                <constraint year="2065">39</constraint>
+                <constraint year="2070">28</constraint>
+                <constraint year="2075">16</constraint>
+                <constraint year="2080">5</constraint>
+                <constraint year="2085">5</constraint>
+                <constraint year="2090">5</constraint>
+                <constraint year="2095">5</constraint>
+                <constraint year="2100">5</constraint>
+            </ghgpolicy>
+        </region>
+        <region name="India">
+            <ghgpolicy name="GHG">
+                <market>India</market>
+                <constraint year="2020">3861.999403</constraint>
+                <constraint year="2025">4664.98</constraint>
+                <constraint year="2030">5351.94</constraint>
+                <constraint year="2035">4817</constraint>
+                <constraint year="2040">4283</constraint>
+                <constraint year="2045">3748</constraint>
+                <constraint year="2050">3213</constraint>
+                <constraint year="2055">2678</constraint>
+                <constraint year="2060">2144</constraint>
+                <constraint year="2065">1609</constraint>
+                <constraint year="2070">1074</constraint>
+                <constraint year="2075">540</constraint>
+                <constraint year="2080">5</constraint>
+                <constraint year="2085">5</constraint>
+                <constraint year="2090">5</constraint>
+                <constraint year="2095">5</constraint>
+                <constraint year="2100">5</constraint>
+            </ghgpolicy>
+        </region>
+        <region name="Indonesia">
+            <ghgpolicy name="GHG">
+                <market>Indonesia</market>
+                <constraint year="2020">999999</constraint>
+                <constraint year="2025">1715.47</constraint>
+                <constraint year="2030">2045.51</constraint>
+                <constraint year="2035">1841</constraint>
+                <constraint year="2040">1637</constraint>
+                <constraint year="2045">1433</constraint>
+                <constraint year="2050">1229</constraint>
+                <constraint year="2055">1025</constraint>
+                <constraint year="2060">821</constraint>
+                <constraint year="2065">617</constraint>
+                <constraint year="2070">413</constraint>
+                <constraint year="2075">209</constraint>
+                <constraint year="2080">5</constraint>
+                <constraint year="2085">5</constraint>
+                <constraint year="2090">5</constraint>
+                <constraint year="2095">5</constraint>
+                <constraint year="2100">5</constraint>
+            </ghgpolicy>
+        </region>
+        <region name="Japan">
+            <ghgpolicy name="GHG">
+                <market>Japan</market>
+                <constraint year="2020">1234.99</constraint>
+                <constraint year="2025">1154.47</constraint>
+                <constraint year="2030">1086.78</constraint>
+                <constraint year="2035">979</constraint>
+                <constraint year="2040">870</constraint>
+                <constraint year="2045">762</constraint>
+                <constraint year="2050">654</constraint>
+                <constraint year="2055">546</constraint>
+                <constraint year="2060">438</constraint>
+                <constraint year="2065">330</constraint>
+                <constraint year="2070">221</constraint>
+                <constraint year="2075">113</constraint>
+                <constraint year="2080">5</constraint>
+                <constraint year="2085">5</constraint>
+                <constraint year="2090">5</constraint>
+                <constraint year="2095">5</constraint>
+                <constraint year="2100">5</constraint>
+            </ghgpolicy>
+        </region>
+        <region name="Mexico">
+            <ghgpolicy name="GHG">
+                <market>Mexico</market>
+                <constraint year="2020">554.4</constraint>
+                <constraint year="2025">656.67</constraint>
+                <constraint year="2030">758.94</constraint>
+                <constraint year="2035">684</constraint>
+                <constraint year="2040">608</constraint>
+                <constraint year="2045">533</constraint>
+                <constraint year="2050">457</constraint>
+                <constraint year="2055">382</constraint>
+                <constraint year="2060">307</constraint>
+                <constraint year="2065">231</constraint>
+                <constraint year="2070">156</constraint>
+                <constraint year="2075">80</constraint>
+                <constraint year="2080">5</constraint>
+                <constraint year="2085">5</constraint>
+                <constraint year="2090">5</constraint>
+                <constraint year="2095">5</constraint>
+                <constraint year="2100">5</constraint>
+            </ghgpolicy>
+        </region>
+        <region name="Pakistan">
+            <ghgpolicy name="GHG">
+                <market>Pakistan</market>
+                <constraint year="2020">999999</constraint>
+                <constraint year="2025">999999</constraint>
+                <constraint year="2030">999999</constraint>
+                <constraint year="2035">805</constraint>
+                <constraint year="2040">717</constraint>
+                <constraint year="2045">628</constraint>
+                <constraint year="2050">539</constraint>
+                <constraint year="2055">450</constraint>
+                <constraint year="2060">361</constraint>
+                <constraint year="2065">272</constraint>
+                <constraint year="2070">183</constraint>
+                <constraint year="2075">94</constraint>
+                <constraint year="2080">5</constraint>
+                <constraint year="2085">5</constraint>
+                <constraint year="2090">5</constraint>
+                <constraint year="2095">5</constraint>
+                <constraint year="2100">5</constraint>
+            </ghgpolicy>
+        </region>
+        <region name="Russia">
+            <ghgpolicy name="GHG">
+                <market>Russia</market>
+                <constraint year="2020">2748.8</constraint>
+                <constraint year="2025">2619.95</constraint>
+                <constraint year="2030">2491.1</constraint>
+                <constraint year="2035">2242</constraint>
+                <constraint year="2040">1994</constraint>
+                <constraint year="2045">1745</constraint>
+                <constraint year="2050">1497</constraint>
+                <constraint year="2055">1248</constraint>
+                <constraint year="2060">999</constraint>
+                <constraint year="2065">751</constraint>
+                <constraint year="2070">502</constraint>
+                <constraint year="2075">254</constraint>
+                <constraint year="2080">5</constraint>
+                <constraint year="2085">5</constraint>
+                <constraint year="2090">5</constraint>
+                <constraint year="2095">5</constraint>
+                <constraint year="2100">5</constraint>
+            </ghgpolicy>
+        </region>
+        <region name="South Africa">
+            <ghgpolicy name="GHG">
+                <market>South Africa</market>
+                <constraint year="2020">496.32</constraint>
+                <constraint year="2025">501.16</constraint>
+                <constraint year="2030">506</constraint>
+                <constraint year="2035">456</constraint>
+                <constraint year="2040">406</constraint>
+                <constraint year="2045">356</constraint>
+                <constraint year="2050">306</constraint>
+                <constraint year="2055">256</constraint>
+                <constraint year="2060">205</constraint>
+                <constraint year="2065">155</constraint>
+                <constraint year="2070">105</constraint>
+                <constraint year="2075">55</constraint>
+                <constraint year="2080">5</constraint>
+                <constraint year="2085">5</constraint>
+                <constraint year="2090">5</constraint>
+                <constraint year="2095">5</constraint>
+                <constraint year="2100">5</constraint>
+            </ghgpolicy>
+        </region>
+        <region name="South Korea">
+            <ghgpolicy name="GHG">
+                <market>South Korea</market>
+                <constraint year="2020">542.647667</constraint>
+                <constraint year="2025">540.8245583</constraint>
+                <constraint year="2030">536.1491979</constraint>
+                <constraint year="2035">483</constraint>
+                <constraint year="2040">430</constraint>
+                <constraint year="2045">377</constraint>
+                <constraint year="2050">324</constraint>
+                <constraint year="2055">271</constraint>
+                <constraint year="2060">217</constraint>
+                <constraint year="2065">164</constraint>
+                <constraint year="2070">111</constraint>
+                <constraint year="2075">58</constraint>
+                <constraint year="2080">5</constraint>
+                <constraint year="2085">5</constraint>
+                <constraint year="2090">5</constraint>
+                <constraint year="2095">5</constraint>
+                <constraint year="2100">5</constraint>
+            </ghgpolicy>
+        </region>
+        <region name="Taiwan">
+            <ghgpolicy name="GHG">
+                <market>Taiwan</market>
+                <constraint year="2020">999999</constraint>
+                <constraint year="2025">999999</constraint>
+                <constraint year="2030">214</constraint>
+                <constraint year="2035">193</constraint>
+                <constraint year="2040">172</constraint>
+                <constraint year="2045">151</constraint>
+                <constraint year="2050">130</constraint>
+                <constraint year="2055">110</constraint>
+                <constraint year="2060">89</constraint>
+                <constraint year="2065">68</constraint>
+                <constraint year="2070">47</constraint>
+                <constraint year="2075">26</constraint>
+                <constraint year="2080">5</constraint>
+                <constraint year="2085">5</constraint>
+                <constraint year="2090">5</constraint>
+                <constraint year="2095">5</constraint>
+                <constraint year="2100">5</constraint>
+            </ghgpolicy>
+        </region>
+        <region name="USA">
+            <ghgpolicy name="GHG">
+                <market>USA</market>
+                <constraint year="2020">5343.789</constraint>
+                <constraint year="2025">4699.96</constraint>
+                <constraint year="2030">4017.5</constraint>
+                <constraint year="2035">3616</constraint>
+                <constraint year="2040">3215</constraint>
+                <constraint year="2045">2814</constraint>
+                <constraint year="2050">2413</constraint>
+                <constraint year="2055">2011</constraint>
+                <constraint year="2060">1610</constraint>
+                <constraint year="2065">1209</constraint>
+                <constraint year="2070">808</constraint>
+                <constraint year="2075">406</constraint>
+                <constraint year="2080">5</constraint>
+                <constraint year="2085">5</constraint>
+                <constraint year="2090">5</constraint>
+                <constraint year="2095">5</constraint>
+                <constraint year="2100">5</constraint>
+            </ghgpolicy>
+        </region>
+        <region name="EU-15">
+            <ghgpolicy name="GHG">
+                <market>EU</market>
+            </ghgpolicy>
+        </region>
+        <region name="Central America and Caribbean">
+            <ghgpolicy name="GHG">
+                <market>row</market>
+            </ghgpolicy>
+        </region>
+        <region name="Central Asia">
+            <ghgpolicy name="GHG">
+                <market>row</market>
+            </ghgpolicy>
+        </region>
+        <region name="Europe_Eastern">
+            <ghgpolicy name="GHG">
+                <market>row</market>
+            </ghgpolicy>
+        </region>
+        <region name="Europe_Non_EU">
+            <ghgpolicy name="GHG">
+                <market>row</market>
+            </ghgpolicy>
+        </region>
+        <region name="Middle East">
+            <ghgpolicy name="GHG">
+                <market>row</market>
+            </ghgpolicy>
+        </region>
+        <region name="South America_Northern">
+            <ghgpolicy name="GHG">
+                <market>row</market>
+            </ghgpolicy>
+        </region>
+        <region name="South America_Southern">
+            <ghgpolicy name="GHG">
+                <market>row</market>
+            </ghgpolicy>
+        </region>
+        <region name="South Asia">
+            <ghgpolicy name="GHG">
+                <market>row</market>
+            </ghgpolicy>
+        </region>
+        <region name="Southeast Asia">
+            <ghgpolicy name="GHG">
+                <market>row</market>
+            </ghgpolicy>
+        </region>
+        <region name="Africa_Northern">
+            <ghgpolicy name="GHG">
+                <market>row</market>
+            </ghgpolicy>
+        </region>
+        <region name="Africa_Southern">
+            <ghgpolicy name="GHG">
+                <market>row</market>
+            </ghgpolicy>
+        </region>
+        <region name="Africa_Western">
+            <ghgpolicy name="GHG">
+                <market>row</market>
+            </ghgpolicy>
+        </region>
+    </world>
+</scenario>

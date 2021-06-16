@@ -1,0 +1,18 @@
+<scenario>
+    <world>
+        <region name="USA">
+            <unlimited-resource name="low-temp-heat-dac">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>global</market>
+                <price year="1975">0.001</price>
+                <price year="1990">0.001</price>
+                <price year="2005">0.001</price>
+                <price year="2010">0.001</price>
+				<price year="2015">0.001</price>
+            </unlimited-resource>
+		</region>
+
+
+	</world>
+</scenario>

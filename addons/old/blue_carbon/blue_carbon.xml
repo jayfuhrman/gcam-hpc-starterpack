@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+    <world>
+        <region name="USA">
+            <LandAllocatorRoot name="root">
+                <!-- The total land allocation for the region will need to be updated to reflect the amount of land you add. Original land for USA was 9124.19-->
+                <landAllocation fillout="1" year="1975">9134.19</landAllocation>
+                <LandNode name="Coastal_PacArctic">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">1</logit-exponent>
+                    </relative-cost-logit>
+                    <unManagedLandValue>40870</unManagedLandValue>
+                    <UnmanagedLandLeaf name="CoastalLand_PacArctic">
+                        <land-use-history>
+                            <allocation year="1700">10</allocation>
+                            <allocation year="1750">10</allocation>
+                            <allocation year="1800">10</allocation>
+                            <allocation year="1850">10</allocation>
+                            <allocation year="1900">10</allocation>
+                            <allocation year="1950">10</allocation>
+                            <allocation year="1975">10</allocation>
+                            <above-ground-carbon-density>0</above-ground-carbon-density>
+                            <below-ground-carbon-density>0</below-ground-carbon-density>
+                        </land-use-history>
+                        <landAllocation year="1975">10</landAllocation>
+                        <landAllocation year="1990">10</landAllocation>
+                        <landAllocation year="2005">10</landAllocation>
+                        <landAllocation year="2010">9.9</landAllocation>
+                        <minAboveGroundCDensity>0</minAboveGroundCDensity>
+                        <minBelowGroundCDensity>0</minBelowGroundCDensity>
+                        <land-carbon-densities>
+                            <above-ground-carbon-density>0</above-ground-carbon-density>
+                            <below-ground-carbon-density>0</below-ground-carbon-density>
+                            <mature-age fillout="1" year="1975">1</mature-age>
+                        </land-carbon-densities>
+                    </UnmanagedLandLeaf>
+                    <UnmanagedLandLeaf name="EnhancedCoastalLand_PacArctic">
+                        <land-use-history>
+                            <allocation year="1700">0</allocation>
+                            <allocation year="1750">0</allocation>
+                            <allocation year="1800">0</allocation>
+                            <allocation year="1850">0</allocation>
+                            <allocation year="1900">0</allocation>
+                            <allocation year="1950">0</allocation>
+                            <allocation year="1975">0</allocation>
+                            <above-ground-carbon-density>0.3</above-ground-carbon-density>
+                            <below-ground-carbon-density>5.8</below-ground-carbon-density>
+                        </land-use-history>
+                        <landAllocation year="1975">0</landAllocation>
+                        <landAllocation year="1990">0</landAllocation>
+                        <landAllocation year="2005">0</landAllocation>
+                        <landAllocation year="2010">0.1</landAllocation>
+                        <minAboveGroundCDensity>0</minAboveGroundCDensity>
+                        <minBelowGroundCDensity>0</minBelowGroundCDensity>
+                        <land-carbon-densities>
+                            <above-ground-carbon-density>0.3</above-ground-carbon-density>
+                            <below-ground-carbon-density>5.8</below-ground-carbon-density>
+                            <mature-age fillout="1" year="1975">1</mature-age>
+                        </land-carbon-densities>
+                    </UnmanagedLandLeaf>
+                </LandNode>
+            </LandAllocatorRoot>
+        </region>
+    </world>
+</scenario>

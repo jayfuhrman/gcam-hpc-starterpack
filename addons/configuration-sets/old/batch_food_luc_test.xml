@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BatchRunner xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="batch_runner.xsd">
+
+
+
+	<ComponentSet name="food">
+
+
+		<FileSet name="food_ssp1">
+			<Value name = "food">../input/addons/food/food_SSP1.xml</Value>		
+		</FileSet>
+		<FileSet name="food_ssp2">
+			<Value name = "food">../input/addons/food/food_SSP2.xml</Value>		
+		</FileSet>
+		<FileSet name="food_ssp3">
+			<Value name = "food">../input/addons/food/food_SSP3.xml</Value>		
+		</FileSet>
+		<FileSet name="food_ssp4">
+			<Value name = "food">../input/addons/food/food_SSP4.xml</Value>		
+		</FileSet>
+		<FileSet name="food_ssp5">
+			<Value name = "food">../input/addons/food/food_SSP5.xml</Value>		
+		</FileSet>
+		<FileSet name="reference">
+		</FileSet>
+
+
+
+	
+	</ComponentSet>
+
+
+</BatchRunner>
+
+

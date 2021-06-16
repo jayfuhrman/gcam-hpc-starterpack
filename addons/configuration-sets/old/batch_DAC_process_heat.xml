@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BatchRunner xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="batch_runner.xsd">
+
+	<ComponentSet name="policy">
+
+		<!--FileSet name="carbon_cap_2p6"> 
+            <Value name = "cap">../input/addons/dac/carbon_cap/constraint_CO2_2p6.xml</Value>
+		</FileSet-->
+
+		<FileSet name="carbon_cap_netzero2050_">
+			<Value name = "cap">../input/addons/dac/carbon_cap/carbon_cap_netzero_2050.xml</Value>
+		</FileSet>
+
+		<FileSet name="carbon_cap_arbitrary_">
+			<Value name = "cap">../input/addons/dac/carbon_cap/carbon_cap.xml</Value>
+		</FileSet>
+
+	</ComponentSet>
+
+
+	<ComponentSet name="dac_inputs">
+
+
+		<FileSet name="wholesale_gas">
+			<Value name = "dac">../input/addons/dac/non_energy_cost36dac_wholesale_gas.xml</Value>
+		</FileSet>
+
+		<FileSet name="dedicated_process_heat_sector">
+			<Value name = "dac">../input/addons/dac/non_energy_cost36dac_cement_process_heat.xml</Value>
+		</FileSet>
+
+		<!--FileSet name="non_energy_cost470dac">
+			<Value name = "dac">../input/addons/dac/non_energy_cost470dac.xml</Value>
+		</FileSet-->
+
+	
+	</ComponentSet>
+
+
+</BatchRunner>
+
+

@@ -1,0 +1,1121 @@
+<scenario>
+    <world>
+        <region name="USA">
+
+
+            <supplysector name="airCO2">
+                <relative-cost-logit>
+                    <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+                </relative-cost-logit>
+                <output-unit>MtC or EJ</output-unit>
+                <input-unit>MtC or EJ</input-unit>
+                <price-unit>1975$/kgC</price-unit>
+                <subsector name="airCO2">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                        <interpolation-function name="linear" />
+                    </interpolation-rule>
+                    <stub-technology name="airCO2" />
+                </subsector>
+            </supplysector>
+
+			<supplysector name="process heat dac">
+                <relative-cost-logit>
+                    <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+                </relative-cost-logit>
+                <output-unit>EJ</output-unit>
+                <input-unit>EJ</input-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <keyword final-energy="industry" />
+                <subsector name="biomass">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                    <stub-technology name="biomass">
+                        <period year="1975">
+                            <minicam-energy-input name="delivered biomass">
+                                <calibrated-value>0.0030771</calibrated-value>
+                            </minicam-energy-input>
+                            <share-weight>1</share-weight>
+                        </period>
+                        <period year="1990">
+                            <minicam-energy-input name="delivered biomass">
+                                <calibrated-value>0.003177</calibrated-value>
+                            </minicam-energy-input>
+                            <share-weight>1</share-weight>
+                        </period>
+                        <period year="2005">
+                            <minicam-energy-input name="delivered biomass">
+                                <calibrated-value>0.0045375</calibrated-value>
+                            </minicam-energy-input>
+                            <share-weight>1</share-weight>
+                        </period>
+                        <period year="2010">
+                            <minicam-energy-input name="delivered biomass">
+                                <calibrated-value>0.0029446</calibrated-value>
+                            </minicam-energy-input>
+                            <share-weight>1</share-weight>
+                        </period>
+                    </stub-technology>
+                    <share-weight year="1975">1</share-weight>
+                    <share-weight year="1990">1</share-weight>
+                    <share-weight year="2005">1</share-weight>
+                    <share-weight year="2010">1</share-weight>
+                </subsector>
+                <subsector name="coal">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                    <stub-technology name="coal">
+                        <period year="1975">
+                            <minicam-energy-input name="delivered coal">
+                                <calibrated-value>0.2030908</calibrated-value>
+                            </minicam-energy-input>
+                            <share-weight>1</share-weight>
+                        </period>
+                        <period year="1990">
+                            <minicam-energy-input name="delivered coal">
+                                <calibrated-value>0.2096845</calibrated-value>
+                            </minicam-energy-input>
+                            <share-weight>1</share-weight>
+                        </period>
+                        <period year="2005">
+                            <minicam-energy-input name="delivered coal">
+                                <calibrated-value>0.2994749</calibrated-value>
+                            </minicam-energy-input>
+                            <share-weight>1</share-weight>
+                        </period>
+                        <period year="2010">
+                            <minicam-energy-input name="delivered coal">
+                                <calibrated-value>0.1943404</calibrated-value>
+                            </minicam-energy-input>
+                            <share-weight>1</share-weight>
+                        </period>
+                    </stub-technology>
+                    <share-weight year="1975">1</share-weight>
+                    <share-weight year="1990">1</share-weight>
+                    <share-weight year="2005">1</share-weight>
+                    <share-weight year="2010">1</share-weight>
+                </subsector>
+                <subsector name="gas">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                    <stub-technology name="gas">
+                        <period year="1975">
+                            <minicam-energy-input name="wholesale gas">
+                                <calibrated-value>0.0092314</calibrated-value>
+                            </minicam-energy-input>
+                            <share-weight>1</share-weight>
+                        </period>
+                        <period year="1990">
+                            <minicam-energy-input name="wholesale gas">
+                                <calibrated-value>0.0095311</calibrated-value>
+                            </minicam-energy-input>
+                            <share-weight>1</share-weight>
+                        </period>
+                        <period year="2005">
+                            <minicam-energy-input name="wholesale gas">
+                                <calibrated-value>0.0136125</calibrated-value>
+                            </minicam-energy-input>
+                            <share-weight>1</share-weight>
+                        </period>
+                        <period year="2010">
+                            <minicam-energy-input name="wholesale gas">
+                                <calibrated-value>0.0088337</calibrated-value>
+                            </minicam-energy-input>
+                            <share-weight>1</share-weight>
+                        </period>
+                    </stub-technology>
+                    <share-weight year="1975">1</share-weight>
+                    <share-weight year="1990">1</share-weight>
+                    <share-weight year="2005">1</share-weight>
+                    <share-weight year="2010">1</share-weight>
+                </subsector>
+                <subsector name="refined liquids">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                    <stub-technology name="refined liquids">
+                        <period year="1975">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <calibrated-value>0.092314</calibrated-value>
+                            </minicam-energy-input>
+                            <share-weight>1</share-weight>
+                        </period>
+                        <period year="1990">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <calibrated-value>0.0953112</calibrated-value>
+                            </minicam-energy-input>
+                            <share-weight>1</share-weight>
+                        </period>
+                        <period year="2005">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <calibrated-value>0.1361249</calibrated-value>
+                            </minicam-energy-input>
+                            <share-weight>1</share-weight>
+                        </period>
+                        <period year="2010">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <calibrated-value>0.0883365</calibrated-value>
+                            </minicam-energy-input>
+                            <share-weight>1</share-weight>
+                        </period>
+                    </stub-technology>
+                    <share-weight year="1975">1</share-weight>
+                    <share-weight year="1990">1</share-weight>
+                    <share-weight year="2005">1</share-weight>
+                    <share-weight year="2010">1</share-weight>
+                </subsector>
+            </supplysector>
+
+
+            <PrimaryFuelCO2Coef name="airCO2">1</PrimaryFuelCO2Coef>
+			
+
+			 
+            <supplysector name="ces">
+                <relative-cost-logit>
+                    <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                </relative-cost-logit>
+                <output-unit>MtC</output-unit>
+                <input-unit>MtC</input-unit>
+                <price-unit>1975$/kgC</price-unit>
+                <keyword final-energy="industry" />
+				
+				
+                
+				
+
+				<subsector name="dac">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+
+                    <stub-technology name="null">
+						<period year="2010">
+                            <share-weight>1</share-weight>
+                            <CalDataOutput>
+                                <calOutputValue>100000</calOutputValue>
+                            </CalDataOutput>
+                            <minicam-energy-input name="elect_td_ind">
+                                <coefficient>0</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+
+                    <stub-technology name="dac" />
+                    <share-weight year="1975">0</share-weight>
+                    <share-weight year="1990">0</share-weight>
+                    <share-weight year="2005">0</share-weight>
+                    <share-weight year="2010">0</share-weight>
+                </subsector>
+            </supplysector>
+            
+            <energy-final-demand name="ces">
+                <perCapitaBased>0</perCapitaBased>
+				
+                <final-energy-consumer />
+                <base-service year="1975">0</base-service>
+                <base-service year="1990">0</base-service>
+                <base-service year="2005">0</base-service>
+                <base-service year="2010">100000</base-service>
+				
+				
+
+	
+				
+                <price-elasticity year="2015">0</price-elasticity>
+                <price-elasticity year="2020">0</price-elasticity>
+                <price-elasticity year="2025">0</price-elasticity>
+                <price-elasticity year="2030">0</price-elasticity>
+                <price-elasticity year="2035">0</price-elasticity>
+                <price-elasticity year="2040">0</price-elasticity>
+                <price-elasticity year="2045">0</price-elasticity>
+                <price-elasticity year="2050">0</price-elasticity>
+                <price-elasticity year="2055">0</price-elasticity>
+                <price-elasticity year="2060">0</price-elasticity>
+                <price-elasticity year="2065">0</price-elasticity>
+                <price-elasticity year="2070">0</price-elasticity>
+                <price-elasticity year="2075">0</price-elasticity>
+                <price-elasticity year="2080">0</price-elasticity>
+                <price-elasticity year="2085">0</price-elasticity>
+                <price-elasticity year="2090">0</price-elasticity>
+                <price-elasticity year="2095">0</price-elasticity>
+                <price-elasticity year="2100">0</price-elasticity>
+            </energy-final-demand>
+        </region>
+<global-technology-database>
+
+<location-info sector-name="airCO2" subsector-name="airCO2">
+                <technology name="airCO2">
+                    <period year="1975">
+                        <CO2 name="CO2" />
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>1</share-weight>
+                        <keyword primary-consumption="airCO2" />
+                    </period>
+                    <period year="1990">
+                        <CO2 name="CO2" />
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>1</share-weight>
+                        <keyword primary-consumption="airCO2" />
+                    </period>
+                    <period year="2005">
+                        <CO2 name="CO2" />
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>1</share-weight>
+                        <keyword primary-consumption="airCO2" />
+                    </period>
+                    <period year="2010">
+                        <CO2 name="CO2" />
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>1</share-weight>
+                        <keyword primary-consumption="airCO2" />
+                    </period>
+                    <period year="2015">
+                        <CO2 name="CO2" />
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>1</share-weight>
+                        <keyword primary-consumption="airCO2" />
+                    </period>
+                    <period year="2020">
+                        <CO2 name="CO2" />
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>1</share-weight>
+                        <keyword primary-consumption="airCO2" />
+                    </period>
+                    <period year="2025">
+                        <CO2 name="CO2" />
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>1</share-weight>
+                        <keyword primary-consumption="airCO2" />
+                    </period>
+                    <period year="2030">
+                        <CO2 name="CO2" />
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>1</share-weight>
+                        <keyword primary-consumption="airCO2" />
+                    </period>
+                    <period year="2035">
+                        <CO2 name="CO2" />
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>1</share-weight>
+                        <keyword primary-consumption="airCO2" />
+                    </period>
+                    <period year="2040">
+                        <CO2 name="CO2" />
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>1</share-weight>
+                        <keyword primary-consumption="airCO2" />
+                    </period>
+                    <period year="2045">
+                        <CO2 name="CO2" />
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>1</share-weight>
+                        <keyword primary-consumption="airCO2" />
+                    </period>
+                    <period year="2050">
+                        <CO2 name="CO2" />
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>1</share-weight>
+                        <keyword primary-consumption="airCO2" />
+                    </period>
+                    <period year="2055">
+                        <CO2 name="CO2" />
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>1</share-weight>
+                        <keyword primary-consumption="airCO2" />
+                    </period>
+                    <period year="2060">
+                        <CO2 name="CO2" />
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>1</share-weight>
+                        <keyword primary-consumption="airCO2" />
+                    </period>
+                    <period year="2065">
+                        <CO2 name="CO2" />
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>1</share-weight>
+                        <keyword primary-consumption="airCO2" />
+                    </period>
+                    <period year="2070">
+                        <CO2 name="CO2" />
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>1</share-weight>
+                        <keyword primary-consumption="airCO2" />
+                    </period>
+                    <period year="2075">
+                        <CO2 name="CO2" />
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>1</share-weight>
+                        <keyword primary-consumption="airCO2" />
+                    </period>
+                    <period year="2080">
+                        <CO2 name="CO2" />
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>1</share-weight>
+                        <keyword primary-consumption="airCO2" />
+                    </period>
+                    <period year="2085">
+                        <CO2 name="CO2" />
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>1</share-weight>
+                        <keyword primary-consumption="airCO2" />
+                    </period>
+                    <period year="2090">
+                        <CO2 name="CO2" />
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>1</share-weight>
+                        <keyword primary-consumption="airCO2" />
+                    </period>
+                    <period year="2095">
+                        <CO2 name="CO2" />
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>1</share-weight>
+                        <keyword primary-consumption="airCO2" />
+                    </period>
+                    <period year="2100">
+                        <CO2 name="CO2" />
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>1</share-weight>
+                        <keyword primary-consumption="airCO2" />
+                    </period>
+                </technology>
+            </location-info>
+
+            <location-info sector-name="ces" subsector-name="dac">
+				
+                <technology name="null">
+                    <period year="1975">
+                        <share-weight>1</share-weight>
+                        <CO2 name="CO2" />
+                        <minicam-energy-input name="elect_td_ind">
+                            <coefficient>0</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.001</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="1990">
+                        <share-weight>1</share-weight>
+                        <CO2 name="CO2" />
+                        <minicam-energy-input name="elect_td_ind">
+                            <coefficient>0</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.001</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2005">
+                        <share-weight>1</share-weight>
+                        <CO2 name="CO2" />
+                        <minicam-energy-input name="elect_td_ind">
+                            <coefficient>0</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.001</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2010">
+                        <share-weight>1</share-weight>
+                        <CO2 name="CO2" />
+                        <minicam-energy-input name="elect_td_ind">
+                            <coefficient>0</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.001</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2015">
+                        <share-weight>1</share-weight>
+                        <CO2 name="CO2" />
+                        <minicam-energy-input name="elect_td_ind">
+                            <coefficient>0</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.001</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2020">
+                        <share-weight>1</share-weight>
+                        <CO2 name="CO2" />
+                        <minicam-energy-input name="elect_td_ind">
+                            <coefficient>0</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.001</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2025">
+                        <share-weight>1</share-weight>
+                        <CO2 name="CO2" />
+                        <minicam-energy-input name="elect_td_ind">
+                            <coefficient>0</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.001</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2030">
+                        <share-weight>1</share-weight>
+                        <CO2 name="CO2" />
+                        <minicam-energy-input name="elect_td_ind">
+                            <coefficient>0</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.001</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2035">
+                        <share-weight>1</share-weight>
+                        <CO2 name="CO2" />
+                        <minicam-energy-input name="elect_td_ind">
+                            <coefficient>0</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.001</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2040">
+                        <share-weight>1</share-weight>
+                        <CO2 name="CO2" />
+                        <minicam-energy-input name="elect_td_ind">
+                            <coefficient>0</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.001</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2045">
+                        <share-weight>1</share-weight>
+                        <CO2 name="CO2" />
+                        <minicam-energy-input name="elect_td_ind">
+                            <coefficient>0</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.001</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2050">
+                        <share-weight>1</share-weight>
+                        <CO2 name="CO2" />
+                        <minicam-energy-input name="elect_td_ind">
+                            <coefficient>0</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.001</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2055">
+                        <share-weight>1</share-weight>
+                        <CO2 name="CO2" />
+                        <minicam-energy-input name="elect_td_ind">
+                            <coefficient>0</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.001</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2060">
+                        <share-weight>1</share-weight>
+                        <CO2 name="CO2" />
+                        <minicam-energy-input name="elect_td_ind">
+                            <coefficient>0</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.001</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2065">
+                        <share-weight>1</share-weight>
+                        <CO2 name="CO2" />
+                        <minicam-energy-input name="elect_td_ind">
+                            <coefficient>0</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.001</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2070">
+                        <share-weight>1</share-weight>
+                        <CO2 name="CO2" />
+                        <minicam-energy-input name="elect_td_ind">
+                            <coefficient>0</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.001</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2075">
+                        <share-weight>1</share-weight>
+                        <CO2 name="CO2" />
+                        <minicam-energy-input name="elect_td_ind">
+                            <coefficient>0</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.001</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2080">
+                        <share-weight>1</share-weight>
+                        <CO2 name="CO2" />
+                        <minicam-energy-input name="elect_td_ind">
+                            <coefficient>0</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.001</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2085">
+                        <share-weight>1</share-weight>
+                        <CO2 name="CO2" />
+                        <minicam-energy-input name="elect_td_ind">
+                            <coefficient>0</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.001</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2090">
+                        <share-weight>1</share-weight>
+                        <CO2 name="CO2" />
+                        <minicam-energy-input name="elect_td_ind">
+                            <coefficient>0</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.001</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2095">
+                        <share-weight>1</share-weight>
+                        <CO2 name="CO2" />
+                        <minicam-energy-input name="elect_td_ind">
+                            <coefficient>0</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.001</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2100">
+                        <share-weight>1</share-weight>
+                        <CO2 name="CO2" />
+                        <minicam-energy-input name="elect_td_ind">
+                            <coefficient>0</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.001</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                </technology>
+
+
+
+
+
+
+
+
+
+				
+                <technology name="dac">
+                    <period year="1975">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2" />
+                        <minicam-energy-input name="airCO2">
+                            <coefficient>1</coefficient>
+                        </minicam-energy-input>
+                        <minicam-energy-input name="elect_td_ind">
+                            <coefficient>0.006526666666666667</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.027049180327868856</input-cost>
+                        </minicam-non-energy-input>
+                    	<minicam-energy-input name="process heat dac">
+							<coefficient>0.0297</coefficient>
+						</minicam-energy-input>
+					</period>
+                    <period year="1990">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2" />
+                        <minicam-energy-input name="airCO2">
+                            <coefficient>1</coefficient>
+                        </minicam-energy-input>
+                        <minicam-energy-input name="elect_td_ind">
+                            <coefficient>0.006526666666666667</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.027049180327868856</input-cost>
+                        </minicam-non-energy-input>
+                    <minicam-energy-input name="process heat dac">
+						<coefficient>0.0297</coefficient>
+					</minicam-energy-input>
+					</period>
+                    <period year="2005">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2" />
+                        <minicam-energy-input name="airCO2">
+                            <coefficient>1</coefficient>
+                        </minicam-energy-input>
+                        <minicam-energy-input name="elect_td_ind">
+                            <coefficient>0.006526666666666667</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.027049180327868856</input-cost>
+                        </minicam-non-energy-input>
+                    	<minicam-energy-input name="process heat dac">
+							<coefficient>0.0297</coefficient>
+						</minicam-energy-input>
+					</period>
+                    <period year="2010">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2" />
+                        <minicam-energy-input name="airCO2">
+                            <coefficient>1</coefficient>
+                        </minicam-energy-input>
+                        <minicam-energy-input name="elect_td_ind">
+                            <coefficient>0.006526666666666667</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.027049180327868856</input-cost>
+                        </minicam-non-energy-input>
+                    	<minicam-energy-input name="process heat dac">
+							<coefficient>0.0297</coefficient>
+						</minicam-energy-input>
+					</period>
+                    <period year="2015">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2" />
+                        <minicam-energy-input name="airCO2">
+                            <coefficient>1</coefficient>
+                        </minicam-energy-input>
+                        <minicam-energy-input name="elect_td_ind">
+                            <coefficient>0.006526666666666667</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.027049180327868856</input-cost>
+                        </minicam-non-energy-input>
+                    	<minicam-energy-input name="process heat dac">
+							<coefficient>0.0297</coefficient>
+						</minicam-energy-input>
+					</period>
+
+
+
+
+
+                    
+					<period year="2020">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2" />
+                        <minicam-energy-input name="elect_td_ind">
+                            <coefficient>0.006526666666666667</coefficient>
+                        </minicam-energy-input>
+                        <minicam-energy-input name="airCO2">
+                            <coefficient>1</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.027049180327868856</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>1</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    	<minicam-energy-input name="process heat dac">
+							<coefficient>0.0297</coefficient>
+						</minicam-energy-input>
+					</period>
+                    <period year="2025">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2" />
+                        <minicam-energy-input name="elect_td_ind">
+                            <coefficient>0.006526666666666667</coefficient>
+                        </minicam-energy-input>
+                        <minicam-energy-input name="airCO2">
+                            <coefficient>1</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.027049180327868856</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>1</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    	<minicam-energy-input name="process heat dac">
+							<coefficient>0.0297</coefficient>
+						</minicam-energy-input>
+					</period>
+                    <period year="2030">
+                        <share-weight>1</share-weight>
+                        <CO2 name="CO2" />
+                        <minicam-energy-input name="elect_td_ind">
+                            <coefficient>0.006526666666666667</coefficient>
+                        </minicam-energy-input>
+                        <minicam-energy-input name="airCO2">
+                            <coefficient>1</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.027049180327868856</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>1</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    	<minicam-energy-input name="process heat dac">
+							<coefficient>0.0297</coefficient>
+						</minicam-energy-input></period>
+                    <period year="2035">
+                        <share-weight>1</share-weight>
+                        <CO2 name="CO2" />
+                        <minicam-energy-input name="elect_td_ind">
+                            <coefficient>0.006526666666666667</coefficient>
+                        </minicam-energy-input>
+                        <minicam-energy-input name="airCO2">
+                            <coefficient>1</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.027049180327868856</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>1</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    	<minicam-energy-input name="process heat dac">
+							<coefficient>0.0297</coefficient>
+						</minicam-energy-input>
+					</period>
+                    <period year="2040">
+                        <share-weight>1</share-weight>
+                        <CO2 name="CO2" />
+                        <minicam-energy-input name="elect_td_ind">
+                            <coefficient>0.006526666666666667</coefficient>
+                        </minicam-energy-input>
+                        <minicam-energy-input name="airCO2">
+                            <coefficient>1</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.027049180327868856</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>1</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    	<minicam-energy-input name="process heat dac">
+							<coefficient>0.0297</coefficient>
+						</minicam-energy-input>
+					</period>
+                    <period year="2045">
+                        <share-weight>1</share-weight>
+                        <CO2 name="CO2" />
+                        <minicam-energy-input name="elect_td_ind">
+                            <coefficient>0.006526666666666667</coefficient>
+                        </minicam-energy-input>
+                        <minicam-energy-input name="airCO2">
+                            <coefficient>1</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.027049180327868856</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>1</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    	<minicam-energy-input name="process heat dac">
+							<coefficient>0.0297</coefficient>
+						</minicam-energy-input>
+					</period>
+                    <period year="2050">
+                        <share-weight>1</share-weight>
+                        <CO2 name="CO2" />
+                        <minicam-energy-input name="elect_td_ind">
+                            <coefficient>0.006526666666666667</coefficient>
+                        </minicam-energy-input>
+                        <minicam-energy-input name="airCO2">
+                            <coefficient>1</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.027049180327868856</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>1</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    	<minicam-energy-input name="process heat dac">
+							<coefficient>0.0297</coefficient>
+						</minicam-energy-input>
+					</period>
+                    <period year="2055">
+                        <share-weight>1</share-weight>
+                        <CO2 name="CO2" />
+                        <minicam-energy-input name="elect_td_ind">
+                            <coefficient>0.006526666666666667</coefficient>
+                        </minicam-energy-input>
+                        <minicam-energy-input name="airCO2">
+                            <coefficient>1</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.027049180327868856</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>1</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    	<minicam-energy-input name="process heat dac">
+							<coefficient>0.0297</coefficient>
+						</minicam-energy-input>
+					</period>
+                    <period year="2060">
+                        <share-weight>1</share-weight>
+                        <CO2 name="CO2" />
+                        <minicam-energy-input name="elect_td_ind">
+                            <coefficient>0.006526666666666667</coefficient>
+                        </minicam-energy-input>
+                        <minicam-energy-input name="airCO2">
+                            <coefficient>1</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.027049180327868856</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>1</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    	<minicam-energy-input name="process heat dac">
+							<coefficient>0.0297</coefficient>
+						</minicam-energy-input>
+					</period>
+                    <period year="2065">
+                        <share-weight>1</share-weight>
+                        <CO2 name="CO2" />
+                        <minicam-energy-input name="elect_td_ind">
+                            <coefficient>0.006526666666666667</coefficient>
+                        </minicam-energy-input>
+                        <minicam-energy-input name="airCO2">
+                            <coefficient>1</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.027049180327868856</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>1</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    	<minicam-energy-input name="process heat dac">
+							<coefficient>0.0297</coefficient>
+						</minicam-energy-input>
+					</period>
+                    <period year="2070">
+                        <share-weight>1</share-weight>
+                        <CO2 name="CO2" />
+                        <minicam-energy-input name="elect_td_ind">
+                            <coefficient>0.006526666666666667</coefficient>
+                        </minicam-energy-input>
+                        <minicam-energy-input name="airCO2">
+                            <coefficient>1</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.027049180327868856</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>1</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    	<minicam-energy-input name="process heat dac">
+							<coefficient>0.0297</coefficient>
+						</minicam-energy-input>
+					</period>
+                    <period year="2075">
+                        <share-weight>1</share-weight>
+                        <CO2 name="CO2" />
+                        <minicam-energy-input name="elect_td_ind">
+                            <coefficient>0.006526666666666667</coefficient>
+                        </minicam-energy-input>
+                        <minicam-energy-input name="airCO2">
+                            <coefficient>1</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.027049180327868856</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>1</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    	<minicam-energy-input name="process heat dac">
+							<coefficient>0.0297</coefficient>
+						</minicam-energy-input>
+					</period>
+                    <period year="2080">
+                        <share-weight>1</share-weight>
+                        <CO2 name="CO2" />
+                        <minicam-energy-input name="elect_td_ind">
+                            <coefficient>0.006526666666666667</coefficient>
+                        </minicam-energy-input>
+                        <minicam-energy-input name="airCO2">
+                            <coefficient>1</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.027049180327868856</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>1</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    	<minicam-energy-input name="process heat dac">
+							<coefficient>0.0297</coefficient>
+						</minicam-energy-input>
+					</period>
+                    <period year="2085">
+                        <share-weight>1</share-weight>
+                        <CO2 name="CO2" />
+                        <minicam-energy-input name="elect_td_ind">
+                            <coefficient>0.006526666666666667</coefficient>
+                        </minicam-energy-input>
+                        <minicam-energy-input name="airCO2">
+                            <coefficient>1</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.027049180327868856</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>1</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    	<minicam-energy-input name="process heat dac">
+							<coefficient>0.0297</coefficient>
+						</minicam-energy-input>
+					</period>
+                    <period year="2090">
+                        <share-weight>1</share-weight>
+                        <CO2 name="CO2" />
+                        <minicam-energy-input name="elect_td_ind">
+                            <coefficient>0.006526666666666667</coefficient>
+                        </minicam-energy-input>
+                        <minicam-energy-input name="airCO2">
+                            <coefficient>1</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.027049180327868856</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>1</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    	<minicam-energy-input name="process heat dac">
+							<coefficient>0.0297</coefficient>
+						</minicam-energy-input>
+					</period>
+                    <period year="2095">
+                        <share-weight>1</share-weight>
+                        <CO2 name="CO2" />
+                        <minicam-energy-input name="elect_td_ind">
+                            <coefficient>0.006526666666666667</coefficient>
+                        </minicam-energy-input>
+                        <minicam-energy-input name="airCO2">
+                            <coefficient>1</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.027049180327868856</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>1</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    	<minicam-energy-input name="process heat dac">
+							<coefficient>0.0297</coefficient>
+						</minicam-energy-input>
+					</period>
+                    <period year="2100">
+                        <share-weight>1</share-weight>
+                        <CO2 name="CO2" />
+                        <minicam-energy-input name="elect_td_ind">
+                            <coefficient>0.006526666666666667</coefficient>
+                        </minicam-energy-input>
+                        <minicam-energy-input name="airCO2">
+                            <coefficient>1</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.027049180327868856</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>1</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    	<minicam-energy-input name="process heat dac">
+							<coefficient>0.0297</coefficient>
+						</minicam-energy-input>
+					</period>
+                </technology>
+            </location-info>
+
+            
+        </global-technology-database>
+   </world>
+</scenario>

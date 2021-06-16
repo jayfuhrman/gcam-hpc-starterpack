@@ -1,0 +1,964 @@
+<scenario>
+    <world>
+        <region name="USA">
+            <resource name="LT heat">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>USA</market>
+                <price year="1975">3</price>
+                <price year="1990">3</price>
+                <price year="2005">3</price>
+                <price year="2010">3</price>
+                <price year="2015">3</price>
+
+				<price year="2020">3</price>
+				<price year="2025">3</price>
+				<price year="2030">3</price>
+				<price year="2035">3</price>
+				<price year="2040">3</price>
+				<price year="2045">3</price>
+				<price year="2050">3</price>
+				<price year="2055">3</price>
+				<price year="2060">3</price>
+				<price year="2065">3</price>
+				<price year="2070">3</price>
+				<price year="2075">3</price>
+				<price year="2080">3</price>
+				<price year="2085">3</price>
+				<price year="2090">3</price>
+				<price year="2095">3</price>
+				<price year="2100">3</price>
+            </resource>
+		</region>
+         <region name="Africa_Eastern">
+           <resource name="LT heat">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>Africa_Eastern</market>
+                <price year="1975">3</price>
+                <price year="1990">3</price>
+                <price year="2005">3</price>
+                <price year="2010">3</price>
+				<price year="2015">3</price>
+
+				<price year="2020">3</price>
+				<price year="2025">3</price>
+				<price year="2030">3</price>
+				<price year="2035">3</price>
+				<price year="2040">3</price>
+				<price year="2045">3</price>
+				<price year="2050">3</price>
+				<price year="2055">3</price>
+				<price year="2060">3</price>
+				<price year="2065">3</price>
+				<price year="2070">3</price>
+				<price year="2075">3</price>
+				<price year="2080">3</price>
+				<price year="2085">3</price>
+				<price year="2090">3</price>
+				<price year="2095">3</price>
+				<price year="2100">3</price>
+            </resource>
+		</region>
+        <region name="Africa_Northern">
+           <resource name="LT heat">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>Africa_Northern</market>
+                <price year="1975">3</price>
+                <price year="1990">3</price>
+                <price year="2005">3</price>
+                <price year="2010">3</price>
+				<price year="2015">3</price>
+
+				<price year="2020">3</price>
+				<price year="2025">3</price>
+				<price year="2030">3</price>
+				<price year="2035">3</price>
+				<price year="2040">3</price>
+				<price year="2045">3</price>
+				<price year="2050">3</price>
+				<price year="2055">3</price>
+				<price year="2060">3</price>
+				<price year="2065">3</price>
+				<price year="2070">3</price>
+				<price year="2075">3</price>
+				<price year="2080">3</price>
+				<price year="2085">3</price>
+				<price year="2090">3</price>
+				<price year="2095">3</price>
+				<price year="2100">3</price>
+            </resource>
+		</region>
+        <region name="Africa_Southern">
+           <resource name="LT heat">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>Africa_Southern</market>
+                <price year="1975">3</price>
+                <price year="1990">3</price>
+                <price year="2005">3</price>
+                <price year="2010">3</price>
+				<price year="2015">3</price>
+
+				<price year="2020">3</price>
+				<price year="2025">3</price>
+				<price year="2030">3</price>
+				<price year="2035">3</price>
+				<price year="2040">3</price>
+				<price year="2045">3</price>
+				<price year="2050">3</price>
+				<price year="2055">3</price>
+				<price year="2060">3</price>
+				<price year="2065">3</price>
+				<price year="2070">3</price>
+				<price year="2075">3</price>
+				<price year="2080">3</price>
+				<price year="2085">3</price>
+				<price year="2090">3</price>
+				<price year="2095">3</price>
+				<price year="2100">3</price>
+            </resource>
+		</region>
+        <region name="Africa_Western">
+           <resource name="LT heat">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>Africa_Western</market>
+                <price year="1975">3</price>
+                <price year="1990">3</price>
+                <price year="2005">3</price>
+                <price year="2010">3</price>
+				<price year="2015">3</price>
+
+				<price year="2020">3</price>
+				<price year="2025">3</price>
+				<price year="2030">3</price>
+				<price year="2035">3</price>
+				<price year="2040">3</price>
+				<price year="2045">3</price>
+				<price year="2050">3</price>
+				<price year="2055">3</price>
+				<price year="2060">3</price>
+				<price year="2065">3</price>
+				<price year="2070">3</price>
+				<price year="2075">3</price>
+				<price year="2080">3</price>
+				<price year="2085">3</price>
+				<price year="2090">3</price>
+				<price year="2095">3</price>
+				<price year="2100">3</price>
+            </resource>
+		</region>
+        <region name="Australia_NZ">
+           <resource name="LT heat">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>Australia_NZ</market>
+                <price year="1975">3</price>
+                <price year="1990">3</price>
+                <price year="2005">3</price>
+                <price year="2010">3</price>
+				<price year="2015">3</price>
+
+				<price year="2020">3</price>
+				<price year="2025">3</price>
+				<price year="2030">3</price>
+				<price year="2035">3</price>
+				<price year="2040">3</price>
+				<price year="2045">3</price>
+				<price year="2050">3</price>
+				<price year="2055">3</price>
+				<price year="2060">3</price>
+				<price year="2065">3</price>
+				<price year="2070">3</price>
+				<price year="2075">3</price>
+				<price year="2080">3</price>
+				<price year="2085">3</price>
+				<price year="2090">3</price>
+				<price year="2095">3</price>
+				<price year="2100">3</price>
+            </resource>
+		</region>
+        <region name="Brazil">
+           <resource name="LT heat">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>Brazil</market>
+                <price year="1975">3</price>
+                <price year="1990">3</price>
+                <price year="2005">3</price>
+                <price year="2010">3</price>
+				<price year="2015">3</price>
+
+				<price year="2020">3</price>
+				<price year="2025">3</price>
+				<price year="2030">3</price>
+				<price year="2035">3</price>
+				<price year="2040">3</price>
+				<price year="2045">3</price>
+				<price year="2050">3</price>
+				<price year="2055">3</price>
+				<price year="2060">3</price>
+				<price year="2065">3</price>
+				<price year="2070">3</price>
+				<price year="2075">3</price>
+				<price year="2080">3</price>
+				<price year="2085">3</price>
+				<price year="2090">3</price>
+				<price year="2095">3</price>
+				<price year="2100">3</price>
+            </resource>
+		</region>
+        <region name="Canada">
+           <resource name="LT heat">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>Canada</market>
+                <price year="1975">3</price>
+                <price year="1990">3</price>
+                <price year="2005">3</price>
+                <price year="2010">3</price>
+				<price year="2015">3</price>
+
+				<price year="2020">3</price>
+				<price year="2025">3</price>
+				<price year="2030">3</price>
+				<price year="2035">3</price>
+				<price year="2040">3</price>
+				<price year="2045">3</price>
+				<price year="2050">3</price>
+				<price year="2055">3</price>
+				<price year="2060">3</price>
+				<price year="2065">3</price>
+				<price year="2070">3</price>
+				<price year="2075">3</price>
+				<price year="2080">3</price>
+				<price year="2085">3</price>
+				<price year="2090">3</price>
+				<price year="2095">3</price>
+				<price year="2100">3</price>
+            </resource>
+		</region>
+        <region name="Central America and Caribbean">
+           <resource name="LT heat">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>Central America and Caribbean</market>
+                <price year="1975">3</price>
+                <price year="1990">3</price>
+                <price year="2005">3</price>
+                <price year="2010">3</price>
+				<price year="2015">3</price>
+
+				<price year="2020">3</price>
+				<price year="2025">3</price>
+				<price year="2030">3</price>
+				<price year="2035">3</price>
+				<price year="2040">3</price>
+				<price year="2045">3</price>
+				<price year="2050">3</price>
+				<price year="2055">3</price>
+				<price year="2060">3</price>
+				<price year="2065">3</price>
+				<price year="2070">3</price>
+				<price year="2075">3</price>
+				<price year="2080">3</price>
+				<price year="2085">3</price>
+				<price year="2090">3</price>
+				<price year="2095">3</price>
+				<price year="2100">3</price>
+            </resource>
+		</region>
+        <region name="Central Asia">
+           <resource name="LT heat">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>Central Asia</market>
+                <price year="1975">3</price>
+                <price year="1990">3</price>
+                <price year="2005">3</price>
+                <price year="2010">3</price>
+				<price year="2015">3</price>
+
+				<price year="2020">3</price>
+				<price year="2025">3</price>
+				<price year="2030">3</price>
+				<price year="2035">3</price>
+				<price year="2040">3</price>
+				<price year="2045">3</price>
+				<price year="2050">3</price>
+				<price year="2055">3</price>
+				<price year="2060">3</price>
+				<price year="2065">3</price>
+				<price year="2070">3</price>
+				<price year="2075">3</price>
+				<price year="2080">3</price>
+				<price year="2085">3</price>
+				<price year="2090">3</price>
+				<price year="2095">3</price>
+				<price year="2100">3</price>
+            </resource>
+		</region>
+        <region name="China">
+           <resource name="LT heat">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>China</market>
+                <price year="1975">3</price>
+                <price year="1990">3</price>
+                <price year="2005">3</price>
+                <price year="2010">3</price>
+				<price year="2015">3</price>
+
+				<price year="2020">3</price>
+				<price year="2025">3</price>
+				<price year="2030">3</price>
+				<price year="2035">3</price>
+				<price year="2040">3</price>
+				<price year="2045">3</price>
+				<price year="2050">3</price>
+				<price year="2055">3</price>
+				<price year="2060">3</price>
+				<price year="2065">3</price>
+				<price year="2070">3</price>
+				<price year="2075">3</price>
+				<price year="2080">3</price>
+				<price year="2085">3</price>
+				<price year="2090">3</price>
+				<price year="2095">3</price>
+				<price year="2100">3</price>
+            </resource>
+		</region>
+        <region name="EU-12">
+           <resource name="LT heat">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>EU-12</market>
+                <price year="1975">3</price>
+                <price year="1990">3</price>
+                <price year="2005">3</price>
+                <price year="2010">3</price>
+				<price year="2015">3</price>
+
+				<price year="2020">3</price>
+				<price year="2025">3</price>
+				<price year="2030">3</price>
+				<price year="2035">3</price>
+				<price year="2040">3</price>
+				<price year="2045">3</price>
+				<price year="2050">3</price>
+				<price year="2055">3</price>
+				<price year="2060">3</price>
+				<price year="2065">3</price>
+				<price year="2070">3</price>
+				<price year="2075">3</price>
+				<price year="2080">3</price>
+				<price year="2085">3</price>
+				<price year="2090">3</price>
+				<price year="2095">3</price>
+				<price year="2100">3</price>
+            </resource>
+		</region>
+        <region name="EU-15">
+           <resource name="LT heat">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>EU-15</market>
+                <price year="1975">3</price>
+                <price year="1990">3</price>
+                <price year="2005">3</price>
+                <price year="2010">3</price>
+				<price year="2015">3</price>
+
+				<price year="2020">3</price>
+				<price year="2025">3</price>
+				<price year="2030">3</price>
+				<price year="2035">3</price>
+				<price year="2040">3</price>
+				<price year="2045">3</price>
+				<price year="2050">3</price>
+				<price year="2055">3</price>
+				<price year="2060">3</price>
+				<price year="2065">3</price>
+				<price year="2070">3</price>
+				<price year="2075">3</price>
+				<price year="2080">3</price>
+				<price year="2085">3</price>
+				<price year="2090">3</price>
+				<price year="2095">3</price>
+				<price year="2100">3</price>
+            </resource>
+		</region>
+        <region name="Europe_Eastern">
+           <resource name="LT heat">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>Europe_Eastern</market>
+                <price year="1975">3</price>
+                <price year="1990">3</price>
+                <price year="2005">3</price>
+                <price year="2010">3</price>
+				<price year="2015">3</price>
+
+				<price year="2020">3</price>
+				<price year="2025">3</price>
+				<price year="2030">3</price>
+				<price year="2035">3</price>
+				<price year="2040">3</price>
+				<price year="2045">3</price>
+				<price year="2050">3</price>
+				<price year="2055">3</price>
+				<price year="2060">3</price>
+				<price year="2065">3</price>
+				<price year="2070">3</price>
+				<price year="2075">3</price>
+				<price year="2080">3</price>
+				<price year="2085">3</price>
+				<price year="2090">3</price>
+				<price year="2095">3</price>
+				<price year="2100">3</price>
+            </resource>
+		</region>
+        <region name="Europe_Non_EU">
+           <resource name="LT heat">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>Europe_Non_EU</market>
+                <price year="1975">3</price>
+                <price year="1990">3</price>
+                <price year="2005">3</price>
+                <price year="2010">3</price>
+				<price year="2015">3</price>
+
+				<price year="2020">3</price>
+				<price year="2025">3</price>
+				<price year="2030">3</price>
+				<price year="2035">3</price>
+				<price year="2040">3</price>
+				<price year="2045">3</price>
+				<price year="2050">3</price>
+				<price year="2055">3</price>
+				<price year="2060">3</price>
+				<price year="2065">3</price>
+				<price year="2070">3</price>
+				<price year="2075">3</price>
+				<price year="2080">3</price>
+				<price year="2085">3</price>
+				<price year="2090">3</price>
+				<price year="2095">3</price>
+				<price year="2100">3</price>
+            </resource>
+		</region>
+        <region name="European Free Trade Association">
+           <resource name="LT heat">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>European Free Trade Association</market>
+                <price year="1975">3</price>
+                <price year="1990">3</price>
+                <price year="2005">3</price>
+                <price year="2010">3</price>
+				<price year="2015">3</price>
+
+				<price year="2020">3</price>
+				<price year="2025">3</price>
+				<price year="2030">3</price>
+				<price year="2035">3</price>
+				<price year="2040">3</price>
+				<price year="2045">3</price>
+				<price year="2050">3</price>
+				<price year="2055">3</price>
+				<price year="2060">3</price>
+				<price year="2065">3</price>
+				<price year="2070">3</price>
+				<price year="2075">3</price>
+				<price year="2080">3</price>
+				<price year="2085">3</price>
+				<price year="2090">3</price>
+				<price year="2095">3</price>
+				<price year="2100">3</price>
+            </resource>
+		</region>
+        <region name="India">
+           <resource name="LT heat">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>India</market>
+                <price year="1975">3</price>
+                <price year="1990">3</price>
+                <price year="2005">3</price>
+                <price year="2010">3</price>
+				<price year="2015">3</price>
+
+				<price year="2020">3</price>
+				<price year="2025">3</price>
+				<price year="2030">3</price>
+				<price year="2035">3</price>
+				<price year="2040">3</price>
+				<price year="2045">3</price>
+				<price year="2050">3</price>
+				<price year="2055">3</price>
+				<price year="2060">3</price>
+				<price year="2065">3</price>
+				<price year="2070">3</price>
+				<price year="2075">3</price>
+				<price year="2080">3</price>
+				<price year="2085">3</price>
+				<price year="2090">3</price>
+				<price year="2095">3</price>
+				<price year="2100">3</price>
+            </resource>
+		</region>
+        <region name="Indonesia">
+           <resource name="LT heat">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>Indonesia</market>
+                <price year="1975">3</price>
+                <price year="1990">3</price>
+                <price year="2005">3</price>
+                <price year="2010">3</price>
+				<price year="2015">3</price>
+
+				<price year="2020">3</price>
+				<price year="2025">3</price>
+				<price year="2030">3</price>
+				<price year="2035">3</price>
+				<price year="2040">3</price>
+				<price year="2045">3</price>
+				<price year="2050">3</price>
+				<price year="2055">3</price>
+				<price year="2060">3</price>
+				<price year="2065">3</price>
+				<price year="2070">3</price>
+				<price year="2075">3</price>
+				<price year="2080">3</price>
+				<price year="2085">3</price>
+				<price year="2090">3</price>
+				<price year="2095">3</price>
+				<price year="2100">3</price>
+            </resource>
+		</region>
+        <region name="Japan">
+           <resource name="LT heat">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>Japan</market>
+                <price year="1975">3</price>
+                <price year="1990">3</price>
+                <price year="2005">3</price>
+                <price year="2010">3</price>
+				<price year="2015">3</price>
+
+				<price year="2020">3</price>
+				<price year="2025">3</price>
+				<price year="2030">3</price>
+				<price year="2035">3</price>
+				<price year="2040">3</price>
+				<price year="2045">3</price>
+				<price year="2050">3</price>
+				<price year="2055">3</price>
+				<price year="2060">3</price>
+				<price year="2065">3</price>
+				<price year="2070">3</price>
+				<price year="2075">3</price>
+				<price year="2080">3</price>
+				<price year="2085">3</price>
+				<price year="2090">3</price>
+				<price year="2095">3</price>
+				<price year="2100">3</price>
+            </resource>
+		</region>
+        <region name="Mexico">
+           <resource name="LT heat">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>Mexico</market>
+                <price year="1975">3</price>
+                <price year="1990">3</price>
+                <price year="2005">3</price>
+                <price year="2010">3</price>
+				<price year="2015">3</price>
+
+				<price year="2020">3</price>
+				<price year="2025">3</price>
+				<price year="2030">3</price>
+				<price year="2035">3</price>
+				<price year="2040">3</price>
+				<price year="2045">3</price>
+				<price year="2050">3</price>
+				<price year="2055">3</price>
+				<price year="2060">3</price>
+				<price year="2065">3</price>
+				<price year="2070">3</price>
+				<price year="2075">3</price>
+				<price year="2080">3</price>
+				<price year="2085">3</price>
+				<price year="2090">3</price>
+				<price year="2095">3</price>
+				<price year="2100">3</price>
+            </resource>
+		</region>
+        <region name="Middle East">
+           <resource name="LT heat">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>Middle East</market>
+                <price year="1975">3</price>
+                <price year="1990">3</price>
+                <price year="2005">3</price>
+                <price year="2010">3</price>
+				<price year="2015">3</price>
+
+				<price year="2020">3</price>
+				<price year="2025">3</price>
+				<price year="2030">3</price>
+				<price year="2035">3</price>
+				<price year="2040">3</price>
+				<price year="2045">3</price>
+				<price year="2050">3</price>
+				<price year="2055">3</price>
+				<price year="2060">3</price>
+				<price year="2065">3</price>
+				<price year="2070">3</price>
+				<price year="2075">3</price>
+				<price year="2080">3</price>
+				<price year="2085">3</price>
+				<price year="2090">3</price>
+				<price year="2095">3</price>
+				<price year="2100">3</price>
+            </resource>
+		</region>
+        <region name="Pakistan">
+           <resource name="LT heat">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>Pakistan</market>
+                <price year="1975">3</price>
+                <price year="1990">3</price>
+                <price year="2005">3</price>
+                <price year="2010">3</price>
+				<price year="2015">3</price>
+
+				<price year="2020">3</price>
+				<price year="2025">3</price>
+				<price year="2030">3</price>
+				<price year="2035">3</price>
+				<price year="2040">3</price>
+				<price year="2045">3</price>
+				<price year="2050">3</price>
+				<price year="2055">3</price>
+				<price year="2060">3</price>
+				<price year="2065">3</price>
+				<price year="2070">3</price>
+				<price year="2075">3</price>
+				<price year="2080">3</price>
+				<price year="2085">3</price>
+				<price year="2090">3</price>
+				<price year="2095">3</price>
+				<price year="2100">3</price>
+            </resource>
+		</region>
+        <region name="Russia">
+           <resource name="LT heat">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>Russia</market>
+                <price year="1975">3</price>
+                <price year="1990">3</price>
+                <price year="2005">3</price>
+                <price year="2010">3</price>
+				<price year="2015">3</price>
+
+				<price year="2020">3</price>
+				<price year="2025">3</price>
+				<price year="2030">3</price>
+				<price year="2035">3</price>
+				<price year="2040">3</price>
+				<price year="2045">3</price>
+				<price year="2050">3</price>
+				<price year="2055">3</price>
+				<price year="2060">3</price>
+				<price year="2065">3</price>
+				<price year="2070">3</price>
+				<price year="2075">3</price>
+				<price year="2080">3</price>
+				<price year="2085">3</price>
+				<price year="2090">3</price>
+				<price year="2095">3</price>
+				<price year="2100">3</price>
+            </resource>
+		</region>
+        <region name="South Africa">
+           <resource name="LT heat">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>South Africa</market>
+                <price year="1975">3</price>
+                <price year="1990">3</price>
+                <price year="2005">3</price>
+                <price year="2010">3</price>
+				<price year="2015">3</price>
+
+				<price year="2020">3</price>
+				<price year="2025">3</price>
+				<price year="2030">3</price>
+				<price year="2035">3</price>
+				<price year="2040">3</price>
+				<price year="2045">3</price>
+				<price year="2050">3</price>
+				<price year="2055">3</price>
+				<price year="2060">3</price>
+				<price year="2065">3</price>
+				<price year="2070">3</price>
+				<price year="2075">3</price>
+				<price year="2080">3</price>
+				<price year="2085">3</price>
+				<price year="2090">3</price>
+				<price year="2095">3</price>
+				<price year="2100">3</price>
+            </resource>
+		</region>
+        <region name="South America_Northern">
+           <resource name="LT heat">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>South America_Northern</market>
+                <price year="1975">3</price>
+                <price year="1990">3</price>
+                <price year="2005">3</price>
+                <price year="2010">3</price>
+				<price year="2015">3</price>
+
+				<price year="2020">3</price>
+				<price year="2025">3</price>
+				<price year="2030">3</price>
+				<price year="2035">3</price>
+				<price year="2040">3</price>
+				<price year="2045">3</price>
+				<price year="2050">3</price>
+				<price year="2055">3</price>
+				<price year="2060">3</price>
+				<price year="2065">3</price>
+				<price year="2070">3</price>
+				<price year="2075">3</price>
+				<price year="2080">3</price>
+				<price year="2085">3</price>
+				<price year="2090">3</price>
+				<price year="2095">3</price>
+				<price year="2100">3</price>
+            </resource>
+		</region>
+        <region name="South America_Southern">
+           <resource name="LT heat">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>South America_Southern</market>
+                <price year="1975">3</price>
+                <price year="1990">3</price>
+                <price year="2005">3</price>
+                <price year="2010">3</price>
+				<price year="2015">3</price>
+
+				<price year="2020">3</price>
+				<price year="2025">3</price>
+				<price year="2030">3</price>
+				<price year="2035">3</price>
+				<price year="2040">3</price>
+				<price year="2045">3</price>
+				<price year="2050">3</price>
+				<price year="2055">3</price>
+				<price year="2060">3</price>
+				<price year="2065">3</price>
+				<price year="2070">3</price>
+				<price year="2075">3</price>
+				<price year="2080">3</price>
+				<price year="2085">3</price>
+				<price year="2090">3</price>
+				<price year="2095">3</price>
+				<price year="2100">3</price>
+            </resource>
+		</region>
+        <region name="South Asia">
+           <resource name="LT heat">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>South Asia</market>
+                <price year="1975">3</price>
+                <price year="1990">3</price>
+                <price year="2005">3</price>
+                <price year="2010">3</price>
+				<price year="2015">3</price>
+
+				<price year="2020">3</price>
+				<price year="2025">3</price>
+				<price year="2030">3</price>
+				<price year="2035">3</price>
+				<price year="2040">3</price>
+				<price year="2045">3</price>
+				<price year="2050">3</price>
+				<price year="2055">3</price>
+				<price year="2060">3</price>
+				<price year="2065">3</price>
+				<price year="2070">3</price>
+				<price year="2075">3</price>
+				<price year="2080">3</price>
+				<price year="2085">3</price>
+				<price year="2090">3</price>
+				<price year="2095">3</price>
+				<price year="2100">3</price>
+            </resource>
+		</region>
+        <region name="South Korea">
+           <resource name="LT heat">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>South Korea</market>
+                <price year="1975">3</price>
+                <price year="1990">3</price>
+                <price year="2005">3</price>
+                <price year="2010">3</price>
+				<price year="2015">3</price>
+
+				<price year="2020">3</price>
+				<price year="2025">3</price>
+				<price year="2030">3</price>
+				<price year="2035">3</price>
+				<price year="2040">3</price>
+				<price year="2045">3</price>
+				<price year="2050">3</price>
+				<price year="2055">3</price>
+				<price year="2060">3</price>
+				<price year="2065">3</price>
+				<price year="2070">3</price>
+				<price year="2075">3</price>
+				<price year="2080">3</price>
+				<price year="2085">3</price>
+				<price year="2090">3</price>
+				<price year="2095">3</price>
+				<price year="2100">3</price>
+            </resource>
+		</region>
+        <region name="Southeast Asia">
+           <resource name="LT heat">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>Southeast Asia</market>
+                <price year="1975">3</price>
+                <price year="1990">3</price>
+                <price year="2005">3</price>
+                <price year="2010">3</price>
+				<price year="2015">3</price>
+
+				<price year="2020">3</price>
+				<price year="2025">3</price>
+				<price year="2030">3</price>
+				<price year="2035">3</price>
+				<price year="2040">3</price>
+				<price year="2045">3</price>
+				<price year="2050">3</price>
+				<price year="2055">3</price>
+				<price year="2060">3</price>
+				<price year="2065">3</price>
+				<price year="2070">3</price>
+				<price year="2075">3</price>
+				<price year="2080">3</price>
+				<price year="2085">3</price>
+				<price year="2090">3</price>
+				<price year="2095">3</price>
+				<price year="2100">3</price>
+            </resource>
+		</region>
+        <region name="Taiwan">
+           <resource name="LT heat">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>Taiwan</market>
+                <price year="1975">3</price>
+                <price year="1990">3</price>
+                <price year="2005">3</price>
+                <price year="2010">3</price>
+				<price year="2015">3</price>
+
+				<price year="2020">3</price>
+				<price year="2025">3</price>
+				<price year="2030">3</price>
+				<price year="2035">3</price>
+				<price year="2040">3</price>
+				<price year="2045">3</price>
+				<price year="2050">3</price>
+				<price year="2055">3</price>
+				<price year="2060">3</price>
+				<price year="2065">3</price>
+				<price year="2070">3</price>
+				<price year="2075">3</price>
+				<price year="2080">3</price>
+				<price year="2085">3</price>
+				<price year="2090">3</price>
+				<price year="2095">3</price>
+				<price year="2100">3</price>
+            </resource>
+		</region>
+        <region name="Argentina">
+           <resource name="LT heat">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>Argentina</market>
+                <price year="1975">3</price>
+                <price year="1990">3</price>
+                <price year="2005">3</price>
+                <price year="2010">3</price>
+				<price year="2015">3</price>
+
+				<price year="2020">3</price>
+				<price year="2025">3</price>
+				<price year="2030">3</price>
+				<price year="2035">3</price>
+				<price year="2040">3</price>
+				<price year="2045">3</price>
+				<price year="2050">3</price>
+				<price year="2055">3</price>
+				<price year="2060">3</price>
+				<price year="2065">3</price>
+				<price year="2070">3</price>
+				<price year="2075">3</price>
+				<price year="2080">3</price>
+				<price year="2085">3</price>
+				<price year="2090">3</price>
+				<price year="2095">3</price>
+				<price year="2100">3</price>
+            </resource>
+		</region>
+        <region name="Colombia">
+           <resource name="LT heat">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>Colombia</market>
+                <price year="1975">3</price>
+                <price year="1990">3</price>
+                <price year="2005">3</price>
+                <price year="2010">3</price>
+				<price year="2015">3</price>
+
+				<price year="2020">3</price>
+				<price year="2025">3</price>
+				<price year="2030">3</price>
+				<price year="2035">3</price>
+				<price year="2040">3</price>
+				<price year="2045">3</price>
+				<price year="2050">3</price>
+				<price year="2055">3</price>
+				<price year="2060">3</price>
+				<price year="2065">3</price>
+				<price year="2070">3</price>
+				<price year="2075">3</price>
+				<price year="2080">3</price>
+				<price year="2085">3</price>
+				<price year="2090">3</price>
+				<price year="2095">3</price>
+				<price year="2100">3</price>
+            </resource>
+		</region>
+</world>
+</scenario>

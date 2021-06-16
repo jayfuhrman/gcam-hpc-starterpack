@@ -1,0 +1,27 @@
+<scenario name="NetZero60_RW">
+	<world>
+        <!-- China reaching net-zero by 2060-->	
+		<region name="China">
+			<ghgpolicy name="CO2">
+				<market>China</market>
+            <constraint year="2025">3125.24305</constraint>
+            <constraint year="2030">3086.963097</constraint>
+            <constraint year="2035">2569.698858</constraint>
+            <constraint year="2040">2052.434618</constraint>
+            <constraint year="2045">1535.170379</constraint>
+            <constraint year="2050">1017.90614</constraint>
+            <constraint year="2055">500.6419004</constraint>
+            <constraint year="2060">-1.1</constraint>
+            <constraint year="2065">-1.1</constraint>
+            <constraint year="2070">-1.1</constraint>
+            <constraint year="2075">-1.1</constraint>
+            <constraint year="2080">-1.1</constraint>
+            <constraint year="2085">-1.1</constraint>
+            <constraint year="2090">-1.1</constraint>
+            <constraint year="2095">-1.1</constraint>
+            <constraint year="2100">-1.1</constraint>
+			</ghgpolicy>
+		</region>
+
+	</world>
+</scenario>

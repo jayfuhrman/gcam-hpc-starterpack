@@ -1,0 +1,2309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+   <world>
+      <region name="USA">
+         <depresource name="onshore carbon-storage">
+            <output-unit>MtC</output-unit>
+            <price-unit>1990$/tC</price-unit>
+            <market>USA</market>
+            <subresource name="onshore carbon-storage">
+               <grade name="grade 1">
+                  <available>0</available>
+                  <extractioncost>0</extractioncost>
+               </grade>
+               <grade name="grade 2">
+                  <available>1.8096</available>
+                  <extractioncost>0.2662</extractioncost>
+               </grade>
+               <grade name="grade 3">
+                  <available>36.1914</available>
+                  <extractioncost>13.3079</extractioncost>
+               </grade>
+               <grade name="grade 4">
+                  <available>217.1481</available>
+                  <extractioncost>26.6159</extractioncost>
+               </grade>
+               <grade name="grade 5">
+                  <available>106.7645</available>
+                  <extractioncost>199.6192</extractioncost>
+               </grade>
+               <grade name="grade 6">
+                  <available>0</available>
+                  <extractioncost>9315.5647</extractioncost>
+               </grade>
+            </subresource>
+         </depresource>
+         <unlimited-resource name="offshore carbon-storage">
+            <output-unit>MtC</output-unit>
+            <price-unit>1990$/tC</price-unit>
+            <market>global</market>
+         </unlimited-resource>
+         <supplysector name="carbon-storage">
+            <absolute-cost-logit>
+               <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+            </absolute-cost-logit>
+            <output-unit>MtC</output-unit>
+            <input-unit>MtC</input-unit>
+            <price-unit>1990$/tC</price-unit>
+            <subsector name="onshore carbon-storage">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="onshore carbon-storage"/>
+            </subsector>
+            <subsector name="offshore carbon-storage">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="offshore carbon-storage"/>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Africa_Eastern">
+         <depresource name="onshore carbon-storage">
+            <output-unit>MtC</output-unit>
+            <price-unit>1990$/tC</price-unit>
+            <market>Africa_Eastern</market>
+            <subresource name="onshore carbon-storage">
+               <grade name="grade 1">
+                  <available>0</available>
+                  <extractioncost>0</extractioncost>
+               </grade>
+               <grade name="grade 2">
+                  <available>0.0241</available>
+                  <extractioncost>0.2662</extractioncost>
+               </grade>
+               <grade name="grade 3">
+                  <available>0.4811</available>
+                  <extractioncost>13.3079</extractioncost>
+               </grade>
+               <grade name="grade 4">
+                  <available>2.8869</available>
+                  <extractioncost>26.6159</extractioncost>
+               </grade>
+               <grade name="grade 5">
+                  <available>1.4194</available>
+                  <extractioncost>199.6192</extractioncost>
+               </grade>
+               <grade name="grade 6">
+                  <available>0</available>
+                  <extractioncost>9315.5647</extractioncost>
+               </grade>
+            </subresource>
+         </depresource>
+         <unlimited-resource name="offshore carbon-storage">
+            <output-unit>MtC</output-unit>
+            <price-unit>1990$/tC</price-unit>
+            <market>global</market>
+         </unlimited-resource>
+         <supplysector name="carbon-storage">
+            <absolute-cost-logit>
+               <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+            </absolute-cost-logit>
+            <output-unit>MtC</output-unit>
+            <input-unit>MtC</input-unit>
+            <price-unit>1990$/tC</price-unit>
+            <subsector name="onshore carbon-storage">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="onshore carbon-storage"/>
+            </subsector>
+            <subsector name="offshore carbon-storage">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="offshore carbon-storage"/>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Africa_Northern">
+         <depresource name="onshore carbon-storage">
+            <output-unit>MtC</output-unit>
+            <price-unit>1990$/tC</price-unit>
+            <market>Africa_Northern</market>
+            <subresource name="onshore carbon-storage">
+               <grade name="grade 1">
+                  <available>0</available>
+                  <extractioncost>0</extractioncost>
+               </grade>
+               <grade name="grade 2">
+                  <available>0.0238</available>
+                  <extractioncost>0.2662</extractioncost>
+               </grade>
+               <grade name="grade 3">
+                  <available>0.476</available>
+                  <extractioncost>13.3079</extractioncost>
+               </grade>
+               <grade name="grade 4">
+                  <available>2.8558</available>
+                  <extractioncost>26.6159</extractioncost>
+               </grade>
+               <grade name="grade 5">
+                  <available>1.4041</available>
+                  <extractioncost>199.6192</extractioncost>
+               </grade>
+               <grade name="grade 6">
+                  <available>0</available>
+                  <extractioncost>9315.5647</extractioncost>
+               </grade>
+            </subresource>
+         </depresource>
+         <unlimited-resource name="offshore carbon-storage">
+            <output-unit>MtC</output-unit>
+            <price-unit>1990$/tC</price-unit>
+            <market>global</market>
+         </unlimited-resource>
+         <supplysector name="carbon-storage">
+            <absolute-cost-logit>
+               <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+            </absolute-cost-logit>
+            <output-unit>MtC</output-unit>
+            <input-unit>MtC</input-unit>
+            <price-unit>1990$/tC</price-unit>
+            <subsector name="onshore carbon-storage">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="onshore carbon-storage"/>
+            </subsector>
+            <subsector name="offshore carbon-storage">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="offshore carbon-storage"/>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Africa_Southern">
+         <depresource name="onshore carbon-storage">
+            <output-unit>MtC</output-unit>
+            <price-unit>1990$/tC</price-unit>
+            <market>Africa_Southern</market>
+            <subresource name="onshore carbon-storage">
+               <grade name="grade 1">
+                  <available>0</available>
+                  <extractioncost>0</extractioncost>
+               </grade>
+               <grade name="grade 2">
+                  <available>0.0231</available>
+                  <extractioncost>0.2662</extractioncost>
+               </grade>
+               <grade name="grade 3">
+                  <available>0.4618</available>
+                  <extractioncost>13.3079</extractioncost>
+               </grade>
+               <grade name="grade 4">
+                  <available>2.771</available>
+                  <extractioncost>26.6159</extractioncost>
+               </grade>
+               <grade name="grade 5">
+                  <available>1.3624</available>
+                  <extractioncost>199.6192</extractioncost>
+               </grade>
+               <grade name="grade 6">
+                  <available>0</available>
+                  <extractioncost>9315.5647</extractioncost>
+               </grade>
+            </subresource>
+         </depresource>
+         <unlimited-resource name="offshore carbon-storage">
+            <output-unit>MtC</output-unit>
+            <price-unit>1990$/tC</price-unit>
+            <market>global</market>
+         </unlimited-resource>
+         <supplysector name="carbon-storage">
+            <absolute-cost-logit>
+               <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+            </absolute-cost-logit>
+            <output-unit>MtC</output-unit>
+            <input-unit>MtC</input-unit>
+            <price-unit>1990$/tC</price-unit>
+            <subsector name="onshore carbon-storage">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="onshore carbon-storage"/>
+            </subsector>
+            <subsector name="offshore carbon-storage">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="offshore carbon-storage"/>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Africa_Western">
+         <depresource name="onshore carbon-storage">
+            <output-unit>MtC</output-unit>
+            <price-unit>1990$/tC</price-unit>
+            <market>Africa_Western</market>
+            <subresource name="onshore carbon-storage">
+               <grade name="grade 1">
+                  <available>0</available>
+                  <extractioncost>0</extractioncost>
+               </grade>
+               <grade name="grade 2">
+                  <available>0.0467</available>
+                  <extractioncost>0.2662</extractioncost>
+               </grade>
+               <grade name="grade 3">
+                  <available>0.9348</available>
+                  <extractioncost>13.3079</extractioncost>
+               </grade>
+               <grade name="grade 4">
+                  <available>5.6089</available>
+                  <extractioncost>26.6159</extractioncost>
+               </grade>
+               <grade name="grade 5">
+                  <available>2.7577</available>
+                  <extractioncost>199.6192</extractioncost>
+               </grade>
+               <grade name="grade 6">
+                  <available>0</available>
+                  <extractioncost>9315.5647</extractioncost>
+               </grade>
+            </subresource>
+         </depresource>
+         <unlimited-resource name="offshore carbon-storage">
+            <output-unit>MtC</output-unit>
+            <price-unit>1990$/tC</price-unit>
+            <market>global</market>
+         </unlimited-resource>
+         <supplysector name="carbon-storage">
+            <absolute-cost-logit>
+               <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+            </absolute-cost-logit>
+            <output-unit>MtC</output-unit>
+            <input-unit>MtC</input-unit>
+            <price-unit>1990$/tC</price-unit>
+            <subsector name="onshore carbon-storage">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="onshore carbon-storage"/>
+            </subsector>
+            <subsector name="offshore carbon-storage">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="offshore carbon-storage"/>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Australia_NZ">
+         <depresource name="onshore carbon-storage">
+            <output-unit>MtC</output-unit>
+            <price-unit>1990$/tC</price-unit>
+            <market>Australia_NZ</market>
+            <subresource name="onshore carbon-storage">
+               <grade name="grade 1">
+                  <available>0</available>
+                  <extractioncost>0</extractioncost>
+               </grade>
+               <grade name="grade 2">
+                  <available>0.3777</available>
+                  <extractioncost>0.2662</extractioncost>
+               </grade>
+               <grade name="grade 3">
+                  <available>7.5545</available>
+                  <extractioncost>13.3079</extractioncost>
+               </grade>
+               <grade name="grade 4">
+                  <available>45.3273</available>
+                  <extractioncost>26.6159</extractioncost>
+               </grade>
+               <grade name="grade 5">
+                  <available>22.2859</available>
+                  <extractioncost>199.6192</extractioncost>
+               </grade>
+               <grade name="grade 6">
+                  <available>0</available>
+                  <extractioncost>9315.5647</extractioncost>
+               </grade>
+            </subresource>
+         </depresource>
+         <unlimited-resource name="offshore carbon-storage">
+            <output-unit>MtC</output-unit>
+            <price-unit>1990$/tC</price-unit>
+            <market>global</market>
+         </unlimited-resource>
+         <supplysector name="carbon-storage">
+            <absolute-cost-logit>
+               <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+            </absolute-cost-logit>
+            <output-unit>MtC</output-unit>
+            <input-unit>MtC</input-unit>
+            <price-unit>1990$/tC</price-unit>
+            <subsector name="onshore carbon-storage">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="onshore carbon-storage"/>
+            </subsector>
+            <subsector name="offshore carbon-storage">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="offshore carbon-storage"/>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Brazil">
+         <depresource name="onshore carbon-storage">
+            <output-unit>MtC</output-unit>
+            <price-unit>1990$/tC</price-unit>
+            <market>Brazil</market>
+            <subresource name="onshore carbon-storage">
+               <grade name="grade 1">
+                  <available>0</available>
+                  <extractioncost>0</extractioncost>
+               </grade>
+               <grade name="grade 2">
+                  <available>0.916</available>
+                  <extractioncost>0.2662</extractioncost>
+               </grade>
+               <grade name="grade 3">
+                  <available>18.3193</available>
+                  <extractioncost>13.3079</extractioncost>
+               </grade>
+               <grade name="grade 4">
+                  <available>109.9158</available>
+                  <extractioncost>26.6159</extractioncost>
+               </grade>
+               <grade name="grade 5">
+                  <available>54.0419</available>
+                  <extractioncost>199.6192</extractioncost>
+               </grade>
+               <grade name="grade 6">
+                  <available>0</available>
+                  <extractioncost>9315.5647</extractioncost>
+               </grade>
+            </subresource>
+         </depresource>
+         <unlimited-resource name="offshore carbon-storage">
+            <output-unit>MtC</output-unit>
+            <price-unit>1990$/tC</price-unit>
+            <market>global</market>
+         </unlimited-resource>
+         <supplysector name="carbon-storage">
+            <absolute-cost-logit>
+               <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+            </absolute-cost-logit>
+            <output-unit>MtC</output-unit>
+            <input-unit>MtC</input-unit>
+            <price-unit>1990$/tC</price-unit>
+            <subsector name="onshore carbon-storage">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="onshore carbon-storage"/>
+            </subsector>
+            <subsector name="offshore carbon-storage">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="offshore carbon-storage"/>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Canada">
+         <depresource name="onshore carbon-storage">
+            <output-unit>MtC</output-unit>
+            <price-unit>1990$/tC</price-unit>
+            <market>Canada</market>
+            <subresource name="onshore carbon-storage">
+               <grade name="grade 1">
+                  <available>0</available>
+                  <extractioncost>0</extractioncost>
+               </grade>
+               <grade name="grade 2">
+                  <available>0.0723</available>
+                  <extractioncost>0.2662</extractioncost>
+               </grade>
+               <grade name="grade 3">
+                  <available>1.4454</available>
+                  <extractioncost>13.3079</extractioncost>
+               </grade>
+               <grade name="grade 4">
+                  <available>8.6726</available>
+                  <extractioncost>26.6159</extractioncost>
+               </grade>
+               <grade name="grade 5">
+                  <available>4.264</available>
+                  <extractioncost>199.6192</extractioncost>
+               </grade>
+               <grade name="grade 6">
+                  <available>0</available>
+                  <extractioncost>9315.5647</extractioncost>
+               </grade>
+            </subresource>
+         </depresource>
+         <unlimited-resource name="offshore carbon-storage">
+            <output-unit>MtC</output-unit>
+            <price-unit>1990$/tC</price-unit>
+            <market>global</market>
+         </unlimited-resource>
+         <supplysector name="carbon-storage">
+            <absolute-cost-logit>
+               <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+            </absolute-cost-logit>
+            <output-unit>MtC</output-unit>
+            <input-unit>MtC</input-unit>
+            <price-unit>1990$/tC</price-unit>
+            <subsector name="onshore carbon-storage">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="onshore carbon-storage"/>
+            </subsector>
+            <subsector name="offshore carbon-storage">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="offshore carbon-storage"/>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Central America and Caribbean">
+         <depresource name="onshore carbon-storage">
+            <output-unit>MtC</output-unit>
+            <price-unit>1990$/tC</price-unit>
+            <market>Central America and Caribbean</market>
+            <subresource name="onshore carbon-storage">
+               <grade name="grade 1">
+                  <available>0</available>
+                  <extractioncost>0</extractioncost>
+               </grade>
+               <grade name="grade 2">
+                  <available>0.078</available>
+                  <extractioncost>0.2662</extractioncost>
+               </grade>
+               <grade name="grade 3">
+                  <available>1.5596</available>
+                  <extractioncost>13.3079</extractioncost>
+               </grade>
+               <grade name="grade 4">
+                  <available>9.3575</available>
+                  <extractioncost>26.6159</extractioncost>
+               </grade>
+               <grade name="grade 5">
+                  <available>4.6008</available>
+                  <extractioncost>199.6192</extractioncost>
+               </grade>
+               <grade name="grade 6">
+                  <available>0</available>
+                  <extractioncost>9315.5647</extractioncost>
+               </grade>
+            </subresource>
+         </depresource>
+         <unlimited-resource name="offshore carbon-storage">
+            <output-unit>MtC</output-unit>
+            <price-unit>1990$/tC</price-unit>
+            <market>global</market>
+         </unlimited-resource>
+         <supplysector name="carbon-storage">
+            <absolute-cost-logit>
+               <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+            </absolute-cost-logit>
+            <output-unit>MtC</output-unit>
+            <input-unit>MtC</input-unit>
+            <price-unit>1990$/tC</price-unit>
+            <subsector name="onshore carbon-storage">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="onshore carbon-storage"/>
+            </subsector>
+            <subsector name="offshore carbon-storage">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="offshore carbon-storage"/>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Central Asia">
+         <depresource name="onshore carbon-storage">
+            <output-unit>MtC</output-unit>
+            <price-unit>1990$/tC</price-unit>
+            <market>Central Asia</market>
+            <subresource name="onshore carbon-storage">
+               <grade name="grade 1">
+                  <available>0</available>
+                  <extractioncost>0</extractioncost>
+               </grade>
+               <grade name="grade 2">
+                  <available>0.3889</available>
+                  <extractioncost>0.2662</extractioncost>
+               </grade>
+               <grade name="grade 3">
+                  <available>7.778</available>
+                  <extractioncost>13.3079</extractioncost>
+               </grade>
+               <grade name="grade 4">
+                  <available>46.6678</available>
+                  <extractioncost>26.6159</extractioncost>
+               </grade>
+               <grade name="grade 5">
+                  <available>22.945</available>
+                  <extractioncost>199.6192</extractioncost>
+               </grade>
+               <grade name="grade 6">
+                  <available>0</available>
+                  <extractioncost>9315.5647</extractioncost>
+               </grade>
+            </subresource>
+         </depresource>
+         <unlimited-resource name="offshore carbon-storage">
+            <output-unit>MtC</output-unit>
+            <price-unit>1990$/tC</price-unit>
+            <market>global</market>
+         </unlimited-resource>
+         <supplysector name="carbon-storage">
+            <absolute-cost-logit>
+               <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+            </absolute-cost-logit>
+            <output-unit>MtC</output-unit>
+            <input-unit>MtC</input-unit>
+            <price-unit>1990$/tC</price-unit>
+            <subsector name="onshore carbon-storage">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="onshore carbon-storage"/>
+            </subsector>
+            <subsector name="offshore carbon-storage">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="offshore carbon-storage"/>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="China">
+         <depresource name="onshore carbon-storage">
+            <output-unit>MtC</output-unit>
+            <price-unit>1990$/tC</price-unit>
+            <market>China</market>
+            <subresource name="onshore carbon-storage">
+               <grade name="grade 1">
+                  <available>0</available>
+                  <extractioncost>0</extractioncost>
+               </grade>
+               <grade name="grade 2">
+                  <available>1.915</available>
+                  <extractioncost>0.2662</extractioncost>
+               </grade>
+               <grade name="grade 3">
+                  <available>38.3003</available>
+                  <extractioncost>13.3079</extractioncost>
+               </grade>
+               <grade name="grade 4">
+                  <available>229.8015</available>
+                  <extractioncost>26.6159</extractioncost>
+               </grade>
+               <grade name="grade 5">
+                  <available>112.9858</available>
+                  <extractioncost>199.6192</extractioncost>
+               </grade>
+               <grade name="grade 6">
+                  <available>0</available>
+                  <extractioncost>9315.5647</extractioncost>
+               </grade>
+            </subresource>
+         </depresource>
+         <unlimited-resource name="offshore carbon-storage">
+            <output-unit>MtC</output-unit>
+            <price-unit>1990$/tC</price-unit>
+            <market>global</market>
+         </unlimited-resource>
+         <supplysector name="carbon-storage">
+            <absolute-cost-logit>
+               <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+            </absolute-cost-logit>
+            <output-unit>MtC</output-unit>
+            <input-unit>MtC</input-unit>
+            <price-unit>1990$/tC</price-unit>
+            <subsector name="onshore carbon-storage">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="onshore carbon-storage"/>
+            </subsector>
+            <subsector name="offshore carbon-storage">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="offshore carbon-storage"/>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="EU-12">
+         <depresource name="onshore carbon-storage">
+            <output-unit>MtC</output-unit>
+            <price-unit>1990$/tC</price-unit>
+            <market>EU-12</market>
+            <subresource name="onshore carbon-storage">
+               <grade name="grade 1">
+                  <available>0</available>
+                  <extractioncost>0</extractioncost>
+               </grade>
+               <grade name="grade 2">
+                  <available>0.02</available>
+                  <extractioncost>0.2662</extractioncost>
+               </grade>
+               <grade name="grade 3">
+                  <available>0.3992</available>
+                  <extractioncost>13.3079</extractioncost>
+               </grade>
+               <grade name="grade 4">
+                  <available>2.3954</available>
+                  <extractioncost>26.6159</extractioncost>
+               </grade>
+               <grade name="grade 5">
+                  <available>1.1777</available>
+                  <extractioncost>199.6192</extractioncost>
+               </grade>
+               <grade name="grade 6">
+                  <available>0</available>
+                  <extractioncost>9315.5647</extractioncost>
+               </grade>
+            </subresource>
+         </depresource>
+         <unlimited-resource name="offshore carbon-storage">
+            <output-unit>MtC</output-unit>
+            <price-unit>1990$/tC</price-unit>
+            <market>global</market>
+         </unlimited-resource>
+         <supplysector name="carbon-storage">
+            <absolute-cost-logit>
+               <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+            </absolute-cost-logit>
+            <output-unit>MtC</output-unit>
+            <input-unit>MtC</input-unit>
+            <price-unit>1990$/tC</price-unit>
+            <subsector name="onshore carbon-storage">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="onshore carbon-storage"/>
+            </subsector>
+            <subsector name="offshore carbon-storage">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="offshore carbon-storage"/>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="EU-15">
+         <depresource name="onshore carbon-storage">
+            <output-unit>MtC</output-unit>
+            <price-unit>1990$/tC</price-unit>
+            <market>EU-15</market>
+            <subresource name="onshore carbon-storage">
+               <grade name="grade 1">
+                  <available>0</available>
+                  <extractioncost>0</extractioncost>
+               </grade>
+               <grade name="grade 2">
+                  <available>0.0649</available>
+                  <extractioncost>0.2662</extractioncost>
+               </grade>
+               <grade name="grade 3">
+                  <available>1.2988</available>
+                  <extractioncost>13.3079</extractioncost>
+               </grade>
+               <grade name="grade 4">
+                  <available>7.7929</available>
+                  <extractioncost>26.6159</extractioncost>
+               </grade>
+               <grade name="grade 5">
+                  <available>3.8315</available>
+                  <extractioncost>199.6192</extractioncost>
+               </grade>
+               <grade name="grade 6">
+                  <available>0</available>
+                  <extractioncost>9315.5647</extractioncost>
+               </grade>
+            </subresource>
+         </depresource>
+         <unlimited-resource name="offshore carbon-storage">
+            <output-unit>MtC</output-unit>
+            <price-unit>1990$/tC</price-unit>
+            <market>global</market>
+         </unlimited-resource>
+         <supplysector name="carbon-storage">
+            <absolute-cost-logit>
+               <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+            </absolute-cost-logit>
+            <output-unit>MtC</output-unit>
+            <input-unit>MtC</input-unit>
+            <price-unit>1990$/tC</price-unit>
+            <subsector name="onshore carbon-storage">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="onshore carbon-storage"/>
+            </subsector>
+            <subsector name="offshore carbon-storage">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="offshore carbon-storage"/>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Europe_Eastern">
+         <depresource name="onshore carbon-storage">
+            <output-unit>MtC</output-unit>
+            <price-unit>1990$/tC</price-unit>
+            <market>Europe_Eastern</market>
+            <subresource name="onshore carbon-storage">
+               <grade name="grade 1">
+                  <available>0</available>
+                  <extractioncost>0</extractioncost>
+               </grade>
+               <grade name="grade 2">
+                  <available>0.0143</available>
+                  <extractioncost>0.2662</extractioncost>
+               </grade>
+               <grade name="grade 3">
+                  <available>0.2862</available>
+                  <extractioncost>13.3079</extractioncost>
+               </grade>
+               <grade name="grade 4">
+                  <available>1.7172</available>
+                  <extractioncost>26.6159</extractioncost>
+               </grade>
+               <grade name="grade 5">
+                  <available>0.8443</available>
+                  <extractioncost>199.6192</extractioncost>
+               </grade>
+               <grade name="grade 6">
+                  <available>0</available>
+                  <extractioncost>9315.5647</extractioncost>
+               </grade>
+            </subresource>
+         </depresource>
+         <unlimited-resource name="offshore carbon-storage">
+            <output-unit>MtC</output-unit>
+            <price-unit>1990$/tC</price-unit>
+            <market>global</market>
+         </unlimited-resource>
+         <supplysector name="carbon-storage">
+            <absolute-cost-logit>
+               <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+            </absolute-cost-logit>
+            <output-unit>MtC</output-unit>
+            <input-unit>MtC</input-unit>
+            <price-unit>1990$/tC</price-unit>
+            <subsector name="onshore carbon-storage">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="onshore carbon-storage"/>
+            </subsector>
+            <subsector name="offshore carbon-storage">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="offshore carbon-storage"/>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Europe_Non_EU">
+         <depresource name="onshore carbon-storage">
+            <output-unit>MtC</output-unit>
+            <price-unit>1990$/tC</price-unit>
+            <market>Europe_Non_EU</market>
+            <subresource name="onshore carbon-storage">
+               <grade name="grade 1">
+                  <available>0</available>
+                  <extractioncost>0</extractioncost>
+               </grade>
+               <grade name="grade 2">
+                  <available>0.0143</available>
+                  <extractioncost>0.2662</extractioncost>
+               </grade>
+               <grade name="grade 3">
+                  <available>0.2868</available>
+                  <extractioncost>13.3079</extractioncost>
+               </grade>
+               <grade name="grade 4">
+                  <available>1.7209</available>
+                  <extractioncost>26.6159</extractioncost>
+               </grade>
+               <grade name="grade 5">
+                  <available>0.8461</available>
+                  <extractioncost>199.6192</extractioncost>
+               </grade>
+               <grade name="grade 6">
+                  <available>0</available>
+                  <extractioncost>9315.5647</extractioncost>
+               </grade>
+            </subresource>
+         </depresource>
+         <unlimited-resource name="offshore carbon-storage">
+            <output-unit>MtC</output-unit>
+            <price-unit>1990$/tC</price-unit>
+            <market>global</market>
+         </unlimited-resource>
+         <supplysector name="carbon-storage">
+            <absolute-cost-logit>
+               <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+            </absolute-cost-logit>
+            <output-unit>MtC</output-unit>
+            <input-unit>MtC</input-unit>
+            <price-unit>1990$/tC</price-unit>
+            <subsector name="onshore carbon-storage">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="onshore carbon-storage"/>
+            </subsector>
+            <subsector name="offshore carbon-storage">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="offshore carbon-storage"/>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="European Free Trade Association">
+         <depresource name="onshore carbon-storage">
+            <output-unit>MtC</output-unit>
+            <price-unit>1990$/tC</price-unit>
+            <market>European Free Trade Association</market>
+            <subresource name="onshore carbon-storage">
+               <grade name="grade 1">
+                  <available>0</available>
+                  <extractioncost>0</extractioncost>
+               </grade>
+               <grade name="grade 2">
+                  <available>0.0057</available>
+                  <extractioncost>0.2662</extractioncost>
+               </grade>
+               <grade name="grade 3">
+                  <available>0.1148</available>
+                  <extractioncost>13.3079</extractioncost>
+               </grade>
+               <grade name="grade 4">
+                  <available>0.6887</available>
+                  <extractioncost>26.6159</extractioncost>
+               </grade>
+               <grade name="grade 5">
+                  <available>0.3386</available>
+                  <extractioncost>199.6192</extractioncost>
+               </grade>
+               <grade name="grade 6">
+                  <available>0</available>
+                  <extractioncost>9315.5647</extractioncost>
+               </grade>
+            </subresource>
+         </depresource>
+         <unlimited-resource name="offshore carbon-storage">
+            <output-unit>MtC</output-unit>
+            <price-unit>1990$/tC</price-unit>
+            <market>global</market>
+         </unlimited-resource>
+         <supplysector name="carbon-storage">
+            <absolute-cost-logit>
+               <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+            </absolute-cost-logit>
+            <output-unit>MtC</output-unit>
+            <input-unit>MtC</input-unit>
+            <price-unit>1990$/tC</price-unit>
+            <subsector name="onshore carbon-storage">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="onshore carbon-storage"/>
+            </subsector>
+            <subsector name="offshore carbon-storage">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="offshore carbon-storage"/>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="India">
+         <depresource name="onshore carbon-storage">
+            <output-unit>MtC</output-unit>
+            <price-unit>1990$/tC</price-unit>
+            <market>India</market>
+            <subresource name="onshore carbon-storage">
+               <grade name="grade 1">
+                  <available>0</available>
+                  <extractioncost>0</extractioncost>
+               </grade>
+               <grade name="grade 2">
+                  <available>0.0791</available>
+                  <extractioncost>0.2662</extractioncost>
+               </grade>
+               <grade name="grade 3">
+                  <available>1.5818</available>
+                  <extractioncost>13.3079</extractioncost>
+               </grade>
+               <grade name="grade 4">
+                  <available>9.4909</available>
+                  <extractioncost>26.6159</extractioncost>
+               </grade>
+               <grade name="grade 5">
+                  <available>4.6664</available>
+                  <extractioncost>199.6192</extractioncost>
+               </grade>
+               <grade name="grade 6">
+                  <available>0</available>
+                  <extractioncost>9315.5647</extractioncost>
+               </grade>
+            </subresource>
+         </depresource>
+         <unlimited-resource name="offshore carbon-storage">
+            <output-unit>MtC</output-unit>
+            <price-unit>1990$/tC</price-unit>
+            <market>global</market>
+         </unlimited-resource>
+         <supplysector name="carbon-storage">
+            <absolute-cost-logit>
+               <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+            </absolute-cost-logit>
+            <output-unit>MtC</output-unit>
+            <input-unit>MtC</input-unit>
+            <price-unit>1990$/tC</price-unit>
+            <subsector name="onshore carbon-storage">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="onshore carbon-storage"/>
+            </subsector>
+            <subsector name="offshore carbon-storage">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="offshore carbon-storage"/>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Indonesia">
+         <depresource name="onshore carbon-storage">
+            <output-unit>MtC</output-unit>
+            <price-unit>1990$/tC</price-unit>
+            <market>Indonesia</market>
+            <subresource name="onshore carbon-storage">
+               <grade name="grade 1">
+                  <available>0</available>
+                  <extractioncost>0</extractioncost>
+               </grade>
+               <grade name="grade 2">
+                  <available>0.0148</available>
+                  <extractioncost>0.2662</extractioncost>
+               </grade>
+               <grade name="grade 3">
+                  <available>0.2964</available>
+                  <extractioncost>13.3079</extractioncost>
+               </grade>
+               <grade name="grade 4">
+                  <available>1.7783</available>
+                  <extractioncost>26.6159</extractioncost>
+               </grade>
+               <grade name="grade 5">
+                  <available>0.8743</available>
+                  <extractioncost>199.6192</extractioncost>
+               </grade>
+               <grade name="grade 6">
+                  <available>0</available>
+                  <extractioncost>9315.5647</extractioncost>
+               </grade>
+            </subresource>
+         </depresource>
+         <unlimited-resource name="offshore carbon-storage">
+            <output-unit>MtC</output-unit>
+            <price-unit>1990$/tC</price-unit>
+            <market>global</market>
+         </unlimited-resource>
+         <supplysector name="carbon-storage">
+            <absolute-cost-logit>
+               <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+            </absolute-cost-logit>
+            <output-unit>MtC</output-unit>
+            <input-unit>MtC</input-unit>
+            <price-unit>1990$/tC</price-unit>
+            <subsector name="onshore carbon-storage">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="onshore carbon-storage"/>
+            </subsector>
+            <subsector name="offshore carbon-storage">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="offshore carbon-storage"/>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Japan">
+         <depresource name="onshore carbon-storage">
+            <output-unit>MtC</output-unit>
+            <price-unit>1990$/tC</price-unit>
+            <market>Japan</market>
+            <subresource name="onshore carbon-storage">
+               <grade name="grade 1">
+                  <available>0</available>
+                  <extractioncost>0</extractioncost>
+               </grade>
+               <grade name="grade 2">
+                  <available>0.06</available>
+                  <extractioncost>0.2662</extractioncost>
+               </grade>
+               <grade name="grade 3">
+                  <available>1.2</available>
+                  <extractioncost>13.3079</extractioncost>
+               </grade>
+               <grade name="grade 4">
+                  <available>7.2</available>
+                  <extractioncost>26.6159</extractioncost>
+               </grade>
+               <grade name="grade 5">
+                  <available>3.54</available>
+                  <extractioncost>199.6192</extractioncost>
+               </grade>
+               <grade name="grade 6">
+                  <available>0</available>
+                  <extractioncost>9315.5647</extractioncost>
+               </grade>
+            </subresource>
+         </depresource>
+         <unlimited-resource name="offshore carbon-storage">
+            <output-unit>MtC</output-unit>
+            <price-unit>1990$/tC</price-unit>
+            <market>global</market>
+         </unlimited-resource>
+         <supplysector name="carbon-storage">
+            <absolute-cost-logit>
+               <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+            </absolute-cost-logit>
+            <output-unit>MtC</output-unit>
+            <input-unit>MtC</input-unit>
+            <price-unit>1990$/tC</price-unit>
+            <subsector name="onshore carbon-storage">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="onshore carbon-storage"/>
+            </subsector>
+            <subsector name="offshore carbon-storage">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="offshore carbon-storage"/>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Mexico">
+         <depresource name="onshore carbon-storage">
+            <output-unit>MtC</output-unit>
+            <price-unit>1990$/tC</price-unit>
+            <market>Mexico</market>
+            <subresource name="onshore carbon-storage">
+               <grade name="grade 1">
+                  <available>0</available>
+                  <extractioncost>0</extractioncost>
+               </grade>
+               <grade name="grade 2">
+                  <available>0.2106</available>
+                  <extractioncost>0.2662</extractioncost>
+               </grade>
+               <grade name="grade 3">
+                  <available>4.212</available>
+                  <extractioncost>13.3079</extractioncost>
+               </grade>
+               <grade name="grade 4">
+                  <available>25.2721</available>
+                  <extractioncost>26.6159</extractioncost>
+               </grade>
+               <grade name="grade 5">
+                  <available>12.4254</available>
+                  <extractioncost>199.6192</extractioncost>
+               </grade>
+               <grade name="grade 6">
+                  <available>0</available>
+                  <extractioncost>9315.5647</extractioncost>
+               </grade>
+            </subresource>
+         </depresource>
+         <unlimited-resource name="offshore carbon-storage">
+            <output-unit>MtC</output-unit>
+            <price-unit>1990$/tC</price-unit>
+            <market>global</market>
+         </unlimited-resource>
+         <supplysector name="carbon-storage">
+            <absolute-cost-logit>
+               <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+            </absolute-cost-logit>
+            <output-unit>MtC</output-unit>
+            <input-unit>MtC</input-unit>
+            <price-unit>1990$/tC</price-unit>
+            <subsector name="onshore carbon-storage">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="onshore carbon-storage"/>
+            </subsector>
+            <subsector name="offshore carbon-storage">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="offshore carbon-storage"/>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Middle East">
+         <depresource name="onshore carbon-storage">
+            <output-unit>MtC</output-unit>
+            <price-unit>1990$/tC</price-unit>
+            <market>Middle East</market>
+            <subresource name="onshore carbon-storage">
+               <grade name="grade 1">
+                  <available>0</available>
+                  <extractioncost>0</extractioncost>
+               </grade>
+               <grade name="grade 2">
+                  <available>0.3027</available>
+                  <extractioncost>0.2662</extractioncost>
+               </grade>
+               <grade name="grade 3">
+                  <available>6.0545</available>
+                  <extractioncost>13.3079</extractioncost>
+               </grade>
+               <grade name="grade 4">
+                  <available>36.3273</available>
+                  <extractioncost>26.6159</extractioncost>
+               </grade>
+               <grade name="grade 5">
+                  <available>17.8609</available>
+                  <extractioncost>199.6192</extractioncost>
+               </grade>
+               <grade name="grade 6">
+                  <available>0</available>
+                  <extractioncost>9315.5647</extractioncost>
+               </grade>
+            </subresource>
+         </depresource>
+         <unlimited-resource name="offshore carbon-storage">
+            <output-unit>MtC</output-unit>
+            <price-unit>1990$/tC</price-unit>
+            <market>global</market>
+         </unlimited-resource>
+         <supplysector name="carbon-storage">
+            <absolute-cost-logit>
+               <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+            </absolute-cost-logit>
+            <output-unit>MtC</output-unit>
+            <input-unit>MtC</input-unit>
+            <price-unit>1990$/tC</price-unit>
+            <subsector name="onshore carbon-storage">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="onshore carbon-storage"/>
+            </subsector>
+            <subsector name="offshore carbon-storage">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="offshore carbon-storage"/>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Pakistan">
+         <depresource name="onshore carbon-storage">
+            <output-unit>MtC</output-unit>
+            <price-unit>1990$/tC</price-unit>
+            <market>Pakistan</market>
+            <subresource name="onshore carbon-storage">
+               <grade name="grade 1">
+                  <available>0</available>
+                  <extractioncost>0</extractioncost>
+               </grade>
+               <grade name="grade 2">
+                  <available>0.0067</available>
+                  <extractioncost>0.2662</extractioncost>
+               </grade>
+               <grade name="grade 3">
+                  <available>0.135</available>
+                  <extractioncost>13.3079</extractioncost>
+               </grade>
+               <grade name="grade 4">
+                  <available>0.8098</available>
+                  <extractioncost>26.6159</extractioncost>
+               </grade>
+               <grade name="grade 5">
+                  <available>0.3982</available>
+                  <extractioncost>199.6192</extractioncost>
+               </grade>
+               <grade name="grade 6">
+                  <available>0</available>
+                  <extractioncost>9315.5647</extractioncost>
+               </grade>
+            </subresource>
+         </depresource>
+         <unlimited-resource name="offshore carbon-storage">
+            <output-unit>MtC</output-unit>
+            <price-unit>1990$/tC</price-unit>
+            <market>global</market>
+         </unlimited-resource>
+         <supplysector name="carbon-storage">
+            <absolute-cost-logit>
+               <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+            </absolute-cost-logit>
+            <output-unit>MtC</output-unit>
+            <input-unit>MtC</input-unit>
+            <price-unit>1990$/tC</price-unit>
+            <subsector name="onshore carbon-storage">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="onshore carbon-storage"/>
+            </subsector>
+            <subsector name="offshore carbon-storage">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="offshore carbon-storage"/>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Russia">
+         <depresource name="onshore carbon-storage">
+            <output-unit>MtC</output-unit>
+            <price-unit>1990$/tC</price-unit>
+            <market>Russia</market>
+            <subresource name="onshore carbon-storage">
+               <grade name="grade 1">
+                  <available>0</available>
+                  <extractioncost>0</extractioncost>
+               </grade>
+               <grade name="grade 2">
+                  <available>0.2833</available>
+                  <extractioncost>0.2662</extractioncost>
+               </grade>
+               <grade name="grade 3">
+                  <available>5.6656</available>
+                  <extractioncost>13.3079</extractioncost>
+               </grade>
+               <grade name="grade 4">
+                  <available>33.9938</available>
+                  <extractioncost>26.6159</extractioncost>
+               </grade>
+               <grade name="grade 5">
+                  <available>16.7136</available>
+                  <extractioncost>199.6192</extractioncost>
+               </grade>
+               <grade name="grade 6">
+                  <available>0</available>
+                  <extractioncost>9315.5647</extractioncost>
+               </grade>
+            </subresource>
+         </depresource>
+         <unlimited-resource name="offshore carbon-storage">
+            <output-unit>MtC</output-unit>
+            <price-unit>1990$/tC</price-unit>
+            <market>global</market>
+         </unlimited-resource>
+         <supplysector name="carbon-storage">
+            <absolute-cost-logit>
+               <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+            </absolute-cost-logit>
+            <output-unit>MtC</output-unit>
+            <input-unit>MtC</input-unit>
+            <price-unit>1990$/tC</price-unit>
+            <subsector name="onshore carbon-storage">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="onshore carbon-storage"/>
+            </subsector>
+            <subsector name="offshore carbon-storage">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="offshore carbon-storage"/>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="South Africa">
+         <depresource name="onshore carbon-storage">
+            <output-unit>MtC</output-unit>
+            <price-unit>1990$/tC</price-unit>
+            <market>South Africa</market>
+            <subresource name="onshore carbon-storage">
+               <grade name="grade 1">
+                  <available>0</available>
+                  <extractioncost>0</extractioncost>
+               </grade>
+               <grade name="grade 2">
+                  <available>0.005</available>
+                  <extractioncost>0.2662</extractioncost>
+               </grade>
+               <grade name="grade 3">
+                  <available>0.1008</available>
+                  <extractioncost>13.3079</extractioncost>
+               </grade>
+               <grade name="grade 4">
+                  <available>0.6045</available>
+                  <extractioncost>26.6159</extractioncost>
+               </grade>
+               <grade name="grade 5">
+                  <available>0.2972</available>
+                  <extractioncost>199.6192</extractioncost>
+               </grade>
+               <grade name="grade 6">
+                  <available>0</available>
+                  <extractioncost>9315.5647</extractioncost>
+               </grade>
+            </subresource>
+         </depresource>
+         <unlimited-resource name="offshore carbon-storage">
+            <output-unit>MtC</output-unit>
+            <price-unit>1990$/tC</price-unit>
+            <market>global</market>
+         </unlimited-resource>
+         <supplysector name="carbon-storage">
+            <absolute-cost-logit>
+               <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+            </absolute-cost-logit>
+            <output-unit>MtC</output-unit>
+            <input-unit>MtC</input-unit>
+            <price-unit>1990$/tC</price-unit>
+            <subsector name="onshore carbon-storage">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="onshore carbon-storage"/>
+            </subsector>
+            <subsector name="offshore carbon-storage">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="offshore carbon-storage"/>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="South America_Northern">
+         <depresource name="onshore carbon-storage">
+            <output-unit>MtC</output-unit>
+            <price-unit>1990$/tC</price-unit>
+            <market>South America_Northern</market>
+            <subresource name="onshore carbon-storage">
+               <grade name="grade 1">
+                  <available>0</available>
+                  <extractioncost>0</extractioncost>
+               </grade>
+               <grade name="grade 2">
+                  <available>0.1465</available>
+                  <extractioncost>0.2662</extractioncost>
+               </grade>
+               <grade name="grade 3">
+                  <available>2.9309</available>
+                  <extractioncost>13.3079</extractioncost>
+               </grade>
+               <grade name="grade 4">
+                  <available>17.5856</available>
+                  <extractioncost>26.6159</extractioncost>
+               </grade>
+               <grade name="grade 5">
+                  <available>8.6463</available>
+                  <extractioncost>199.6192</extractioncost>
+               </grade>
+               <grade name="grade 6">
+                  <available>0</available>
+                  <extractioncost>9315.5647</extractioncost>
+               </grade>
+            </subresource>
+         </depresource>
+         <unlimited-resource name="offshore carbon-storage">
+            <output-unit>MtC</output-unit>
+            <price-unit>1990$/tC</price-unit>
+            <market>global</market>
+         </unlimited-resource>
+         <supplysector name="carbon-storage">
+            <absolute-cost-logit>
+               <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+            </absolute-cost-logit>
+            <output-unit>MtC</output-unit>
+            <input-unit>MtC</input-unit>
+            <price-unit>1990$/tC</price-unit>
+            <subsector name="onshore carbon-storage">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="onshore carbon-storage"/>
+            </subsector>
+            <subsector name="offshore carbon-storage">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="offshore carbon-storage"/>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="South America_Southern">
+         <depresource name="onshore carbon-storage">
+            <output-unit>MtC</output-unit>
+            <price-unit>1990$/tC</price-unit>
+            <market>South America_Southern</market>
+            <subresource name="onshore carbon-storage">
+               <grade name="grade 1">
+                  <available>0</available>
+                  <extractioncost>0</extractioncost>
+               </grade>
+               <grade name="grade 2">
+                  <available>0.4261</available>
+                  <extractioncost>0.2662</extractioncost>
+               </grade>
+               <grade name="grade 3">
+                  <available>8.5225</available>
+                  <extractioncost>13.3079</extractioncost>
+               </grade>
+               <grade name="grade 4">
+                  <available>51.1348</available>
+                  <extractioncost>26.6159</extractioncost>
+               </grade>
+               <grade name="grade 5">
+                  <available>25.1413</available>
+                  <extractioncost>199.6192</extractioncost>
+               </grade>
+               <grade name="grade 6">
+                  <available>0</available>
+                  <extractioncost>9315.5647</extractioncost>
+               </grade>
+            </subresource>
+         </depresource>
+         <unlimited-resource name="offshore carbon-storage">
+            <output-unit>MtC</output-unit>
+            <price-unit>1990$/tC</price-unit>
+            <market>global</market>
+         </unlimited-resource>
+         <supplysector name="carbon-storage">
+            <absolute-cost-logit>
+               <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+            </absolute-cost-logit>
+            <output-unit>MtC</output-unit>
+            <input-unit>MtC</input-unit>
+            <price-unit>1990$/tC</price-unit>
+            <subsector name="onshore carbon-storage">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="onshore carbon-storage"/>
+            </subsector>
+            <subsector name="offshore carbon-storage">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="offshore carbon-storage"/>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="South Asia">
+         <depresource name="onshore carbon-storage">
+            <output-unit>MtC</output-unit>
+            <price-unit>1990$/tC</price-unit>
+            <market>South Asia</market>
+            <subresource name="onshore carbon-storage">
+               <grade name="grade 1">
+                  <available>0</available>
+                  <extractioncost>0</extractioncost>
+               </grade>
+               <grade name="grade 2">
+                  <available>0.008</available>
+                  <extractioncost>0.2662</extractioncost>
+               </grade>
+               <grade name="grade 3">
+                  <available>0.1598</available>
+                  <extractioncost>13.3079</extractioncost>
+               </grade>
+               <grade name="grade 4">
+                  <available>0.9588</available>
+                  <extractioncost>26.6159</extractioncost>
+               </grade>
+               <grade name="grade 5">
+                  <available>0.4714</available>
+                  <extractioncost>199.6192</extractioncost>
+               </grade>
+               <grade name="grade 6">
+                  <available>0</available>
+                  <extractioncost>9315.5647</extractioncost>
+               </grade>
+            </subresource>
+         </depresource>
+         <unlimited-resource name="offshore carbon-storage">
+            <output-unit>MtC</output-unit>
+            <price-unit>1990$/tC</price-unit>
+            <market>global</market>
+         </unlimited-resource>
+         <supplysector name="carbon-storage">
+            <absolute-cost-logit>
+               <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+            </absolute-cost-logit>
+            <output-unit>MtC</output-unit>
+            <input-unit>MtC</input-unit>
+            <price-unit>1990$/tC</price-unit>
+            <subsector name="onshore carbon-storage">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="onshore carbon-storage"/>
+            </subsector>
+            <subsector name="offshore carbon-storage">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="offshore carbon-storage"/>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="South Korea">
+         <depresource name="onshore carbon-storage">
+            <output-unit>MtC</output-unit>
+            <price-unit>1990$/tC</price-unit>
+            <market>South Korea</market>
+            <subresource name="onshore carbon-storage">
+               <grade name="grade 1">
+                  <available>0</available>
+                  <extractioncost>0</extractioncost>
+               </grade>
+               <grade name="grade 2">
+                  <available>0</available>
+                  <extractioncost>0.2662</extractioncost>
+               </grade>
+               <grade name="grade 3">
+                  <available>0</available>
+                  <extractioncost>13.3079</extractioncost>
+               </grade>
+               <grade name="grade 4">
+                  <available>0</available>
+                  <extractioncost>26.6159</extractioncost>
+               </grade>
+               <grade name="grade 5">
+                  <available>0</available>
+                  <extractioncost>199.6192</extractioncost>
+               </grade>
+               <grade name="grade 6">
+                  <available>0</available>
+                  <extractioncost>9315.5647</extractioncost>
+               </grade>
+            </subresource>
+         </depresource>
+         <unlimited-resource name="offshore carbon-storage">
+            <output-unit>MtC</output-unit>
+            <price-unit>1990$/tC</price-unit>
+            <market>global</market>
+         </unlimited-resource>
+         <supplysector name="carbon-storage">
+            <absolute-cost-logit>
+               <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+            </absolute-cost-logit>
+            <output-unit>MtC</output-unit>
+            <input-unit>MtC</input-unit>
+            <price-unit>1990$/tC</price-unit>
+            <subsector name="onshore carbon-storage">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="onshore carbon-storage"/>
+            </subsector>
+            <subsector name="offshore carbon-storage">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="offshore carbon-storage"/>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Southeast Asia">
+         <depresource name="onshore carbon-storage">
+            <output-unit>MtC</output-unit>
+            <price-unit>1990$/tC</price-unit>
+            <market>Southeast Asia</market>
+            <subresource name="onshore carbon-storage">
+               <grade name="grade 1">
+                  <available>0</available>
+                  <extractioncost>0</extractioncost>
+               </grade>
+               <grade name="grade 2">
+                  <available>0.1499</available>
+                  <extractioncost>0.2662</extractioncost>
+               </grade>
+               <grade name="grade 3">
+                  <available>2.9983</available>
+                  <extractioncost>13.3079</extractioncost>
+               </grade>
+               <grade name="grade 4">
+                  <available>17.9899</available>
+                  <extractioncost>26.6159</extractioncost>
+               </grade>
+               <grade name="grade 5">
+                  <available>8.845</available>
+                  <extractioncost>199.6192</extractioncost>
+               </grade>
+               <grade name="grade 6">
+                  <available>0</available>
+                  <extractioncost>9315.5647</extractioncost>
+               </grade>
+            </subresource>
+         </depresource>
+         <unlimited-resource name="offshore carbon-storage">
+            <output-unit>MtC</output-unit>
+            <price-unit>1990$/tC</price-unit>
+            <market>global</market>
+         </unlimited-resource>
+         <supplysector name="carbon-storage">
+            <absolute-cost-logit>
+               <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+            </absolute-cost-logit>
+            <output-unit>MtC</output-unit>
+            <input-unit>MtC</input-unit>
+            <price-unit>1990$/tC</price-unit>
+            <subsector name="onshore carbon-storage">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="onshore carbon-storage"/>
+            </subsector>
+            <subsector name="offshore carbon-storage">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="offshore carbon-storage"/>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Taiwan">
+         <depresource name="onshore carbon-storage">
+            <output-unit>MtC</output-unit>
+            <price-unit>1990$/tC</price-unit>
+            <market>Taiwan</market>
+            <subresource name="onshore carbon-storage">
+               <grade name="grade 1">
+                  <available>0</available>
+                  <extractioncost>0</extractioncost>
+               </grade>
+               <grade name="grade 2">
+                  <available>0.0003</available>
+                  <extractioncost>0.2662</extractioncost>
+               </grade>
+               <grade name="grade 3">
+                  <available>0.0056</available>
+                  <extractioncost>13.3079</extractioncost>
+               </grade>
+               <grade name="grade 4">
+                  <available>0.0334</available>
+                  <extractioncost>26.6159</extractioncost>
+               </grade>
+               <grade name="grade 5">
+                  <available>0.0164</available>
+                  <extractioncost>199.6192</extractioncost>
+               </grade>
+               <grade name="grade 6">
+                  <available>0</available>
+                  <extractioncost>9315.5647</extractioncost>
+               </grade>
+            </subresource>
+         </depresource>
+         <unlimited-resource name="offshore carbon-storage">
+            <output-unit>MtC</output-unit>
+            <price-unit>1990$/tC</price-unit>
+            <market>global</market>
+         </unlimited-resource>
+         <supplysector name="carbon-storage">
+            <absolute-cost-logit>
+               <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+            </absolute-cost-logit>
+            <output-unit>MtC</output-unit>
+            <input-unit>MtC</input-unit>
+            <price-unit>1990$/tC</price-unit>
+            <subsector name="onshore carbon-storage">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="onshore carbon-storage"/>
+            </subsector>
+            <subsector name="offshore carbon-storage">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="offshore carbon-storage"/>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Argentina">
+         <depresource name="onshore carbon-storage">
+            <output-unit>MtC</output-unit>
+            <price-unit>1990$/tC</price-unit>
+            <market>Argentina</market>
+            <subresource name="onshore carbon-storage">
+               <grade name="grade 1">
+                  <available>0</available>
+                  <extractioncost>0</extractioncost>
+               </grade>
+               <grade name="grade 2">
+                  <available>0.2998</available>
+                  <extractioncost>0.2662</extractioncost>
+               </grade>
+               <grade name="grade 3">
+                  <available>5.9964</available>
+                  <extractioncost>13.3079</extractioncost>
+               </grade>
+               <grade name="grade 4">
+                  <available>35.9785</available>
+                  <extractioncost>26.6159</extractioncost>
+               </grade>
+               <grade name="grade 5">
+                  <available>17.6894</available>
+                  <extractioncost>199.6192</extractioncost>
+               </grade>
+               <grade name="grade 6">
+                  <available>0</available>
+                  <extractioncost>9315.5647</extractioncost>
+               </grade>
+            </subresource>
+         </depresource>
+         <unlimited-resource name="offshore carbon-storage">
+            <output-unit>MtC</output-unit>
+            <price-unit>1990$/tC</price-unit>
+            <market>global</market>
+         </unlimited-resource>
+         <supplysector name="carbon-storage">
+            <absolute-cost-logit>
+               <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+            </absolute-cost-logit>
+            <output-unit>MtC</output-unit>
+            <input-unit>MtC</input-unit>
+            <price-unit>1990$/tC</price-unit>
+            <subsector name="onshore carbon-storage">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="onshore carbon-storage"/>
+            </subsector>
+            <subsector name="offshore carbon-storage">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="offshore carbon-storage"/>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Colombia">
+         <depresource name="onshore carbon-storage">
+            <output-unit>MtC</output-unit>
+            <price-unit>1990$/tC</price-unit>
+            <market>Colombia</market>
+            <subresource name="onshore carbon-storage">
+               <grade name="grade 1">
+                  <available>0</available>
+                  <extractioncost>0</extractioncost>
+               </grade>
+               <grade name="grade 2">
+                  <available>0.1235</available>
+                  <extractioncost>0.2662</extractioncost>
+               </grade>
+               <grade name="grade 3">
+                  <available>2.4703</available>
+                  <extractioncost>13.3079</extractioncost>
+               </grade>
+               <grade name="grade 4">
+                  <available>14.8218</available>
+                  <extractioncost>26.6159</extractioncost>
+               </grade>
+               <grade name="grade 5">
+                  <available>7.2874</available>
+                  <extractioncost>199.6192</extractioncost>
+               </grade>
+               <grade name="grade 6">
+                  <available>0</available>
+                  <extractioncost>9315.5647</extractioncost>
+               </grade>
+            </subresource>
+         </depresource>
+         <unlimited-resource name="offshore carbon-storage">
+            <output-unit>MtC</output-unit>
+            <price-unit>1990$/tC</price-unit>
+            <market>global</market>
+         </unlimited-resource>
+         <supplysector name="carbon-storage">
+            <absolute-cost-logit>
+               <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+            </absolute-cost-logit>
+            <output-unit>MtC</output-unit>
+            <input-unit>MtC</input-unit>
+            <price-unit>1990$/tC</price-unit>
+            <subsector name="onshore carbon-storage">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="onshore carbon-storage"/>
+            </subsector>
+            <subsector name="offshore carbon-storage">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="offshore carbon-storage"/>
+            </subsector>
+         </supplysector>
+      </region>
+      <global-technology-database>
+         <location-info sector-name="carbon-storage" subsector-name="offshore carbon-storage">
+            <technology name="offshore carbon-storage">
+               <period year="1975">
+                  <minicam-energy-input name="offshore carbon-storage">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <CO2 name="CO2"/>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>999999.0</input-cost>
+                  </minicam-non-energy-input>
+                  <share-weight>1</share-weight>
+               </period>
+               <period year="1990">
+                  <minicam-energy-input name="offshore carbon-storage">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <CO2 name="CO2"/>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>999999.0</input-cost>
+                  </minicam-non-energy-input>
+                  <share-weight>1</share-weight>
+               </period>
+               <period year="2005">
+                  <minicam-energy-input name="offshore carbon-storage">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <CO2 name="CO2"/>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>999999.0</input-cost>
+                  </minicam-non-energy-input>
+                  <share-weight>1</share-weight>
+               </period>
+               <period year="2010">
+                  <minicam-energy-input name="offshore carbon-storage">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <CO2 name="CO2"/>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>999999.0</input-cost>
+                  </minicam-non-energy-input>
+                  <share-weight>1</share-weight>
+               </period>
+               <period year="2015">
+                  <minicam-energy-input name="offshore carbon-storage">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <CO2 name="CO2"/>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>999999.0</input-cost>
+                  </minicam-non-energy-input>
+                  <share-weight>1</share-weight>
+               </period>
+               <period year="2020">
+                  <minicam-energy-input name="offshore carbon-storage">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <CO2 name="CO2"/>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>999999.0</input-cost>
+                  </minicam-non-energy-input>
+                  <share-weight>1</share-weight>
+               </period>
+               <period year="2025">
+                  <minicam-energy-input name="offshore carbon-storage">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <CO2 name="CO2"/>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>999999.0</input-cost>
+                  </minicam-non-energy-input>
+                  <share-weight>1</share-weight>
+               </period>
+               <period year="2030">
+                  <minicam-energy-input name="offshore carbon-storage">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <CO2 name="CO2"/>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>999999.0</input-cost>
+                  </minicam-non-energy-input>
+                  <share-weight>1</share-weight>
+               </period>
+               <period year="2035">
+                  <minicam-energy-input name="offshore carbon-storage">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <CO2 name="CO2"/>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>999999.0</input-cost>
+                  </minicam-non-energy-input>
+                  <share-weight>1</share-weight>
+               </period>
+               <period year="2040">
+                  <minicam-energy-input name="offshore carbon-storage">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <CO2 name="CO2"/>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>999999.0</input-cost>
+                  </minicam-non-energy-input>
+                  <share-weight>1</share-weight>
+               </period>
+               <period year="2045">
+                  <minicam-energy-input name="offshore carbon-storage">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <CO2 name="CO2"/>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>999999.0</input-cost>
+                  </minicam-non-energy-input>
+                  <share-weight>1</share-weight>
+               </period>
+               <period year="2050">
+                  <minicam-energy-input name="offshore carbon-storage">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <CO2 name="CO2"/>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>999999.0</input-cost>
+                  </minicam-non-energy-input>
+                  <share-weight>1</share-weight>
+               </period>
+               <period year="2055">
+                  <minicam-energy-input name="offshore carbon-storage">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <CO2 name="CO2"/>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>999999.0</input-cost>
+                  </minicam-non-energy-input>
+                  <share-weight>1</share-weight>
+               </period>
+               <period year="2060">
+                  <minicam-energy-input name="offshore carbon-storage">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <CO2 name="CO2"/>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>999999.0</input-cost>
+                  </minicam-non-energy-input>
+                  <share-weight>1</share-weight>
+               </period>
+               <period year="2065">
+                  <minicam-energy-input name="offshore carbon-storage">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <CO2 name="CO2"/>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>999999.0</input-cost>
+                  </minicam-non-energy-input>
+                  <share-weight>1</share-weight>
+               </period>
+               <period year="2070">
+                  <minicam-energy-input name="offshore carbon-storage">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <CO2 name="CO2"/>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>999999.0</input-cost>
+                  </minicam-non-energy-input>
+                  <share-weight>1</share-weight>
+               </period>
+               <period year="2075">
+                  <minicam-energy-input name="offshore carbon-storage">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <CO2 name="CO2"/>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>999999.0</input-cost>
+                  </minicam-non-energy-input>
+                  <share-weight>1</share-weight>
+               </period>
+               <period year="2080">
+                  <minicam-energy-input name="offshore carbon-storage">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <CO2 name="CO2"/>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>999999.0</input-cost>
+                  </minicam-non-energy-input>
+                  <share-weight>1</share-weight>
+               </period>
+               <period year="2085">
+                  <minicam-energy-input name="offshore carbon-storage">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <CO2 name="CO2"/>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>999999.0</input-cost>
+                  </minicam-non-energy-input>
+                  <share-weight>1</share-weight>
+               </period>
+               <period year="2090">
+                  <minicam-energy-input name="offshore carbon-storage">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <CO2 name="CO2"/>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>999999.0</input-cost>
+                  </minicam-non-energy-input>
+                  <share-weight>1</share-weight>
+               </period>
+               <period year="2095">
+                  <minicam-energy-input name="offshore carbon-storage">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <CO2 name="CO2"/>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>999999.0</input-cost>
+                  </minicam-non-energy-input>
+                  <share-weight>1</share-weight>
+               </period>
+               <period year="2100">
+                  <minicam-energy-input name="offshore carbon-storage">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <CO2 name="CO2"/>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>999999.0</input-cost>
+                  </minicam-non-energy-input>
+                  <share-weight>1</share-weight>
+               </period>
+            </technology>
+         </location-info>
+         <location-info sector-name="carbon-storage" subsector-name="onshore carbon-storage">
+            <technology name="onshore carbon-storage">
+               <period year="1975">
+                  <minicam-energy-input name="onshore carbon-storage">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <CO2 name="CO2"/>
+                  <share-weight>1</share-weight>
+               </period>
+               <period year="1990">
+                  <minicam-energy-input name="onshore carbon-storage">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <CO2 name="CO2"/>
+                  <share-weight>1</share-weight>
+               </period>
+               <period year="2005">
+                  <minicam-energy-input name="onshore carbon-storage">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <CO2 name="CO2"/>
+                  <share-weight>1</share-weight>
+               </period>
+               <period year="2010">
+                  <minicam-energy-input name="onshore carbon-storage">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <CO2 name="CO2"/>
+                  <share-weight>1</share-weight>
+               </period>
+               <period year="2015">
+                  <minicam-energy-input name="onshore carbon-storage">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <CO2 name="CO2"/>
+                  <share-weight>1</share-weight>
+               </period>
+               <period year="2020">
+                  <minicam-energy-input name="onshore carbon-storage">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <CO2 name="CO2"/>
+                  <share-weight>1</share-weight>
+               </period>
+               <period year="2025">
+                  <minicam-energy-input name="onshore carbon-storage">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <CO2 name="CO2"/>
+                  <share-weight>1</share-weight>
+               </period>
+               <period year="2030">
+                  <minicam-energy-input name="onshore carbon-storage">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <CO2 name="CO2"/>
+                  <share-weight>1</share-weight>
+               </period>
+               <period year="2035">
+                  <minicam-energy-input name="onshore carbon-storage">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <CO2 name="CO2"/>
+                  <share-weight>1</share-weight>
+               </period>
+               <period year="2040">
+                  <minicam-energy-input name="onshore carbon-storage">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <CO2 name="CO2"/>
+                  <share-weight>1</share-weight>
+               </period>
+               <period year="2045">
+                  <minicam-energy-input name="onshore carbon-storage">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <CO2 name="CO2"/>
+                  <share-weight>1</share-weight>
+               </period>
+               <period year="2050">
+                  <minicam-energy-input name="onshore carbon-storage">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <CO2 name="CO2"/>
+                  <share-weight>1</share-weight>
+               </period>
+               <period year="2055">
+                  <minicam-energy-input name="onshore carbon-storage">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <CO2 name="CO2"/>
+                  <share-weight>1</share-weight>
+               </period>
+               <period year="2060">
+                  <minicam-energy-input name="onshore carbon-storage">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <CO2 name="CO2"/>
+                  <share-weight>1</share-weight>
+               </period>
+               <period year="2065">
+                  <minicam-energy-input name="onshore carbon-storage">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <CO2 name="CO2"/>
+                  <share-weight>1</share-weight>
+               </period>
+               <period year="2070">
+                  <minicam-energy-input name="onshore carbon-storage">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <CO2 name="CO2"/>
+                  <share-weight>1</share-weight>
+               </period>
+               <period year="2075">
+                  <minicam-energy-input name="onshore carbon-storage">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <CO2 name="CO2"/>
+                  <share-weight>1</share-weight>
+               </period>
+               <period year="2080">
+                  <minicam-energy-input name="onshore carbon-storage">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <CO2 name="CO2"/>
+                  <share-weight>1</share-weight>
+               </period>
+               <period year="2085">
+                  <minicam-energy-input name="onshore carbon-storage">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <CO2 name="CO2"/>
+                  <share-weight>1</share-weight>
+               </period>
+               <period year="2090">
+                  <minicam-energy-input name="onshore carbon-storage">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <CO2 name="CO2"/>
+                  <share-weight>1</share-weight>
+               </period>
+               <period year="2095">
+                  <minicam-energy-input name="onshore carbon-storage">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <CO2 name="CO2"/>
+                  <share-weight>1</share-weight>
+               </period>
+               <period year="2100">
+                  <minicam-energy-input name="onshore carbon-storage">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <CO2 name="CO2"/>
+                  <share-weight>1</share-weight>
+               </period>
+            </technology>
+         </location-info>
+      </global-technology-database>
+   </world>
+</scenario>

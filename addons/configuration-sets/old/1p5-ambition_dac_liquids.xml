@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BatchRunner xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="batch_runner.xsd">
+	
+
+
+
+
+
+
+
+	<ComponentSet name="carbon_cap">
+		
+
+		<FileSet name="1p5_low_os"> 
+				<Value name = "ccap">../input/addons/policy/carbon_cap/carbon_cap_p2_low_os.xml</Value>
+				<Value name = "luc_price">../input/addons/policy/carbon_cap/luc-link/globalUCT_price_adj_1.xml</Value>
+		</FileSet>
+
+
+		<FileSet name="1p5_high_os"> 
+				<Value name = "ccap">../input/addons/policy/carbon_cap/carbon_cap_p4_high_os.xml</Value>
+				<Value name = "luc_price">../input/addons/policy/carbon_cap/luc-link/globalUCT_price_adj_1.xml</Value>
+		</FileSet>
+
+
+
+	</ComponentSet>
+
+
+	<ComponentSet name="dac_costs">
+		<FileSet name="dac1_high_32region_LIQUIDS">
+			<Value name = "daccs">../input/addons/dac/DAC1_high_cost_32regionlogit-6scaling_False.xml</Value>
+			<Value name = "waste-heat-dac">../input/addons/dac/dac-waste-heat-regionalized.xml</Value>
+			<Value name = "dacliquids">../input/addons/dac/en_transformation_dac_liquids.xml</Value>
+		</FileSet>
+
+	
+	</ComponentSet>
+
+
+
+
+
+
+</BatchRunner>
+
+

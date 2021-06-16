@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+    <world>
+        <global-technology-database>
+            <location-info sector-name="electricity" subsector-name="wind">
+                <intermittent-technology name="wind">
+                    <period year="1975">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="1990">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2005">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2010">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2015">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2020">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2025">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2030">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2035">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2040">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2045">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2050">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2055">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2060">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2065">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2070">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2075">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2080">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2085">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2090">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2095">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2100">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                </intermittent-technology>
+            </location-info>
+            <location-info sector-name="electricity" subsector-name="solar">
+                <intermittent-technology name="PV">
+                    <period year="1975">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="1990">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2005">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2010">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2015">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2020">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2025">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2030">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2035">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2040">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2045">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2050">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2055">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2060">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2065">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2070">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2075">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2080">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2085">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2090">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2095">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2100">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                </intermittent-technology>
+            </location-info>
+            <location-info sector-name="elect_td_bld" subsector-name="rooftop_pv">
+                <intermittent-technology name="rooftop_pv">
+                    <period year="1975">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="1990">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2005">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2010">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2015">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2020">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2025">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2030">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2035">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2040">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2045">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2050">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2055">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2060">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2065">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2070">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2075">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2080">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2085">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2090">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2095">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2100">
+                        <capacity-limit-backup-calculator>
+                            <c>0.5</c>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                </intermittent-technology>
+            </location-info>
+        </global-technology-database>
+    </world>
+</scenario>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+   <world>
+      <region name="China">
+         <supplysector name="regional coal">
+            <subsector name="regional coal">
+               <technology name="regional coal">
+                  <period year="2020">
+                     <input-tax name="coal-constraint"/>
+                  </period>
+                  <period year="2025">
+                     <input-tax name="coal-constraint"/>
+                  </period>
+                  <period year="2030">
+                     <input-tax name="coal-constraint"/>
+                  </period>
+                  <period year="2035">
+                     <input-tax name="coal-constraint"/>
+                  </period>
+                  <period year="2040">
+                     <input-tax name="coal-constraint"/>
+                  </period>
+                  <period year="2045">
+                     <input-tax name="coal-constraint"/>
+                  </period>
+                  <period year="2050">
+                     <input-tax name="coal-constraint"/>
+                  </period>
+                  <period year="2055">
+                     <input-tax name="coal-constraint"/>
+                  </period>
+                  <period year="2060">
+                     <input-tax name="coal-constraint"/>
+                  </period>
+                  <period year="2065">
+                     <input-tax name="coal-constraint"/>
+                  </period>
+                  <period year="2070">
+                     <input-tax name="coal-constraint"/>
+                  </period>
+                  <period year="2075">
+                     <input-tax name="coal-constraint"/>
+                  </period>
+                  <period year="2080">
+                     <input-tax name="coal-constraint"/>
+                  </period>
+                  <period year="2085">
+                     <input-tax name="coal-constraint"/>
+                  </period>
+                  <period year="2090">
+                     <input-tax name="coal-constraint"/>
+                  </period>
+                  <period year="2095">
+                     <input-tax name="coal-constraint"/>
+                  </period>
+                  <period year="2100">
+                     <input-tax name="coal-constraint"/>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+         <policy-portfolio-standard name="coal-constraint">
+            <market>China</market>
+            <policyType>tax</policyType>
+            <constraint year="2020">82.89563981</constraint>
+            <constraint year="2025">79.30995261</constraint>
+            <constraint year="2030">74.0507109</constraint>
+            <constraint year="2035">70.79990521</constraint>
+            <constraint year="2040">69.88777251</constraint>
+            <constraint year="2045">70.03781991</constraint>
+            <constraint year="2050">70.01042654</constraint>
+            <constraint year="2055">70.01042654</constraint>
+            <constraint year="2060">70.01042654</constraint>
+            <constraint year="2065">70.01042654</constraint>
+            <constraint year="2070">70.01042654</constraint>
+            <constraint year="2075">70.01042654</constraint>
+            <constraint year="2080">70.01042654</constraint>
+            <constraint year="2085">70.01042654</constraint>
+            <constraint year="2090">70.01042654</constraint>
+            <constraint year="2095">70.01042654</constraint>
+            <constraint year="2100">70.01042654</constraint>
+         </policy-portfolio-standard>
+      </region>
+   </world>
+</scenario>

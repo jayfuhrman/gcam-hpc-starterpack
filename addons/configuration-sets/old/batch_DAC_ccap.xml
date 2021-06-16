@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BatchRunner xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="batch_runner.xsd">
+
+	<ComponentSet name="policy">
+
+
+		<!--FileSet name="cap_A">
+			<Value name = "cap">../input/addons/dac/carbon_cap/carbon_cap_netzero_2035_peak_neg_5Gt.xml</Value>
+		</FileSet-->
+
+		<FileSet name="cap_B">
+			<Value name = "cap">../input/addons/dac/carbon_cap/carbon_cap_netzero_2050_peak_neg_2Gt.xml</Value>
+		</FileSet>
+
+		<!--FileSet name="cap_C">
+			<Value name = "cap">../input/addons/dac/carbon_cap/carbon_cap_netzero_2060_peak_neg_3Gt.xml</Value>
+		</FileSet-->
+
+		<!--FileSet name="cap_D">
+			<Value name = "cap">../input/addons/dac/carbon_cap/carbon_cap_netzero_2070_peak_neg_4Gt.xml</Value>
+		</FileSet-->
+
+
+	</ComponentSet>
+
+
+	<ComponentSet name="dac_costs">
+
+
+		<FileSet name="keith2018_94">
+			<Value name = "dac">../input/addons/dac/dacKeith2018.xml</Value>
+		</FileSet>
+
+
+
+	
+	</ComponentSet>
+
+
+</BatchRunner>
+
+

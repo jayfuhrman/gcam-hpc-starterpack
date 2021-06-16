@@ -1,0 +1,1732 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+    <world>
+        <global-technology-database>
+            <location-info sector-name="airCO2" subsector-name="airCO2">
+                <technology name="airCO2">
+                    <period year="1975">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>1</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="1990">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>1</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2005">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>1</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2010">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>1</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2015">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>1</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2020">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>1</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2025">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>1</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2030">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>1</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2035">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>1</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2040">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>1</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2045">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>1</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2050">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>1</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2055">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>1</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2060">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>1</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2065">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>1</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2070">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>1</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2075">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>1</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2080">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>1</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2085">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>1</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2090">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>1</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2095">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>1</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2100">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>1</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                </technology>
+            </location-info>
+            <location-info sector-name="regional biomass" subsector-name="regional biomass">
+                <technology name="regional biomass">
+                    <period year="1975">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>23</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="1990">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>23</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2005">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>23</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2010">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>23</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2015">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>23</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2020">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>23</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2025">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>23</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2030">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>23</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2035">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>23</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2040">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>23</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2045">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>23</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2050">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>23</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2055">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>23</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2060">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>23</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2065">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>23</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2070">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>23</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2075">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>23</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2080">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>23</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2085">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>23</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2090">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>23</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2095">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>23</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2100">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>23</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                </technology>
+            </location-info>
+            <location-info sector-name="regional corn for ethanol" subsector-name="regional corn for ethanol">
+                <technology name="regional corn for ethanol">
+                    <period year="1975">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="1990">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2005">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2010">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2015">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2020">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2025">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2030">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2035">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2040">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2045">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2050">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2055">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2060">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2065">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2070">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2075">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2080">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2085">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2090">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2095">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2100">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                </technology>
+            </location-info>
+            <location-info sector-name="regional sugar for ethanol" subsector-name="regional sugar for ethanol">
+                <technology name="regional sugar for ethanol">
+                    <period year="1975">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="1990">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2005">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2010">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2015">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2020">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2025">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2030">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2035">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2040">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2045">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2050">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2055">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2060">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2065">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2070">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2075">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2080">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2085">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2090">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2095">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2100">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                </technology>
+            </location-info>
+            <location-info sector-name="regional biomassOil" subsector-name="regional biomassOil">
+                <technology name="biomassOil">
+                    <period year="1975">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="1990">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2005">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2010">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2015">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2020">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2025">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2030">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2035">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2040">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2045">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2050">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2055">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2060">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2065">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2070">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2075">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2080">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2085">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2090">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2095">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2100">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                </technology>
+                <technology name="OilCrop">
+                    <period year="1975">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="1990">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2005">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2010">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2015">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2020">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2025">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2030">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2035">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2040">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2045">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2050">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2055">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2060">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2065">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2070">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2075">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2080">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2085">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2090">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2095">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2100">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                </technology>
+                <technology name="PalmFruit">
+                    <period year="1975">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="1990">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2005">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2010">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2015">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2020">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2025">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2030">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2035">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2040">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2045">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2050">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2055">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2060">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2065">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2070">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2075">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2080">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2085">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2090">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2095">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                    <period year="2100">
+                        <ctax-input name="negative_emiss_budget">
+                            <fuel-C-coef>19.6</fuel-C-coef>
+                        </ctax-input>
+                    </period>
+                </technology>
+            </location-info>
+        </global-technology-database>
+        <region name="USA">
+            <LandAllocatorRoot name="root">
+                <negative-emiss-market>negative_emiss_budget</negative-emiss-market>
+            </LandAllocatorRoot>
+            <negative-emissions-final-demand name="CO2_LTG">
+                <policy-name>negative_emiss_budget</policy-name>
+            </negative-emissions-final-demand>
+            <policy-portfolio-standard name="negative_emiss_budget">
+                <max-price fillout="1" year="1975">1</max-price>
+                <market>global</market>
+                <policyType>tax</policyType>
+                <constraint year="2020">596973.981523049</constraint>
+                <price-unit>%</price-unit>
+                <output-unit>mil 1990$</output-unit>
+                <constraint year="2025">715489.453313378</constraint>
+                <constraint year="2030">854599.96706256</constraint>
+                <constraint year="2035">1010106.80390985</constraint>
+                <constraint year="2040">1172462.21810764</constraint>
+                <constraint year="2045">1336479.65897802</constraint>
+                <constraint year="2050">1495692.81446354</constraint>
+                <constraint year="2055">1652425.33333557</constraint>
+                <constraint year="2060">1811886.61030722</constraint>
+                <constraint year="2065">1972298.95772909</constraint>
+                <constraint year="2070">2127931.15172885</constraint>
+                <constraint year="2075">2275090.8380174</constraint>
+                <constraint year="2080">2417948.91539157</constraint>
+                <constraint year="2085">2553171.82427894</constraint>
+                <constraint year="2090">2680531.69086182</constraint>
+                <constraint year="2095">2799017.66698508</constraint>
+                <constraint year="2100">2904511.1255684</constraint>
+            </policy-portfolio-standard>
+        </region>
+        <region name="Africa_Eastern">
+            <LandAllocatorRoot name="root">
+                <negative-emiss-market>negative_emiss_budget</negative-emiss-market>
+            </LandAllocatorRoot>
+            <policy-portfolio-standard name="negative_emiss_budget">
+                <max-price fillout="1" year="1975">1</max-price>
+                <market>global</market>
+                <policyType>tax</policyType>
+                <constraint year="2020">596973.981523049</constraint>
+                <price-unit>%</price-unit>
+                <output-unit>mil 1990$</output-unit>
+                <constraint year="2025">715489.453313378</constraint>
+                <constraint year="2030">854599.96706256</constraint>
+                <constraint year="2035">1010106.80390985</constraint>
+                <constraint year="2040">1172462.21810764</constraint>
+                <constraint year="2045">1336479.65897802</constraint>
+                <constraint year="2050">1495692.81446354</constraint>
+                <constraint year="2055">1652425.33333557</constraint>
+                <constraint year="2060">1811886.61030722</constraint>
+                <constraint year="2065">1972298.95772909</constraint>
+                <constraint year="2070">2127931.15172885</constraint>
+                <constraint year="2075">2275090.8380174</constraint>
+                <constraint year="2080">2417948.91539157</constraint>
+                <constraint year="2085">2553171.82427894</constraint>
+                <constraint year="2090">2680531.69086182</constraint>
+                <constraint year="2095">2799017.66698508</constraint>
+                <constraint year="2100">2904511.1255684</constraint>
+            </policy-portfolio-standard>
+        </region>
+        <region name="Africa_Northern">
+            <LandAllocatorRoot name="root">
+                <negative-emiss-market>negative_emiss_budget</negative-emiss-market>
+            </LandAllocatorRoot>
+            <policy-portfolio-standard name="negative_emiss_budget">
+                <max-price fillout="1" year="1975">1</max-price>
+                <market>global</market>
+                <policyType>tax</policyType>
+                <constraint year="2020">596973.981523049</constraint>
+                <price-unit>%</price-unit>
+                <output-unit>mil 1990$</output-unit>
+                <constraint year="2025">715489.453313378</constraint>
+                <constraint year="2030">854599.96706256</constraint>
+                <constraint year="2035">1010106.80390985</constraint>
+                <constraint year="2040">1172462.21810764</constraint>
+                <constraint year="2045">1336479.65897802</constraint>
+                <constraint year="2050">1495692.81446354</constraint>
+                <constraint year="2055">1652425.33333557</constraint>
+                <constraint year="2060">1811886.61030722</constraint>
+                <constraint year="2065">1972298.95772909</constraint>
+                <constraint year="2070">2127931.15172885</constraint>
+                <constraint year="2075">2275090.8380174</constraint>
+                <constraint year="2080">2417948.91539157</constraint>
+                <constraint year="2085">2553171.82427894</constraint>
+                <constraint year="2090">2680531.69086182</constraint>
+                <constraint year="2095">2799017.66698508</constraint>
+                <constraint year="2100">2904511.1255684</constraint>
+            </policy-portfolio-standard>
+        </region>
+        <region name="Africa_Southern">
+            <LandAllocatorRoot name="root">
+                <negative-emiss-market>negative_emiss_budget</negative-emiss-market>
+            </LandAllocatorRoot>
+            <policy-portfolio-standard name="negative_emiss_budget">
+                <max-price fillout="1" year="1975">1</max-price>
+                <market>global</market>
+                <policyType>tax</policyType>
+                <constraint year="2020">596973.981523049</constraint>
+                <price-unit>%</price-unit>
+                <output-unit>mil 1990$</output-unit>
+                <constraint year="2025">715489.453313378</constraint>
+                <constraint year="2030">854599.96706256</constraint>
+                <constraint year="2035">1010106.80390985</constraint>
+                <constraint year="2040">1172462.21810764</constraint>
+                <constraint year="2045">1336479.65897802</constraint>
+                <constraint year="2050">1495692.81446354</constraint>
+                <constraint year="2055">1652425.33333557</constraint>
+                <constraint year="2060">1811886.61030722</constraint>
+                <constraint year="2065">1972298.95772909</constraint>
+                <constraint year="2070">2127931.15172885</constraint>
+                <constraint year="2075">2275090.8380174</constraint>
+                <constraint year="2080">2417948.91539157</constraint>
+                <constraint year="2085">2553171.82427894</constraint>
+                <constraint year="2090">2680531.69086182</constraint>
+                <constraint year="2095">2799017.66698508</constraint>
+                <constraint year="2100">2904511.1255684</constraint>
+            </policy-portfolio-standard>
+        </region>
+        <region name="Africa_Western">
+            <LandAllocatorRoot name="root">
+                <negative-emiss-market>negative_emiss_budget</negative-emiss-market>
+            </LandAllocatorRoot>
+            <policy-portfolio-standard name="negative_emiss_budget">
+                <max-price fillout="1" year="1975">1</max-price>
+                <market>global</market>
+                <policyType>tax</policyType>
+                <constraint year="2020">596973.981523049</constraint>
+                <price-unit>%</price-unit>
+                <output-unit>mil 1990$</output-unit>
+                <constraint year="2025">715489.453313378</constraint>
+                <constraint year="2030">854599.96706256</constraint>
+                <constraint year="2035">1010106.80390985</constraint>
+                <constraint year="2040">1172462.21810764</constraint>
+                <constraint year="2045">1336479.65897802</constraint>
+                <constraint year="2050">1495692.81446354</constraint>
+                <constraint year="2055">1652425.33333557</constraint>
+                <constraint year="2060">1811886.61030722</constraint>
+                <constraint year="2065">1972298.95772909</constraint>
+                <constraint year="2070">2127931.15172885</constraint>
+                <constraint year="2075">2275090.8380174</constraint>
+                <constraint year="2080">2417948.91539157</constraint>
+                <constraint year="2085">2553171.82427894</constraint>
+                <constraint year="2090">2680531.69086182</constraint>
+                <constraint year="2095">2799017.66698508</constraint>
+                <constraint year="2100">2904511.1255684</constraint>
+            </policy-portfolio-standard>
+        </region>
+        <region name="Australia_NZ">
+            <LandAllocatorRoot name="root">
+                <negative-emiss-market>negative_emiss_budget</negative-emiss-market>
+            </LandAllocatorRoot>
+            <policy-portfolio-standard name="negative_emiss_budget">
+                <max-price fillout="1" year="1975">1</max-price>
+                <market>global</market>
+                <policyType>tax</policyType>
+                <constraint year="2020">596973.981523049</constraint>
+                <price-unit>%</price-unit>
+                <output-unit>mil 1990$</output-unit>
+                <constraint year="2025">715489.453313378</constraint>
+                <constraint year="2030">854599.96706256</constraint>
+                <constraint year="2035">1010106.80390985</constraint>
+                <constraint year="2040">1172462.21810764</constraint>
+                <constraint year="2045">1336479.65897802</constraint>
+                <constraint year="2050">1495692.81446354</constraint>
+                <constraint year="2055">1652425.33333557</constraint>
+                <constraint year="2060">1811886.61030722</constraint>
+                <constraint year="2065">1972298.95772909</constraint>
+                <constraint year="2070">2127931.15172885</constraint>
+                <constraint year="2075">2275090.8380174</constraint>
+                <constraint year="2080">2417948.91539157</constraint>
+                <constraint year="2085">2553171.82427894</constraint>
+                <constraint year="2090">2680531.69086182</constraint>
+                <constraint year="2095">2799017.66698508</constraint>
+                <constraint year="2100">2904511.1255684</constraint>
+            </policy-portfolio-standard>
+        </region>
+        <region name="Brazil">
+            <LandAllocatorRoot name="root">
+                <negative-emiss-market>negative_emiss_budget</negative-emiss-market>
+            </LandAllocatorRoot>
+            <policy-portfolio-standard name="negative_emiss_budget">
+                <max-price fillout="1" year="1975">1</max-price>
+                <market>global</market>
+                <policyType>tax</policyType>
+                <constraint year="2020">596973.981523049</constraint>
+                <price-unit>%</price-unit>
+                <output-unit>mil 1990$</output-unit>
+                <constraint year="2025">715489.453313378</constraint>
+                <constraint year="2030">854599.96706256</constraint>
+                <constraint year="2035">1010106.80390985</constraint>
+                <constraint year="2040">1172462.21810764</constraint>
+                <constraint year="2045">1336479.65897802</constraint>
+                <constraint year="2050">1495692.81446354</constraint>
+                <constraint year="2055">1652425.33333557</constraint>
+                <constraint year="2060">1811886.61030722</constraint>
+                <constraint year="2065">1972298.95772909</constraint>
+                <constraint year="2070">2127931.15172885</constraint>
+                <constraint year="2075">2275090.8380174</constraint>
+                <constraint year="2080">2417948.91539157</constraint>
+                <constraint year="2085">2553171.82427894</constraint>
+                <constraint year="2090">2680531.69086182</constraint>
+                <constraint year="2095">2799017.66698508</constraint>
+                <constraint year="2100">2904511.1255684</constraint>
+            </policy-portfolio-standard>
+        </region>
+        <region name="Canada">
+            <LandAllocatorRoot name="root">
+                <negative-emiss-market>negative_emiss_budget</negative-emiss-market>
+            </LandAllocatorRoot>
+            <policy-portfolio-standard name="negative_emiss_budget">
+                <max-price fillout="1" year="1975">1</max-price>
+                <market>global</market>
+                <policyType>tax</policyType>
+                <constraint year="2020">596973.981523049</constraint>
+                <price-unit>%</price-unit>
+                <output-unit>mil 1990$</output-unit>
+                <constraint year="2025">715489.453313378</constraint>
+                <constraint year="2030">854599.96706256</constraint>
+                <constraint year="2035">1010106.80390985</constraint>
+                <constraint year="2040">1172462.21810764</constraint>
+                <constraint year="2045">1336479.65897802</constraint>
+                <constraint year="2050">1495692.81446354</constraint>
+                <constraint year="2055">1652425.33333557</constraint>
+                <constraint year="2060">1811886.61030722</constraint>
+                <constraint year="2065">1972298.95772909</constraint>
+                <constraint year="2070">2127931.15172885</constraint>
+                <constraint year="2075">2275090.8380174</constraint>
+                <constraint year="2080">2417948.91539157</constraint>
+                <constraint year="2085">2553171.82427894</constraint>
+                <constraint year="2090">2680531.69086182</constraint>
+                <constraint year="2095">2799017.66698508</constraint>
+                <constraint year="2100">2904511.1255684</constraint>
+            </policy-portfolio-standard>
+        </region>
+        <region name="Central America and Caribbean">
+            <LandAllocatorRoot name="root">
+                <negative-emiss-market>negative_emiss_budget</negative-emiss-market>
+            </LandAllocatorRoot>
+            <policy-portfolio-standard name="negative_emiss_budget">
+                <max-price fillout="1" year="1975">1</max-price>
+                <market>global</market>
+                <policyType>tax</policyType>
+                <constraint year="2020">596973.981523049</constraint>
+                <price-unit>%</price-unit>
+                <output-unit>mil 1990$</output-unit>
+                <constraint year="2025">715489.453313378</constraint>
+                <constraint year="2030">854599.96706256</constraint>
+                <constraint year="2035">1010106.80390985</constraint>
+                <constraint year="2040">1172462.21810764</constraint>
+                <constraint year="2045">1336479.65897802</constraint>
+                <constraint year="2050">1495692.81446354</constraint>
+                <constraint year="2055">1652425.33333557</constraint>
+                <constraint year="2060">1811886.61030722</constraint>
+                <constraint year="2065">1972298.95772909</constraint>
+                <constraint year="2070">2127931.15172885</constraint>
+                <constraint year="2075">2275090.8380174</constraint>
+                <constraint year="2080">2417948.91539157</constraint>
+                <constraint year="2085">2553171.82427894</constraint>
+                <constraint year="2090">2680531.69086182</constraint>
+                <constraint year="2095">2799017.66698508</constraint>
+                <constraint year="2100">2904511.1255684</constraint>
+            </policy-portfolio-standard>
+        </region>
+        <region name="Central Asia">
+            <LandAllocatorRoot name="root">
+                <negative-emiss-market>negative_emiss_budget</negative-emiss-market>
+            </LandAllocatorRoot>
+            <policy-portfolio-standard name="negative_emiss_budget">
+                <max-price fillout="1" year="1975">1</max-price>
+                <market>global</market>
+                <policyType>tax</policyType>
+                <constraint year="2020">596973.981523049</constraint>
+                <price-unit>%</price-unit>
+                <output-unit>mil 1990$</output-unit>
+                <constraint year="2025">715489.453313378</constraint>
+                <constraint year="2030">854599.96706256</constraint>
+                <constraint year="2035">1010106.80390985</constraint>
+                <constraint year="2040">1172462.21810764</constraint>
+                <constraint year="2045">1336479.65897802</constraint>
+                <constraint year="2050">1495692.81446354</constraint>
+                <constraint year="2055">1652425.33333557</constraint>
+                <constraint year="2060">1811886.61030722</constraint>
+                <constraint year="2065">1972298.95772909</constraint>
+                <constraint year="2070">2127931.15172885</constraint>
+                <constraint year="2075">2275090.8380174</constraint>
+                <constraint year="2080">2417948.91539157</constraint>
+                <constraint year="2085">2553171.82427894</constraint>
+                <constraint year="2090">2680531.69086182</constraint>
+                <constraint year="2095">2799017.66698508</constraint>
+                <constraint year="2100">2904511.1255684</constraint>
+            </policy-portfolio-standard>
+        </region>
+        <region name="China">
+            <LandAllocatorRoot name="root">
+                <negative-emiss-market>negative_emiss_budget</negative-emiss-market>
+            </LandAllocatorRoot>
+            <policy-portfolio-standard name="negative_emiss_budget">
+                <max-price fillout="1" year="1975">1</max-price>
+                <market>global</market>
+                <policyType>tax</policyType>
+                <constraint year="2020">596973.981523049</constraint>
+                <price-unit>%</price-unit>
+                <output-unit>mil 1990$</output-unit>
+                <constraint year="2025">715489.453313378</constraint>
+                <constraint year="2030">854599.96706256</constraint>
+                <constraint year="2035">1010106.80390985</constraint>
+                <constraint year="2040">1172462.21810764</constraint>
+                <constraint year="2045">1336479.65897802</constraint>
+                <constraint year="2050">1495692.81446354</constraint>
+                <constraint year="2055">1652425.33333557</constraint>
+                <constraint year="2060">1811886.61030722</constraint>
+                <constraint year="2065">1972298.95772909</constraint>
+                <constraint year="2070">2127931.15172885</constraint>
+                <constraint year="2075">2275090.8380174</constraint>
+                <constraint year="2080">2417948.91539157</constraint>
+                <constraint year="2085">2553171.82427894</constraint>
+                <constraint year="2090">2680531.69086182</constraint>
+                <constraint year="2095">2799017.66698508</constraint>
+                <constraint year="2100">2904511.1255684</constraint>
+            </policy-portfolio-standard>
+        </region>
+        <region name="EU-12">
+            <LandAllocatorRoot name="root">
+                <negative-emiss-market>negative_emiss_budget</negative-emiss-market>
+            </LandAllocatorRoot>
+            <policy-portfolio-standard name="negative_emiss_budget">
+                <max-price fillout="1" year="1975">1</max-price>
+                <market>global</market>
+                <policyType>tax</policyType>
+                <constraint year="2020">596973.981523049</constraint>
+                <price-unit>%</price-unit>
+                <output-unit>mil 1990$</output-unit>
+                <constraint year="2025">715489.453313378</constraint>
+                <constraint year="2030">854599.96706256</constraint>
+                <constraint year="2035">1010106.80390985</constraint>
+                <constraint year="2040">1172462.21810764</constraint>
+                <constraint year="2045">1336479.65897802</constraint>
+                <constraint year="2050">1495692.81446354</constraint>
+                <constraint year="2055">1652425.33333557</constraint>
+                <constraint year="2060">1811886.61030722</constraint>
+                <constraint year="2065">1972298.95772909</constraint>
+                <constraint year="2070">2127931.15172885</constraint>
+                <constraint year="2075">2275090.8380174</constraint>
+                <constraint year="2080">2417948.91539157</constraint>
+                <constraint year="2085">2553171.82427894</constraint>
+                <constraint year="2090">2680531.69086182</constraint>
+                <constraint year="2095">2799017.66698508</constraint>
+                <constraint year="2100">2904511.1255684</constraint>
+            </policy-portfolio-standard>
+        </region>
+        <region name="EU-15">
+            <LandAllocatorRoot name="root">
+                <negative-emiss-market>negative_emiss_budget</negative-emiss-market>
+            </LandAllocatorRoot>
+            <policy-portfolio-standard name="negative_emiss_budget">
+                <max-price fillout="1" year="1975">1</max-price>
+                <market>global</market>
+                <policyType>tax</policyType>
+                <constraint year="2020">596973.981523049</constraint>
+                <price-unit>%</price-unit>
+                <output-unit>mil 1990$</output-unit>
+                <constraint year="2025">715489.453313378</constraint>
+                <constraint year="2030">854599.96706256</constraint>
+                <constraint year="2035">1010106.80390985</constraint>
+                <constraint year="2040">1172462.21810764</constraint>
+                <constraint year="2045">1336479.65897802</constraint>
+                <constraint year="2050">1495692.81446354</constraint>
+                <constraint year="2055">1652425.33333557</constraint>
+                <constraint year="2060">1811886.61030722</constraint>
+                <constraint year="2065">1972298.95772909</constraint>
+                <constraint year="2070">2127931.15172885</constraint>
+                <constraint year="2075">2275090.8380174</constraint>
+                <constraint year="2080">2417948.91539157</constraint>
+                <constraint year="2085">2553171.82427894</constraint>
+                <constraint year="2090">2680531.69086182</constraint>
+                <constraint year="2095">2799017.66698508</constraint>
+                <constraint year="2100">2904511.1255684</constraint>
+            </policy-portfolio-standard>
+        </region>
+        <region name="Europe_Eastern">
+            <LandAllocatorRoot name="root">
+                <negative-emiss-market>negative_emiss_budget</negative-emiss-market>
+            </LandAllocatorRoot>
+            <policy-portfolio-standard name="negative_emiss_budget">
+                <max-price fillout="1" year="1975">1</max-price>
+                <market>global</market>
+                <policyType>tax</policyType>
+                <constraint year="2020">596973.981523049</constraint>
+                <price-unit>%</price-unit>
+                <output-unit>mil 1990$</output-unit>
+                <constraint year="2025">715489.453313378</constraint>
+                <constraint year="2030">854599.96706256</constraint>
+                <constraint year="2035">1010106.80390985</constraint>
+                <constraint year="2040">1172462.21810764</constraint>
+                <constraint year="2045">1336479.65897802</constraint>
+                <constraint year="2050">1495692.81446354</constraint>
+                <constraint year="2055">1652425.33333557</constraint>
+                <constraint year="2060">1811886.61030722</constraint>
+                <constraint year="2065">1972298.95772909</constraint>
+                <constraint year="2070">2127931.15172885</constraint>
+                <constraint year="2075">2275090.8380174</constraint>
+                <constraint year="2080">2417948.91539157</constraint>
+                <constraint year="2085">2553171.82427894</constraint>
+                <constraint year="2090">2680531.69086182</constraint>
+                <constraint year="2095">2799017.66698508</constraint>
+                <constraint year="2100">2904511.1255684</constraint>
+            </policy-portfolio-standard>
+        </region>
+        <region name="Europe_Non_EU">
+            <LandAllocatorRoot name="root">
+                <negative-emiss-market>negative_emiss_budget</negative-emiss-market>
+            </LandAllocatorRoot>
+            <policy-portfolio-standard name="negative_emiss_budget">
+                <max-price fillout="1" year="1975">1</max-price>
+                <market>global</market>
+                <policyType>tax</policyType>
+                <constraint year="2020">596973.981523049</constraint>
+                <price-unit>%</price-unit>
+                <output-unit>mil 1990$</output-unit>
+                <constraint year="2025">715489.453313378</constraint>
+                <constraint year="2030">854599.96706256</constraint>
+                <constraint year="2035">1010106.80390985</constraint>
+                <constraint year="2040">1172462.21810764</constraint>
+                <constraint year="2045">1336479.65897802</constraint>
+                <constraint year="2050">1495692.81446354</constraint>
+                <constraint year="2055">1652425.33333557</constraint>
+                <constraint year="2060">1811886.61030722</constraint>
+                <constraint year="2065">1972298.95772909</constraint>
+                <constraint year="2070">2127931.15172885</constraint>
+                <constraint year="2075">2275090.8380174</constraint>
+                <constraint year="2080">2417948.91539157</constraint>
+                <constraint year="2085">2553171.82427894</constraint>
+                <constraint year="2090">2680531.69086182</constraint>
+                <constraint year="2095">2799017.66698508</constraint>
+                <constraint year="2100">2904511.1255684</constraint>
+            </policy-portfolio-standard>
+        </region>
+        <region name="European Free Trade Association">
+            <LandAllocatorRoot name="root">
+                <negative-emiss-market>negative_emiss_budget</negative-emiss-market>
+            </LandAllocatorRoot>
+            <policy-portfolio-standard name="negative_emiss_budget">
+                <max-price fillout="1" year="1975">1</max-price>
+                <market>global</market>
+                <policyType>tax</policyType>
+                <constraint year="2020">596973.981523049</constraint>
+                <price-unit>%</price-unit>
+                <output-unit>mil 1990$</output-unit>
+                <constraint year="2025">715489.453313378</constraint>
+                <constraint year="2030">854599.96706256</constraint>
+                <constraint year="2035">1010106.80390985</constraint>
+                <constraint year="2040">1172462.21810764</constraint>
+                <constraint year="2045">1336479.65897802</constraint>
+                <constraint year="2050">1495692.81446354</constraint>
+                <constraint year="2055">1652425.33333557</constraint>
+                <constraint year="2060">1811886.61030722</constraint>
+                <constraint year="2065">1972298.95772909</constraint>
+                <constraint year="2070">2127931.15172885</constraint>
+                <constraint year="2075">2275090.8380174</constraint>
+                <constraint year="2080">2417948.91539157</constraint>
+                <constraint year="2085">2553171.82427894</constraint>
+                <constraint year="2090">2680531.69086182</constraint>
+                <constraint year="2095">2799017.66698508</constraint>
+                <constraint year="2100">2904511.1255684</constraint>
+            </policy-portfolio-standard>
+        </region>
+        <region name="India">
+            <LandAllocatorRoot name="root">
+                <negative-emiss-market>negative_emiss_budget</negative-emiss-market>
+            </LandAllocatorRoot>
+            <policy-portfolio-standard name="negative_emiss_budget">
+                <max-price fillout="1" year="1975">1</max-price>
+                <market>global</market>
+                <policyType>tax</policyType>
+                <constraint year="2020">596973.981523049</constraint>
+                <price-unit>%</price-unit>
+                <output-unit>mil 1990$</output-unit>
+                <constraint year="2025">715489.453313378</constraint>
+                <constraint year="2030">854599.96706256</constraint>
+                <constraint year="2035">1010106.80390985</constraint>
+                <constraint year="2040">1172462.21810764</constraint>
+                <constraint year="2045">1336479.65897802</constraint>
+                <constraint year="2050">1495692.81446354</constraint>
+                <constraint year="2055">1652425.33333557</constraint>
+                <constraint year="2060">1811886.61030722</constraint>
+                <constraint year="2065">1972298.95772909</constraint>
+                <constraint year="2070">2127931.15172885</constraint>
+                <constraint year="2075">2275090.8380174</constraint>
+                <constraint year="2080">2417948.91539157</constraint>
+                <constraint year="2085">2553171.82427894</constraint>
+                <constraint year="2090">2680531.69086182</constraint>
+                <constraint year="2095">2799017.66698508</constraint>
+                <constraint year="2100">2904511.1255684</constraint>
+            </policy-portfolio-standard>
+        </region>
+        <region name="Indonesia">
+            <LandAllocatorRoot name="root">
+                <negative-emiss-market>negative_emiss_budget</negative-emiss-market>
+            </LandAllocatorRoot>
+            <policy-portfolio-standard name="negative_emiss_budget">
+                <max-price fillout="1" year="1975">1</max-price>
+                <market>global</market>
+                <policyType>tax</policyType>
+                <constraint year="2020">596973.981523049</constraint>
+                <price-unit>%</price-unit>
+                <output-unit>mil 1990$</output-unit>
+                <constraint year="2025">715489.453313378</constraint>
+                <constraint year="2030">854599.96706256</constraint>
+                <constraint year="2035">1010106.80390985</constraint>
+                <constraint year="2040">1172462.21810764</constraint>
+                <constraint year="2045">1336479.65897802</constraint>
+                <constraint year="2050">1495692.81446354</constraint>
+                <constraint year="2055">1652425.33333557</constraint>
+                <constraint year="2060">1811886.61030722</constraint>
+                <constraint year="2065">1972298.95772909</constraint>
+                <constraint year="2070">2127931.15172885</constraint>
+                <constraint year="2075">2275090.8380174</constraint>
+                <constraint year="2080">2417948.91539157</constraint>
+                <constraint year="2085">2553171.82427894</constraint>
+                <constraint year="2090">2680531.69086182</constraint>
+                <constraint year="2095">2799017.66698508</constraint>
+                <constraint year="2100">2904511.1255684</constraint>
+            </policy-portfolio-standard>
+        </region>
+        <region name="Japan">
+            <LandAllocatorRoot name="root">
+                <negative-emiss-market>negative_emiss_budget</negative-emiss-market>
+            </LandAllocatorRoot>
+            <policy-portfolio-standard name="negative_emiss_budget">
+                <max-price fillout="1" year="1975">1</max-price>
+                <market>global</market>
+                <policyType>tax</policyType>
+                <constraint year="2020">596973.981523049</constraint>
+                <price-unit>%</price-unit>
+                <output-unit>mil 1990$</output-unit>
+                <constraint year="2025">715489.453313378</constraint>
+                <constraint year="2030">854599.96706256</constraint>
+                <constraint year="2035">1010106.80390985</constraint>
+                <constraint year="2040">1172462.21810764</constraint>
+                <constraint year="2045">1336479.65897802</constraint>
+                <constraint year="2050">1495692.81446354</constraint>
+                <constraint year="2055">1652425.33333557</constraint>
+                <constraint year="2060">1811886.61030722</constraint>
+                <constraint year="2065">1972298.95772909</constraint>
+                <constraint year="2070">2127931.15172885</constraint>
+                <constraint year="2075">2275090.8380174</constraint>
+                <constraint year="2080">2417948.91539157</constraint>
+                <constraint year="2085">2553171.82427894</constraint>
+                <constraint year="2090">2680531.69086182</constraint>
+                <constraint year="2095">2799017.66698508</constraint>
+                <constraint year="2100">2904511.1255684</constraint>
+            </policy-portfolio-standard>
+        </region>
+        <region name="Mexico">
+            <LandAllocatorRoot name="root">
+                <negative-emiss-market>negative_emiss_budget</negative-emiss-market>
+            </LandAllocatorRoot>
+            <policy-portfolio-standard name="negative_emiss_budget">
+                <max-price fillout="1" year="1975">1</max-price>
+                <market>global</market>
+                <policyType>tax</policyType>
+                <constraint year="2020">596973.981523049</constraint>
+                <price-unit>%</price-unit>
+                <output-unit>mil 1990$</output-unit>
+                <constraint year="2025">715489.453313378</constraint>
+                <constraint year="2030">854599.96706256</constraint>
+                <constraint year="2035">1010106.80390985</constraint>
+                <constraint year="2040">1172462.21810764</constraint>
+                <constraint year="2045">1336479.65897802</constraint>
+                <constraint year="2050">1495692.81446354</constraint>
+                <constraint year="2055">1652425.33333557</constraint>
+                <constraint year="2060">1811886.61030722</constraint>
+                <constraint year="2065">1972298.95772909</constraint>
+                <constraint year="2070">2127931.15172885</constraint>
+                <constraint year="2075">2275090.8380174</constraint>
+                <constraint year="2080">2417948.91539157</constraint>
+                <constraint year="2085">2553171.82427894</constraint>
+                <constraint year="2090">2680531.69086182</constraint>
+                <constraint year="2095">2799017.66698508</constraint>
+                <constraint year="2100">2904511.1255684</constraint>
+            </policy-portfolio-standard>
+        </region>
+        <region name="Middle East">
+            <LandAllocatorRoot name="root">
+                <negative-emiss-market>negative_emiss_budget</negative-emiss-market>
+            </LandAllocatorRoot>
+            <policy-portfolio-standard name="negative_emiss_budget">
+                <max-price fillout="1" year="1975">1</max-price>
+                <market>global</market>
+                <policyType>tax</policyType>
+                <constraint year="2020">596973.981523049</constraint>
+                <price-unit>%</price-unit>
+                <output-unit>mil 1990$</output-unit>
+                <constraint year="2025">715489.453313378</constraint>
+                <constraint year="2030">854599.96706256</constraint>
+                <constraint year="2035">1010106.80390985</constraint>
+                <constraint year="2040">1172462.21810764</constraint>
+                <constraint year="2045">1336479.65897802</constraint>
+                <constraint year="2050">1495692.81446354</constraint>
+                <constraint year="2055">1652425.33333557</constraint>
+                <constraint year="2060">1811886.61030722</constraint>
+                <constraint year="2065">1972298.95772909</constraint>
+                <constraint year="2070">2127931.15172885</constraint>
+                <constraint year="2075">2275090.8380174</constraint>
+                <constraint year="2080">2417948.91539157</constraint>
+                <constraint year="2085">2553171.82427894</constraint>
+                <constraint year="2090">2680531.69086182</constraint>
+                <constraint year="2095">2799017.66698508</constraint>
+                <constraint year="2100">2904511.1255684</constraint>
+            </policy-portfolio-standard>
+        </region>
+        <region name="Pakistan">
+            <LandAllocatorRoot name="root">
+                <negative-emiss-market>negative_emiss_budget</negative-emiss-market>
+            </LandAllocatorRoot>
+            <policy-portfolio-standard name="negative_emiss_budget">
+                <max-price fillout="1" year="1975">1</max-price>
+                <market>global</market>
+                <policyType>tax</policyType>
+                <constraint year="2020">596973.981523049</constraint>
+                <price-unit>%</price-unit>
+                <output-unit>mil 1990$</output-unit>
+                <constraint year="2025">715489.453313378</constraint>
+                <constraint year="2030">854599.96706256</constraint>
+                <constraint year="2035">1010106.80390985</constraint>
+                <constraint year="2040">1172462.21810764</constraint>
+                <constraint year="2045">1336479.65897802</constraint>
+                <constraint year="2050">1495692.81446354</constraint>
+                <constraint year="2055">1652425.33333557</constraint>
+                <constraint year="2060">1811886.61030722</constraint>
+                <constraint year="2065">1972298.95772909</constraint>
+                <constraint year="2070">2127931.15172885</constraint>
+                <constraint year="2075">2275090.8380174</constraint>
+                <constraint year="2080">2417948.91539157</constraint>
+                <constraint year="2085">2553171.82427894</constraint>
+                <constraint year="2090">2680531.69086182</constraint>
+                <constraint year="2095">2799017.66698508</constraint>
+                <constraint year="2100">2904511.1255684</constraint>
+            </policy-portfolio-standard>
+        </region>
+        <region name="Russia">
+            <LandAllocatorRoot name="root">
+                <negative-emiss-market>negative_emiss_budget</negative-emiss-market>
+            </LandAllocatorRoot>
+            <policy-portfolio-standard name="negative_emiss_budget">
+                <max-price fillout="1" year="1975">1</max-price>
+                <market>global</market>
+                <policyType>tax</policyType>
+                <constraint year="2020">596973.981523049</constraint>
+                <price-unit>%</price-unit>
+                <output-unit>mil 1990$</output-unit>
+                <constraint year="2025">715489.453313378</constraint>
+                <constraint year="2030">854599.96706256</constraint>
+                <constraint year="2035">1010106.80390985</constraint>
+                <constraint year="2040">1172462.21810764</constraint>
+                <constraint year="2045">1336479.65897802</constraint>
+                <constraint year="2050">1495692.81446354</constraint>
+                <constraint year="2055">1652425.33333557</constraint>
+                <constraint year="2060">1811886.61030722</constraint>
+                <constraint year="2065">1972298.95772909</constraint>
+                <constraint year="2070">2127931.15172885</constraint>
+                <constraint year="2075">2275090.8380174</constraint>
+                <constraint year="2080">2417948.91539157</constraint>
+                <constraint year="2085">2553171.82427894</constraint>
+                <constraint year="2090">2680531.69086182</constraint>
+                <constraint year="2095">2799017.66698508</constraint>
+                <constraint year="2100">2904511.1255684</constraint>
+            </policy-portfolio-standard>
+        </region>
+        <region name="South Africa">
+            <LandAllocatorRoot name="root">
+                <negative-emiss-market>negative_emiss_budget</negative-emiss-market>
+            </LandAllocatorRoot>
+            <policy-portfolio-standard name="negative_emiss_budget">
+                <max-price fillout="1" year="1975">1</max-price>
+                <market>global</market>
+                <policyType>tax</policyType>
+                <constraint year="2020">596973.981523049</constraint>
+                <price-unit>%</price-unit>
+                <output-unit>mil 1990$</output-unit>
+                <constraint year="2025">715489.453313378</constraint>
+                <constraint year="2030">854599.96706256</constraint>
+                <constraint year="2035">1010106.80390985</constraint>
+                <constraint year="2040">1172462.21810764</constraint>
+                <constraint year="2045">1336479.65897802</constraint>
+                <constraint year="2050">1495692.81446354</constraint>
+                <constraint year="2055">1652425.33333557</constraint>
+                <constraint year="2060">1811886.61030722</constraint>
+                <constraint year="2065">1972298.95772909</constraint>
+                <constraint year="2070">2127931.15172885</constraint>
+                <constraint year="2075">2275090.8380174</constraint>
+                <constraint year="2080">2417948.91539157</constraint>
+                <constraint year="2085">2553171.82427894</constraint>
+                <constraint year="2090">2680531.69086182</constraint>
+                <constraint year="2095">2799017.66698508</constraint>
+                <constraint year="2100">2904511.1255684</constraint>
+            </policy-portfolio-standard>
+        </region>
+        <region name="South America_Northern">
+            <LandAllocatorRoot name="root">
+                <negative-emiss-market>negative_emiss_budget</negative-emiss-market>
+            </LandAllocatorRoot>
+            <policy-portfolio-standard name="negative_emiss_budget">
+                <max-price fillout="1" year="1975">1</max-price>
+                <market>global</market>
+                <policyType>tax</policyType>
+                <constraint year="2020">596973.981523049</constraint>
+                <price-unit>%</price-unit>
+                <output-unit>mil 1990$</output-unit>
+                <constraint year="2025">715489.453313378</constraint>
+                <constraint year="2030">854599.96706256</constraint>
+                <constraint year="2035">1010106.80390985</constraint>
+                <constraint year="2040">1172462.21810764</constraint>
+                <constraint year="2045">1336479.65897802</constraint>
+                <constraint year="2050">1495692.81446354</constraint>
+                <constraint year="2055">1652425.33333557</constraint>
+                <constraint year="2060">1811886.61030722</constraint>
+                <constraint year="2065">1972298.95772909</constraint>
+                <constraint year="2070">2127931.15172885</constraint>
+                <constraint year="2075">2275090.8380174</constraint>
+                <constraint year="2080">2417948.91539157</constraint>
+                <constraint year="2085">2553171.82427894</constraint>
+                <constraint year="2090">2680531.69086182</constraint>
+                <constraint year="2095">2799017.66698508</constraint>
+                <constraint year="2100">2904511.1255684</constraint>
+            </policy-portfolio-standard>
+        </region>
+        <region name="South America_Southern">
+            <LandAllocatorRoot name="root">
+                <negative-emiss-market>negative_emiss_budget</negative-emiss-market>
+            </LandAllocatorRoot>
+            <policy-portfolio-standard name="negative_emiss_budget">
+                <max-price fillout="1" year="1975">1</max-price>
+                <market>global</market>
+                <policyType>tax</policyType>
+                <constraint year="2020">596973.981523049</constraint>
+                <price-unit>%</price-unit>
+                <output-unit>mil 1990$</output-unit>
+                <constraint year="2025">715489.453313378</constraint>
+                <constraint year="2030">854599.96706256</constraint>
+                <constraint year="2035">1010106.80390985</constraint>
+                <constraint year="2040">1172462.21810764</constraint>
+                <constraint year="2045">1336479.65897802</constraint>
+                <constraint year="2050">1495692.81446354</constraint>
+                <constraint year="2055">1652425.33333557</constraint>
+                <constraint year="2060">1811886.61030722</constraint>
+                <constraint year="2065">1972298.95772909</constraint>
+                <constraint year="2070">2127931.15172885</constraint>
+                <constraint year="2075">2275090.8380174</constraint>
+                <constraint year="2080">2417948.91539157</constraint>
+                <constraint year="2085">2553171.82427894</constraint>
+                <constraint year="2090">2680531.69086182</constraint>
+                <constraint year="2095">2799017.66698508</constraint>
+                <constraint year="2100">2904511.1255684</constraint>
+            </policy-portfolio-standard>
+        </region>
+        <region name="South Asia">
+            <LandAllocatorRoot name="root">
+                <negative-emiss-market>negative_emiss_budget</negative-emiss-market>
+            </LandAllocatorRoot>
+            <policy-portfolio-standard name="negative_emiss_budget">
+                <max-price fillout="1" year="1975">1</max-price>
+                <market>global</market>
+                <policyType>tax</policyType>
+                <constraint year="2020">596973.981523049</constraint>
+                <price-unit>%</price-unit>
+                <output-unit>mil 1990$</output-unit>
+                <constraint year="2025">715489.453313378</constraint>
+                <constraint year="2030">854599.96706256</constraint>
+                <constraint year="2035">1010106.80390985</constraint>
+                <constraint year="2040">1172462.21810764</constraint>
+                <constraint year="2045">1336479.65897802</constraint>
+                <constraint year="2050">1495692.81446354</constraint>
+                <constraint year="2055">1652425.33333557</constraint>
+                <constraint year="2060">1811886.61030722</constraint>
+                <constraint year="2065">1972298.95772909</constraint>
+                <constraint year="2070">2127931.15172885</constraint>
+                <constraint year="2075">2275090.8380174</constraint>
+                <constraint year="2080">2417948.91539157</constraint>
+                <constraint year="2085">2553171.82427894</constraint>
+                <constraint year="2090">2680531.69086182</constraint>
+                <constraint year="2095">2799017.66698508</constraint>
+                <constraint year="2100">2904511.1255684</constraint>
+            </policy-portfolio-standard>
+        </region>
+        <region name="South Korea">
+            <LandAllocatorRoot name="root">
+                <negative-emiss-market>negative_emiss_budget</negative-emiss-market>
+            </LandAllocatorRoot>
+            <policy-portfolio-standard name="negative_emiss_budget">
+                <max-price fillout="1" year="1975">1</max-price>
+                <market>global</market>
+                <policyType>tax</policyType>
+                <constraint year="2020">596973.981523049</constraint>
+                <price-unit>%</price-unit>
+                <output-unit>mil 1990$</output-unit>
+                <constraint year="2025">715489.453313378</constraint>
+                <constraint year="2030">854599.96706256</constraint>
+                <constraint year="2035">1010106.80390985</constraint>
+                <constraint year="2040">1172462.21810764</constraint>
+                <constraint year="2045">1336479.65897802</constraint>
+                <constraint year="2050">1495692.81446354</constraint>
+                <constraint year="2055">1652425.33333557</constraint>
+                <constraint year="2060">1811886.61030722</constraint>
+                <constraint year="2065">1972298.95772909</constraint>
+                <constraint year="2070">2127931.15172885</constraint>
+                <constraint year="2075">2275090.8380174</constraint>
+                <constraint year="2080">2417948.91539157</constraint>
+                <constraint year="2085">2553171.82427894</constraint>
+                <constraint year="2090">2680531.69086182</constraint>
+                <constraint year="2095">2799017.66698508</constraint>
+                <constraint year="2100">2904511.1255684</constraint>
+            </policy-portfolio-standard>
+        </region>
+        <region name="Southeast Asia">
+            <LandAllocatorRoot name="root">
+                <negative-emiss-market>negative_emiss_budget</negative-emiss-market>
+            </LandAllocatorRoot>
+            <policy-portfolio-standard name="negative_emiss_budget">
+                <max-price fillout="1" year="1975">1</max-price>
+                <market>global</market>
+                <policyType>tax</policyType>
+                <constraint year="2020">596973.981523049</constraint>
+                <price-unit>%</price-unit>
+                <output-unit>mil 1990$</output-unit>
+                <constraint year="2025">715489.453313378</constraint>
+                <constraint year="2030">854599.96706256</constraint>
+                <constraint year="2035">1010106.80390985</constraint>
+                <constraint year="2040">1172462.21810764</constraint>
+                <constraint year="2045">1336479.65897802</constraint>
+                <constraint year="2050">1495692.81446354</constraint>
+                <constraint year="2055">1652425.33333557</constraint>
+                <constraint year="2060">1811886.61030722</constraint>
+                <constraint year="2065">1972298.95772909</constraint>
+                <constraint year="2070">2127931.15172885</constraint>
+                <constraint year="2075">2275090.8380174</constraint>
+                <constraint year="2080">2417948.91539157</constraint>
+                <constraint year="2085">2553171.82427894</constraint>
+                <constraint year="2090">2680531.69086182</constraint>
+                <constraint year="2095">2799017.66698508</constraint>
+                <constraint year="2100">2904511.1255684</constraint>
+            </policy-portfolio-standard>
+        </region>
+        <region name="Taiwan">
+            <LandAllocatorRoot name="root">
+                <negative-emiss-market>negative_emiss_budget</negative-emiss-market>
+            </LandAllocatorRoot>
+            <policy-portfolio-standard name="negative_emiss_budget">
+                <max-price fillout="1" year="1975">1</max-price>
+                <market>global</market>
+                <policyType>tax</policyType>
+                <constraint year="2020">596973.981523049</constraint>
+                <price-unit>%</price-unit>
+                <output-unit>mil 1990$</output-unit>
+                <constraint year="2025">715489.453313378</constraint>
+                <constraint year="2030">854599.96706256</constraint>
+                <constraint year="2035">1010106.80390985</constraint>
+                <constraint year="2040">1172462.21810764</constraint>
+                <constraint year="2045">1336479.65897802</constraint>
+                <constraint year="2050">1495692.81446354</constraint>
+                <constraint year="2055">1652425.33333557</constraint>
+                <constraint year="2060">1811886.61030722</constraint>
+                <constraint year="2065">1972298.95772909</constraint>
+                <constraint year="2070">2127931.15172885</constraint>
+                <constraint year="2075">2275090.8380174</constraint>
+                <constraint year="2080">2417948.91539157</constraint>
+                <constraint year="2085">2553171.82427894</constraint>
+                <constraint year="2090">2680531.69086182</constraint>
+                <constraint year="2095">2799017.66698508</constraint>
+                <constraint year="2100">2904511.1255684</constraint>
+            </policy-portfolio-standard>
+        </region>
+        <region name="Argentina">
+            <LandAllocatorRoot name="root">
+                <negative-emiss-market>negative_emiss_budget</negative-emiss-market>
+            </LandAllocatorRoot>
+            <policy-portfolio-standard name="negative_emiss_budget">
+                <max-price fillout="1" year="1975">1</max-price>
+                <market>global</market>
+                <policyType>tax</policyType>
+                <constraint year="2020">596973.981523049</constraint>
+                <price-unit>%</price-unit>
+                <output-unit>mil 1990$</output-unit>
+                <constraint year="2025">715489.453313378</constraint>
+                <constraint year="2030">854599.96706256</constraint>
+                <constraint year="2035">1010106.80390985</constraint>
+                <constraint year="2040">1172462.21810764</constraint>
+                <constraint year="2045">1336479.65897802</constraint>
+                <constraint year="2050">1495692.81446354</constraint>
+                <constraint year="2055">1652425.33333557</constraint>
+                <constraint year="2060">1811886.61030722</constraint>
+                <constraint year="2065">1972298.95772909</constraint>
+                <constraint year="2070">2127931.15172885</constraint>
+                <constraint year="2075">2275090.8380174</constraint>
+                <constraint year="2080">2417948.91539157</constraint>
+                <constraint year="2085">2553171.82427894</constraint>
+                <constraint year="2090">2680531.69086182</constraint>
+                <constraint year="2095">2799017.66698508</constraint>
+                <constraint year="2100">2904511.1255684</constraint>
+            </policy-portfolio-standard>
+        </region>
+        <region name="Colombia">
+            <LandAllocatorRoot name="root">
+                <negative-emiss-market>negative_emiss_budget</negative-emiss-market>
+            </LandAllocatorRoot>
+            <policy-portfolio-standard name="negative_emiss_budget">
+                <max-price fillout="1" year="1975">1</max-price>
+                <market>global</market>
+                <policyType>tax</policyType>
+                <constraint year="2020">596973.981523049</constraint>
+                <price-unit>%</price-unit>
+                <output-unit>mil 1990$</output-unit>
+                <constraint year="2025">715489.453313378</constraint>
+                <constraint year="2030">854599.96706256</constraint>
+                <constraint year="2035">1010106.80390985</constraint>
+                <constraint year="2040">1172462.21810764</constraint>
+                <constraint year="2045">1336479.65897802</constraint>
+                <constraint year="2050">1495692.81446354</constraint>
+                <constraint year="2055">1652425.33333557</constraint>
+                <constraint year="2060">1811886.61030722</constraint>
+                <constraint year="2065">1972298.95772909</constraint>
+                <constraint year="2070">2127931.15172885</constraint>
+                <constraint year="2075">2275090.8380174</constraint>
+                <constraint year="2080">2417948.91539157</constraint>
+                <constraint year="2085">2553171.82427894</constraint>
+                <constraint year="2090">2680531.69086182</constraint>
+                <constraint year="2095">2799017.66698508</constraint>
+                <constraint year="2100">2904511.1255684</constraint>
+            </policy-portfolio-standard>
+        </region>
+    </world>
+</scenario>

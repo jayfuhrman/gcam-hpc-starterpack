@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BatchRunner xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="batch_runner.xsd">
+<!--Permutations of ghg, luc policy with demand adjust-->
+	<ComponentSet name="policy">
+
+
+		<FileSet name="1p5_cap_UCT_CO2_demand_adjust">
+			<Value name = "cap">../input/addons/dac/carbon_cap/carbon_cap_netzero_2040_peak_neg_1p5Gt.xml</Value>
+			<Value name = "luc_price">../input/addons/dac/uct/global_uct_spa1_demand_adjust.xml</Value>
+		</FileSet>
+
+		<FileSet name="1p5_cap_FFICT_CO2">
+			<Value name = "cap">../input/addons/dac/carbon_cap/carbon_cap_netzero_2040_peak_neg_1p5Gt.xml</Value>
+		</FileSet>
+
+		<FileSet name="1p5_cap_UCT_ghg_demand_adjust">
+			<Value name = "cap">../input/addons/dac/ghg_cap/carbon_cap_netzero_2040_peak_neg_1p5Gt_ghg.xml</Value>
+			<Value name = "luc_price">../input/addons/dac/uct/global_uct_spa1_demand_adjust.xml</Value>
+			<Value name = "ghg-link">../input/addons/linked-ghg-policy/ghg_link_p2a_standard.xml</Value>
+		</FileSet>
+
+		<FileSet name="1p5_cap_FFICT_ghg">
+			<Value name = "cap">../input/addons/dac/ghg_cap/carbon_cap_netzero_2040_peak_neg_1p5Gt_ghg.xml</Value>
+			<Value name = "ghg-link">../input/addons/linked-ghg-policy/ghg_link_p2a_standard.xml</Value>
+		</FileSet>
+
+	
+
+
+	</ComponentSet>
+
+
+	<ComponentSet name="dac_costs">
+
+
+
+		<!--FileSet name="low_cost_DAC_thermal">
+			<Value name = "dac">../input/addons/dac/keith2018Cccswater.xml</Value>
+		</FileSet-->
+
+		<FileSet name="low_cost_DAC_fully_electrified">
+			<Value name = "dac">../input/addons/dac/keith2018A_elec.xml</Value>
+		</FileSet>
+
+
+	
+	</ComponentSet>
+
+
+</BatchRunner>
+
+

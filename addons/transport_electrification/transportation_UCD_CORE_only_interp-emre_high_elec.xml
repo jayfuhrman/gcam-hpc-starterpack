@@ -1,0 +1,963 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+    <world>
+        <global-technology-database>
+            <location-info sector-name="trn_freight" subsector-name="Freight Rail">
+                <tranTechnology name="Adv-Electric">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="Adv-Liquid">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="Coal">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2015">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="Electric">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="Liquids">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </tranTechnology>
+            </location-info>
+            <location-info sector-name="trn_freight_road" subsector-name="3W Rural">
+                <tranTechnology name="Liquids">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="NG">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+            </location-info>
+            <location-info sector-name="trn_freight_road" subsector-name="Truck">
+                <tranTechnology name="Liquids">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="NG">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="BEV">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2020">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+            </location-info>
+            <location-info sector-name="trn_freight_road" subsector-name="Truck (>12t)">
+                <tranTechnology name="Liquids">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="NG">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="BEV">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2020">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+            </location-info>
+            <location-info sector-name="trn_freight_road" subsector-name="Truck (>14t)">
+                <tranTechnology name="Liquids">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="NG">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="BEV">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2020">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+            </location-info>
+            <location-info sector-name="trn_freight_road" subsector-name="Truck (>15t)">
+                <tranTechnology name="Liquids">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="NG">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="BEV">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2020">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+            </location-info>
+            <location-info sector-name="trn_freight_road" subsector-name="Truck (>32t)">
+                <tranTechnology name="Liquids">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="NG">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="BEV">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2020">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+            </location-info>
+            <location-info sector-name="trn_freight_road" subsector-name="Truck (0-1t)">
+                <tranTechnology name="Liquids">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="NG">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="BEV">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2020">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+            </location-info>
+            <location-info sector-name="trn_freight_road" subsector-name="Truck (0-2.7t)">
+                <tranTechnology name="Liquids">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="NG">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="BEV">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2020">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+            </location-info>
+            <location-info sector-name="trn_freight_road" subsector-name="Truck (0-2t)">
+                <tranTechnology name="Liquids">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="NG">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="BEV">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2020">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+            </location-info>
+            <location-info sector-name="trn_freight_road" subsector-name="Truck (0-3.5t)">
+                <tranTechnology name="Liquids">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="NG">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="BEV">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2020">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+            </location-info>
+            <location-info sector-name="trn_freight_road" subsector-name="Truck (0-4.5t)">
+                <tranTechnology name="Liquids">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="NG">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="BEV">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2020">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+            </location-info>
+            <location-info sector-name="trn_freight_road" subsector-name="Truck (0-6t)">
+                <tranTechnology name="Liquids">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="NG">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="BEV">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2020">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+            </location-info>
+            <location-info sector-name="trn_freight_road" subsector-name="Truck (1-6t)">
+                <tranTechnology name="Liquids">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="NG">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="BEV">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2020">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+            </location-info>
+            <location-info sector-name="trn_freight_road" subsector-name="Truck (16-32t)">
+                <tranTechnology name="Liquids">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="NG">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="BEV">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2020">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+            </location-info>
+            <location-info sector-name="trn_freight_road" subsector-name="Truck (2-5t)">
+                <tranTechnology name="Liquids">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="NG">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="BEV">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2020">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+            </location-info>
+            <location-info sector-name="trn_freight_road" subsector-name="Truck (2.7-4.5t)">
+                <tranTechnology name="Liquids">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="NG">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="BEV">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2020">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+            </location-info>
+            <location-info sector-name="trn_freight_road" subsector-name="Truck (3.5-16t)">
+                <tranTechnology name="Liquids">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="NG">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="BEV">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2020">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+            </location-info>
+            <location-info sector-name="trn_freight_road" subsector-name="Truck (4.5-12t)">
+                <tranTechnology name="Liquids">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="NG">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="BEV">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2020">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+            </location-info>
+            <location-info sector-name="trn_freight_road" subsector-name="Truck (4.5-15t)">
+                <tranTechnology name="Liquids">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="NG">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="BEV">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2020">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+            </location-info>
+            <location-info sector-name="trn_freight_road" subsector-name="Truck (5-9t)">
+                <tranTechnology name="Liquids">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="NG">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="BEV">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2020">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+            </location-info>
+            <location-info sector-name="trn_freight_road" subsector-name="Truck (6-14t)">
+                <tranTechnology name="Liquids">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="NG">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="BEV">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2020">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+            </location-info>
+            <location-info sector-name="trn_freight_road" subsector-name="Truck (6-15t)">
+                <tranTechnology name="Liquids">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="NG">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="BEV">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2020">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+            </location-info>
+            <location-info sector-name="trn_freight_road" subsector-name="Truck (6-30t)">
+                <tranTechnology name="Liquids">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="NG">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="BEV">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2020">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+            </location-info>
+            <location-info sector-name="trn_freight_road" subsector-name="Truck (9-16t)">
+                <tranTechnology name="Liquids">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="NG">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="BEV">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2020">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+            </location-info>
+            <location-info sector-name="trn_pass" subsector-name="Passenger Rail">
+                <tranTechnology name="Electric">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="Liquids">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="Tech-Adv-Electric">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="Tech-Adv-Liquid">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </tranTechnology>
+            </location-info>
+            <location-info sector-name="trn_pass_road" subsector-name="Bus">
+                <tranTechnology name="Liquids">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="NG">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="BEV">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2020">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+            </location-info>
+            <location-info sector-name="trn_pass_road_bus" subsector-name="Heavy Bus">
+                <tranTechnology name="Liquids">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="NG">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="BEV">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2020">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+            </location-info>
+            <location-info sector-name="trn_pass_road_bus" subsector-name="Light Bus">
+                <tranTechnology name="Liquids">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="NG">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="BEV">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2020">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+            </location-info>
+            <location-info sector-name="trn_pass_road_LDV" subsector-name="Three-Wheeler">
+                <tranTechnology name="Liquids">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="NG">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+            </location-info>
+            <location-info sector-name="trn_pass_road_LDV_2W" subsector-name="Moped">
+                <tranTechnology name="BEV">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2020">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="Liquids">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </tranTechnology>
+            </location-info>
+            <location-info sector-name="trn_pass_road_LDV_2W" subsector-name="Motorcycle (>250cc)">
+                <tranTechnology name="BEV">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2020">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="Liquids">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </tranTechnology>
+            </location-info>
+            <location-info sector-name="trn_pass_road_LDV_2W" subsector-name="Motorcycle (50-250cc)">
+                <tranTechnology name="BEV">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2020">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="LA-BEV">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2050">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="Liquids">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </tranTechnology>
+            </location-info>
+            <location-info sector-name="trn_pass_road_LDV_2W" subsector-name="Scooter">
+                <tranTechnology name="BEV">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2020">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="Liquids">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </tranTechnology>
+            </location-info>
+            <location-info sector-name="trn_pass_road_LDV_4W" subsector-name="Compact Car">
+                <tranTechnology name="BEV">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2020">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="FCEV">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2030">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="Hybrid Liquids">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2030">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="Liquids">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="NG">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+            </location-info>
+            <location-info sector-name="trn_pass_road_LDV_4W" subsector-name="Large Car">
+                <tranTechnology name="BEV">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2020">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="FCEV">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2030">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="Hybrid Liquids">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2030">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="Liquids">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="NG">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+            </location-info>
+            <location-info sector-name="trn_pass_road_LDV_4W" subsector-name="Large Car and SUV">
+                <tranTechnology name="BEV">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2020">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="FCEV">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2030">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="Hybrid Liquids">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2030">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="Liquids">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="NG">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+            </location-info>
+            <location-info sector-name="trn_pass_road_LDV_4W" subsector-name="Light Truck and SUV">
+                <tranTechnology name="BEV">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2020">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="FCEV">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2030">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="Hybrid Liquids">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2030">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="Liquids">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="NG">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+            </location-info>
+            <location-info sector-name="trn_pass_road_LDV_4W" subsector-name="Midsize Car">
+                <tranTechnology name="BEV">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2020">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="FCEV">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2030">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="Hybrid Liquids">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2030">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="Liquids">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="NG">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+            </location-info>
+            <location-info sector-name="trn_pass_road_LDV_4W" subsector-name="Mini Car">
+                <tranTechnology name="BEV">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2020">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="FCEV">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2030">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="Hybrid Liquids">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2030">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="Liquids">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="NG">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+            </location-info>
+            <location-info sector-name="trn_pass_road_LDV_4W" subsector-name="Multipurpose Vehicle">
+                <tranTechnology name="BEV">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2020">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="FCEV">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2030">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="Hybrid Liquids">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2030">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="Liquids">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="NG">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+            </location-info>
+            <location-info sector-name="trn_pass_road_LDV_4W" subsector-name="Subcompact Car">
+                <tranTechnology name="BEV">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2020">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="FCEV">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2030">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="Hybrid Liquids">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2030">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="Liquids">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="NG">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+            </location-info>
+            <location-info sector-name="trn_pass_road_LDV_4W" subsector-name="Van">
+                <tranTechnology name="BEV">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2020">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="FCEV">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2030">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="Hybrid Liquids">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2030">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="Liquids">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </tranTechnology>
+                <tranTechnology name="NG">
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                </tranTechnology>
+            </location-info>
+        </global-technology-database>
+    </world>
+</scenario>

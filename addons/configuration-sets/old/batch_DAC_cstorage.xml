@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BatchRunner xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="batch_runner.xsd">
+
+	<ComponentSet name="policy">
+
+		<!--FileSet name="Reference"> 
+            
+		</FileSet-->
+
+		<!--FileSet name="carbon_tax">
+			<Value name = "ctax">../input/policy/carbon_tax_25_5.xml</Value>
+		</FileSet-->
+
+		<FileSet name="carbon_cap_">
+			<Value name = "cap">../input/addons/dac/carbon_cap.xml</Value>
+		</FileSet>
+
+	</ComponentSet>
+
+
+	<ComponentSet name="dac_costs">
+
+
+		<FileSet name="dac_non_en_cost_post_comb_CCS">
+			<Value name = "dac">../input/addons/dac/non_energy_cost36dac.xml</Value>
+		</FileSet>
+
+	
+	</ComponentSet>
+
+
+
+
+	<ComponentSet name="cstorage">
+
+
+		<FileSet name="Cstoragep5">
+			<Value name = "carbon_storage">../input/addons/dac/cstorage/Cstoragep5.xml</Value>
+		</FileSet>
+
+		<FileSet name="Cstoragep25">
+			<Value name = "carbon_storage">../input/addons/dac/cstorage/Cstoragep25.xml</Value>
+		</FileSet>
+
+
+
+	</ComponentSet>
+
+</BatchRunner>
+
+

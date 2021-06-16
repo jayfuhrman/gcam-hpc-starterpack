@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario> 
+   <world>
+      <region name="USA">
+         <supplysector name="traded unconventional oil">
+            <subsector name="USA unconventional oil">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="2015">1</share-weight>
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2300">
+                  <to-value>0.3</to-value>                  
+					<interpolation-function name="s-curve"/>
+               </interpolation-rule>
+               
+               <share-weight year="1975">0</share-weight>
+               <share-weight year="1990">0</share-weight>
+               <share-weight year="2005">0</share-weight>
+               <share-weight year="2010">0</share-weight>
+            </subsector>
+            <subsector name="Africa_Eastern unconventional oil">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="2015">1</share-weight>
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2300">
+                  <to-value>0.1</to-value>                  
+					<interpolation-function name="s-curve"/>
+               </interpolation-rule>
+               
+               <share-weight year="1975">0</share-weight>
+               <share-weight year="1990">0</share-weight>
+               <share-weight year="2005">0</share-weight>
+               <share-weight year="2010">0</share-weight>
+            </subsector>
+            <subsector name="Africa_Northern unconventional oil">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="2015">1</share-weight>
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2300">
+                  <to-value>0.1</to-value>                  
+					<interpolation-function name="s-curve"/>
+               </interpolation-rule>
+               
+               <share-weight year="1975">0</share-weight>
+               <share-weight year="1990">0</share-weight>
+               <share-weight year="2005">0</share-weight>
+               <share-weight year="2010">0</share-weight>
+            </subsector>
+            <subsector name="Africa_Southern unconventional oil">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="2015">1</share-weight>
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2300">
+                  <to-value>0.1</to-value>                  
+					<interpolation-function name="s-curve"/>
+               </interpolation-rule>
+               
+               <share-weight year="1975">0</share-weight>
+               <share-weight year="1990">0</share-weight>
+               <share-weight year="2005">0</share-weight>
+               <share-weight year="2010">0</share-weight>
+            </subsector>
+            <subsector name="Africa_Western unconventional oil">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="2015">1</share-weight>
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2300">
+                  <to-value>0.1</to-value>                  
+					<interpolation-function name="s-curve"/>
+               </interpolation-rule>
+               
+               <share-weight year="1975">0</share-weight>
+               <share-weight year="1990">0</share-weight>
+               <share-weight year="2005">0</share-weight>
+               <share-weight year="2010">0</share-weight>
+            </subsector>
+            <subsector name="Australia_NZ unconventional oil">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="2015">1</share-weight>
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2300">
+                  <to-value>0.1</to-value>                  
+					<interpolation-function name="s-curve"/>
+               </interpolation-rule>
+               
+               <share-weight year="1975">0</share-weight>
+               <share-weight year="1990">0</share-weight>
+               <share-weight year="2005">0</share-weight>
+               <share-weight year="2010">0</share-weight>
+            </subsector>
+            <subsector name="Brazil unconventional oil">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="2015">1</share-weight>
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2300">
+                  <to-value>0.1</to-value>                  
+					<interpolation-function name="s-curve"/>
+               </interpolation-rule>
+               
+               <share-weight year="1975">0</share-weight>
+               <share-weight year="1990">0</share-weight>
+               <share-weight year="2005">0</share-weight>
+               <share-weight year="2010">0</share-weight>
+            </subsector>
+            <subsector name="Canada unconventional oil">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="2015">1</share-weight>
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2050">
+                  <interpolation-function name="linear"/>
+               </interpolation-rule>
+               
+               <share-weight year="1975">0</share-weight>
+               <share-weight year="1990">1</share-weight>
+               <share-weight year="2005">1</share-weight>
+               <share-weight year="2010">1</share-weight>
+            </subsector>
+            <subsector name="Central America and Caribbean unconventional oil">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="2015">1</share-weight>
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2300">
+                  <to-value>0.1</to-value>                  
+					<interpolation-function name="s-curve"/>
+               </interpolation-rule>
+               
+               <share-weight year="1975">0</share-weight>
+               <share-weight year="1990">0</share-weight>
+               <share-weight year="2005">0</share-weight>
+               <share-weight year="2010">0</share-weight>
+            </subsector>
+            <subsector name="Central Asia unconventional oil">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="2015">1</share-weight>
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2300">
+                  <to-value>0.1</to-value>                  
+					<interpolation-function name="s-curve"/>
+               </interpolation-rule>
+               
+               <share-weight year="1975">0</share-weight>
+               <share-weight year="1990">0</share-weight>
+               <share-weight year="2005">0</share-weight>
+               <share-weight year="2010">0</share-weight>
+            </subsector>
+            <subsector name="China unconventional oil">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="2015">1</share-weight>
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2300">
+                  <to-value>0.1</to-value>                  
+					<interpolation-function name="s-curve"/>
+               </interpolation-rule>
+               
+               <share-weight year="1975">0</share-weight>
+               <share-weight year="1990">0</share-weight>
+               <share-weight year="2005">0</share-weight>
+               <share-weight year="2010">0</share-weight>
+            </subsector>
+            <subsector name="EU-12 unconventional oil">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="2015">1</share-weight>
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2300">
+                  <to-value>0.1</to-value>                  
+					<interpolation-function name="s-curve"/>
+               </interpolation-rule>
+               
+               <share-weight year="1975">0</share-weight>
+               <share-weight year="1990">0</share-weight>
+               <share-weight year="2005">0</share-weight>
+               <share-weight year="2010">0</share-weight>
+            </subsector>
+            <subsector name="EU-15 unconventional oil">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="2015">1</share-weight>
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2300">
+                  <to-value>0.1</to-value>                  
+					<interpolation-function name="s-curve"/>
+               </interpolation-rule>
+               
+               <share-weight year="1975">0</share-weight>
+               <share-weight year="1990">0</share-weight>
+               <share-weight year="2005">0</share-weight>
+               <share-weight year="2010">0</share-weight>
+            </subsector>
+            <subsector name="Europe_Eastern unconventional oil">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="2015">1</share-weight>
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2300">
+                  <to-value>0.1</to-value>                  
+					<interpolation-function name="s-curve"/>
+               </interpolation-rule>
+               
+               <share-weight year="1975">0</share-weight>
+               <share-weight year="1990">0</share-weight>
+               <share-weight year="2005">0</share-weight>
+               <share-weight year="2010">0</share-weight>
+            </subsector>
+            <subsector name="Europe_Non_EU unconventional oil">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="2015">1</share-weight>
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2300">
+                  <to-value>0.1</to-value>                  
+					<interpolation-function name="s-curve"/>
+               </interpolation-rule>
+               
+               <share-weight year="1975">0</share-weight>
+               <share-weight year="1990">0</share-weight>
+               <share-weight year="2005">0</share-weight>
+               <share-weight year="2010">0</share-weight>
+            </subsector>
+            <subsector name="European Free Trade Association unconventional oil">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="2015">1</share-weight>
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2300">
+                  <to-value>0.1</to-value>                  
+					<interpolation-function name="s-curve"/>
+               </interpolation-rule>
+               
+               <share-weight year="1975">0</share-weight>
+               <share-weight year="1990">0</share-weight>
+               <share-weight year="2005">0</share-weight>
+               <share-weight year="2010">0</share-weight>
+            </subsector>
+            <subsector name="India unconventional oil">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="2015">1</share-weight>
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2300">
+                  <to-value>0.1</to-value>                  
+					<interpolation-function name="s-curve"/>
+               </interpolation-rule>
+               
+               <share-weight year="1975">0</share-weight>
+               <share-weight year="1990">0</share-weight>
+               <share-weight year="2005">0</share-weight>
+               <share-weight year="2010">0</share-weight>
+            </subsector>
+            <subsector name="Indonesia unconventional oil">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="2015">1</share-weight>
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2300">
+                  <to-value>0.1</to-value>                  
+					<interpolation-function name="s-curve"/>
+               </interpolation-rule>
+               
+               <share-weight year="1975">0</share-weight>
+               <share-weight year="1990">0</share-weight>
+               <share-weight year="2005">0</share-weight>
+               <share-weight year="2010">0</share-weight>
+            </subsector>
+            <subsector name="Japan unconventional oil">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="2015">1</share-weight>
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2300">
+                  <to-value>0.1</to-value>                  
+					<interpolation-function name="s-curve"/>
+               </interpolation-rule>
+               
+               <share-weight year="1975">0</share-weight>
+               <share-weight year="1990">0</share-weight>
+               <share-weight year="2005">0</share-weight>
+               <share-weight year="2010">0</share-weight>
+            </subsector>
+            <subsector name="Mexico unconventional oil">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="2015">1</share-weight>
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2300">
+                  <to-value>0.1</to-value>                  
+					<interpolation-function name="s-curve"/>
+               </interpolation-rule>
+               
+               <share-weight year="1975">0</share-weight>
+               <share-weight year="1990">0</share-weight>
+               <share-weight year="2005">0</share-weight>
+               <share-weight year="2010">0</share-weight>
+            </subsector>
+            <subsector name="Middle East unconventional oil">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="2015">1</share-weight>
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2300">
+                  <to-value>0.1</to-value>                  
+					<interpolation-function name="s-curve"/>
+               </interpolation-rule>
+               
+               <share-weight year="1975">0</share-weight>
+               <share-weight year="1990">0</share-weight>
+               <share-weight year="2005">0</share-weight>
+               <share-weight year="2010">0</share-weight>
+            </subsector>
+            <subsector name="Pakistan unconventional oil">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="2015">1</share-weight>
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2300">
+                  <to-value>0.1</to-value>                  
+					<interpolation-function name="s-curve"/>
+               </interpolation-rule>
+               
+               <share-weight year="1975">0</share-weight>
+               <share-weight year="1990">0</share-weight>
+               <share-weight year="2005">0</share-weight>
+               <share-weight year="2010">0</share-weight>
+            </subsector>
+            <subsector name="Russia unconventional oil">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="2015">1</share-weight>
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2300">
+                  <to-value>0.1</to-value>                  
+					<interpolation-function name="s-curve"/>
+               </interpolation-rule>
+               
+               <share-weight year="1975">0</share-weight>
+               <share-weight year="1990">0</share-weight>
+               <share-weight year="2005">0</share-weight>
+               <share-weight year="2010">0</share-weight>
+            </subsector>
+            <subsector name="South Africa unconventional oil">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="2015">1</share-weight>
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2300">
+                  <to-value>0.1</to-value>                  
+					<interpolation-function name="s-curve"/>
+               </interpolation-rule>
+               
+               <share-weight year="1975">0</share-weight>
+               <share-weight year="1990">0</share-weight>
+               <share-weight year="2005">0</share-weight>
+               <share-weight year="2010">0</share-weight>
+            </subsector>
+            <subsector name="South America_Northern unconventional oil">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="2015">1</share-weight>
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2050">
+                  <interpolation-function name="linear"/>
+               </interpolation-rule>
+               
+               <share-weight year="1975">0</share-weight>
+               <share-weight year="1990">0</share-weight>
+               <share-weight year="2005">1</share-weight>
+               <share-weight year="2010">1</share-weight>
+            </subsector>
+            <subsector name="South America_Southern unconventional oil">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="2015">1</share-weight>
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2300">
+                  <to-value>0.1</to-value>                  
+					<interpolation-function name="s-curve"/>
+               </interpolation-rule>
+               
+               <share-weight year="1975">0</share-weight>
+               <share-weight year="1990">0</share-weight>
+               <share-weight year="2005">0</share-weight>
+               <share-weight year="2010">0</share-weight>
+            </subsector>
+            <subsector name="South Asia unconventional oil">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="2015">1</share-weight>
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2300">
+                  <to-value>0.1</to-value>                  
+					<interpolation-function name="s-curve"/>
+               </interpolation-rule>
+               
+               <share-weight year="1975">0</share-weight>
+               <share-weight year="1990">0</share-weight>
+               <share-weight year="2005">0</share-weight>
+               <share-weight year="2010">0</share-weight>
+            </subsector>
+            <subsector name="South Korea unconventional oil">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="2015">1</share-weight>
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2300">
+                  <to-value>0.1</to-value>                  
+					<interpolation-function name="s-curve"/>
+               </interpolation-rule>
+               
+               <share-weight year="1975">0</share-weight>
+               <share-weight year="1990">0</share-weight>
+               <share-weight year="2005">0</share-weight>
+               <share-weight year="2010">0</share-weight>
+            </subsector>
+            <subsector name="Southeast Asia unconventional oil">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="2015">1</share-weight>
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2300">
+                  <to-value>0.1</to-value>                  
+					<interpolation-function name="s-curve"/>
+               </interpolation-rule>
+               
+               <share-weight year="1975">0</share-weight>
+               <share-weight year="1990">0</share-weight>
+               <share-weight year="2005">0</share-weight>
+               <share-weight year="2010">0</share-weight>
+            </subsector>
+            <subsector name="Taiwan unconventional oil">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="2015">1</share-weight>
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2300">
+                  <to-value>0.1</to-value>                  
+					<interpolation-function name="s-curve"/>
+               </interpolation-rule>
+               
+               <share-weight year="1975">0</share-weight>
+               <share-weight year="1990">0</share-weight>
+               <share-weight year="2005">0</share-weight>
+               <share-weight year="2010">0</share-weight>
+            </subsector>
+            <subsector name="Argentina unconventional oil">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="2015">1</share-weight>
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2300">
+                  <to-value>0.1</to-value>                  
+					<interpolation-function name="s-curve"/>
+               </interpolation-rule>
+               
+               <share-weight year="1975">0</share-weight>
+               <share-weight year="1990">0</share-weight>
+               <share-weight year="2005">0</share-weight>
+               <share-weight year="2010">0</share-weight>
+            </subsector>
+            <subsector name="Colombia unconventional oil">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="2015">1</share-weight>
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2300">
+                  <to-value>0.1</to-value>                  
+					<interpolation-function name="s-curve"/>
+               </interpolation-rule>
+               
+               <share-weight year="1975">0</share-weight>
+               <share-weight year="1990">0</share-weight>
+               <share-weight year="2005">0</share-weight>
+               <share-weight year="2010">0</share-weight>
+            </subsector>
+         </supplysector>
+      </region>
+   </world>
+</scenario>

@@ -1,0 +1,29 @@
+<BatchRunner xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="batch_runner.xsd">
+
+
+	<ComponentSet name="GCAM513_default_xmls">
+
+		<FileSet name="GCAM513_">
+			<Value name = "transportation_no_interp_emre">../input/gcamdata/xml/transportation_UCD_CORE_no_interp.xml</Value>
+	    </FileSet>
+
+	</ComponentSet>
+
+	<ComponentSet name="scenario_specific_info">
+
+		<FileSet name="reference">
+			<Value name = "transportation_interp_emre">../input/gcamdata/xml/transportation_UCD_CORE_only_interp.xml</Value>
+    	</FileSet>
+
+		<FileSet name="CCSon_BioHigh">
+			<Value name = "transportation_interp_emre">../input/gcamdata/xml/transportation_UCD_CORE_only_interp.xml</Value>
+		</FileSet>
+
+		<FileSet name="CCSon_BioHigh_HighElec">
+			<Value name = "transportation_no_interp_emre-high_elec">../input/gcamdata/add_ons/high_elec_sensitivity/transportation_UCD_CORE_no_interp-emre_high_elec.xml</Value>
+			<Value name = "transportation_interp_emre-high_elec">../input/gcamdata/add_ons/high_elec_sensitivity/transportation_UCD_CORE_only_interp-emre_high_elec.xml</Value>
+		</FileSet>
+
+	</ComponentSet>
+
+</BatchRunner>

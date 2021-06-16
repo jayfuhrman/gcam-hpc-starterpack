@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BatchRunner xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="batch_runner.xsd">
+
+	<ComponentSet name="policy">
+
+
+		<FileSet name="ndc_beccs_">
+			<Value name = "policy">../input/addons/ndc_beccs/constraints_pia_MXCL2AGBRv4.xml</Value> 
+            <Value name = "policy1">../input/addons/ndc_beccs/ghg_link_pxa_MX_BR_ar5_LAar4_AR_CO_sar.xml</Value>
+            <Value name = "Bio">../input/addons/ndc_beccs/bio_ceiling_mkt_firstsecondallgen.xml</Value> 
+   	        <Value name = "Bio1">../input/addons/ndc_beccs/bio_ceiling_B200lac.xml</Value>
+		</FileSet>
+
+
+
+
+	</ComponentSet>
+
+
+	<ComponentSet name="dac_costs">
+
+
+
+		<FileSet name="low_cost_DAC">
+			<Value name = "dac">../input/addons/dac/keith2018Cccswater.xml</Value>
+		</FileSet>
+
+		<FileSet name="med_cost_DAC">
+			<Value name = "dac">../input/addons/dac/Mazzotti2013ccswater.xml</Value>
+		</FileSet>
+
+
+		<FileSet name="high_cost_DAC">
+			<Value name = "dac">../input/addons/dac/APS2011_realisticccswater.xml</Value>
+		</FileSet>
+
+
+		<FileSet name="noDAC">
+		</FileSet>
+
+
+
+	
+	</ComponentSet>
+
+
+</BatchRunner>
+
+

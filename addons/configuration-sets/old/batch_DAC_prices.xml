@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BatchRunner xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="batch_runner.xsd">
+
+	<ComponentSet name="policy">
+
+		<!--FileSet name="Reference"> 
+            
+		</FileSet-->
+
+		<!--FileSet name="carbon_tax">
+			<Value name = "ctax">../input/policy/carbon_tax_25_5.xml</Value>
+		</FileSet-->
+
+		<FileSet name="carbon_cap_">
+			<Value name = "cap">../input/addons/dac/carbon_cap.xml</Value>
+		</FileSet>
+
+	</ComponentSet>
+
+
+	<ComponentSet name="dac_costs">
+
+		<FileSet name="no_dac"> 
+            
+		</FileSet>
+
+
+		<FileSet name="very_optimistic_dac_cost_APS">
+			<Value name = "dac">../input/addons/dac/non_energy_cost36dac.xml</Value>
+		</FileSet>
+
+		<FileSet name="optimistic_dac_cost_APS">
+			<Value name = "dac">../input/addons/dac/non_energy_cost350dac.xml</Value>
+		</FileSet>
+
+		<FileSet name="realistic_dac_cost_APS">
+			<Value name = "dac">../input/addons/dac/non_energy_cost470dac.xml</Value>
+		</FileSet>
+
+
+		
+	</ComponentSet>
+	
+</BatchRunner>
+
+

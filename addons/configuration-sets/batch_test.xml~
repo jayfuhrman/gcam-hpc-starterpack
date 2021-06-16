@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BatchRunner xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="batch_runner.xsd">
+
+	<ComponentSet name="batch_test">
+
+		<FileSet name="carbon_tax_DAC"> 
+            
+			<Value name = "ctax_dac">../input/policy/carbon_tax_DAC_test.xml</Value>	 
+
+		</FileSet>
+
+		<FileSet name="ctax_2025_5_test">
+
+			<Value name = "ctax">../input/policy/carbon_tax_25_5.xml</Value>	 
+
+		</FileSet>
+
+	</ComponentSet>
+	
+</BatchRunner>
+
+

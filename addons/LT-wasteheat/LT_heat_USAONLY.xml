@@ -1,0 +1,33 @@
+<scenario>
+    <world>
+        <region name="USA">
+            <resource name="LT heat">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>USA</market>
+                <price year="1975">3</price>
+                <price year="1990">3</price>
+                <price year="2005">3</price>
+                <price year="2010">3</price>
+                <price year="2015">3</price>
+				<price year="2020">3</price>
+				<price year="2025">3</price>
+				<price year="2030">3</price>
+				<price year="2035">3</price>
+				<price year="2040">3</price>
+				<price year="2045">3</price>
+				<price year="2050">3</price>
+				<price year="2055">3</price>
+				<price year="2060">3</price>
+				<price year="2065">3</price>
+				<price year="2070">3</price>
+				<price year="2075">3</price>
+				<price year="2080">3</price>
+				<price year="2085">3</price>
+				<price year="2090">3</price>
+				<price year="2095">3</price>
+				<price year="2100">3</price>
+            </resource>
+		</region>
+</world>
+</scenario>

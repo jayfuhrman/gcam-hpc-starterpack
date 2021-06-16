@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+   <world>
+      <region name="USA">
+         <ghgpolicy name="GHG">
+            <market>USA</market>
+            <fixedTax year="2015">20</fixedTax>
+            <constraint year="2020">5360</constraint>
+            <constraint year="2025">4784</constraint>
+            <constraint year="2030">4209</constraint>
+            <constraint year="2035">3633</constraint>
+            <constraint year="2040">3057</constraint>
+            <constraint year="2045">2482</constraint>
+            <constraint year="2050">1906</constraint>
+            <constraint year="2055">1331</constraint>
+            <constraint year="2060">755</constraint>
+         </ghgpolicy>
+      </region>
+   </world>
+</scenario>

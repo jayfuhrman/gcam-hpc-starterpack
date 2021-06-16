@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BatchRunner xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="batch_runner.xsd">
+	
+
+	<ComponentSet name="policy">
+
+		<FileSet name="1p5_low_os_p3_UCT"> 
+				<Value name = "ccap">../input/addons/policy/ccap/carbon_cap_p3_low_os.xml</Value>
+				<Value name = "luc_price">../input/addons/policy/carbon_cap/global_uct_SLOW_phasein_demand_adjust.xml</Value>
+		</FileSet>
+
+		<FileSet name="1p5_high_os_p4_UCT"> 
+				<Value name = "ccap">../input/addons/policy/ccap/carbon_cap_p4_high_os.xml</Value>
+				<Value name = "luc_price">../input/addons/policy/carbon_cap/global_uct_SLOW_phasein_demand_adjust.xml</Value>
+		</FileSet>
+
+		<FileSet name="1p5_low_os_p3_FFICT"> 
+				<Value name = "ccap">../input/addons/policy/ccap/carbon_cap_p3_low_os.xml</Value>
+				<Value name = "luc_price">../input/addons/policy/carbon_cap/global_FFICT_demand_adj.xml</Value>
+		</FileSet>
+
+		<FileSet name="1p5_high_os_p4_FFICT"> 
+				<Value name = "ccap">../input/addons/policy/ccap/carbon_cap_p4_high_os.xml</Value>
+				<Value name = "luc_price">../input/addons/policy/carbon_cap/global_FFICT_demand_adj.xml</Value>
+		</FileSet>
+
+
+	</ComponentSet >
+
+	<ComponentSet name="dac_costs">
+
+		<FileSet name="dac1_low">
+			<Value name = "dac">../input/addons/dac/DAC1_low_cost.xml</Value>
+		</FileSet>
+
+
+		<FileSet name="dac1_high">
+			<Value name = "dac">../input/addons/dac/DAC1_high_cost.xml</Value>
+		</FileSet>
+
+		<FileSet name="dac2_low">
+			<Value name = "dac">../input/addons/dac/DAC2_low_cost.xml</Value>
+		</FileSet>
+
+		<FileSet name="dac2_high">
+			<Value name = "dac">../input/addons/dac/DAC2_high_cost.xml</Value>
+		</FileSet>
+
+		<FileSet name="noDAC">
+		</FileSet>
+
+	</ComponentSet >
+
+	<!--ComponentSet name="transport">
+
+
+		<FileSet name="_ref_transport">
+		</FileSet>
+
+		<FileSet name="_high_elec_transport">
+			<Value name = "transportation">../input/addons/transport_electrification/transportation_UCD_CORE-emre_high_elec.xml</Value>
+		</FileSet>
+
+
+
+	</ComponentSet-->
+
+
+
+</BatchRunner>
+
+

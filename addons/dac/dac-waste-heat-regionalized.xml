@@ -1,0 +1,436 @@
+<scenario>
+    <world>
+        <region name="USA">
+            <unlimited-resource name="low-temp-heat-dac">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>global</market>
+                <price year="1975">0.94</price>
+                <price year="1990">0.94</price>
+                <price year="2005">0.94</price>
+                <price year="2010">0.94</price>
+				<price year="2015">0.94</price>
+            </unlimited-resource>
+		</region>
+
+        <region name="Africa_Eastern">
+            <unlimited-resource name="low-temp-heat-dac">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>global</market>
+                <price year="1975">0.94</price>
+                <price year="1990">0.94</price>
+                <price year="2005">0.94</price>
+                <price year="2010">0.94</price>
+				<price year="2015">0.94</price>
+            </unlimited-resource>
+		</region>
+
+
+        <region name="Africa_Northern">
+            <unlimited-resource name="low-temp-heat-dac">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>global</market>
+                <price year="1975">0.94</price>
+                <price year="1990">0.94</price>
+                <price year="2005">0.94</price>
+                <price year="2010">0.94</price>
+<price year="2015">0.94</price>
+            </unlimited-resource>
+		</region>
+
+
+        <region name="Africa_Southern">
+            <unlimited-resource name="low-temp-heat-dac">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>global</market>
+                <price year="1975">0.94</price>
+                <price year="1990">0.94</price>
+                <price year="2005">0.94</price>
+                <price year="2010">0.94</price>
+				<price year="2015">0.94</price>
+            </unlimited-resource>
+		</region>
+
+        <region name="Africa_Western">
+            <unlimited-resource name="low-temp-heat-dac">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>global</market>
+                <price year="1975">0.94</price>
+                <price year="1990">0.94</price>
+                <price year="2005">0.94</price>
+                <price year="2010">0.94</price>
+<price year="2015">0.94</price>
+            </unlimited-resource>
+		</region>
+
+        <region name="Africa_Western">
+            <unlimited-resource name="low-temp-heat-dac">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>global</market>
+                <price year="1975">0.94</price>
+                <price year="1990">0.94</price>
+                <price year="2005">0.94</price>
+                <price year="2010">0.94</price>
+<price year="2015">0.94</price>
+            </unlimited-resource>
+		</region>
+
+        <region name="Australia_NZ">
+            <unlimited-resource name="low-temp-heat-dac">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>global</market>
+                <price year="1975">0.94</price>
+                <price year="1990">0.94</price>
+                <price year="2005">0.94</price>
+                <price year="2010">0.94</price>
+<price year="2015">0.94</price>
+            </unlimited-resource>
+		</region>
+
+        <region name="Brazil">
+            <unlimited-resource name="low-temp-heat-dac">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>global</market>
+                <price year="1975">0.94</price>
+                <price year="1990">0.94</price>
+                <price year="2005">0.94</price>
+                <price year="2010">0.94</price>
+<price year="2015">0.94</price>
+            </unlimited-resource>
+		</region>
+
+        <region name="Canada">
+            <unlimited-resource name="low-temp-heat-dac">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>global</market>
+                <price year="1975">0.94</price>
+                <price year="1990">0.94</price>
+                <price year="2005">0.94</price>
+                <price year="2010">0.94</price>
+<price year="2015">0.94</price>
+            </unlimited-resource>
+		</region>
+
+        <region name="Central America and Caribbean">
+            <unlimited-resource name="low-temp-heat-dac">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>global</market>
+                <price year="1975">0.94</price>
+                <price year="1990">0.94</price>
+                <price year="2005">0.94</price>
+                <price year="2010">0.94</price>
+<price year="2015">0.94</price>
+            </unlimited-resource>
+		</region>
+
+        <region name="Central Asia">
+            <unlimited-resource name="low-temp-heat-dac">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>global</market>
+                <price year="1975">0.94</price>
+                <price year="1990">0.94</price>
+                <price year="2005">0.94</price>
+                <price year="2010">0.94</price>
+<price year="2015">0.94</price>
+            </unlimited-resource>
+		</region>
+
+        <region name="China">
+            <unlimited-resource name="low-temp-heat-dac">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>global</market>
+                <price year="1975">0.94</price>
+                <price year="1990">0.94</price>
+                <price year="2005">0.94</price>
+                <price year="2010">0.94</price>
+<price year="2015">0.94</price>
+            </unlimited-resource>
+		</region>
+
+
+        <region name="EU-12">
+            <unlimited-resource name="low-temp-heat-dac">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>global</market>
+                <price year="1975">0.94</price>
+                <price year="1990">0.94</price>
+                <price year="2005">0.94</price>
+                <price year="2010">0.94</price>
+<price year="2015">0.94</price>
+            </unlimited-resource>
+		</region>
+
+        <region name="EU-15">
+            <unlimited-resource name="low-temp-heat-dac">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>global</market>
+                <price year="1975">0.94</price>
+                <price year="1990">0.94</price>
+                <price year="2005">0.94</price>
+                <price year="2010">0.94</price>
+<price year="2015">0.94</price>
+            </unlimited-resource>
+		</region>
+
+        <region name="Europe_Eastern">
+            <unlimited-resource name="low-temp-heat-dac">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>global</market>
+                <price year="1975">0.94</price>
+                <price year="1990">0.94</price>
+                <price year="2005">0.94</price>
+                <price year="2010">0.94</price>
+				<price year="2015">0.94</price>
+            </unlimited-resource>
+		</region>
+
+        <region name="Europe_Non_EU">
+            <unlimited-resource name="low-temp-heat-dac">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>global</market>
+                <price year="1975">0.94</price>
+                <price year="1990">0.94</price>
+                <price year="2005">0.94</price>
+                <price year="2010">0.94</price>
+<price year="2015">0.94</price>
+            </unlimited-resource>
+		</region>
+
+        <region name="European Free Trade Association">
+            <unlimited-resource name="low-temp-heat-dac">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>global</market>
+                <price year="1975">0.94</price>
+                <price year="1990">0.94</price>
+                <price year="2005">0.94</price>
+                <price year="2010">0.94</price>
+<price year="2015">0.94</price>
+            </unlimited-resource>
+		</region>
+
+        <region name="India">
+            <unlimited-resource name="low-temp-heat-dac">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>global</market>
+                <price year="1975">0.94</price>
+                <price year="1990">0.94</price>
+                <price year="2005">0.94</price>
+                <price year="2010">0.94</price>
+				<price year="2015">0.94</price>
+            </unlimited-resource>
+		</region>
+
+        <region name="Indonesia">
+            <unlimited-resource name="low-temp-heat-dac">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>global</market>
+                <price year="1975">0.94</price>
+                <price year="1990">0.94</price>
+                <price year="2005">0.94</price>
+                <price year="2010">0.94</price>
+<price year="2015">0.94</price>
+            </unlimited-resource>
+		</region>
+
+        <region name="Japan">
+            <unlimited-resource name="low-temp-heat-dac">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>global</market>
+                <price year="1975">0.94</price>
+                <price year="1990">0.94</price>
+                <price year="2005">0.94</price>
+                <price year="2010">0.94</price>
+<price year="2015">0.94</price>
+            </unlimited-resource>
+		</region>
+
+        <region name="Mexico">
+            <unlimited-resource name="low-temp-heat-dac">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>global</market>
+                <price year="1975">0.94</price>
+                <price year="1990">0.94</price>
+                <price year="2005">0.94</price>
+                <price year="2010">0.94</price>
+<price year="2015">0.94</price>
+            </unlimited-resource>
+		</region>
+
+        <region name="Middle East">
+            <unlimited-resource name="low-temp-heat-dac">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>global</market>
+                <price year="1975">0.94</price>
+                <price year="1990">0.94</price>
+                <price year="2005">0.94</price>
+                <price year="2010">0.94</price>
+<price year="2015">0.94</price>
+            </unlimited-resource>
+		</region>
+
+        <region name="Pakistan">
+            <unlimited-resource name="low-temp-heat-dac">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>global</market>
+                <price year="1975">0.94</price>
+                <price year="1990">0.94</price>
+                <price year="2005">0.94</price>
+                <price year="2010">0.94</price>
+<price year="2015">0.94</price>
+            </unlimited-resource>
+		</region>
+
+        <region name="Russia">
+            <unlimited-resource name="low-temp-heat-dac">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>global</market>
+                <price year="1975">0.94</price>
+                <price year="1990">0.94</price>
+                <price year="2005">0.94</price>
+                <price year="2010">0.94</price>
+<price year="2015">0.94</price>
+            </unlimited-resource>
+		</region>
+
+        <region name="South Africa">
+            <unlimited-resource name="low-temp-heat-dac">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>global</market>
+                <price year="1975">0.94</price>
+                <price year="1990">0.94</price>
+                <price year="2005">0.94</price>
+                <price year="2010">0.94</price>
+				<price year="2015">0.94</price>
+            </unlimited-resource>
+		</region>
+
+        <region name="South America_Northern">
+            <unlimited-resource name="low-temp-heat-dac">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>global</market>
+                <price year="1975">0.94</price>
+                <price year="1990">0.94</price>
+                <price year="2005">0.94</price>
+                <price year="2010">0.94</price>
+<price year="2015">0.94</price>
+            </unlimited-resource>
+		</region>
+
+        <region name="South America_Southern">
+            <unlimited-resource name="low-temp-heat-dac">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>global</market>
+                <price year="1975">0.94</price>
+                <price year="1990">0.94</price>
+                <price year="2005">0.94</price>
+                <price year="2010">0.94</price>
+<price year="2015">0.94</price>
+            </unlimited-resource>
+		</region>
+
+        <region name="South Asia">
+            <unlimited-resource name="low-temp-heat-dac">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>global</market>
+                <price year="1975">0.94</price>
+                <price year="1990">0.94</price>
+                <price year="2005">0.94</price>
+                <price year="2010">0.94</price>
+<price year="2015">0.94</price>
+            </unlimited-resource>
+		</region>
+
+        <region name="South Korea">
+            <unlimited-resource name="low-temp-heat-dac">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>global</market>
+                <price year="1975">0.94</price>
+                <price year="1990">0.94</price>
+                <price year="2005">0.94</price>
+                <price year="2010">0.94</price>
+<price year="2015">0.94</price>
+            </unlimited-resource>
+		</region>
+
+        <region name="Southeast Asia">
+            <unlimited-resource name="low-temp-heat-dac">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>global</market>
+                <price year="1975">0.94</price>
+                <price year="1990">0.94</price>
+                <price year="2005">0.94</price>
+                <price year="2010">0.94</price>
+				<price year="2015">0.94</price>
+            </unlimited-resource>
+		</region>
+
+        <region name="Taiwan">
+            <unlimited-resource name="low-temp-heat-dac">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>global</market>
+                <price year="1975">0.94</price>
+                <price year="1990">0.94</price>
+                <price year="2005">0.94</price>
+                <price year="2010">0.94</price>
+<price year="2015">0.94</price>
+            </unlimited-resource>
+		</region>
+
+        <region name="Argentina">
+            <unlimited-resource name="low-temp-heat-dac">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>global</market>
+                <price year="1975">0.94</price>
+                <price year="1990">0.94</price>
+                <price year="2005">0.94</price>
+                <price year="2010">0.94</price>
+<price year="2015">0.94</price>
+            </unlimited-resource>
+		</region>
+
+        <region name="Colombia">
+            <unlimited-resource name="low-temp-heat-dac">
+                <output-unit>EJ</output-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <market>global</market>
+                <price year="1975">0.94</price>
+                <price year="1990">0.94</price>
+                <price year="2005">0.94</price>
+                <price year="2010">0.94</price>
+				<price year="2015">0.94</price>
+            </unlimited-resource>
+		</region>
+
+	</world>
+</scenario>

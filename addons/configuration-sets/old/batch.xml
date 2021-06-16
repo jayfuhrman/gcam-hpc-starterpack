@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BatchRunner xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="batch_runner.xsd">
+
+	<ComponentSet name="batch_test">
+
+		<FileSet name="carbon_tax_25_5_DAC"> 
+            
+			<Value name = "ctax">../input/policy/carbon_tax_25_5.xml</Value>
+			<Value name = "dac">../input/addons/dac/dac_2100.xml</Value>	 
+
+		</FileSet>
+
+		<FileSet name="carbon_cap_DAC">
+
+			<Value name = "ccap">../input/addons/dac/carbon_cap.xml</Value>
+			<Value name = "dac">../input/addons/dac/dac_2100.xml</Value>	 
+
+		</FileSet>
+		
+	</ComponentSet>
+	
+</BatchRunner>
+
+

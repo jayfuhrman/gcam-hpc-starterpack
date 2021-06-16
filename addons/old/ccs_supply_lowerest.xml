@@ -1,0 +1,965 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+    <world>
+        <region name="USA">
+            <resource name="onshore carbon-storage">
+                <subresource name="onshore carbon-storage">
+                    <grade name="grade 1">
+                        <available>0</available>
+                        <extractioncost>0.0</extractioncost>
+                    </grade>
+                    <grade name="grade 2">
+                        <available>1809.6</available>
+                        <extractioncost>10.0</extractioncost>
+                    </grade>
+                    <grade name="grade 3">
+                        <available>36191.4</available>
+                        <extractioncost>100.0</extractioncost>
+                    </grade>
+                    <grade name="grade 4">
+                        <available>217148.1</available>
+                        <extractioncost>500.0</extractioncost>
+                    </grade>
+                    <grade name="grade 5">
+                        <available>106764.5</available>
+                        <extractioncost>1000.0</extractioncost>
+                    </grade>
+                    <grade name="grade 6">
+                        <available>0</available>
+                        <extractioncost>10000.0</extractioncost>
+                    </grade>
+                </subresource>
+            </resource>
+        </region>
+        <region name="Africa_Eastern">
+            <resource name="onshore carbon-storage">
+                <subresource name="onshore carbon-storage">
+                    <grade name="grade 1">
+                        <available>0</available>
+                        <extractioncost>0</extractioncost>
+                    </grade>
+                    <grade name="grade 2">
+                        <available>24.1</available>
+                        <extractioncost>10.0</extractioncost>
+                    </grade>
+                    <grade name="grade 3">
+                        <available>481.1</available>
+                        <extractioncost>100.0</extractioncost>
+                    </grade>
+                    <grade name="grade 4">
+                        <available>2886.9</available>
+                        <extractioncost>500.0</extractioncost>
+                    </grade>
+                    <grade name="grade 5">
+                        <available>1419.4</available>
+                        <extractioncost>1000.0</extractioncost>
+                    </grade>
+                    <grade name="grade 6">
+                        <available>0</available>
+                        <extractioncost>10000</extractioncost>
+                    </grade>
+                </subresource>
+            </resource>
+        </region>
+        <region name="Africa_Northern">
+            <resource name="onshore carbon-storage">
+                <subresource name="onshore carbon-storage">
+                    <grade name="grade 1">
+                        <available>0</available>
+                        <extractioncost>0.0</extractioncost>
+                    </grade>
+                    <grade name="grade 2">
+                        <available>23.8</available>
+                        <extractioncost>10.0</extractioncost>
+                    </grade>
+                    <grade name="grade 3">
+                        <available>476</available>
+                        <extractioncost>100.0</extractioncost>
+                    </grade>
+                    <grade name="grade 4">
+                        <available>2855.8</available>
+                        <extractioncost>500.0</extractioncost>
+                    </grade>
+                    <grade name="grade 5">
+                        <available>1404.1</available>
+                        <extractioncost>1000.0</extractioncost>
+                    </grade>
+                    <grade name="grade 6">
+                        <available>0</available>
+                        <extractioncost>10000.0</extractioncost>
+                    </grade>
+                </subresource>
+            </resource>
+        </region>
+        <region name="Africa_Southern">
+            <resource name="onshore carbon-storage">
+                <subresource name="onshore carbon-storage">
+                    <grade name="grade 1">
+                        <available>0</available>
+                        <extractioncost>0.0</extractioncost>
+                    </grade>
+                    <grade name="grade 2">
+                        <available>23.1</available>
+                        <extractioncost>10.0</extractioncost>
+                    </grade>
+                    <grade name="grade 3">
+                        <available>461.8</available>
+                        <extractioncost>100.0</extractioncost>
+                    </grade>
+                    <grade name="grade 4">
+                        <available>2771</available>
+                        <extractioncost>500.0</extractioncost>
+                    </grade>
+                    <grade name="grade 5">
+                        <available>1362.4</available>
+                        <extractioncost>1000.0</extractioncost>
+                    </grade>
+                    <grade name="grade 6">
+                        <available>0</available>
+                        <extractioncost>10000.0</extractioncost>
+                    </grade>
+                </subresource>
+            </resource>
+        </region>
+        <region name="Africa_Western">
+            <resource name="onshore carbon-storage">
+                <subresource name="onshore carbon-storage">
+                    <grade name="grade 1">
+                        <available>0</available>
+                        <extractioncost>0.0</extractioncost>
+                    </grade>
+                    <grade name="grade 2">
+                        <available>46.7</available>
+                        <extractioncost>10.0</extractioncost>
+                    </grade>
+                    <grade name="grade 3">
+                        <available>934.8</available>
+                        <extractioncost>100.0</extractioncost>
+                    </grade>
+                    <grade name="grade 4">
+                        <available>5608.9</available>
+                        <extractioncost>500.0</extractioncost>
+                    </grade>
+                    <grade name="grade 5">
+                        <available>2757.7</available>
+                        <extractioncost>1000.0</extractioncost>
+                    </grade>
+                    <grade name="grade 6">
+                        <available>0</available>
+                        <extractioncost>10000.0</extractioncost>
+                    </grade>
+                </subresource>
+            </resource>
+        </region>
+        <region name="Australia_NZ">
+            <resource name="onshore carbon-storage">
+                <subresource name="onshore carbon-storage">
+                    <grade name="grade 1">
+                        <available>0</available>
+                        <extractioncost>0.0</extractioncost>
+                    </grade>
+                    <grade name="grade 2">
+                        <available>377.7</available>
+                        <extractioncost>10.0</extractioncost>
+                    </grade>
+                    <grade name="grade 3">
+                        <available>7554.5</available>
+                        <extractioncost>100.0</extractioncost>
+                    </grade>
+                    <grade name="grade 4">
+                        <available>45327.3</available>
+                        <extractioncost>500.0</extractioncost>
+                    </grade>
+                    <grade name="grade 5">
+                        <available>22285.9</available>
+                        <extractioncost>1000.0</extractioncost>
+                    </grade>
+                    <grade name="grade 6">
+                        <available>0</available>
+                        <extractioncost>10000.0</extractioncost>
+                    </grade>
+                </subresource>
+            </resource>
+        </region>
+        <region name="Brazil">
+            <resource name="onshore carbon-storage">
+                <subresource name="onshore carbon-storage">
+                    <grade name="grade 1">
+                        <available>0</available>
+                        <extractioncost>0.0</extractioncost>
+                    </grade>
+                    <grade name="grade 2">
+                        <available>916</available>
+                        <extractioncost>10.0</extractioncost>
+                    </grade>
+                    <grade name="grade 3">
+                        <available>18319.3</available>
+                        <extractioncost>100.0</extractioncost>
+                    </grade>
+                    <grade name="grade 4">
+                        <available>109915.8</available>
+                        <extractioncost>500.0</extractioncost>
+                    </grade>
+                    <grade name="grade 5">
+                        <available>54041.9</available>
+                        <extractioncost>1000.0</extractioncost>
+                    </grade>
+                    <grade name="grade 6">
+                        <available>0</available>
+                        <extractioncost>10000.0</extractioncost>
+                    </grade>
+                </subresource>
+            </resource>
+        </region>
+        <region name="Canada">
+            <resource name="onshore carbon-storage">
+                <subresource name="onshore carbon-storage">
+                    <grade name="grade 1">
+                        <available>0</available>
+                        <extractioncost>0.0</extractioncost>
+                    </grade>
+                    <grade name="grade 2">
+                        <available>72.3</available>
+                        <extractioncost>10.0</extractioncost>
+                    </grade>
+                    <grade name="grade 3">
+                        <available>1445.4</available>
+                        <extractioncost>100.0</extractioncost>
+                    </grade>
+                    <grade name="grade 4">
+                        <available>8672.6</available>
+                        <extractioncost>500.0</extractioncost>
+                    </grade>
+                    <grade name="grade 5">
+                        <available>4264</available>
+                        <extractioncost>1000.0</extractioncost>
+                    </grade>
+                    <grade name="grade 6">
+                        <available>0</available>
+                        <extractioncost>10000.0</extractioncost>
+                    </grade>
+                </subresource>
+            </resource>
+        </region>
+        <region name="Central America and Caribbean">
+            <resource name="onshore carbon-storage">
+                <subresource name="onshore carbon-storage">
+                    <grade name="grade 1">
+                        <available>0</available>
+                        <extractioncost>0.0</extractioncost>
+                    </grade>
+                    <grade name="grade 2">
+                        <available>78</available>
+                        <extractioncost>10.0</extractioncost>
+                    </grade>
+                    <grade name="grade 3">
+                        <available>1559.6</available>
+                        <extractioncost>100.0</extractioncost>
+                    </grade>
+                    <grade name="grade 4">
+                        <available>9357.5</available>
+                        <extractioncost>500.0</extractioncost>
+                    </grade>
+                    <grade name="grade 5">
+                        <available>4600.8</available>
+                        <extractioncost>1000.0</extractioncost>
+                    </grade>
+                    <grade name="grade 6">
+                        <available>0</available>
+                        <extractioncost>10000.0</extractioncost>
+                    </grade>
+                </subresource>
+            </resource>
+        </region>
+        <region name="Central Asia">
+            <resource name="onshore carbon-storage">
+                <subresource name="onshore carbon-storage">
+                    <grade name="grade 1">
+                        <available>0</available>
+                        <extractioncost>0.0</extractioncost>
+                    </grade>
+                    <grade name="grade 2">
+                        <available>388.9</available>
+                        <extractioncost>10.0</extractioncost>
+                    </grade>
+                    <grade name="grade 3">
+                        <available>7778</available>
+                        <extractioncost>100.0</extractioncost>
+                    </grade>
+                    <grade name="grade 4">
+                        <available>46667.8</available>
+                        <extractioncost>500.0</extractioncost>
+                    </grade>
+                    <grade name="grade 5">
+                        <available>22945</available>
+                        <extractioncost>1000.0</extractioncost>
+                    </grade>
+                    <grade name="grade 6">
+                        <available>0</available>
+                        <extractioncost>10000.0</extractioncost>
+                    </grade>
+                </subresource>
+            </resource>
+        </region>
+        <region name="China">
+            <resource name="onshore carbon-storage">
+                <subresource name="onshore carbon-storage">
+                    <grade name="grade 1">
+                        <available>0</available>
+                        <extractioncost>0.0</extractioncost>
+                    </grade>
+                    <grade name="grade 2">
+                        <available>1915</available>
+                        <extractioncost>10.0</extractioncost>
+                    </grade>
+                    <grade name="grade 3">
+                        <available>38300.3</available>
+                        <extractioncost>100.0</extractioncost>
+                    </grade>
+                    <grade name="grade 4">
+                        <available>229801.5</available>
+                        <extractioncost>500.0</extractioncost>
+                    </grade>
+                    <grade name="grade 5">
+                        <available>112985.8</available>
+                        <extractioncost>1000.0</extractioncost>
+                    </grade>
+                    <grade name="grade 6">
+                        <available>0</available>
+                        <extractioncost>10000.0</extractioncost>
+                    </grade>
+                </subresource>
+            </resource>
+        </region>
+        <region name="EU-12">
+            <resource name="onshore carbon-storage">
+                <subresource name="onshore carbon-storage">
+                    <grade name="grade 1">
+                        <available>0</available>
+                        <extractioncost>0.0</extractioncost>
+                    </grade>
+                    <grade name="grade 2">
+                        <available>20</available>
+                        <extractioncost>10.0</extractioncost>
+                    </grade>
+                    <grade name="grade 3">
+                        <available>399.2</available>
+                        <extractioncost>100.0</extractioncost>
+                    </grade>
+                    <grade name="grade 4">
+                        <available>2395.4</available>
+                        <extractioncost>500.0</extractioncost>
+                    </grade>
+                    <grade name="grade 5">
+                        <available>1177.7</available>
+                        <extractioncost>1000.0</extractioncost>
+                    </grade>
+                    <grade name="grade 6">
+                        <available>0</available>
+                        <extractioncost>10000.0</extractioncost>
+                    </grade>
+                </subresource>
+            </resource>
+        </region>
+        <region name="EU-15">
+            <resource name="onshore carbon-storage">
+                <subresource name="onshore carbon-storage">
+                    <grade name="grade 1">
+                        <available>0</available>
+                        <extractioncost>0.0</extractioncost>
+                    </grade>
+                    <grade name="grade 2">
+                        <available>64.9</available>
+                        <extractioncost>10.0</extractioncost>
+                    </grade>
+                    <grade name="grade 3">
+                        <available>1298.8</available>
+                        <extractioncost>100.0</extractioncost>
+                    </grade>
+                    <grade name="grade 4">
+                        <available>7792.9</available>
+                        <extractioncost>500.0</extractioncost>
+                    </grade>
+                    <grade name="grade 5">
+                        <available>3831.5</available>
+                        <extractioncost>1000.0</extractioncost>
+                    </grade>
+                    <grade name="grade 6">
+                        <available>0</available>
+                        <extractioncost>10000.0</extractioncost>
+                    </grade>
+                </subresource>
+            </resource>
+        </region>
+        <region name="Europe_Eastern">
+            <resource name="onshore carbon-storage">
+                <subresource name="onshore carbon-storage">
+                    <grade name="grade 1">
+                        <available>0</available>
+                        <extractioncost>0.0</extractioncost>
+                    </grade>
+                    <grade name="grade 2">
+                        <available>14.3</available>
+                        <extractioncost>10.0</extractioncost>
+                    </grade>
+                    <grade name="grade 3">
+                        <available>286.2</available>
+                        <extractioncost>100.0</extractioncost>
+                    </grade>
+                    <grade name="grade 4">
+                        <available>1717.2</available>
+                        <extractioncost>500.0</extractioncost>
+                    </grade>
+                    <grade name="grade 5">
+                        <available>844.3</available>
+                        <extractioncost>1000.0</extractioncost>
+                    </grade>
+                    <grade name="grade 6">
+                        <available>0</available>
+                        <extractioncost>10000.0</extractioncost>
+                    </grade>
+                </subresource>
+            </resource>
+        </region>
+        <region name="Europe_Non_EU">
+            <resource name="onshore carbon-storage">
+                <subresource name="onshore carbon-storage">
+                    <grade name="grade 1">
+                        <available>0</available>
+                        <extractioncost>0.0</extractioncost>
+                    </grade>
+                    <grade name="grade 2">
+                        <available>14.3</available>
+                        <extractioncost>10.0</extractioncost>
+                    </grade>
+                    <grade name="grade 3">
+                        <available>286.8</available>
+                        <extractioncost>100.0</extractioncost>
+                    </grade>
+                    <grade name="grade 4">
+                        <available>1720.9</available>
+                        <extractioncost>500.0</extractioncost>
+                    </grade>
+                    <grade name="grade 5">
+                        <available>846.1</available>
+                        <extractioncost>1000.0</extractioncost>
+                    </grade>
+                    <grade name="grade 6">
+                        <available>0</available>
+                        <extractioncost>10000.0</extractioncost>
+                    </grade>
+                </subresource>
+            </resource>
+        </region>
+        <region name="European Free Trade Association">
+            <resource name="onshore carbon-storage">
+                <subresource name="onshore carbon-storage">
+                    <grade name="grade 1">
+                        <available>0</available>
+                        <extractioncost>0.0</extractioncost>
+                    </grade>
+                    <grade name="grade 2">
+                        <available>5.7</available>
+                        <extractioncost>10.0</extractioncost>
+                    </grade>
+                    <grade name="grade 3">
+                        <available>114.8</available>
+                        <extractioncost>100.0</extractioncost>
+                    </grade>
+                    <grade name="grade 4">
+                        <available>688.7</available>
+                        <extractioncost>500.0</extractioncost>
+                    </grade>
+                    <grade name="grade 5">
+                        <available>338.6</available>
+                        <extractioncost>1000.0</extractioncost>
+                    </grade>
+                    <grade name="grade 6">
+                        <available>0</available>
+                        <extractioncost>10000.0</extractioncost>
+                    </grade>
+                </subresource>
+            </resource>
+        </region>
+        <region name="India">
+            <resource name="onshore carbon-storage">
+                <subresource name="onshore carbon-storage">
+                    <grade name="grade 1">
+                        <available>0</available>
+                        <extractioncost>0.0</extractioncost>
+                    </grade>
+                    <grade name="grade 2">
+                        <available>79.1</available>
+                        <extractioncost>10.0</extractioncost>
+                    </grade>
+                    <grade name="grade 3">
+                        <available>1581.8</available>
+                        <extractioncost>100.0</extractioncost>
+                    </grade>
+                    <grade name="grade 4">
+                        <available>9490.9</available>
+                        <extractioncost>500.0</extractioncost>
+                    </grade>
+                    <grade name="grade 5">
+                        <available>4666.4</available>
+                        <extractioncost>1000.0</extractioncost>
+                    </grade>
+                    <grade name="grade 6">
+                        <available>0</available>
+                        <extractioncost>10000.0</extractioncost>
+                    </grade>
+                </subresource>
+            </resource>
+        </region>
+        <region name="Indonesia">
+            <resource name="onshore carbon-storage">
+                <subresource name="onshore carbon-storage">
+                    <grade name="grade 1">
+                        <available>0</available>
+                        <extractioncost>0.0</extractioncost>
+                    </grade>
+                    <grade name="grade 2">
+                        <available>14.8</available>
+                        <extractioncost>10.0</extractioncost>
+                    </grade>
+                    <grade name="grade 3">
+                        <available>296.4</available>
+                        <extractioncost>100.0</extractioncost>
+                    </grade>
+                    <grade name="grade 4">
+                        <available>1778.3</available>
+                        <extractioncost>500.0</extractioncost>
+                    </grade>
+                    <grade name="grade 5">
+                        <available>874.3</available>
+                        <extractioncost>1000.0</extractioncost>
+                    </grade>
+                    <grade name="grade 6">
+                        <available>0</available>
+                        <extractioncost>10000.0</extractioncost>
+                    </grade>
+                </subresource>
+            </resource>
+        </region>
+        <region name="Japan">
+            <resource name="onshore carbon-storage">
+                <subresource name="onshore carbon-storage">
+                    <grade name="grade 1">
+                        <available>0</available>
+                        <extractioncost>0.0</extractioncost>
+                    </grade>
+                    <grade name="grade 2">
+                        <available>60</available>
+                        <extractioncost>10.0</extractioncost>
+                    </grade>
+                    <grade name="grade 3">
+                        <available>1200</available>
+                        <extractioncost>100.0</extractioncost>
+                    </grade>
+                    <grade name="grade 4">
+                        <available>7200</available>
+                        <extractioncost>500.0</extractioncost>
+                    </grade>
+                    <grade name="grade 5">
+                        <available>3540</available>
+                        <extractioncost>1000.0</extractioncost>
+                    </grade>
+                    <grade name="grade 6">
+                        <available>0</available>
+                        <extractioncost>10000.0</extractioncost>
+                    </grade>
+                </subresource>
+            </resource>
+        </region>
+        <region name="Mexico">
+            <resource name="onshore carbon-storage">
+                <subresource name="onshore carbon-storage">
+                    <grade name="grade 1">
+                        <available>0</available>
+                        <extractioncost>0.0</extractioncost>
+                    </grade>
+                    <grade name="grade 2">
+                        <available>210.6</available>
+                        <extractioncost>10.0</extractioncost>
+                    </grade>
+                    <grade name="grade 3">
+                        <available>4212</available>
+                        <extractioncost>100.0</extractioncost>
+                    </grade>
+                    <grade name="grade 4">
+                        <available>25272.1</available>
+                        <extractioncost>500.0</extractioncost>
+                    </grade>
+                    <grade name="grade 5">
+                        <available>12425.4</available>
+                        <extractioncost>1000.0</extractioncost>
+                    </grade>
+                    <grade name="grade 6">
+                        <available>0</available>
+                        <extractioncost>10000.0</extractioncost>
+                    </grade>
+                </subresource>
+            </resource>
+        </region>
+        <region name="Middle East">
+            <resource name="onshore carbon-storage">
+                <subresource name="onshore carbon-storage">
+                    <grade name="grade 1">
+                        <available>0</available>
+                        <extractioncost>0.0</extractioncost>
+                    </grade>
+                    <grade name="grade 2">
+                        <available>302.7</available>
+                        <extractioncost>10.0</extractioncost>
+                    </grade>
+                    <grade name="grade 3">
+                        <available>6054.5</available>
+                        <extractioncost>100.0</extractioncost>
+                    </grade>
+                    <grade name="grade 4">
+                        <available>36327.3</available>
+                        <extractioncost>500.0</extractioncost>
+                    </grade>
+                    <grade name="grade 5">
+                        <available>17860.9</available>
+                        <extractioncost>1000.0</extractioncost>
+                    </grade>
+                    <grade name="grade 6">
+                        <available>0</available>
+                        <extractioncost>10000.0</extractioncost>
+                    </grade>
+                </subresource>
+            </resource>
+        </region>
+        <region name="Pakistan">
+            <resource name="onshore carbon-storage">
+                <subresource name="onshore carbon-storage">
+                    <grade name="grade 1">
+                        <available>0</available>
+                        <extractioncost>0.0</extractioncost>
+                    </grade>
+                    <grade name="grade 2">
+                        <available>6.7</available>
+                        <extractioncost>10.0</extractioncost>
+                    </grade>
+                    <grade name="grade 3">
+                        <available>135</available>
+                        <extractioncost>100.0</extractioncost>
+                    </grade>
+                    <grade name="grade 4">
+                        <available>809.8</available>
+                        <extractioncost>500.0</extractioncost>
+                    </grade>
+                    <grade name="grade 5">
+                        <available>398.2</available>
+                        <extractioncost>1000.0</extractioncost>
+                    </grade>
+                    <grade name="grade 6">
+                        <available>0</available>
+                        <extractioncost>10000.0</extractioncost>
+                    </grade>
+                </subresource>
+            </resource>
+        </region>
+        <region name="Russia">
+            <resource name="onshore carbon-storage">
+                <subresource name="onshore carbon-storage">
+                    <grade name="grade 1">
+                        <available>0</available>
+                        <extractioncost>0.0</extractioncost>
+                    </grade>
+                    <grade name="grade 2">
+                        <available>283.3</available>
+                        <extractioncost>10.0</extractioncost>
+                    </grade>
+                    <grade name="grade 3">
+                        <available>5665.6</available>
+                        <extractioncost>100.0</extractioncost>
+                    </grade>
+                    <grade name="grade 4">
+                        <available>33993.8</available>
+                        <extractioncost>500.0</extractioncost>
+                    </grade>
+                    <grade name="grade 5">
+                        <available>16713.6</available>
+                        <extractioncost>1000.0</extractioncost>
+                    </grade>
+                    <grade name="grade 6">
+                        <available>0</available>
+                        <extractioncost>10000.0</extractioncost>
+                    </grade>
+                </subresource>
+            </resource>
+        </region>
+        <region name="South Africa">
+            <resource name="onshore carbon-storage">
+                <subresource name="onshore carbon-storage">
+                    <grade name="grade 1">
+                        <available>0</available>
+                        <extractioncost>0.0</extractioncost>
+                    </grade>
+                    <grade name="grade 2">
+                        <available>5</available>
+                        <extractioncost>10.0</extractioncost>
+                    </grade>
+                    <grade name="grade 3">
+                        <available>100.8</available>
+                        <extractioncost>100.0</extractioncost>
+                    </grade>
+                    <grade name="grade 4">
+                        <available>604.5</available>
+                        <extractioncost>500.0</extractioncost>
+                    </grade>
+                    <grade name="grade 5">
+                        <available>297.2</available>
+                        <extractioncost>1000.0</extractioncost>
+                    </grade>
+                    <grade name="grade 6">
+                        <available>0</available>
+                        <extractioncost>10000.0</extractioncost>
+                    </grade>
+                </subresource>
+            </resource>
+        </region>
+        <region name="South America_Northern">
+            <resource name="onshore carbon-storage">
+                <subresource name="onshore carbon-storage">
+                    <grade name="grade 1">
+                        <available>0</available>
+                        <extractioncost>0.0</extractioncost>
+                    </grade>
+                    <grade name="grade 2">
+                        <available>146.5</available>
+                        <extractioncost>10.0</extractioncost>
+                    </grade>
+                    <grade name="grade 3">
+                        <available>2930.9</available>
+                        <extractioncost>100.0</extractioncost>
+                    </grade>
+                    <grade name="grade 4">
+                        <available>17585.6</available>
+                        <extractioncost>500.0</extractioncost>
+                    </grade>
+                    <grade name="grade 5">
+                        <available>8646.3</available>
+                        <extractioncost>1000.0</extractioncost>
+                    </grade>
+                    <grade name="grade 6">
+                        <available>0</available>
+                        <extractioncost>10000.0</extractioncost>
+                    </grade>
+                </subresource>
+            </resource>
+        </region>
+        <region name="South America_Southern">
+            <resource name="onshore carbon-storage">
+                <subresource name="onshore carbon-storage">
+                    <grade name="grade 1">
+                        <available>0</available>
+                        <extractioncost>0.0</extractioncost>
+                    </grade>
+                    <grade name="grade 2">
+                        <available>426.1</available>
+                        <extractioncost>10.0</extractioncost>
+                    </grade>
+                    <grade name="grade 3">
+                        <available>8522.5</available>
+                        <extractioncost>100.0</extractioncost>
+                    </grade>
+                    <grade name="grade 4">
+                        <available>51134.8</available>
+                        <extractioncost>500.0</extractioncost>
+                    </grade>
+                    <grade name="grade 5">
+                        <available>25141.3</available>
+                        <extractioncost>1000.0</extractioncost>
+                    </grade>
+                    <grade name="grade 6">
+                        <available>0</available>
+                        <extractioncost>10000.0</extractioncost>
+                    </grade>
+                </subresource>
+            </resource>
+        </region>
+        <region name="South Asia">
+            <resource name="onshore carbon-storage">
+                <subresource name="onshore carbon-storage">
+                    <grade name="grade 1">
+                        <available>0</available>
+                        <extractioncost>0.0</extractioncost>
+                    </grade>
+                    <grade name="grade 2">
+                        <available>8</available>
+                        <extractioncost>10.0</extractioncost>
+                    </grade>
+                    <grade name="grade 3">
+                        <available>159.8</available>
+                        <extractioncost>100.0</extractioncost>
+                    </grade>
+                    <grade name="grade 4">
+                        <available>958.8</available>
+                        <extractioncost>500.0</extractioncost>
+                    </grade>
+                    <grade name="grade 5">
+                        <available>471.4</available>
+                        <extractioncost>1000.0</extractioncost>
+                    </grade>
+                    <grade name="grade 6">
+                        <available>0</available>
+                        <extractioncost>10000.0</extractioncost>
+                    </grade>
+                </subresource>
+            </resource>
+        </region>
+        <region name="South Korea">
+            <resource name="onshore carbon-storage">
+                <subresource name="onshore carbon-storage">
+                    <grade name="grade 1">
+                        <available>0</available>
+                        <extractioncost>0.0</extractioncost>
+                    </grade>
+                    <grade name="grade 2">
+                        <available>0</available>
+                        <extractioncost>10.0</extractioncost>
+                    </grade>
+                    <grade name="grade 3">
+                        <available>0</available>
+                        <extractioncost>100.0</extractioncost>
+                    </grade>
+                    <grade name="grade 4">
+                        <available>0</available>
+                        <extractioncost>500.0</extractioncost>
+                    </grade>
+                    <grade name="grade 5">
+                        <available>0</available>
+                        <extractioncost>1000.0</extractioncost>
+                    </grade>
+                    <grade name="grade 6">
+                        <available>0</available>
+                        <extractioncost>10000.0</extractioncost>
+                    </grade>
+                </subresource>
+            </resource>
+        </region>
+        <region name="Southeast Asia">
+            <resource name="onshore carbon-storage">
+                <subresource name="onshore carbon-storage">
+                    <grade name="grade 1">
+                        <available>0</available>
+                        <extractioncost>0.0</extractioncost>
+                    </grade>
+                    <grade name="grade 2">
+                        <available>149.9</available>
+                        <extractioncost>10.0</extractioncost>
+                    </grade>
+                    <grade name="grade 3">
+                        <available>2998.3</available>
+                        <extractioncost>100.0</extractioncost>
+                    </grade>
+                    <grade name="grade 4">
+                        <available>17989.9</available>
+                        <extractioncost>500.0</extractioncost>
+                    </grade>
+                    <grade name="grade 5">
+                        <available>8845</available>
+                        <extractioncost>1000.0</extractioncost>
+                    </grade>
+                    <grade name="grade 6">
+                        <available>0</available>
+                        <extractioncost>10000.0</extractioncost>
+                    </grade>
+                </subresource>
+            </resource>
+        </region>
+        <region name="Taiwan">
+            <resource name="onshore carbon-storage">
+                <subresource name="onshore carbon-storage">
+                    <grade name="grade 1">
+                        <available>0</available>
+                        <extractioncost>0.0</extractioncost>
+                    </grade>
+                    <grade name="grade 2">
+                        <available>0.3</available>
+                        <extractioncost>10.0</extractioncost>
+                    </grade>
+                    <grade name="grade 3">
+                        <available>5.6</available>
+                        <extractioncost>100.0</extractioncost>
+                    </grade>
+                    <grade name="grade 4">
+                        <available>33.4</available>
+                        <extractioncost>500.0</extractioncost>
+                    </grade>
+                    <grade name="grade 5">
+                        <available>16.4</available>
+                        <extractioncost>1000.0</extractioncost>
+                    </grade>
+                    <grade name="grade 6">
+                        <available>0</available>
+                        <extractioncost>10000.0</extractioncost>
+                    </grade>
+                </subresource>
+            </resource>
+        </region>
+        <region name="Argentina">
+            <resource name="onshore carbon-storage">
+                <subresource name="onshore carbon-storage">
+                    <grade name="grade 1">
+                        <available>0</available>
+                        <extractioncost>0.0</extractioncost>
+                    </grade>
+                    <grade name="grade 2">
+                        <available>299.8</available>
+                        <extractioncost>10.0</extractioncost>
+                    </grade>
+                    <grade name="grade 3">
+                        <available>5996.4</available>
+                        <extractioncost>100.0</extractioncost>
+                    </grade>
+                    <grade name="grade 4">
+                        <available>35978.5</available>
+                        <extractioncost>500.0</extractioncost>
+                    </grade>
+                    <grade name="grade 5">
+                        <available>17689.4</available>
+                        <extractioncost>1000.0</extractioncost>
+                    </grade>
+                    <grade name="grade 6">
+                        <available>0</available>
+                        <extractioncost>10000.0</extractioncost>
+                    </grade>
+                </subresource>
+            </resource>
+        </region>
+        <region name="Colombia">
+            <resource name="onshore carbon-storage">
+                <subresource name="onshore carbon-storage">
+                    <grade name="grade 1">
+                        <available>0</available>
+                        <extractioncost>0.0</extractioncost>
+                    </grade>
+                    <grade name="grade 2">
+                        <available>123.5</available>
+                        <extractioncost>10.0</extractioncost>
+                    </grade>
+                    <grade name="grade 3">
+                        <available>2470.3</available>
+                        <extractioncost>100.0</extractioncost>
+                    </grade>
+                    <grade name="grade 4">
+                        <available>14821.8</available>
+                        <extractioncost>500.0</extractioncost>
+                    </grade>
+                    <grade name="grade 5">
+                        <available>7287.4</available>
+                        <extractioncost>1000.0</extractioncost>
+                    </grade>
+                    <grade name="grade 6">
+                        <available>0</available>
+                        <extractioncost>10000.0</extractioncost>
+                    </grade>
+                </subresource>
+            </resource>
+        </region>
+    </world>
+</scenario>

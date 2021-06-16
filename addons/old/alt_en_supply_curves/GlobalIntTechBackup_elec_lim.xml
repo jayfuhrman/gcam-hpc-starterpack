@@ -1,0 +1,1168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+    <world>
+        <global-technology-database>
+            <location-info sector-name="electricity" subsector-name="wind">
+                <intermittent-technology name="wind">
+                    <period year="1975">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>wind</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="1990">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>wind</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2005">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>wind</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2010">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>wind</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2015">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>wind</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2020">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>wind</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2025">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>wind</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2030">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>wind</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2035">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>wind</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2040">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>wind</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2045">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>wind</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2050">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>wind</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2055">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>wind</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2060">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>wind</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2065">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>wind</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2070">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>wind</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2075">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>wind</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2080">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>wind</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2085">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>wind</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2090">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>wind</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2095">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>wind</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2100">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>wind</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                </intermittent-technology>
+            </location-info>
+            <location-info sector-name="electricity" subsector-name="solar">
+                <intermittent-technology name="PV">
+                    <period year="1975">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="1990">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2005">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2010">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2015">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2020">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2025">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2030">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2035">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2040">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2045">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2050">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2055">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2060">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2065">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2070">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2075">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2080">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2085">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2090">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2095">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2100">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                </intermittent-technology>
+<!--                <intermittent-technology name="CSP">
+                    <period year="1975">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="csp_backup">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="1990">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="csp_backup">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2005">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="csp_backup">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2010">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="csp_backup">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2015">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="csp_backup">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2020">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="csp_backup">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2025">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="csp_backup">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2030">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="csp_backup">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2035">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="csp_backup">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2040">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="csp_backup">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2045">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="csp_backup">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2050">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="csp_backup">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2055">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="csp_backup">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2060">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="csp_backup">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2065">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="csp_backup">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2070">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="csp_backup">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2075">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="csp_backup">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2080">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="csp_backup">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2085">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="csp_backup">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2090">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="csp_backup">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2095">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="csp_backup">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2100">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="csp_backup">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                </intermittent-technology>
+
+-->
+
+            </location-info>
+            <location-info sector-name="elect_td_bld" subsector-name="rooftop_pv">
+                <intermittent-technology name="rooftop_pv">
+                    <period year="1975">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="1990">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2005">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2010">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2015">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2020">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2025">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2030">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2035">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2040">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2045">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2050">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2055">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2060">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2065">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2070">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2075">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2080">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2085">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2090">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2095">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                    <period year="2100">
+                        <electric-sector-name>electricity</electric-sector-name>
+                        <trial-market-name>solar</trial-market-name>
+                        <backup-capital-cost>36</backup-capital-cost>
+                        <backup-capacity-factor>0.05</backup-capacity-factor>
+                        <minicam-energy-input name="backup_electricity">
+                            <flag>BackupEnergy</flag>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="backup-cap-cost"/>
+                        <capacity-limit-backup-calculator>
+                            <capacity-limit>1.00</capacity-limit>
+                        </capacity-limit-backup-calculator>
+                    </period>
+                </intermittent-technology>
+            </location-info>
+        </global-technology-database>
+    </world>
+</scenario>

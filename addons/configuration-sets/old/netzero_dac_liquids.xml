@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BatchRunner xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="batch_runner.xsd">
+	
+
+
+
+
+
+
+
+	<ComponentSet name="carbon_cap">
+		
+
+		<FileSet name="netzero2040"> 
+				<Value name = "ccap">../input/addons/policy/carbon_cap_netzero2040.xml</Value>
+		</FileSet>
+
+
+		<FileSet name="netzero2050"> 
+				<Value name = "ccap">../input/addons/policy/carbon_cap_netzero2050.xml</Value>
+		</FileSet>
+
+		<FileSet name="netzero2060"> 
+				<Value name = "ccap">../input/addons/policy/carbon_cap_netzero2060.xml</Value>
+		</FileSet>
+
+
+
+	</ComponentSet>
+	
+	<ComponentSet name="luc_priceadj">
+		
+
+		<FileSet name="UCT_spa2"> 
+				<Value name = "luc_price">../input/addons/policy/globalUCT_SPA2.xml</Value>
+		</FileSet>
+
+
+	</ComponentSet>
+
+
+
+	</ComponentSet>
+
+
+	<ComponentSet name="dac_costs">
+		<FileSet name="dac1_high_32region_LIQUIDS">
+			<Value name = "daccs">../input/addons/dac/DAC1_high_cost_32regionlogit-6scaling_False.xml</Value>
+			<Value name = "waste-heat-dac">../input/addons/dac/dac-waste-heat-regionalized.xml</Value>
+			<Value name = "dacliquids">../input/addons/dac/en_transformation_dac_liquids.xml</Value>
+		</FileSet>
+
+		<FileSet name="dac1_high_32region">
+			<Value name = "daccs">../input/addons/dac/DAC1_high_cost_32regionlogit-6scaling_False.xml</Value>
+			<Value name = "waste-heat-dac">../input/addons/dac/dac-waste-heat-regionalized.xml</Value>
+		</FileSet>
+
+
+	
+	</ComponentSet>
+
+
+
+
+
+
+</BatchRunner>
+
+

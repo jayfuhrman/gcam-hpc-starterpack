@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BatchRunner xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="batch_runner.xsd">
+	<ComponentSet name="Ref">
+			<FileSet name="Reference1">
+			</FileSet>
+
+			<FileSet name="Reference2">
+			</FileSet>
+	</ComponentSet>
+</BatchRunner>
+
+

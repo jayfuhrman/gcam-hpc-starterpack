@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BatchRunner xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="batch_runner.xsd">
+	
+   <ComponentSet name="policy_ndc">
+		<FileSet name="ndc_beccs"> 
+			<Value name = "policy">../input/addons/ndc_beccs/constraints_pia_MXCL2AGBRv4.xml</Value> 
+            <Value name = "policy">../input/addons/ndc_beccs/ghg_link_pxa_MX_BR_ar5_LAar4_AR_CO_sar.xml</Value>
+            <Value name = "Bio">../input/addons/ndc_beccs/bio_ceiling_mkt_firstsecondallgen.xml</Value> 
+   	     	<Value name = "Bio">../input/addons/ndc_beccs/bio_ceiling_B200lac.xml</Value> 
+		</FileSet>
+	</ComponentSet >
+
+   <ComponentSet name="dac">
+		<FileSet name="ink"> 
+		</FileSet>
+	</ComponentSet >
+
+
+	
+</BatchRunner>
+
+

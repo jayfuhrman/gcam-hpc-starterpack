@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BatchRunner xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="batch_runner.xsd">
+
+	<ComponentSet name="policy">
+
+
+		<FileSet name="1p5c_ghg_">
+			<Value name = "paris-1p5deg-ambition">../input/addons/dac/linked-ghg-policy/constraints_p2a_linear_2100.xml</Value>
+			<Value name = "post-2030-ghg-link">../input/addons/dac/linked-ghg-policy/paris-1p5d-ambition.xml</Value>
+		</FileSet>
+
+		<FileSet name="2c_ghg_">
+			<Value name = "paris-2deg-ambition">../input/addons/dac/linked-ghg-policy/constraints_p2a_linear_2100.xml</Value>
+			<Value name = "post-2030-ghg-link">../input/addons/dac/linked-ghg-policy/paris-2deg-ambition.xml</Value>
+
+		</FileSet>
+
+
+		<FileSet name="1p5_cap_LUC_">
+			<Value name = "cap">../input/addons/dac/carbon_cap/carbon_cap_netzero_2040_peak_neg_1p5Gt.xml</Value>
+			<Value name = "luc_price">../input/addons/dac/uct/global_uct_spa1.xml</Value>
+		</FileSet>
+
+		<FileSet name="1p5_cap_fossil_">
+			<Value name = "cap">../input/addons/dac/carbon_cap/carbon_cap_netzero_2040_peak_neg_1p5Gt.xml</Value>
+		</FileSet>
+
+
+		<FileSet name="REF_">
+		</FileSet>
+
+
+	</ComponentSet>
+
+	<ComponentSet name="bioceiling">
+
+
+		<FileSet name="bio_ceiling_mkt_firstsecondallgen_">
+			<Value name = "bio_neg_emiss_budget">../input/addons/dac/bioceiling/bio_ceiling_mkt_firstsecondallgen.xml</Value>
+			<!--this isn't really a negative emissions budget but it overwrites the one in the config file since it conflicts-->
+		</FileSet>
+
+		<FileSet name="bio_ceiling_B100_">
+			<Value name = "bio_neg_emiss_budget">../input/addons/dac/bioceiling/bio_ceiling_B100.xml</Value>	
+		</FileSet>
+
+
+
+	</ComponentSet>
+
+
+	<ComponentSet name="dac_costs">
+
+
+
+		<FileSet name="keith2018_C">
+			<Value name = "dac">../input/addons/dac/keith2018CCCS.xml</Value>
+		</FileSet>
+
+
+		<FileSet name="APS2011_A">
+			<Value name = "dac">../input/addons/dac/APS2011_realisticCCS.xml</Value>
+		</FileSet>
+
+
+		<FileSet name="noDAC">
+		</FileSet>
+
+
+
+	
+	</ComponentSet>
+
+
+</BatchRunner>
+
+
