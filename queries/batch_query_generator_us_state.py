@@ -5,6 +5,9 @@ Created on Fri Feb 26 2021
 @author: jay/shreekar
 """
 
+
+#This file along with the batch_query_templates directory and its contents should be copied to the top level of [gcam-core]/output/queries
+
 query_strs = ['CO2 emissions by sector',
               'CO2 emissions by sector (no bio)',
               'CO2 emissions by assigned sector (no bio)',
@@ -68,8 +71,6 @@ query_strs = ['CO2 emissions by sector',
               'primary energy consumption with CCS by region (direct equivalent)',
               'LUC emissions by region',
               'LUC emissions by LUT',
-              'LUC emissions by LUT in a specified land use region (VA GLUs)',
-              'profit rate in a specified land use region (VA GLUs)',
               'regional biomass consumption',
               ]
 
@@ -119,7 +120,7 @@ def create_query_files(query_strs,states):
     "this function will create the xml files required to configure and write a batch query to csv files for n parallel runs of GCAM."  
     "The query_str input should be copied from one of the 'title' attributes from the Main_queries_template.xml file"
     import xml.etree.ElementTree as ET
-    import numpy as np
+    #import numpy as np
 
     if states==False:
         for query_str in query_strs2:
@@ -130,7 +131,7 @@ def create_query_files(query_strs,states):
             path = path+'_global'
 #            path = path+'_global'            
             
-            all_queries = ET.parse('../batch_query_templates/Main_queries_template.xml')
+            all_queries = ET.parse('batch_query_templates/Main_queries_template.xml')
             #all_queries_root = all_queries.getroot()
             
             #ET.dump(all_queries_root)
@@ -152,14 +153,14 @@ def create_query_files(query_strs,states):
             
             
             
-            query_folder = '../output/queries/'
+            query_folder = ''
             query_file = 'query_'+path+'.xml'
             query_template.write(query_folder+query_file)
 
 ##UPto here query should be built.            
 ##Below construct xmldb batch files            
             #
-            xmldb_batch = ET.parse('../batch_query_templates/xmldb_batch_template_global.xml')
+            xmldb_batch = ET.parse('batch_query_templates/xmldb_batch_template_global.xml')
             xmldb_batch_root = xmldb_batch.getroot()
             
             
@@ -168,7 +169,7 @@ def create_query_files(query_strs,states):
             outFile_path = xmldb_batch_root.findall(".//*outFile")[0]
             
             
-            query_folder = '../output/queries/'
+            query_folder = ''
             queryFile_path.text = query_folder+query_file
             outFile_path.text = 'queryout_'+path+'.csv'
             
@@ -193,7 +194,7 @@ def create_query_files(query_strs,states):
             path = path+'_states'
             
             
-            all_queries = ET.parse('../batch_query_templates/Main_queries_template.xml')
+            all_queries = ET.parse('batch_query_templates/Main_queries_template.xml')
             #all_queries_root = all_queries.getroot()
             
             #ET.dump(all_queries_root)
@@ -207,7 +208,7 @@ def create_query_files(query_strs,states):
             
             
             
-            query_template = ET.parse('../batch_query_templates/query_template_global.xml')
+            query_template = ET.parse('batch_query_templates/query_template_global.xml')
             query_template_root = query_template.getroot()
             
             aQuery = query_template_root.find('aQuery')
@@ -227,14 +228,14 @@ def create_query_files(query_strs,states):
                 
                 
 
-            query_folder = '../output/queries/'
+            query_folder = ''
             query_file = 'query_'+path+'.xml'
             
             query_template.write(query_folder+query_file)
             print('Done writing query file')
             
             #
-            xmldb_batch = ET.parse('../batch_query_templates/xmldb_batch_template_global.xml')
+            xmldb_batch = ET.parse('batch_query_templates/xmldb_batch_template_global.xml')
             xmldb_batch_root = xmldb_batch.getroot()
             
             
@@ -247,7 +248,7 @@ def create_query_files(query_strs,states):
             queryFile_path.text = query_folder+query_file
             outFile_path.text = 'queryout_'+path+'.csv'
             
-            xmldb_pointer_folder = 'xmldb/'
+            xmldb_pointer_folder = '../../exe/'
             xmldb_pointer_file = 'xmldb_batch_'+path+'.xml'
             
             xmldb_batch.write(xmldb_pointer_folder+xmldb_pointer_file)
