@@ -1,0 +1,16 @@
+<queries>
+
+<aQuery>
+	<region name="Global" /> 
+	
+
+<gdpQueryBuilder title="GDP per capita MER by region">
+         <axis1 name="region">region</axis1>
+         <axis2 name="Year">gdp-per-capita-mer</axis2>
+         <xPath buildList="true" dataName="gdp-per-capita-mer" group="false" sumAll="false">GDP/gdp-per-capita-mer/text()</xPath>
+         <comments />
+      </gdpQueryBuilder>
+      </aQuery>
+
+
+</queries>

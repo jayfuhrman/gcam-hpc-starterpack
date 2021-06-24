@@ -1,0 +1,17 @@
+<queries>
+
+<aQuery>
+	<region name="Global" /> 
+	
+
+<supplyDemandQuery title="refined liquids production by region">
+               <axis1 name="region">region</axis1>
+               <axis2 name="Year">physical-output[@vintage]</axis2>
+               <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' (:collapse:) and (@name='refining')]//
+               output-primary[@type='output' (:collapse:)]/physical-output/node()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery>
+
+
+</queries>

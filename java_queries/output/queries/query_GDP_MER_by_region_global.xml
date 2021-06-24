@@ -1,0 +1,16 @@
+<queries>
+
+<aQuery>
+	<region name="Global" /> 
+	
+
+<gdpQueryBuilder title="GDP MER by region">
+         <axis1 name="region">region</axis1>
+         <axis2 name="Year">gdp-mer</axis2>
+         <xPath buildList="true" dataName="gdp-mer" group="false" sumAll="false">GDP/gdp-mer/text()</xPath>
+         <comments />
+      </gdpQueryBuilder>
+      </aQuery>
+
+
+</queries>
