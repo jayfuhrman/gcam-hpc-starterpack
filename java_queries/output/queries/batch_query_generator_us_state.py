@@ -232,7 +232,7 @@ def create_query_files(query_strs,states):
             query_file = 'query_'+path+'.xml'
             
             query_template.write(query_folder+query_file)
-            print('Done writing query file')
+            #print('Done writing query file')
             
             #
             xmldb_batch = ET.parse('batch_query_templates/xmldb_batch_template_global.xml')
@@ -252,13 +252,13 @@ def create_query_files(query_strs,states):
             xmldb_pointer_file = 'xmldb_batch_'+path+'.xml'
             
             xmldb_batch.write(xmldb_pointer_folder+xmldb_pointer_file)
-            print('Done creating pointer file. Please copy the following bash code into the run_model.sh file:')
+            #print('Done creating pointer file. Please copy the following bash code into the run_model.sh file:')
             print('java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/'+xmldb_pointer_file)
-            print('')
+            #print('')
             
-            print('If running query on an already-completed GCAM run, set the TARGETFILE and QUERYFILE as follows before running the postproc_scratch.sh script:')
-            print('TARGETFILE='+xmldb_pointer_file)
-            print('QUERYFILE='+query_file)
+            #print('If running query on an already-completed GCAM run, set the TARGETFILE and QUERYFILE as follows before running the postproc_scratch.sh script:')
+            #print('TARGETFILE='+xmldb_pointer_file)
+            #print('QUERYFILE='+query_file)
         
     
 
