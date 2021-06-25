@@ -16,8 +16,8 @@ module load java
 
 CONFIGURATION_FILE=${1}_${2}.xml
 
-GCAMDIR=/home/jgf5fz/gcam_5_2_1_beta
-SCRATCHDIR=/sfs/lustre/bahamut/scratch/jgf5fz
+GCAMDIR=/home/cff2aa/GCAM-core
+SCRATCHDIR=/sfs/lustre/bahamut/scratch/cff2aa
 
 cp ${GCAMDIR}/configuration-sets/run_set_documentation.txt ${SCRATCHDIR}
 echo "copied run set documentation to scratch"
@@ -62,105 +62,209 @@ err=$?
 ######Batch query specifications
 
 echo "starting model interface.jar and reading batch queries"
-java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_co2_concentrations_global.xml
 
-java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_co2_seq_by_sector_global.xml
-
-java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_co2_seq_by_tech_global.xml
-
-java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_demand_of_all_markets_global.xml
-
-java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_final_energy_consumption_by_fuel_global.xml
-
-java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_final_energy_consumption_by_sector_and_fuel_global.xml
-
-java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_inputs_by_tech_global.xml
-
-java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_mean_temperature_global.xml
-
-java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_outputs_by_tech_global.xml
-
-java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_supply_of_all_markets_global.xml
-
-java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_co2_emissions_by_region_global.xml
-
-java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_co2_prices_global.xml
-
-java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_costs_by_tech_global.xml
-
-java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_net_terrestrial_C_uptake_global.xml
-
-java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_fertilizer_consumption_by_ag_tech_global.xml
-
-java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_irrigation_water_withdrawals_by_crop_type_and_land_region_global.xml
-
+#global queries
 java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_ag_commodity_prices_global.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_ag_commodity_prices_regionalized.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_ag_commodity_prices_USA.xml
 
-java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_land_allocation_by_crop_global.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_ag_production_by_crop_type_global.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_ag_production_by_subsector_land_use_region_global.xml
 
 java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_aggregated_land_allocation_global.xml
 
-java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_irrigation_water_withdrawals_by_crop_type_global.xml
-
-java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_fertilizer_consumption_by_crop_type_global.xml
-
-java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_CO2_emissions_by_sector_global.xml
-
-java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_CO2_emissions_by_sector_no_bio_global.xml
-
-java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_LUC_emissions_by_region_global.xml
-
-java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_LUC_emissions_by_LUT_global.xml
-
-java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_primary_energy_consumption_by_region_avg_fossil_efficiency_global.xml
-
-java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_total_final_energy_by_sector_global.xml
-
-java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_land_allocation_in_a_specified_land_use_region_global.xml
-
-java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_prices_by_sector_global.xml
-
-java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_outputs_by_sector_global.xml
-
-java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_water_consumption_by_sector_global.xml
-
-java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_water_withdrawals_by_sector_global.xml
-
-java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_primary_energy_consumption_with_CCS_by_region_direct_equivalent_global.xml
-
-java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_transport_service_output_by_tech_global.xml
-
-java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_biophysical_water_demand_by_crop_type_global.xml
-
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_biophysical_water_demand_by_ag_tech_regionalized.xml
 java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_biophysical_water_demand_by_crop_type_and_land_region_global.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_biophysical_water_demand_by_crop_type_global.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_biophysical_water_demand_by_region_global.xml
 
-java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_prices_of_all_markets_global.xml
-
-java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_elec_share-weights_by_subsector_global.xml
-
-java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_primary_energy_consumption_with_CCS_by_region_direct_equivalent_regionalized.xml
-
-java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_ag_commodity_prices_regionalized.xml
-
-java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_final_energy_consumption_by_sector_and_fuel_regionalized.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_co2_concentrations_global.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_co2_emissions_by_region_global.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_CO2_emissions_by_region_global.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_CO2_emissions_by_sector_global.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_CO2_emissions_by_sector_no_bio_global.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_CO2_emissions_by_sector_no_bio_regionalized.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_co2_prices_global.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_CO2_prices_global.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_co2_seq_by_sector_global.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_co2_seq_by_tech_global.xml
 
 java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_CO2_sequestration_by_sector_regionalized.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_CO2_sequestration_by_tech_regionalized.xml
+
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_costs_by_tech_global.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_costs_of_transport_techs_global.xml
+
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_demand_of_all_markets_global.xml
+
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_detailed_land_allocation_regionalized.xml
+
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_elec_gen_by_gen_tech_and_cooling_tech_and_vintage_regionalized.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_elec_gen_by_region_incl_CHP_global.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_elec_share-weights_by_subsector_global.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_elec_share-weights_by_subsector_regionalized.xml
+
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_fertilizer_consumption_by_ag_tech_global.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_fertilizer_consumption_by_crop_type_global.xml
+
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_final_energy_consumption_by_fuel_global.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_final_energy_consumption_by_sector_and_fuel_global.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_final_energy_consumption_by_sector_and_fuel_regionalized.xml
+
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_GDP_MER_by_region_global.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_GDP_per_capita_MER_by_region_global.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_GDP_per_capita_PPP_by_region_global.xml
+
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_global_mean_temperature_global.xml
+
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_inputs_by_tech_global.xml
+
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_irrigation_water_consumption_by_crop_type_and_land_region_regionalized.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_irrigation_water_withdrawals_by_crop_type_and_land_region_global.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_irrigation_water_withdrawals_by_crop_type_global.xml
+
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_land_allocation_by_crop_and_water_source_regionalized.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_land_allocation_by_crop_global.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_land_allocation_in_a_specified_land_use_region_global.xml
+
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_LUC_emissions_by_LUT_global.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_LUC_emissions_by_LUT_in_a_specified_land_use_region_VA_GLUs_global.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_LUC_emissions_by_region_global.xml
+
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_mean_temperature_global.xml
+
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_net_terrestrial_C_uptake_global.xml
+
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_nonCO2_emissions_by_resource_production_regionalized.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_nonCO2_emissions_by_sector_global.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_nonCO2_emissions_by_sector_regionalized.xml
+
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_outputs_by_sector_global.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_outputs_by_sector_regionalized.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_outputs_by_tech_global.xml
+
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_population_by_region_global.xml
+
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_prices_by_sector_global.xm
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_prices_of_all_markets_global.xml
+
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_primary_energy_consumption_by_region_avg_fossil_efficiency_global.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_primary_energy_consumption_by_region_direct_equivalent_global.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_primary_energy_consumption_with_CCS_by_region_direct_equivalent_global.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_primary_energy_consumption_with_CCS_by_region_direct_equivalent_regionalized.xml
+
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_profit_rate_in_a_specified_land_use_region_VA_GLUs_global.xml
+
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_refined_liquids_production_by_region_global.xml
+
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_regional_biomass_consumption_global.xml
 
 java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_resource_production_regionalized.xml
 
-java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_land_allocation_by_crop_and_water_source_regionalized.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_supply_of_all_markets_global.xml
 
-java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_ag_commodity_prices_regionalized.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_total_final_energy_by_sector_global.xml
 
-java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_outputs_by_sector_regionalized.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_transport_service_output_by_tech_global.xml
 
-java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_irrigation_water_consumption_by_crop_type_and_land_region_regionalized.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_water_consumption_by_region_global.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_water_consumption_by_sector_global.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_water_withdrawals_by_region_global.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_water_withdrawals_by_sector_global.xml
 
-java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_biophysical_water_demand_by_ag_tech_regionalized.xml
 
-java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_water_withdrawals_by_tech_global.xml
+#states queries
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_aggregated_land_allocation_states.xml
 
-java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_water_consumption_by_tech_global.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_building_final_energy_by_tech_states.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_building_floorspace_states.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_building_service_output_by_tech_states.xml
+
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_CO2_emissions_by_assigned_sector_no_bio_states.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_CO2_emissions_by_region_states.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_CO2_emissions_by_sector_states.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_CO2_emissions_by_sector_no_bio_states.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_CO2_emissions_by_subsector_states.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_CO2_emissions_by_tech_states.xml
+
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_CO2_prices_states.xml
+
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_CO2_sequestration_by_sector_states.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_CO2_sequestration_by_tech_states.xml
+
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_demand_balances_by_crop_commodity_states.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_demand_of_all_markets_states.xml
+
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_detailed_land_allocation_states.xml
+
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_elec_energy_input_by_subsector_states.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_elec_energy_input_by_elec_gen_tech_states.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_elec_gen_by_gen_tech_states.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_elec_gen_by_region_incl_CHP_states.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_elec_gen_by_subsector_states.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_elec_gen_costs_by_subsector_states.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_elec_gen_costs_by_tech_states.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_elec_prices_by_sector_states.xml
+
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_GDP_MER_by_region_states.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_GDP_per_capita_MER_by_region_states.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_GDP_per_capita_PPP_by_region_states.xml
+
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_industry_final_energy_by_service_and_fuel_states.xml
+
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_inputs_by_sector_states.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_inputs_by_subsector_states.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_inputs_by_tech_states.xml
+
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_land_allocation_by_crop_and_water_source_states.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_land_allocation_by_crop_states.xml
+
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_LUC_emissions_by_LUT_in_a_specified_land_use_region_VA_GLUs_states.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_LUC_emissions_by_LUT_states.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_LUC_emissions_by_region_states.xml
+
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_MSW_production_states.xml
+
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_outputs_by_sector_states.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_outputs_by_subsector_states.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_outputs_by_tech_states.xml
+
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_policy_cost_by_period_states.xml
+
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_population_by_region_states.xml
+
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_prices_of_all_markets_states.xml
+
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_primary_energy_consumption_by_region_avg_fossil_efficiency_states.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_primary_energy_consumption_by_region_direct_equivalent_states.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_primary_energy_consumption_with_CCS_by_region_direct_equivalent_states.xml
+
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_profit_rate_states.xml
+
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_purpose-grown_biomass_production_states.xml
+
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_refined_liquids_costs_by_tech_states.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_refined_liquids_prices_by_sector_states.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_refined_liquids_production_by_region_states.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_refined_liquids_production_by_tech_states.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_refinery_inputs_by_tech_energy_and_feedstocks_states.xml
+
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_regional_biomass_consumption_states.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_regional_CO2_MAC_curves_by_period_states.xml
+
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_residue_biomass_production_states.xml
+
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_supply_of_all_markets_states.xml
+
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_total_final_energy_by_aggregate_sector_states.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_transport_final_energy_by_tech_and_fuel_states.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_transport_final_energy_by_tech_new_states.xml
+
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_undiscounted_policy_cost_states.xml
+
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_water_consumption_by_region_states.xml
+java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/xmldb_batch_water_withdrawals_by_region_states.xml
+
 
 echo "done reading batch query files"
 
