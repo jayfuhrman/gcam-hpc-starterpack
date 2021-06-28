@@ -3,6 +3,8 @@ This repository automates the compilation/build process of the Global Change Ana
 
 To get started, click the link to the documentation wiki above. 
 
+If you encounter difficulty, submit an "issue" on github (above).
+
 
 
 
