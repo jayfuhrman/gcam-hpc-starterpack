@@ -2,8 +2,9 @@
 
 module purge
 module load gcc/7.1.0
-module load intel/18.0
-module load intelmpi/18.0
+module load intel/20.0
+module load intelmpi/20.0
+module load eigen/3.4-rc1
 module load boost
 module load xerces
 module load java
