@@ -1,0 +1,507 @@
+<queries>
+
+<aQuery><region name="Global" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="AK" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="AL" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="AR" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="AZ" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="CA" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="CO" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="CT" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="DC" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="DE" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="FL" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="GA" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="HI" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="IA" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="ID" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="IL" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="IN" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="KS" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="KY" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="LA" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="MA" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="MD" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="ME" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="MI" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="MN" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="MO" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="MS" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="MT" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="NC" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="ND" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="NE" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="NH" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="NJ" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="NM" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="NV" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="NY" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="OH" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="OK" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="OR" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="PA" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="RI" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="SC" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="SD" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="TN" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="TX" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="UT" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="VA" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="VT" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="WA" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="WI" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="WV" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="WY" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="USA" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Africa_Eastern" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Africa_Northern" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Africa_Southern" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Africa_Western" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Australia_NZ" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Brazil" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Canada" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Central America and Caribbean" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Central Asia" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="China" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="EU-12" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="EU-15" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Europe_Eastern" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Europe_Non_EU" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="European Free Trade Association" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="India" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Indonesia" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Japan" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Mexico" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Middle East" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Pakistan" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Russia" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="South Africa" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="South America_Northern" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="South America_Southern" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="South Asia" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="South Korea" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Southeast Asia" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Taiwan" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Argentina" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Colombia" /><supplyDemandQuery title="refined liquids costs by tech">
+               <axis1 name="technology">technology</axis1>
+               <axis2 name="Year">cost</axis2>
+               <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+               <comments />
+            </supplyDemandQuery>
+            </aQuery></queries>

@@ -1,0 +1,507 @@
+<queries>
+
+<aQuery><region name="Global" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="AK" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="AL" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="AR" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="AZ" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="CA" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="CO" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="CT" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="DC" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="DE" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="FL" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="GA" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="HI" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="IA" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="ID" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="IL" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="IN" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="KS" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="KY" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="LA" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="MA" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="MD" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="ME" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="MI" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="MN" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="MO" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="MS" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="MT" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="NC" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="ND" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="NE" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="NH" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="NJ" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="NM" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="NV" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="NY" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="OH" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="OK" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="OR" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="PA" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="RI" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="SC" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="SD" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="TN" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="TX" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="UT" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="VA" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="VT" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="WA" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="WI" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="WV" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="WY" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="USA" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="Africa_Eastern" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="Africa_Northern" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="Africa_Southern" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="Africa_Western" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="Australia_NZ" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="Brazil" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="Canada" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="Central America and Caribbean" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="Central Asia" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="China" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="EU-12" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="EU-15" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="Europe_Eastern" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="Europe_Non_EU" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="European Free Trade Association" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="India" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="Indonesia" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="Japan" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="Mexico" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="Middle East" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="Pakistan" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="Russia" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="South Africa" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="South America_Northern" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="South America_Southern" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="South Asia" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="South Korea" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="Southeast Asia" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="Taiwan" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="Argentina" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery><aQuery><region name="Colombia" /><query title="detailed land allocation">
+            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+            <axis2 name="Year">land-allocation[@year]</axis2>
+            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+            <comments />
+         </query>
+         </aQuery></queries>

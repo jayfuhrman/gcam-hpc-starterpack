@@ -145,7 +145,7 @@ def create_query_files(query_strs,states):
             
             
             
-            query_template = ET.parse('../batch_query_templates/query_template_global.xml')
+            query_template = ET.parse('batch_query_templates/query_template_global.xml')
             query_template_root = query_template.getroot()
             
             aquery = query_template_root.findall("aQuery")[0]
@@ -228,7 +228,7 @@ def create_query_files(query_strs,states):
                 
                 
 
-            query_folder = ''
+            query_folder = 'output/queries/'
             query_file = 'query_'+path+'.xml'
             
             query_template.write(query_folder+query_file)
@@ -248,7 +248,7 @@ def create_query_files(query_strs,states):
             queryFile_path.text = query_folder+query_file
             outFile_path.text = 'queryout_'+path+'.csv'
             
-            xmldb_pointer_folder = '../../exe/'
+            xmldb_pointer_folder = 'exe/'
             xmldb_pointer_file = 'xmldb_batch_'+path+'.xml'
             
             xmldb_batch.write(xmldb_pointer_folder+xmldb_pointer_file)
