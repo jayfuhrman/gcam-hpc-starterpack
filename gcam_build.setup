@@ -1,5 +1,5 @@
 export CXX=icpc
-export GCAM_WORKSPACE=$HOME/GCAM-core
+export GCAM_WORKSPACE=$HOME/${GCAMDIR}
 export JAVA_LIB=${JAVA_HOME}/jre/lib/amd64/server
 export JAVA_INCLUDE=${JAVA_HOME}/include
 export BOOST_LIB=${EBROOTBOOST}/lib
