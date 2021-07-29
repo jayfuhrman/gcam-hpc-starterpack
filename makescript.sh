@@ -3,23 +3,21 @@ echo "WARNING: THIS WILL DELETE YOUR EXISTING GCAM DIRECTORY.  IF YOU DON'T NEED
 #sleep 20s
 module purge
 
+module load xerces java
 module load gcc/7.1.0
-module load intel/18.0
-module load intelmpi/18.0
-module load boost
-module load xerces
-module load java
+module load intel/20.0 intelmpi/20.0 eigen/3.4-rc1 boost
+
 
 
 
 module list
 
-GCAMDIR=/home/cff2aa/GCAM-core #defines the directory that will be created with the new GCAM version.  NOTE THIS SHOULD BE DIFFERENT FROM YOUR STABLE INSTALL OTHERWISE YOU WILL DELETE IT
+GCAMDIR=/home/cff2aa/gcam_5_4 #defines the directory that will be created with the new GCAM version.  NOTE THIS SHOULD BE DIFFERENT FROM YOUR STABLE INSTALL OTHERWISE YOU WILL DELETE IT
 
-INSTALLDIR=/home/cff2aa/GCAM-install #defines the directory from which all the dependent files to actually run GCAM are located 
+INSTALLDIR=/home/cff2aa/gcam-hpc-starterpack #defines the directory from which all the dependent files to actually run GCAM are located 
 HECTORDIR=${GCAMDIR}/cvs/objects/climate/source #defines where hector-gcam-integration will be installed
 PACKAGE=gcam-core-master #defines zip filename from github NOTE: DO NOT INCLUDE THE .ZIP IN THE PATH AS IT WILL BE APPENDED IN THE SCRIPT WHERE NEEDED
-PACKAGE_UNZIPPED=gcam-core-gcam-v5.3
+PACKAGE_UNZIPPED=gcam-core-master
 
 rm -rf ${GCAMDIR}
 mkdir ${GCAMDIR}
