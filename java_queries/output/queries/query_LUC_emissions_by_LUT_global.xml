@@ -5,13 +5,13 @@
 	
 
 <query title="LUC emissions by LUT">
-            <axis1 name="LandLeaf">LandLeaf</axis1>
-            <axis2 name="Year">land-use-change-emission[@year]</axis2>
-            <xPath buildList="true" dataName="land-use-change-emission" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">land-use-change-emission[@year]</axis2>
+                <xPath buildList="true" dataName="land-use-change-emission" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//
                 land-use-change-emission[@year&gt;1970]/text()</xPath>
-            <comments />
-         </query>
-         </aQuery>
+                <comments />
+            </query>
+            </aQuery>
 
 
 </queries>

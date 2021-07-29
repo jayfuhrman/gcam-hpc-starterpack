@@ -1,0 +1,201 @@
+<queries>
+
+<aQuery><region name="Global" /><marketQuery title="CO2 prices">
+            <axis1 name="market">market</axis1>
+            <axis2 name="Year">market</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true() and contains(@name,'CO2')]/price/node()</xPath>
+            <comments />
+        </marketQuery>
+        </aQuery><aQuery><region name="USA" /><marketQuery title="CO2 prices">
+            <axis1 name="market">market</axis1>
+            <axis2 name="Year">market</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true() and contains(@name,'CO2')]/price/node()</xPath>
+            <comments />
+        </marketQuery>
+        </aQuery><aQuery><region name="Africa_Eastern" /><marketQuery title="CO2 prices">
+            <axis1 name="market">market</axis1>
+            <axis2 name="Year">market</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true() and contains(@name,'CO2')]/price/node()</xPath>
+            <comments />
+        </marketQuery>
+        </aQuery><aQuery><region name="Africa_Northern" /><marketQuery title="CO2 prices">
+            <axis1 name="market">market</axis1>
+            <axis2 name="Year">market</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true() and contains(@name,'CO2')]/price/node()</xPath>
+            <comments />
+        </marketQuery>
+        </aQuery><aQuery><region name="Africa_Southern" /><marketQuery title="CO2 prices">
+            <axis1 name="market">market</axis1>
+            <axis2 name="Year">market</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true() and contains(@name,'CO2')]/price/node()</xPath>
+            <comments />
+        </marketQuery>
+        </aQuery><aQuery><region name="Africa_Western" /><marketQuery title="CO2 prices">
+            <axis1 name="market">market</axis1>
+            <axis2 name="Year">market</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true() and contains(@name,'CO2')]/price/node()</xPath>
+            <comments />
+        </marketQuery>
+        </aQuery><aQuery><region name="Australia_NZ" /><marketQuery title="CO2 prices">
+            <axis1 name="market">market</axis1>
+            <axis2 name="Year">market</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true() and contains(@name,'CO2')]/price/node()</xPath>
+            <comments />
+        </marketQuery>
+        </aQuery><aQuery><region name="Brazil" /><marketQuery title="CO2 prices">
+            <axis1 name="market">market</axis1>
+            <axis2 name="Year">market</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true() and contains(@name,'CO2')]/price/node()</xPath>
+            <comments />
+        </marketQuery>
+        </aQuery><aQuery><region name="Canada" /><marketQuery title="CO2 prices">
+            <axis1 name="market">market</axis1>
+            <axis2 name="Year">market</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true() and contains(@name,'CO2')]/price/node()</xPath>
+            <comments />
+        </marketQuery>
+        </aQuery><aQuery><region name="Central America and Caribbean" /><marketQuery title="CO2 prices">
+            <axis1 name="market">market</axis1>
+            <axis2 name="Year">market</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true() and contains(@name,'CO2')]/price/node()</xPath>
+            <comments />
+        </marketQuery>
+        </aQuery><aQuery><region name="Central Asia" /><marketQuery title="CO2 prices">
+            <axis1 name="market">market</axis1>
+            <axis2 name="Year">market</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true() and contains(@name,'CO2')]/price/node()</xPath>
+            <comments />
+        </marketQuery>
+        </aQuery><aQuery><region name="China" /><marketQuery title="CO2 prices">
+            <axis1 name="market">market</axis1>
+            <axis2 name="Year">market</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true() and contains(@name,'CO2')]/price/node()</xPath>
+            <comments />
+        </marketQuery>
+        </aQuery><aQuery><region name="EU-12" /><marketQuery title="CO2 prices">
+            <axis1 name="market">market</axis1>
+            <axis2 name="Year">market</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true() and contains(@name,'CO2')]/price/node()</xPath>
+            <comments />
+        </marketQuery>
+        </aQuery><aQuery><region name="EU-15" /><marketQuery title="CO2 prices">
+            <axis1 name="market">market</axis1>
+            <axis2 name="Year">market</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true() and contains(@name,'CO2')]/price/node()</xPath>
+            <comments />
+        </marketQuery>
+        </aQuery><aQuery><region name="Europe_Eastern" /><marketQuery title="CO2 prices">
+            <axis1 name="market">market</axis1>
+            <axis2 name="Year">market</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true() and contains(@name,'CO2')]/price/node()</xPath>
+            <comments />
+        </marketQuery>
+        </aQuery><aQuery><region name="Europe_Non_EU" /><marketQuery title="CO2 prices">
+            <axis1 name="market">market</axis1>
+            <axis2 name="Year">market</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true() and contains(@name,'CO2')]/price/node()</xPath>
+            <comments />
+        </marketQuery>
+        </aQuery><aQuery><region name="European Free Trade Association" /><marketQuery title="CO2 prices">
+            <axis1 name="market">market</axis1>
+            <axis2 name="Year">market</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true() and contains(@name,'CO2')]/price/node()</xPath>
+            <comments />
+        </marketQuery>
+        </aQuery><aQuery><region name="India" /><marketQuery title="CO2 prices">
+            <axis1 name="market">market</axis1>
+            <axis2 name="Year">market</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true() and contains(@name,'CO2')]/price/node()</xPath>
+            <comments />
+        </marketQuery>
+        </aQuery><aQuery><region name="Indonesia" /><marketQuery title="CO2 prices">
+            <axis1 name="market">market</axis1>
+            <axis2 name="Year">market</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true() and contains(@name,'CO2')]/price/node()</xPath>
+            <comments />
+        </marketQuery>
+        </aQuery><aQuery><region name="Japan" /><marketQuery title="CO2 prices">
+            <axis1 name="market">market</axis1>
+            <axis2 name="Year">market</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true() and contains(@name,'CO2')]/price/node()</xPath>
+            <comments />
+        </marketQuery>
+        </aQuery><aQuery><region name="Mexico" /><marketQuery title="CO2 prices">
+            <axis1 name="market">market</axis1>
+            <axis2 name="Year">market</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true() and contains(@name,'CO2')]/price/node()</xPath>
+            <comments />
+        </marketQuery>
+        </aQuery><aQuery><region name="Middle East" /><marketQuery title="CO2 prices">
+            <axis1 name="market">market</axis1>
+            <axis2 name="Year">market</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true() and contains(@name,'CO2')]/price/node()</xPath>
+            <comments />
+        </marketQuery>
+        </aQuery><aQuery><region name="Pakistan" /><marketQuery title="CO2 prices">
+            <axis1 name="market">market</axis1>
+            <axis2 name="Year">market</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true() and contains(@name,'CO2')]/price/node()</xPath>
+            <comments />
+        </marketQuery>
+        </aQuery><aQuery><region name="Russia" /><marketQuery title="CO2 prices">
+            <axis1 name="market">market</axis1>
+            <axis2 name="Year">market</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true() and contains(@name,'CO2')]/price/node()</xPath>
+            <comments />
+        </marketQuery>
+        </aQuery><aQuery><region name="South Africa" /><marketQuery title="CO2 prices">
+            <axis1 name="market">market</axis1>
+            <axis2 name="Year">market</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true() and contains(@name,'CO2')]/price/node()</xPath>
+            <comments />
+        </marketQuery>
+        </aQuery><aQuery><region name="South America_Northern" /><marketQuery title="CO2 prices">
+            <axis1 name="market">market</axis1>
+            <axis2 name="Year">market</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true() and contains(@name,'CO2')]/price/node()</xPath>
+            <comments />
+        </marketQuery>
+        </aQuery><aQuery><region name="South America_Southern" /><marketQuery title="CO2 prices">
+            <axis1 name="market">market</axis1>
+            <axis2 name="Year">market</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true() and contains(@name,'CO2')]/price/node()</xPath>
+            <comments />
+        </marketQuery>
+        </aQuery><aQuery><region name="South Asia" /><marketQuery title="CO2 prices">
+            <axis1 name="market">market</axis1>
+            <axis2 name="Year">market</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true() and contains(@name,'CO2')]/price/node()</xPath>
+            <comments />
+        </marketQuery>
+        </aQuery><aQuery><region name="South Korea" /><marketQuery title="CO2 prices">
+            <axis1 name="market">market</axis1>
+            <axis2 name="Year">market</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true() and contains(@name,'CO2')]/price/node()</xPath>
+            <comments />
+        </marketQuery>
+        </aQuery><aQuery><region name="Southeast Asia" /><marketQuery title="CO2 prices">
+            <axis1 name="market">market</axis1>
+            <axis2 name="Year">market</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true() and contains(@name,'CO2')]/price/node()</xPath>
+            <comments />
+        </marketQuery>
+        </aQuery><aQuery><region name="Taiwan" /><marketQuery title="CO2 prices">
+            <axis1 name="market">market</axis1>
+            <axis2 name="Year">market</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true() and contains(@name,'CO2')]/price/node()</xPath>
+            <comments />
+        </marketQuery>
+        </aQuery><aQuery><region name="Argentina" /><marketQuery title="CO2 prices">
+            <axis1 name="market">market</axis1>
+            <axis2 name="Year">market</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true() and contains(@name,'CO2')]/price/node()</xPath>
+            <comments />
+        </marketQuery>
+        </aQuery><aQuery><region name="Colombia" /><marketQuery title="CO2 prices">
+            <axis1 name="market">market</axis1>
+            <axis2 name="Year">market</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true() and contains(@name,'CO2')]/price/node()</xPath>
+            <comments />
+        </marketQuery>
+        </aQuery></queries>

@@ -7,7 +7,7 @@
 
             
             
-			<queryFile>../output/queries/query_GDP_per_capita_MER_by_region_global.xml</queryFile>
+			<queryFile>output/queries/query_GDP_per_capita_MER_by_region_global.xml</queryFile>
             
             <outFile>queryout_GDP_per_capita_MER_by_region_global.csv</outFile>
             

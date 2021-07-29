@@ -1,0 +1,20 @@
+<queries>
+
+<aQuery>
+	<region name="Global" /> 
+	
+
+<supplyDemandQuery title="elec gen by gen tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">physical-output[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' (:collapse:) and
+               (@name='electricity' or @name='elect_td_bld' or @name='industrial energy use')]/
+               *[@type='subsector']/*[@type='technology' and not (@name='electricity' or @name='elect_td_bld')]/
+               *[@type='output' and (@name='electricity' or @name='elect_td_bld')]/
+               physical-output/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery>
+
+
+</queries>

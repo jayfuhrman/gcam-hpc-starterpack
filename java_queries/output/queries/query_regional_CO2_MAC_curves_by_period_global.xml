@@ -1,0 +1,17 @@
+<queries>
+
+<aQuery>
+	<region name="Global" /> 
+	
+
+<costCurveQuery title="regional CO2 MAC curves by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Tax">DataPoint</axis2>
+            <chartLabelColumn>CostCurves</chartLabelColumn>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/x/text()</xPath>
+            <comments />
+        </costCurveQuery>
+    </aQuery>
+
+
+</queries>

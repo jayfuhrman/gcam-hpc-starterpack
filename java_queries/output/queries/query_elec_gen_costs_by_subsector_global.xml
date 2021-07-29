@@ -1,0 +1,16 @@
+<queries>
+
+<aQuery>
+	<region name="Global" /> 
+	
+
+<supplyDemandQuery title="elec gen costs by subsector">
+                    <axis1 name="subsector">subsector</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='electricity')]/*[@type='subsector']/cost/text()</xPath>
+                    <comments>doesn't include rooftop PV</comments>
+                </supplyDemandQuery>
+                </aQuery>
+
+
+</queries>

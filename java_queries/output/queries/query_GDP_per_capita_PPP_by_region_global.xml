@@ -5,12 +5,12 @@
 	
 
 <gdpQueryBuilder title="GDP per capita PPP by region">
-         <axis1 name="region">region</axis1>
-         <axis2 name="Year">gdp-per-capita-ppp</axis2>
-         <xPath buildList="true" dataName="gdp-per-capita-ppp" group="false" sumAll="false">GDP/gdp-per-capita-ppp/text()</xPath>
-         <comments />
-      </gdpQueryBuilder>
-   </aQuery>
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">gdp-per-capita-ppp</axis2>
+            <xPath buildList="true" dataName="gdp-per-capita-ppp" group="false" sumAll="false">GDP/gdp-per-capita-ppp/text()</xPath>
+            <comments />
+        </gdpQueryBuilder>
+    </aQuery>
 
 
 </queries>

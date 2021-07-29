@@ -1,0 +1,201 @@
+<queries>
+
+<aQuery><region name="Global" /><marketQuery title="prices of all markets">
+                <axis1 name="market">market</axis1>
+                <axis2 name="Year">market</axis2>
+                <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true()]/price/node()</xPath>
+                <comments />
+            </marketQuery>
+            </aQuery><aQuery><region name="USA" /><marketQuery title="prices of all markets">
+                <axis1 name="market">market</axis1>
+                <axis2 name="Year">market</axis2>
+                <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true()]/price/node()</xPath>
+                <comments />
+            </marketQuery>
+            </aQuery><aQuery><region name="Africa_Eastern" /><marketQuery title="prices of all markets">
+                <axis1 name="market">market</axis1>
+                <axis2 name="Year">market</axis2>
+                <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true()]/price/node()</xPath>
+                <comments />
+            </marketQuery>
+            </aQuery><aQuery><region name="Africa_Northern" /><marketQuery title="prices of all markets">
+                <axis1 name="market">market</axis1>
+                <axis2 name="Year">market</axis2>
+                <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true()]/price/node()</xPath>
+                <comments />
+            </marketQuery>
+            </aQuery><aQuery><region name="Africa_Southern" /><marketQuery title="prices of all markets">
+                <axis1 name="market">market</axis1>
+                <axis2 name="Year">market</axis2>
+                <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true()]/price/node()</xPath>
+                <comments />
+            </marketQuery>
+            </aQuery><aQuery><region name="Africa_Western" /><marketQuery title="prices of all markets">
+                <axis1 name="market">market</axis1>
+                <axis2 name="Year">market</axis2>
+                <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true()]/price/node()</xPath>
+                <comments />
+            </marketQuery>
+            </aQuery><aQuery><region name="Australia_NZ" /><marketQuery title="prices of all markets">
+                <axis1 name="market">market</axis1>
+                <axis2 name="Year">market</axis2>
+                <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true()]/price/node()</xPath>
+                <comments />
+            </marketQuery>
+            </aQuery><aQuery><region name="Brazil" /><marketQuery title="prices of all markets">
+                <axis1 name="market">market</axis1>
+                <axis2 name="Year">market</axis2>
+                <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true()]/price/node()</xPath>
+                <comments />
+            </marketQuery>
+            </aQuery><aQuery><region name="Canada" /><marketQuery title="prices of all markets">
+                <axis1 name="market">market</axis1>
+                <axis2 name="Year">market</axis2>
+                <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true()]/price/node()</xPath>
+                <comments />
+            </marketQuery>
+            </aQuery><aQuery><region name="Central America and Caribbean" /><marketQuery title="prices of all markets">
+                <axis1 name="market">market</axis1>
+                <axis2 name="Year">market</axis2>
+                <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true()]/price/node()</xPath>
+                <comments />
+            </marketQuery>
+            </aQuery><aQuery><region name="Central Asia" /><marketQuery title="prices of all markets">
+                <axis1 name="market">market</axis1>
+                <axis2 name="Year">market</axis2>
+                <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true()]/price/node()</xPath>
+                <comments />
+            </marketQuery>
+            </aQuery><aQuery><region name="China" /><marketQuery title="prices of all markets">
+                <axis1 name="market">market</axis1>
+                <axis2 name="Year">market</axis2>
+                <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true()]/price/node()</xPath>
+                <comments />
+            </marketQuery>
+            </aQuery><aQuery><region name="EU-12" /><marketQuery title="prices of all markets">
+                <axis1 name="market">market</axis1>
+                <axis2 name="Year">market</axis2>
+                <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true()]/price/node()</xPath>
+                <comments />
+            </marketQuery>
+            </aQuery><aQuery><region name="EU-15" /><marketQuery title="prices of all markets">
+                <axis1 name="market">market</axis1>
+                <axis2 name="Year">market</axis2>
+                <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true()]/price/node()</xPath>
+                <comments />
+            </marketQuery>
+            </aQuery><aQuery><region name="Europe_Eastern" /><marketQuery title="prices of all markets">
+                <axis1 name="market">market</axis1>
+                <axis2 name="Year">market</axis2>
+                <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true()]/price/node()</xPath>
+                <comments />
+            </marketQuery>
+            </aQuery><aQuery><region name="Europe_Non_EU" /><marketQuery title="prices of all markets">
+                <axis1 name="market">market</axis1>
+                <axis2 name="Year">market</axis2>
+                <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true()]/price/node()</xPath>
+                <comments />
+            </marketQuery>
+            </aQuery><aQuery><region name="European Free Trade Association" /><marketQuery title="prices of all markets">
+                <axis1 name="market">market</axis1>
+                <axis2 name="Year">market</axis2>
+                <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true()]/price/node()</xPath>
+                <comments />
+            </marketQuery>
+            </aQuery><aQuery><region name="India" /><marketQuery title="prices of all markets">
+                <axis1 name="market">market</axis1>
+                <axis2 name="Year">market</axis2>
+                <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true()]/price/node()</xPath>
+                <comments />
+            </marketQuery>
+            </aQuery><aQuery><region name="Indonesia" /><marketQuery title="prices of all markets">
+                <axis1 name="market">market</axis1>
+                <axis2 name="Year">market</axis2>
+                <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true()]/price/node()</xPath>
+                <comments />
+            </marketQuery>
+            </aQuery><aQuery><region name="Japan" /><marketQuery title="prices of all markets">
+                <axis1 name="market">market</axis1>
+                <axis2 name="Year">market</axis2>
+                <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true()]/price/node()</xPath>
+                <comments />
+            </marketQuery>
+            </aQuery><aQuery><region name="Mexico" /><marketQuery title="prices of all markets">
+                <axis1 name="market">market</axis1>
+                <axis2 name="Year">market</axis2>
+                <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true()]/price/node()</xPath>
+                <comments />
+            </marketQuery>
+            </aQuery><aQuery><region name="Middle East" /><marketQuery title="prices of all markets">
+                <axis1 name="market">market</axis1>
+                <axis2 name="Year">market</axis2>
+                <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true()]/price/node()</xPath>
+                <comments />
+            </marketQuery>
+            </aQuery><aQuery><region name="Pakistan" /><marketQuery title="prices of all markets">
+                <axis1 name="market">market</axis1>
+                <axis2 name="Year">market</axis2>
+                <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true()]/price/node()</xPath>
+                <comments />
+            </marketQuery>
+            </aQuery><aQuery><region name="Russia" /><marketQuery title="prices of all markets">
+                <axis1 name="market">market</axis1>
+                <axis2 name="Year">market</axis2>
+                <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true()]/price/node()</xPath>
+                <comments />
+            </marketQuery>
+            </aQuery><aQuery><region name="South Africa" /><marketQuery title="prices of all markets">
+                <axis1 name="market">market</axis1>
+                <axis2 name="Year">market</axis2>
+                <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true()]/price/node()</xPath>
+                <comments />
+            </marketQuery>
+            </aQuery><aQuery><region name="South America_Northern" /><marketQuery title="prices of all markets">
+                <axis1 name="market">market</axis1>
+                <axis2 name="Year">market</axis2>
+                <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true()]/price/node()</xPath>
+                <comments />
+            </marketQuery>
+            </aQuery><aQuery><region name="South America_Southern" /><marketQuery title="prices of all markets">
+                <axis1 name="market">market</axis1>
+                <axis2 name="Year">market</axis2>
+                <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true()]/price/node()</xPath>
+                <comments />
+            </marketQuery>
+            </aQuery><aQuery><region name="South Asia" /><marketQuery title="prices of all markets">
+                <axis1 name="market">market</axis1>
+                <axis2 name="Year">market</axis2>
+                <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true()]/price/node()</xPath>
+                <comments />
+            </marketQuery>
+            </aQuery><aQuery><region name="South Korea" /><marketQuery title="prices of all markets">
+                <axis1 name="market">market</axis1>
+                <axis2 name="Year">market</axis2>
+                <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true()]/price/node()</xPath>
+                <comments />
+            </marketQuery>
+            </aQuery><aQuery><region name="Southeast Asia" /><marketQuery title="prices of all markets">
+                <axis1 name="market">market</axis1>
+                <axis2 name="Year">market</axis2>
+                <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true()]/price/node()</xPath>
+                <comments />
+            </marketQuery>
+            </aQuery><aQuery><region name="Taiwan" /><marketQuery title="prices of all markets">
+                <axis1 name="market">market</axis1>
+                <axis2 name="Year">market</axis2>
+                <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true()]/price/node()</xPath>
+                <comments />
+            </marketQuery>
+            </aQuery><aQuery><region name="Argentina" /><marketQuery title="prices of all markets">
+                <axis1 name="market">market</axis1>
+                <axis2 name="Year">market</axis2>
+                <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true()]/price/node()</xPath>
+                <comments />
+            </marketQuery>
+            </aQuery><aQuery><region name="Colombia" /><marketQuery title="prices of all markets">
+                <axis1 name="market">market</axis1>
+                <axis2 name="Year">market</axis2>
+                <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true()]/price/node()</xPath>
+                <comments />
+            </marketQuery>
+            </aQuery></queries>

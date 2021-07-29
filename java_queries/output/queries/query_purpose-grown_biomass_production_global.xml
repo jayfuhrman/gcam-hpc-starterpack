@@ -1,0 +1,17 @@
+<queries>
+
+<aQuery>
+	<region name="Global" /> 
+	
+
+<supplyDemandQuery title="purpose-grown biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='biomass')]//*[@type='output' (:collapse:)]/
+            physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery>
+
+
+</queries>

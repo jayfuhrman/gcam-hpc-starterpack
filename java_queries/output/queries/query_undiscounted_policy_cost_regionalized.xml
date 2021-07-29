@@ -1,0 +1,201 @@
+<queries>
+
+<aQuery><region name="Global" /><costCurveQuery title="undiscounted policy cost">
+            <axis1 name="UndiscountedCost">UndiscountedCost</axis1>
+            <axis2 name="region">UndiscountedCost</axis2>
+            <xPath buildList="true" dataName="Undiscounted Cost" group="false" sumAll="false">/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery><aQuery><region name="USA" /><costCurveQuery title="undiscounted policy cost">
+            <axis1 name="UndiscountedCost">UndiscountedCost</axis1>
+            <axis2 name="region">UndiscountedCost</axis2>
+            <xPath buildList="true" dataName="Undiscounted Cost" group="false" sumAll="false">/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery><aQuery><region name="Africa_Eastern" /><costCurveQuery title="undiscounted policy cost">
+            <axis1 name="UndiscountedCost">UndiscountedCost</axis1>
+            <axis2 name="region">UndiscountedCost</axis2>
+            <xPath buildList="true" dataName="Undiscounted Cost" group="false" sumAll="false">/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery><aQuery><region name="Africa_Northern" /><costCurveQuery title="undiscounted policy cost">
+            <axis1 name="UndiscountedCost">UndiscountedCost</axis1>
+            <axis2 name="region">UndiscountedCost</axis2>
+            <xPath buildList="true" dataName="Undiscounted Cost" group="false" sumAll="false">/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery><aQuery><region name="Africa_Southern" /><costCurveQuery title="undiscounted policy cost">
+            <axis1 name="UndiscountedCost">UndiscountedCost</axis1>
+            <axis2 name="region">UndiscountedCost</axis2>
+            <xPath buildList="true" dataName="Undiscounted Cost" group="false" sumAll="false">/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery><aQuery><region name="Africa_Western" /><costCurveQuery title="undiscounted policy cost">
+            <axis1 name="UndiscountedCost">UndiscountedCost</axis1>
+            <axis2 name="region">UndiscountedCost</axis2>
+            <xPath buildList="true" dataName="Undiscounted Cost" group="false" sumAll="false">/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery><aQuery><region name="Australia_NZ" /><costCurveQuery title="undiscounted policy cost">
+            <axis1 name="UndiscountedCost">UndiscountedCost</axis1>
+            <axis2 name="region">UndiscountedCost</axis2>
+            <xPath buildList="true" dataName="Undiscounted Cost" group="false" sumAll="false">/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery><aQuery><region name="Brazil" /><costCurveQuery title="undiscounted policy cost">
+            <axis1 name="UndiscountedCost">UndiscountedCost</axis1>
+            <axis2 name="region">UndiscountedCost</axis2>
+            <xPath buildList="true" dataName="Undiscounted Cost" group="false" sumAll="false">/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery><aQuery><region name="Canada" /><costCurveQuery title="undiscounted policy cost">
+            <axis1 name="UndiscountedCost">UndiscountedCost</axis1>
+            <axis2 name="region">UndiscountedCost</axis2>
+            <xPath buildList="true" dataName="Undiscounted Cost" group="false" sumAll="false">/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery><aQuery><region name="Central America and Caribbean" /><costCurveQuery title="undiscounted policy cost">
+            <axis1 name="UndiscountedCost">UndiscountedCost</axis1>
+            <axis2 name="region">UndiscountedCost</axis2>
+            <xPath buildList="true" dataName="Undiscounted Cost" group="false" sumAll="false">/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery><aQuery><region name="Central Asia" /><costCurveQuery title="undiscounted policy cost">
+            <axis1 name="UndiscountedCost">UndiscountedCost</axis1>
+            <axis2 name="region">UndiscountedCost</axis2>
+            <xPath buildList="true" dataName="Undiscounted Cost" group="false" sumAll="false">/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery><aQuery><region name="China" /><costCurveQuery title="undiscounted policy cost">
+            <axis1 name="UndiscountedCost">UndiscountedCost</axis1>
+            <axis2 name="region">UndiscountedCost</axis2>
+            <xPath buildList="true" dataName="Undiscounted Cost" group="false" sumAll="false">/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery><aQuery><region name="EU-12" /><costCurveQuery title="undiscounted policy cost">
+            <axis1 name="UndiscountedCost">UndiscountedCost</axis1>
+            <axis2 name="region">UndiscountedCost</axis2>
+            <xPath buildList="true" dataName="Undiscounted Cost" group="false" sumAll="false">/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery><aQuery><region name="EU-15" /><costCurveQuery title="undiscounted policy cost">
+            <axis1 name="UndiscountedCost">UndiscountedCost</axis1>
+            <axis2 name="region">UndiscountedCost</axis2>
+            <xPath buildList="true" dataName="Undiscounted Cost" group="false" sumAll="false">/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery><aQuery><region name="Europe_Eastern" /><costCurveQuery title="undiscounted policy cost">
+            <axis1 name="UndiscountedCost">UndiscountedCost</axis1>
+            <axis2 name="region">UndiscountedCost</axis2>
+            <xPath buildList="true" dataName="Undiscounted Cost" group="false" sumAll="false">/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery><aQuery><region name="Europe_Non_EU" /><costCurveQuery title="undiscounted policy cost">
+            <axis1 name="UndiscountedCost">UndiscountedCost</axis1>
+            <axis2 name="region">UndiscountedCost</axis2>
+            <xPath buildList="true" dataName="Undiscounted Cost" group="false" sumAll="false">/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery><aQuery><region name="European Free Trade Association" /><costCurveQuery title="undiscounted policy cost">
+            <axis1 name="UndiscountedCost">UndiscountedCost</axis1>
+            <axis2 name="region">UndiscountedCost</axis2>
+            <xPath buildList="true" dataName="Undiscounted Cost" group="false" sumAll="false">/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery><aQuery><region name="India" /><costCurveQuery title="undiscounted policy cost">
+            <axis1 name="UndiscountedCost">UndiscountedCost</axis1>
+            <axis2 name="region">UndiscountedCost</axis2>
+            <xPath buildList="true" dataName="Undiscounted Cost" group="false" sumAll="false">/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery><aQuery><region name="Indonesia" /><costCurveQuery title="undiscounted policy cost">
+            <axis1 name="UndiscountedCost">UndiscountedCost</axis1>
+            <axis2 name="region">UndiscountedCost</axis2>
+            <xPath buildList="true" dataName="Undiscounted Cost" group="false" sumAll="false">/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery><aQuery><region name="Japan" /><costCurveQuery title="undiscounted policy cost">
+            <axis1 name="UndiscountedCost">UndiscountedCost</axis1>
+            <axis2 name="region">UndiscountedCost</axis2>
+            <xPath buildList="true" dataName="Undiscounted Cost" group="false" sumAll="false">/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery><aQuery><region name="Mexico" /><costCurveQuery title="undiscounted policy cost">
+            <axis1 name="UndiscountedCost">UndiscountedCost</axis1>
+            <axis2 name="region">UndiscountedCost</axis2>
+            <xPath buildList="true" dataName="Undiscounted Cost" group="false" sumAll="false">/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery><aQuery><region name="Middle East" /><costCurveQuery title="undiscounted policy cost">
+            <axis1 name="UndiscountedCost">UndiscountedCost</axis1>
+            <axis2 name="region">UndiscountedCost</axis2>
+            <xPath buildList="true" dataName="Undiscounted Cost" group="false" sumAll="false">/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery><aQuery><region name="Pakistan" /><costCurveQuery title="undiscounted policy cost">
+            <axis1 name="UndiscountedCost">UndiscountedCost</axis1>
+            <axis2 name="region">UndiscountedCost</axis2>
+            <xPath buildList="true" dataName="Undiscounted Cost" group="false" sumAll="false">/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery><aQuery><region name="Russia" /><costCurveQuery title="undiscounted policy cost">
+            <axis1 name="UndiscountedCost">UndiscountedCost</axis1>
+            <axis2 name="region">UndiscountedCost</axis2>
+            <xPath buildList="true" dataName="Undiscounted Cost" group="false" sumAll="false">/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery><aQuery><region name="South Africa" /><costCurveQuery title="undiscounted policy cost">
+            <axis1 name="UndiscountedCost">UndiscountedCost</axis1>
+            <axis2 name="region">UndiscountedCost</axis2>
+            <xPath buildList="true" dataName="Undiscounted Cost" group="false" sumAll="false">/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery><aQuery><region name="South America_Northern" /><costCurveQuery title="undiscounted policy cost">
+            <axis1 name="UndiscountedCost">UndiscountedCost</axis1>
+            <axis2 name="region">UndiscountedCost</axis2>
+            <xPath buildList="true" dataName="Undiscounted Cost" group="false" sumAll="false">/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery><aQuery><region name="South America_Southern" /><costCurveQuery title="undiscounted policy cost">
+            <axis1 name="UndiscountedCost">UndiscountedCost</axis1>
+            <axis2 name="region">UndiscountedCost</axis2>
+            <xPath buildList="true" dataName="Undiscounted Cost" group="false" sumAll="false">/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery><aQuery><region name="South Asia" /><costCurveQuery title="undiscounted policy cost">
+            <axis1 name="UndiscountedCost">UndiscountedCost</axis1>
+            <axis2 name="region">UndiscountedCost</axis2>
+            <xPath buildList="true" dataName="Undiscounted Cost" group="false" sumAll="false">/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery><aQuery><region name="South Korea" /><costCurveQuery title="undiscounted policy cost">
+            <axis1 name="UndiscountedCost">UndiscountedCost</axis1>
+            <axis2 name="region">UndiscountedCost</axis2>
+            <xPath buildList="true" dataName="Undiscounted Cost" group="false" sumAll="false">/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery><aQuery><region name="Southeast Asia" /><costCurveQuery title="undiscounted policy cost">
+            <axis1 name="UndiscountedCost">UndiscountedCost</axis1>
+            <axis2 name="region">UndiscountedCost</axis2>
+            <xPath buildList="true" dataName="Undiscounted Cost" group="false" sumAll="false">/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery><aQuery><region name="Taiwan" /><costCurveQuery title="undiscounted policy cost">
+            <axis1 name="UndiscountedCost">UndiscountedCost</axis1>
+            <axis2 name="region">UndiscountedCost</axis2>
+            <xPath buildList="true" dataName="Undiscounted Cost" group="false" sumAll="false">/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery><aQuery><region name="Argentina" /><costCurveQuery title="undiscounted policy cost">
+            <axis1 name="UndiscountedCost">UndiscountedCost</axis1>
+            <axis2 name="region">UndiscountedCost</axis2>
+            <xPath buildList="true" dataName="Undiscounted Cost" group="false" sumAll="false">/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery><aQuery><region name="Colombia" /><costCurveQuery title="undiscounted policy cost">
+            <axis1 name="UndiscountedCost">UndiscountedCost</axis1>
+            <axis2 name="region">UndiscountedCost</axis2>
+            <xPath buildList="true" dataName="Undiscounted Cost" group="false" sumAll="false">/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery></queries>

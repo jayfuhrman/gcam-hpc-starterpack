@@ -1,0 +1,201 @@
+<queries>
+
+<aQuery><region name="Global" /><supplyDemandQuery title="residue biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector']//output-residue-biomass/physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="USA" /><supplyDemandQuery title="residue biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector']//output-residue-biomass/physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Africa_Eastern" /><supplyDemandQuery title="residue biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector']//output-residue-biomass/physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Africa_Northern" /><supplyDemandQuery title="residue biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector']//output-residue-biomass/physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Africa_Southern" /><supplyDemandQuery title="residue biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector']//output-residue-biomass/physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Africa_Western" /><supplyDemandQuery title="residue biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector']//output-residue-biomass/physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Australia_NZ" /><supplyDemandQuery title="residue biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector']//output-residue-biomass/physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Brazil" /><supplyDemandQuery title="residue biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector']//output-residue-biomass/physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Canada" /><supplyDemandQuery title="residue biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector']//output-residue-biomass/physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Central America and Caribbean" /><supplyDemandQuery title="residue biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector']//output-residue-biomass/physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Central Asia" /><supplyDemandQuery title="residue biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector']//output-residue-biomass/physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="China" /><supplyDemandQuery title="residue biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector']//output-residue-biomass/physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="EU-12" /><supplyDemandQuery title="residue biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector']//output-residue-biomass/physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="EU-15" /><supplyDemandQuery title="residue biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector']//output-residue-biomass/physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Europe_Eastern" /><supplyDemandQuery title="residue biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector']//output-residue-biomass/physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Europe_Non_EU" /><supplyDemandQuery title="residue biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector']//output-residue-biomass/physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="European Free Trade Association" /><supplyDemandQuery title="residue biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector']//output-residue-biomass/physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="India" /><supplyDemandQuery title="residue biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector']//output-residue-biomass/physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Indonesia" /><supplyDemandQuery title="residue biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector']//output-residue-biomass/physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Japan" /><supplyDemandQuery title="residue biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector']//output-residue-biomass/physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Mexico" /><supplyDemandQuery title="residue biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector']//output-residue-biomass/physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Middle East" /><supplyDemandQuery title="residue biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector']//output-residue-biomass/physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Pakistan" /><supplyDemandQuery title="residue biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector']//output-residue-biomass/physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Russia" /><supplyDemandQuery title="residue biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector']//output-residue-biomass/physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="South Africa" /><supplyDemandQuery title="residue biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector']//output-residue-biomass/physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="South America_Northern" /><supplyDemandQuery title="residue biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector']//output-residue-biomass/physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="South America_Southern" /><supplyDemandQuery title="residue biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector']//output-residue-biomass/physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="South Asia" /><supplyDemandQuery title="residue biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector']//output-residue-biomass/physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="South Korea" /><supplyDemandQuery title="residue biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector']//output-residue-biomass/physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Southeast Asia" /><supplyDemandQuery title="residue biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector']//output-residue-biomass/physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Taiwan" /><supplyDemandQuery title="residue biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector']//output-residue-biomass/physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Argentina" /><supplyDemandQuery title="residue biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector']//output-residue-biomass/physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Colombia" /><supplyDemandQuery title="residue biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector']//output-residue-biomass/physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery></queries>

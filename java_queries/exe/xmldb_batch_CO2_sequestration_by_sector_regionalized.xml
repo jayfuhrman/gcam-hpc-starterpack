@@ -7,7 +7,7 @@
 
             
             
-			<queryFile>../output/queries/query_CO2_sequestration_by_sector_regionalized.xml</queryFile>
+			<queryFile>output/queries/query_CO2_sequestration_by_sector_regionalized.xml</queryFile>
             
             <outFile>queryout_CO2_sequestration_by_sector_regionalized.csv</outFile>
             

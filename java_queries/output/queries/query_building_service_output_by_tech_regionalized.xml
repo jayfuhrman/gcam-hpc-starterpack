@@ -1,0 +1,300 @@
+<queries>
+
+<aQuery><region name="Global" /><supplyDemandQuery title="building service output by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">physical-output[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='building' or (exists(child::keyword[@final-energy='building'])))]/
+               *[@type='subsector']/*[@type='technology']/
+               output-primary[@type='output' (:collapse:)]/
+               physical-output/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="USA" /><supplyDemandQuery title="building service output by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">physical-output[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='building' or (exists(child::keyword[@final-energy='building'])))]/
+               *[@type='subsector']/*[@type='technology']/
+               output-primary[@type='output' (:collapse:)]/
+               physical-output/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Africa_Eastern" /><supplyDemandQuery title="building service output by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">physical-output[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='building' or (exists(child::keyword[@final-energy='building'])))]/
+               *[@type='subsector']/*[@type='technology']/
+               output-primary[@type='output' (:collapse:)]/
+               physical-output/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Africa_Northern" /><supplyDemandQuery title="building service output by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">physical-output[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='building' or (exists(child::keyword[@final-energy='building'])))]/
+               *[@type='subsector']/*[@type='technology']/
+               output-primary[@type='output' (:collapse:)]/
+               physical-output/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Africa_Southern" /><supplyDemandQuery title="building service output by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">physical-output[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='building' or (exists(child::keyword[@final-energy='building'])))]/
+               *[@type='subsector']/*[@type='technology']/
+               output-primary[@type='output' (:collapse:)]/
+               physical-output/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Africa_Western" /><supplyDemandQuery title="building service output by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">physical-output[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='building' or (exists(child::keyword[@final-energy='building'])))]/
+               *[@type='subsector']/*[@type='technology']/
+               output-primary[@type='output' (:collapse:)]/
+               physical-output/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Australia_NZ" /><supplyDemandQuery title="building service output by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">physical-output[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='building' or (exists(child::keyword[@final-energy='building'])))]/
+               *[@type='subsector']/*[@type='technology']/
+               output-primary[@type='output' (:collapse:)]/
+               physical-output/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Brazil" /><supplyDemandQuery title="building service output by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">physical-output[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='building' or (exists(child::keyword[@final-energy='building'])))]/
+               *[@type='subsector']/*[@type='technology']/
+               output-primary[@type='output' (:collapse:)]/
+               physical-output/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Canada" /><supplyDemandQuery title="building service output by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">physical-output[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='building' or (exists(child::keyword[@final-energy='building'])))]/
+               *[@type='subsector']/*[@type='technology']/
+               output-primary[@type='output' (:collapse:)]/
+               physical-output/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Central America and Caribbean" /><supplyDemandQuery title="building service output by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">physical-output[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='building' or (exists(child::keyword[@final-energy='building'])))]/
+               *[@type='subsector']/*[@type='technology']/
+               output-primary[@type='output' (:collapse:)]/
+               physical-output/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Central Asia" /><supplyDemandQuery title="building service output by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">physical-output[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='building' or (exists(child::keyword[@final-energy='building'])))]/
+               *[@type='subsector']/*[@type='technology']/
+               output-primary[@type='output' (:collapse:)]/
+               physical-output/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="China" /><supplyDemandQuery title="building service output by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">physical-output[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='building' or (exists(child::keyword[@final-energy='building'])))]/
+               *[@type='subsector']/*[@type='technology']/
+               output-primary[@type='output' (:collapse:)]/
+               physical-output/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="EU-12" /><supplyDemandQuery title="building service output by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">physical-output[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='building' or (exists(child::keyword[@final-energy='building'])))]/
+               *[@type='subsector']/*[@type='technology']/
+               output-primary[@type='output' (:collapse:)]/
+               physical-output/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="EU-15" /><supplyDemandQuery title="building service output by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">physical-output[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='building' or (exists(child::keyword[@final-energy='building'])))]/
+               *[@type='subsector']/*[@type='technology']/
+               output-primary[@type='output' (:collapse:)]/
+               physical-output/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Europe_Eastern" /><supplyDemandQuery title="building service output by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">physical-output[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='building' or (exists(child::keyword[@final-energy='building'])))]/
+               *[@type='subsector']/*[@type='technology']/
+               output-primary[@type='output' (:collapse:)]/
+               physical-output/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Europe_Non_EU" /><supplyDemandQuery title="building service output by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">physical-output[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='building' or (exists(child::keyword[@final-energy='building'])))]/
+               *[@type='subsector']/*[@type='technology']/
+               output-primary[@type='output' (:collapse:)]/
+               physical-output/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="European Free Trade Association" /><supplyDemandQuery title="building service output by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">physical-output[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='building' or (exists(child::keyword[@final-energy='building'])))]/
+               *[@type='subsector']/*[@type='technology']/
+               output-primary[@type='output' (:collapse:)]/
+               physical-output/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="India" /><supplyDemandQuery title="building service output by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">physical-output[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='building' or (exists(child::keyword[@final-energy='building'])))]/
+               *[@type='subsector']/*[@type='technology']/
+               output-primary[@type='output' (:collapse:)]/
+               physical-output/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Indonesia" /><supplyDemandQuery title="building service output by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">physical-output[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='building' or (exists(child::keyword[@final-energy='building'])))]/
+               *[@type='subsector']/*[@type='technology']/
+               output-primary[@type='output' (:collapse:)]/
+               physical-output/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Japan" /><supplyDemandQuery title="building service output by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">physical-output[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='building' or (exists(child::keyword[@final-energy='building'])))]/
+               *[@type='subsector']/*[@type='technology']/
+               output-primary[@type='output' (:collapse:)]/
+               physical-output/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Mexico" /><supplyDemandQuery title="building service output by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">physical-output[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='building' or (exists(child::keyword[@final-energy='building'])))]/
+               *[@type='subsector']/*[@type='technology']/
+               output-primary[@type='output' (:collapse:)]/
+               physical-output/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Middle East" /><supplyDemandQuery title="building service output by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">physical-output[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='building' or (exists(child::keyword[@final-energy='building'])))]/
+               *[@type='subsector']/*[@type='technology']/
+               output-primary[@type='output' (:collapse:)]/
+               physical-output/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Pakistan" /><supplyDemandQuery title="building service output by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">physical-output[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='building' or (exists(child::keyword[@final-energy='building'])))]/
+               *[@type='subsector']/*[@type='technology']/
+               output-primary[@type='output' (:collapse:)]/
+               physical-output/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Russia" /><supplyDemandQuery title="building service output by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">physical-output[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='building' or (exists(child::keyword[@final-energy='building'])))]/
+               *[@type='subsector']/*[@type='technology']/
+               output-primary[@type='output' (:collapse:)]/
+               physical-output/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="South Africa" /><supplyDemandQuery title="building service output by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">physical-output[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='building' or (exists(child::keyword[@final-energy='building'])))]/
+               *[@type='subsector']/*[@type='technology']/
+               output-primary[@type='output' (:collapse:)]/
+               physical-output/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="South America_Northern" /><supplyDemandQuery title="building service output by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">physical-output[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='building' or (exists(child::keyword[@final-energy='building'])))]/
+               *[@type='subsector']/*[@type='technology']/
+               output-primary[@type='output' (:collapse:)]/
+               physical-output/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="South America_Southern" /><supplyDemandQuery title="building service output by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">physical-output[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='building' or (exists(child::keyword[@final-energy='building'])))]/
+               *[@type='subsector']/*[@type='technology']/
+               output-primary[@type='output' (:collapse:)]/
+               physical-output/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="South Asia" /><supplyDemandQuery title="building service output by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">physical-output[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='building' or (exists(child::keyword[@final-energy='building'])))]/
+               *[@type='subsector']/*[@type='technology']/
+               output-primary[@type='output' (:collapse:)]/
+               physical-output/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="South Korea" /><supplyDemandQuery title="building service output by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">physical-output[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='building' or (exists(child::keyword[@final-energy='building'])))]/
+               *[@type='subsector']/*[@type='technology']/
+               output-primary[@type='output' (:collapse:)]/
+               physical-output/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Southeast Asia" /><supplyDemandQuery title="building service output by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">physical-output[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='building' or (exists(child::keyword[@final-energy='building'])))]/
+               *[@type='subsector']/*[@type='technology']/
+               output-primary[@type='output' (:collapse:)]/
+               physical-output/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Taiwan" /><supplyDemandQuery title="building service output by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">physical-output[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='building' or (exists(child::keyword[@final-energy='building'])))]/
+               *[@type='subsector']/*[@type='technology']/
+               output-primary[@type='output' (:collapse:)]/
+               physical-output/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Argentina" /><supplyDemandQuery title="building service output by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">physical-output[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='building' or (exists(child::keyword[@final-energy='building'])))]/
+               *[@type='subsector']/*[@type='technology']/
+               output-primary[@type='output' (:collapse:)]/
+               physical-output/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Colombia" /><supplyDemandQuery title="building service output by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">physical-output[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='building' or (exists(child::keyword[@final-energy='building'])))]/
+               *[@type='subsector']/*[@type='technology']/
+               output-primary[@type='output' (:collapse:)]/
+               physical-output/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery></queries>

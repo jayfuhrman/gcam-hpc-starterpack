@@ -7,7 +7,7 @@
 
             
             
-			<queryFile>../output/queries/query_regional_biomass_consumption_global.xml</queryFile>
+			<queryFile>output/queries/query_regional_biomass_consumption_global.xml</queryFile>
             
             <outFile>queryout_regional_biomass_consumption_global.csv</outFile>
             

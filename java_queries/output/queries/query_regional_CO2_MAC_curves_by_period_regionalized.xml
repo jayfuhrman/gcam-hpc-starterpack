@@ -1,0 +1,234 @@
+<queries>
+
+<aQuery><region name="Global" /><costCurveQuery title="regional CO2 MAC curves by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Tax">DataPoint</axis2>
+            <chartLabelColumn>CostCurves</chartLabelColumn>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/x/text()</xPath>
+            <comments />
+        </costCurveQuery>
+    </aQuery><aQuery><region name="USA" /><costCurveQuery title="regional CO2 MAC curves by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Tax">DataPoint</axis2>
+            <chartLabelColumn>CostCurves</chartLabelColumn>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/x/text()</xPath>
+            <comments />
+        </costCurveQuery>
+    </aQuery><aQuery><region name="Africa_Eastern" /><costCurveQuery title="regional CO2 MAC curves by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Tax">DataPoint</axis2>
+            <chartLabelColumn>CostCurves</chartLabelColumn>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/x/text()</xPath>
+            <comments />
+        </costCurveQuery>
+    </aQuery><aQuery><region name="Africa_Northern" /><costCurveQuery title="regional CO2 MAC curves by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Tax">DataPoint</axis2>
+            <chartLabelColumn>CostCurves</chartLabelColumn>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/x/text()</xPath>
+            <comments />
+        </costCurveQuery>
+    </aQuery><aQuery><region name="Africa_Southern" /><costCurveQuery title="regional CO2 MAC curves by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Tax">DataPoint</axis2>
+            <chartLabelColumn>CostCurves</chartLabelColumn>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/x/text()</xPath>
+            <comments />
+        </costCurveQuery>
+    </aQuery><aQuery><region name="Africa_Western" /><costCurveQuery title="regional CO2 MAC curves by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Tax">DataPoint</axis2>
+            <chartLabelColumn>CostCurves</chartLabelColumn>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/x/text()</xPath>
+            <comments />
+        </costCurveQuery>
+    </aQuery><aQuery><region name="Australia_NZ" /><costCurveQuery title="regional CO2 MAC curves by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Tax">DataPoint</axis2>
+            <chartLabelColumn>CostCurves</chartLabelColumn>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/x/text()</xPath>
+            <comments />
+        </costCurveQuery>
+    </aQuery><aQuery><region name="Brazil" /><costCurveQuery title="regional CO2 MAC curves by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Tax">DataPoint</axis2>
+            <chartLabelColumn>CostCurves</chartLabelColumn>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/x/text()</xPath>
+            <comments />
+        </costCurveQuery>
+    </aQuery><aQuery><region name="Canada" /><costCurveQuery title="regional CO2 MAC curves by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Tax">DataPoint</axis2>
+            <chartLabelColumn>CostCurves</chartLabelColumn>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/x/text()</xPath>
+            <comments />
+        </costCurveQuery>
+    </aQuery><aQuery><region name="Central America and Caribbean" /><costCurveQuery title="regional CO2 MAC curves by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Tax">DataPoint</axis2>
+            <chartLabelColumn>CostCurves</chartLabelColumn>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/x/text()</xPath>
+            <comments />
+        </costCurveQuery>
+    </aQuery><aQuery><region name="Central Asia" /><costCurveQuery title="regional CO2 MAC curves by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Tax">DataPoint</axis2>
+            <chartLabelColumn>CostCurves</chartLabelColumn>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/x/text()</xPath>
+            <comments />
+        </costCurveQuery>
+    </aQuery><aQuery><region name="China" /><costCurveQuery title="regional CO2 MAC curves by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Tax">DataPoint</axis2>
+            <chartLabelColumn>CostCurves</chartLabelColumn>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/x/text()</xPath>
+            <comments />
+        </costCurveQuery>
+    </aQuery><aQuery><region name="EU-12" /><costCurveQuery title="regional CO2 MAC curves by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Tax">DataPoint</axis2>
+            <chartLabelColumn>CostCurves</chartLabelColumn>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/x/text()</xPath>
+            <comments />
+        </costCurveQuery>
+    </aQuery><aQuery><region name="EU-15" /><costCurveQuery title="regional CO2 MAC curves by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Tax">DataPoint</axis2>
+            <chartLabelColumn>CostCurves</chartLabelColumn>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/x/text()</xPath>
+            <comments />
+        </costCurveQuery>
+    </aQuery><aQuery><region name="Europe_Eastern" /><costCurveQuery title="regional CO2 MAC curves by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Tax">DataPoint</axis2>
+            <chartLabelColumn>CostCurves</chartLabelColumn>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/x/text()</xPath>
+            <comments />
+        </costCurveQuery>
+    </aQuery><aQuery><region name="Europe_Non_EU" /><costCurveQuery title="regional CO2 MAC curves by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Tax">DataPoint</axis2>
+            <chartLabelColumn>CostCurves</chartLabelColumn>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/x/text()</xPath>
+            <comments />
+        </costCurveQuery>
+    </aQuery><aQuery><region name="European Free Trade Association" /><costCurveQuery title="regional CO2 MAC curves by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Tax">DataPoint</axis2>
+            <chartLabelColumn>CostCurves</chartLabelColumn>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/x/text()</xPath>
+            <comments />
+        </costCurveQuery>
+    </aQuery><aQuery><region name="India" /><costCurveQuery title="regional CO2 MAC curves by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Tax">DataPoint</axis2>
+            <chartLabelColumn>CostCurves</chartLabelColumn>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/x/text()</xPath>
+            <comments />
+        </costCurveQuery>
+    </aQuery><aQuery><region name="Indonesia" /><costCurveQuery title="regional CO2 MAC curves by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Tax">DataPoint</axis2>
+            <chartLabelColumn>CostCurves</chartLabelColumn>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/x/text()</xPath>
+            <comments />
+        </costCurveQuery>
+    </aQuery><aQuery><region name="Japan" /><costCurveQuery title="regional CO2 MAC curves by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Tax">DataPoint</axis2>
+            <chartLabelColumn>CostCurves</chartLabelColumn>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/x/text()</xPath>
+            <comments />
+        </costCurveQuery>
+    </aQuery><aQuery><region name="Mexico" /><costCurveQuery title="regional CO2 MAC curves by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Tax">DataPoint</axis2>
+            <chartLabelColumn>CostCurves</chartLabelColumn>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/x/text()</xPath>
+            <comments />
+        </costCurveQuery>
+    </aQuery><aQuery><region name="Middle East" /><costCurveQuery title="regional CO2 MAC curves by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Tax">DataPoint</axis2>
+            <chartLabelColumn>CostCurves</chartLabelColumn>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/x/text()</xPath>
+            <comments />
+        </costCurveQuery>
+    </aQuery><aQuery><region name="Pakistan" /><costCurveQuery title="regional CO2 MAC curves by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Tax">DataPoint</axis2>
+            <chartLabelColumn>CostCurves</chartLabelColumn>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/x/text()</xPath>
+            <comments />
+        </costCurveQuery>
+    </aQuery><aQuery><region name="Russia" /><costCurveQuery title="regional CO2 MAC curves by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Tax">DataPoint</axis2>
+            <chartLabelColumn>CostCurves</chartLabelColumn>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/x/text()</xPath>
+            <comments />
+        </costCurveQuery>
+    </aQuery><aQuery><region name="South Africa" /><costCurveQuery title="regional CO2 MAC curves by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Tax">DataPoint</axis2>
+            <chartLabelColumn>CostCurves</chartLabelColumn>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/x/text()</xPath>
+            <comments />
+        </costCurveQuery>
+    </aQuery><aQuery><region name="South America_Northern" /><costCurveQuery title="regional CO2 MAC curves by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Tax">DataPoint</axis2>
+            <chartLabelColumn>CostCurves</chartLabelColumn>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/x/text()</xPath>
+            <comments />
+        </costCurveQuery>
+    </aQuery><aQuery><region name="South America_Southern" /><costCurveQuery title="regional CO2 MAC curves by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Tax">DataPoint</axis2>
+            <chartLabelColumn>CostCurves</chartLabelColumn>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/x/text()</xPath>
+            <comments />
+        </costCurveQuery>
+    </aQuery><aQuery><region name="South Asia" /><costCurveQuery title="regional CO2 MAC curves by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Tax">DataPoint</axis2>
+            <chartLabelColumn>CostCurves</chartLabelColumn>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/x/text()</xPath>
+            <comments />
+        </costCurveQuery>
+    </aQuery><aQuery><region name="South Korea" /><costCurveQuery title="regional CO2 MAC curves by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Tax">DataPoint</axis2>
+            <chartLabelColumn>CostCurves</chartLabelColumn>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/x/text()</xPath>
+            <comments />
+        </costCurveQuery>
+    </aQuery><aQuery><region name="Southeast Asia" /><costCurveQuery title="regional CO2 MAC curves by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Tax">DataPoint</axis2>
+            <chartLabelColumn>CostCurves</chartLabelColumn>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/x/text()</xPath>
+            <comments />
+        </costCurveQuery>
+    </aQuery><aQuery><region name="Taiwan" /><costCurveQuery title="regional CO2 MAC curves by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Tax">DataPoint</axis2>
+            <chartLabelColumn>CostCurves</chartLabelColumn>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/x/text()</xPath>
+            <comments />
+        </costCurveQuery>
+    </aQuery><aQuery><region name="Argentina" /><costCurveQuery title="regional CO2 MAC curves by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Tax">DataPoint</axis2>
+            <chartLabelColumn>CostCurves</chartLabelColumn>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/x/text()</xPath>
+            <comments />
+        </costCurveQuery>
+    </aQuery><aQuery><region name="Colombia" /><costCurveQuery title="regional CO2 MAC curves by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Tax">DataPoint</axis2>
+            <chartLabelColumn>CostCurves</chartLabelColumn>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/x/text()</xPath>
+            <comments />
+        </costCurveQuery>
+    </aQuery></queries>

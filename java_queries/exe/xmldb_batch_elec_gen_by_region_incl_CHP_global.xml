@@ -7,7 +7,7 @@
 
             
             
-			<queryFile>../output/queries/query_elec_gen_by_region_incl_CHP_global.xml</queryFile>
+			<queryFile>output/queries/query_elec_gen_by_region_incl_CHP_global.xml</queryFile>
             
             <outFile>queryout_elec_gen_by_region_incl_CHP_global.csv</outFile>
             

@@ -1,0 +1,24 @@
+<queries>
+
+<aQuery>
+	<region name="Global" /> 
+	
+
+<supplyDemandQuery title="industry final energy by service and fuel">
+                        <axis1 name="input">input</axis1>
+                        <axis2 name="Year">demand-physical[@vintage]</axis2>
+                        <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='industry' or (exists(child::keyword[@final-energy='industry'])))]//
+               *[@type='input' and (@name='delivered biomass' or @name='delivered coal' or
+               @name='H2 enduse' or @name='elect_td_ind' or @name='wholesale gas' or
+               @name='refined liquids industrial')]/demand-physical/node()</xPath>
+                        <comments>process heat cement assigned to cement</comments>
+                        <labelRewriteList append-values="false">
+                            <level name="sector">
+                                <rewrite from="process heat cement" to="cement" />
+                            </level>
+                        </labelRewriteList>
+                    </supplyDemandQuery>
+                    </aQuery>
+
+
+</queries>

@@ -18,7 +18,71 @@ query_strs = ['elec gen by region (incl CHP)',
               'regional biomass consumption',
               'water consumption by region',
               'water withdrawals by region',
-              'land allocation in a specified land use region'] #change this string to create the query
+              'land allocation in a specified land use region',
+              'CO2 emissions by sector',
+              'CO2 emissions by sector (no bio)',
+              'CO2 emissions by assigned sector (no bio)',
+              'CO2 emissions by subsector',
+              'CO2 emissions by tech',
+              'CO2 sequestration by sector',
+              'CO2 sequestration by tech',
+              'policy cost by period',
+              'undiscounted policy cost',
+              'regional CO2 MAC curves by period',
+              'prices of all markets',
+              'supply of all markets',
+              'demand of all markets',
+              'inputs by sector'              ,
+              'inputs by subsector',
+              'inputs by tech',
+              'outputs by sector'              ,
+              'outputs by subsector',
+              'outputs by tech',
+              'elec gen by subsector',
+              'elec gen by gen tech',
+              'elec energy input by subsector',
+              'elec energy input by elec gen tech',
+              'elec prices by sector',
+              'elec gen costs by subsector',
+              'elec gen costs by tech',
+              'refined liquids production by tech',
+              'refinery inputs by tech (energy and feedstocks)',
+              'refined liquids prices by sector',
+              'refined liquids costs by tech',
+              'total final energy by aggregate sector',
+              'detailed land allocation',
+              'land allocation by crop',
+              'aggregated land allocation',
+              'land allocation by crop and water source',
+              'profit rate',
+              'purpose-grown biomass production',
+              'residue biomass production',
+              'MSW production',
+              'demand balances by crop commodity',
+              'building final energy by tech',
+              'building service output by tech',
+              'building floorspace',
+              'industry final energy by service and fuel',
+              'transport final energy by tech and fuel',
+              'transport final energy by tech (new)',
+              'transport service output by tech',
+              'transport service output by tech (new)',
+              'CO2 emissions by region',
+              'population by region',
+              'GDP MER by region',
+              'GDP per capita MER by region',
+              'GDP per capita PPP by region',
+              'CO2 prices',
+              'water consumption by region',
+              'water withdrawals by region',
+              'elec gen by region (incl CHP)',
+              'refined liquids production by region',
+              'primary energy consumption by region (direct equivalent)',
+              'primary energy consumption by region (avg fossil efficiency)',
+              'primary energy consumption with CCS by region (direct equivalent)',
+              'LUC emissions by region',
+              'LUC emissions by LUT',
+              'regional biomass consumption'] #change this string to create the query
 
 gcam_regions=['USA',
               'Africa_Eastern',
@@ -69,7 +133,7 @@ def create_query_files(query_strs,disaggregated):
             path = path+'_global'
             
             
-            all_queries = ET.parse('batch_query_templates/Main_queries_template.xml')
+            all_queries = ET.parse('batch_query_templates/Main_queries.xml')
             #all_queries_root = all_queries.getroot()
             
             #ET.dump(all_queries_root)
@@ -91,7 +155,7 @@ def create_query_files(query_strs,disaggregated):
             
             
             
-            query_folder = ''
+            query_folder = 'output/queries/'
             query_file = 'query_'+path+'.xml'
             query_template.write(query_folder+query_file)
             
@@ -106,11 +170,11 @@ def create_query_files(query_strs,disaggregated):
             outFile_path = xmldb_batch_root.findall(".//*outFile")[0]
             
             
-            query_folder = '../output/queries/'
+            query_folder = 'output/queries/'
             queryFile_path.text = query_folder+query_file
             outFile_path.text = 'queryout_'+path+'.csv'
             
-            xmldb_pointer_folder = '../../exe/'
+            xmldb_pointer_folder = 'exe/'
             xmldb_pointer_file = 'xmldb_batch_'+path+'.xml'
             
             xmldb_batch.write(xmldb_pointer_folder+xmldb_pointer_file)
@@ -130,7 +194,7 @@ def create_query_files(query_strs,disaggregated):
             path = path+'_regionalized'
             
             
-            all_queries = ET.parse('batch_query_templates/Main_queries_template.xml')
+            all_queries = ET.parse('batch_query_templates/Main_queries.xml')
             #all_queries_root = all_queries.getroot()
             
             #ET.dump(all_queries_root)
@@ -164,7 +228,7 @@ def create_query_files(query_strs,disaggregated):
                 
                 
 
-            query_folder = '../output/queries/'
+            query_folder = 'output/queries/'
             query_file = 'query_'+path+'.xml'
             
             query_template.write(query_folder+query_file)
@@ -184,7 +248,7 @@ def create_query_files(query_strs,disaggregated):
             queryFile_path.text = query_folder+query_file
             outFile_path.text = 'queryout_'+path+'.csv'
             
-            xmldb_pointer_folder = '../../exe'
+            xmldb_pointer_folder = 'exe/'
             xmldb_pointer_file = 'xmldb_batch_'+path+'.xml'
             
             xmldb_batch.write(xmldb_pointer_folder+xmldb_pointer_file)
@@ -198,5 +262,6 @@ def create_query_files(query_strs,disaggregated):
         
     
 
-create_query_files(query_strs,False)    
+create_query_files(query_strs,True) 
+create_query_files(query_strs,False)   
     

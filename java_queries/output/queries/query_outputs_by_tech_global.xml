@@ -1,17 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <queries>
 
 <aQuery>
 	<region name="Global" /> 
 	
-<supplyDemandQuery title="outputs by tech">
-            <axis1 name="technology">technology[@name]</axis1>
-            <axis2 name="Year">physical-output[@vintage]</axis2>
-            <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector']/*[@type='subsector']/*[@type='technology']/*[@type='output']/physical-output/node()</xPath>
-            <comments/>
-         </supplyDemandQuery>
 
-</aQuery>
+<supplyDemandQuery title="outputs by tech">
+                <axis1 name="technology">technology[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector']/*[@type='subsector']/*[@type='technology']/*[@type='output']/physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+        </aQuery>
 
 
 </queries>

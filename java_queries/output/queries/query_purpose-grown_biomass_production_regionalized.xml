@@ -1,0 +1,234 @@
+<queries>
+
+<aQuery><region name="Global" /><supplyDemandQuery title="purpose-grown biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='biomass')]//*[@type='output' (:collapse:)]/
+            physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="USA" /><supplyDemandQuery title="purpose-grown biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='biomass')]//*[@type='output' (:collapse:)]/
+            physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Africa_Eastern" /><supplyDemandQuery title="purpose-grown biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='biomass')]//*[@type='output' (:collapse:)]/
+            physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Africa_Northern" /><supplyDemandQuery title="purpose-grown biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='biomass')]//*[@type='output' (:collapse:)]/
+            physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Africa_Southern" /><supplyDemandQuery title="purpose-grown biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='biomass')]//*[@type='output' (:collapse:)]/
+            physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Africa_Western" /><supplyDemandQuery title="purpose-grown biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='biomass')]//*[@type='output' (:collapse:)]/
+            physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Australia_NZ" /><supplyDemandQuery title="purpose-grown biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='biomass')]//*[@type='output' (:collapse:)]/
+            physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Brazil" /><supplyDemandQuery title="purpose-grown biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='biomass')]//*[@type='output' (:collapse:)]/
+            physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Canada" /><supplyDemandQuery title="purpose-grown biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='biomass')]//*[@type='output' (:collapse:)]/
+            physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Central America and Caribbean" /><supplyDemandQuery title="purpose-grown biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='biomass')]//*[@type='output' (:collapse:)]/
+            physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Central Asia" /><supplyDemandQuery title="purpose-grown biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='biomass')]//*[@type='output' (:collapse:)]/
+            physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="China" /><supplyDemandQuery title="purpose-grown biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='biomass')]//*[@type='output' (:collapse:)]/
+            physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="EU-12" /><supplyDemandQuery title="purpose-grown biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='biomass')]//*[@type='output' (:collapse:)]/
+            physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="EU-15" /><supplyDemandQuery title="purpose-grown biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='biomass')]//*[@type='output' (:collapse:)]/
+            physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Europe_Eastern" /><supplyDemandQuery title="purpose-grown biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='biomass')]//*[@type='output' (:collapse:)]/
+            physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Europe_Non_EU" /><supplyDemandQuery title="purpose-grown biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='biomass')]//*[@type='output' (:collapse:)]/
+            physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="European Free Trade Association" /><supplyDemandQuery title="purpose-grown biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='biomass')]//*[@type='output' (:collapse:)]/
+            physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="India" /><supplyDemandQuery title="purpose-grown biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='biomass')]//*[@type='output' (:collapse:)]/
+            physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Indonesia" /><supplyDemandQuery title="purpose-grown biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='biomass')]//*[@type='output' (:collapse:)]/
+            physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Japan" /><supplyDemandQuery title="purpose-grown biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='biomass')]//*[@type='output' (:collapse:)]/
+            physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Mexico" /><supplyDemandQuery title="purpose-grown biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='biomass')]//*[@type='output' (:collapse:)]/
+            physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Middle East" /><supplyDemandQuery title="purpose-grown biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='biomass')]//*[@type='output' (:collapse:)]/
+            physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Pakistan" /><supplyDemandQuery title="purpose-grown biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='biomass')]//*[@type='output' (:collapse:)]/
+            physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Russia" /><supplyDemandQuery title="purpose-grown biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='biomass')]//*[@type='output' (:collapse:)]/
+            physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="South Africa" /><supplyDemandQuery title="purpose-grown biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='biomass')]//*[@type='output' (:collapse:)]/
+            physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="South America_Northern" /><supplyDemandQuery title="purpose-grown biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='biomass')]//*[@type='output' (:collapse:)]/
+            physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="South America_Southern" /><supplyDemandQuery title="purpose-grown biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='biomass')]//*[@type='output' (:collapse:)]/
+            physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="South Asia" /><supplyDemandQuery title="purpose-grown biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='biomass')]//*[@type='output' (:collapse:)]/
+            physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="South Korea" /><supplyDemandQuery title="purpose-grown biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='biomass')]//*[@type='output' (:collapse:)]/
+            physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Southeast Asia" /><supplyDemandQuery title="purpose-grown biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='biomass')]//*[@type='output' (:collapse:)]/
+            physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Taiwan" /><supplyDemandQuery title="purpose-grown biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='biomass')]//*[@type='output' (:collapse:)]/
+            physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Argentina" /><supplyDemandQuery title="purpose-grown biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='biomass')]//*[@type='output' (:collapse:)]/
+            physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Colombia" /><supplyDemandQuery title="purpose-grown biomass production">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="false" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='biomass')]//*[@type='output' (:collapse:)]/
+            physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery></queries>

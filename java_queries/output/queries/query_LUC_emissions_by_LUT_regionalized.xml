@@ -1,0 +1,234 @@
+<queries>
+
+<aQuery><region name="Global" /><query title="LUC emissions by LUT">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">land-use-change-emission[@year]</axis2>
+                <xPath buildList="true" dataName="land-use-change-emission" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//
+                land-use-change-emission[@year&gt;1970]/text()</xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="USA" /><query title="LUC emissions by LUT">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">land-use-change-emission[@year]</axis2>
+                <xPath buildList="true" dataName="land-use-change-emission" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//
+                land-use-change-emission[@year&gt;1970]/text()</xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="Africa_Eastern" /><query title="LUC emissions by LUT">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">land-use-change-emission[@year]</axis2>
+                <xPath buildList="true" dataName="land-use-change-emission" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//
+                land-use-change-emission[@year&gt;1970]/text()</xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="Africa_Northern" /><query title="LUC emissions by LUT">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">land-use-change-emission[@year]</axis2>
+                <xPath buildList="true" dataName="land-use-change-emission" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//
+                land-use-change-emission[@year&gt;1970]/text()</xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="Africa_Southern" /><query title="LUC emissions by LUT">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">land-use-change-emission[@year]</axis2>
+                <xPath buildList="true" dataName="land-use-change-emission" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//
+                land-use-change-emission[@year&gt;1970]/text()</xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="Africa_Western" /><query title="LUC emissions by LUT">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">land-use-change-emission[@year]</axis2>
+                <xPath buildList="true" dataName="land-use-change-emission" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//
+                land-use-change-emission[@year&gt;1970]/text()</xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="Australia_NZ" /><query title="LUC emissions by LUT">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">land-use-change-emission[@year]</axis2>
+                <xPath buildList="true" dataName="land-use-change-emission" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//
+                land-use-change-emission[@year&gt;1970]/text()</xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="Brazil" /><query title="LUC emissions by LUT">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">land-use-change-emission[@year]</axis2>
+                <xPath buildList="true" dataName="land-use-change-emission" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//
+                land-use-change-emission[@year&gt;1970]/text()</xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="Canada" /><query title="LUC emissions by LUT">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">land-use-change-emission[@year]</axis2>
+                <xPath buildList="true" dataName="land-use-change-emission" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//
+                land-use-change-emission[@year&gt;1970]/text()</xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="Central America and Caribbean" /><query title="LUC emissions by LUT">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">land-use-change-emission[@year]</axis2>
+                <xPath buildList="true" dataName="land-use-change-emission" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//
+                land-use-change-emission[@year&gt;1970]/text()</xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="Central Asia" /><query title="LUC emissions by LUT">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">land-use-change-emission[@year]</axis2>
+                <xPath buildList="true" dataName="land-use-change-emission" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//
+                land-use-change-emission[@year&gt;1970]/text()</xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="China" /><query title="LUC emissions by LUT">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">land-use-change-emission[@year]</axis2>
+                <xPath buildList="true" dataName="land-use-change-emission" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//
+                land-use-change-emission[@year&gt;1970]/text()</xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="EU-12" /><query title="LUC emissions by LUT">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">land-use-change-emission[@year]</axis2>
+                <xPath buildList="true" dataName="land-use-change-emission" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//
+                land-use-change-emission[@year&gt;1970]/text()</xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="EU-15" /><query title="LUC emissions by LUT">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">land-use-change-emission[@year]</axis2>
+                <xPath buildList="true" dataName="land-use-change-emission" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//
+                land-use-change-emission[@year&gt;1970]/text()</xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="Europe_Eastern" /><query title="LUC emissions by LUT">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">land-use-change-emission[@year]</axis2>
+                <xPath buildList="true" dataName="land-use-change-emission" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//
+                land-use-change-emission[@year&gt;1970]/text()</xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="Europe_Non_EU" /><query title="LUC emissions by LUT">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">land-use-change-emission[@year]</axis2>
+                <xPath buildList="true" dataName="land-use-change-emission" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//
+                land-use-change-emission[@year&gt;1970]/text()</xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="European Free Trade Association" /><query title="LUC emissions by LUT">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">land-use-change-emission[@year]</axis2>
+                <xPath buildList="true" dataName="land-use-change-emission" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//
+                land-use-change-emission[@year&gt;1970]/text()</xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="India" /><query title="LUC emissions by LUT">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">land-use-change-emission[@year]</axis2>
+                <xPath buildList="true" dataName="land-use-change-emission" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//
+                land-use-change-emission[@year&gt;1970]/text()</xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="Indonesia" /><query title="LUC emissions by LUT">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">land-use-change-emission[@year]</axis2>
+                <xPath buildList="true" dataName="land-use-change-emission" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//
+                land-use-change-emission[@year&gt;1970]/text()</xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="Japan" /><query title="LUC emissions by LUT">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">land-use-change-emission[@year]</axis2>
+                <xPath buildList="true" dataName="land-use-change-emission" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//
+                land-use-change-emission[@year&gt;1970]/text()</xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="Mexico" /><query title="LUC emissions by LUT">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">land-use-change-emission[@year]</axis2>
+                <xPath buildList="true" dataName="land-use-change-emission" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//
+                land-use-change-emission[@year&gt;1970]/text()</xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="Middle East" /><query title="LUC emissions by LUT">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">land-use-change-emission[@year]</axis2>
+                <xPath buildList="true" dataName="land-use-change-emission" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//
+                land-use-change-emission[@year&gt;1970]/text()</xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="Pakistan" /><query title="LUC emissions by LUT">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">land-use-change-emission[@year]</axis2>
+                <xPath buildList="true" dataName="land-use-change-emission" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//
+                land-use-change-emission[@year&gt;1970]/text()</xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="Russia" /><query title="LUC emissions by LUT">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">land-use-change-emission[@year]</axis2>
+                <xPath buildList="true" dataName="land-use-change-emission" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//
+                land-use-change-emission[@year&gt;1970]/text()</xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="South Africa" /><query title="LUC emissions by LUT">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">land-use-change-emission[@year]</axis2>
+                <xPath buildList="true" dataName="land-use-change-emission" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//
+                land-use-change-emission[@year&gt;1970]/text()</xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="South America_Northern" /><query title="LUC emissions by LUT">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">land-use-change-emission[@year]</axis2>
+                <xPath buildList="true" dataName="land-use-change-emission" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//
+                land-use-change-emission[@year&gt;1970]/text()</xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="South America_Southern" /><query title="LUC emissions by LUT">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">land-use-change-emission[@year]</axis2>
+                <xPath buildList="true" dataName="land-use-change-emission" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//
+                land-use-change-emission[@year&gt;1970]/text()</xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="South Asia" /><query title="LUC emissions by LUT">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">land-use-change-emission[@year]</axis2>
+                <xPath buildList="true" dataName="land-use-change-emission" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//
+                land-use-change-emission[@year&gt;1970]/text()</xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="South Korea" /><query title="LUC emissions by LUT">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">land-use-change-emission[@year]</axis2>
+                <xPath buildList="true" dataName="land-use-change-emission" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//
+                land-use-change-emission[@year&gt;1970]/text()</xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="Southeast Asia" /><query title="LUC emissions by LUT">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">land-use-change-emission[@year]</axis2>
+                <xPath buildList="true" dataName="land-use-change-emission" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//
+                land-use-change-emission[@year&gt;1970]/text()</xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="Taiwan" /><query title="LUC emissions by LUT">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">land-use-change-emission[@year]</axis2>
+                <xPath buildList="true" dataName="land-use-change-emission" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//
+                land-use-change-emission[@year&gt;1970]/text()</xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="Argentina" /><query title="LUC emissions by LUT">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">land-use-change-emission[@year]</axis2>
+                <xPath buildList="true" dataName="land-use-change-emission" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//
+                land-use-change-emission[@year&gt;1970]/text()</xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="Colombia" /><query title="LUC emissions by LUT">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">land-use-change-emission[@year]</axis2>
+                <xPath buildList="true" dataName="land-use-change-emission" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//
+                land-use-change-emission[@year&gt;1970]/text()</xPath>
+                <comments />
+            </query>
+            </aQuery></queries>

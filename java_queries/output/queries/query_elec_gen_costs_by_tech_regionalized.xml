@@ -1,0 +1,234 @@
+<queries>
+
+<aQuery><region name="Global" /><supplyDemandQuery title="elec gen costs by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld')]/*[@type='subsector']/
+              *[@type='technology' and not(@name='elect_td_bld')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="USA" /><supplyDemandQuery title="elec gen costs by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld')]/*[@type='subsector']/
+              *[@type='technology' and not(@name='elect_td_bld')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Africa_Eastern" /><supplyDemandQuery title="elec gen costs by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld')]/*[@type='subsector']/
+              *[@type='technology' and not(@name='elect_td_bld')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Africa_Northern" /><supplyDemandQuery title="elec gen costs by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld')]/*[@type='subsector']/
+              *[@type='technology' and not(@name='elect_td_bld')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Africa_Southern" /><supplyDemandQuery title="elec gen costs by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld')]/*[@type='subsector']/
+              *[@type='technology' and not(@name='elect_td_bld')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Africa_Western" /><supplyDemandQuery title="elec gen costs by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld')]/*[@type='subsector']/
+              *[@type='technology' and not(@name='elect_td_bld')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Australia_NZ" /><supplyDemandQuery title="elec gen costs by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld')]/*[@type='subsector']/
+              *[@type='technology' and not(@name='elect_td_bld')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Brazil" /><supplyDemandQuery title="elec gen costs by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld')]/*[@type='subsector']/
+              *[@type='technology' and not(@name='elect_td_bld')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Canada" /><supplyDemandQuery title="elec gen costs by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld')]/*[@type='subsector']/
+              *[@type='technology' and not(@name='elect_td_bld')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Central America and Caribbean" /><supplyDemandQuery title="elec gen costs by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld')]/*[@type='subsector']/
+              *[@type='technology' and not(@name='elect_td_bld')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Central Asia" /><supplyDemandQuery title="elec gen costs by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld')]/*[@type='subsector']/
+              *[@type='technology' and not(@name='elect_td_bld')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="China" /><supplyDemandQuery title="elec gen costs by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld')]/*[@type='subsector']/
+              *[@type='technology' and not(@name='elect_td_bld')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="EU-12" /><supplyDemandQuery title="elec gen costs by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld')]/*[@type='subsector']/
+              *[@type='technology' and not(@name='elect_td_bld')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="EU-15" /><supplyDemandQuery title="elec gen costs by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld')]/*[@type='subsector']/
+              *[@type='technology' and not(@name='elect_td_bld')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Europe_Eastern" /><supplyDemandQuery title="elec gen costs by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld')]/*[@type='subsector']/
+              *[@type='technology' and not(@name='elect_td_bld')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Europe_Non_EU" /><supplyDemandQuery title="elec gen costs by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld')]/*[@type='subsector']/
+              *[@type='technology' and not(@name='elect_td_bld')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="European Free Trade Association" /><supplyDemandQuery title="elec gen costs by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld')]/*[@type='subsector']/
+              *[@type='technology' and not(@name='elect_td_bld')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="India" /><supplyDemandQuery title="elec gen costs by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld')]/*[@type='subsector']/
+              *[@type='technology' and not(@name='elect_td_bld')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Indonesia" /><supplyDemandQuery title="elec gen costs by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld')]/*[@type='subsector']/
+              *[@type='technology' and not(@name='elect_td_bld')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Japan" /><supplyDemandQuery title="elec gen costs by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld')]/*[@type='subsector']/
+              *[@type='technology' and not(@name='elect_td_bld')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Mexico" /><supplyDemandQuery title="elec gen costs by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld')]/*[@type='subsector']/
+              *[@type='technology' and not(@name='elect_td_bld')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Middle East" /><supplyDemandQuery title="elec gen costs by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld')]/*[@type='subsector']/
+              *[@type='technology' and not(@name='elect_td_bld')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Pakistan" /><supplyDemandQuery title="elec gen costs by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld')]/*[@type='subsector']/
+              *[@type='technology' and not(@name='elect_td_bld')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Russia" /><supplyDemandQuery title="elec gen costs by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld')]/*[@type='subsector']/
+              *[@type='technology' and not(@name='elect_td_bld')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="South Africa" /><supplyDemandQuery title="elec gen costs by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld')]/*[@type='subsector']/
+              *[@type='technology' and not(@name='elect_td_bld')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="South America_Northern" /><supplyDemandQuery title="elec gen costs by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld')]/*[@type='subsector']/
+              *[@type='technology' and not(@name='elect_td_bld')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="South America_Southern" /><supplyDemandQuery title="elec gen costs by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld')]/*[@type='subsector']/
+              *[@type='technology' and not(@name='elect_td_bld')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="South Asia" /><supplyDemandQuery title="elec gen costs by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld')]/*[@type='subsector']/
+              *[@type='technology' and not(@name='elect_td_bld')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="South Korea" /><supplyDemandQuery title="elec gen costs by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld')]/*[@type='subsector']/
+              *[@type='technology' and not(@name='elect_td_bld')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Southeast Asia" /><supplyDemandQuery title="elec gen costs by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld')]/*[@type='subsector']/
+              *[@type='technology' and not(@name='elect_td_bld')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Taiwan" /><supplyDemandQuery title="elec gen costs by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld')]/*[@type='subsector']/
+              *[@type='technology' and not(@name='elect_td_bld')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Argentina" /><supplyDemandQuery title="elec gen costs by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld')]/*[@type='subsector']/
+              *[@type='technology' and not(@name='elect_td_bld')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Colombia" /><supplyDemandQuery title="elec gen costs by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld')]/*[@type='subsector']/
+              *[@type='technology' and not(@name='elect_td_bld')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery></queries>

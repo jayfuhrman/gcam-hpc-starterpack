@@ -1,0 +1,201 @@
+<queries>
+
+<aQuery><region name="Global" /><resourceQuery title="MSW production">
+                <axis1 name="resource">resource</axis1>
+                <axis2 name="Year">output</axis2>
+                <xPath buildList="false" dataName="production" group="false" sumAll="false">*[@type='resource' and (@name='biomass')]//output/node()</xPath>
+                <comments />
+            </resourceQuery>
+            </aQuery><aQuery><region name="USA" /><resourceQuery title="MSW production">
+                <axis1 name="resource">resource</axis1>
+                <axis2 name="Year">output</axis2>
+                <xPath buildList="false" dataName="production" group="false" sumAll="false">*[@type='resource' and (@name='biomass')]//output/node()</xPath>
+                <comments />
+            </resourceQuery>
+            </aQuery><aQuery><region name="Africa_Eastern" /><resourceQuery title="MSW production">
+                <axis1 name="resource">resource</axis1>
+                <axis2 name="Year">output</axis2>
+                <xPath buildList="false" dataName="production" group="false" sumAll="false">*[@type='resource' and (@name='biomass')]//output/node()</xPath>
+                <comments />
+            </resourceQuery>
+            </aQuery><aQuery><region name="Africa_Northern" /><resourceQuery title="MSW production">
+                <axis1 name="resource">resource</axis1>
+                <axis2 name="Year">output</axis2>
+                <xPath buildList="false" dataName="production" group="false" sumAll="false">*[@type='resource' and (@name='biomass')]//output/node()</xPath>
+                <comments />
+            </resourceQuery>
+            </aQuery><aQuery><region name="Africa_Southern" /><resourceQuery title="MSW production">
+                <axis1 name="resource">resource</axis1>
+                <axis2 name="Year">output</axis2>
+                <xPath buildList="false" dataName="production" group="false" sumAll="false">*[@type='resource' and (@name='biomass')]//output/node()</xPath>
+                <comments />
+            </resourceQuery>
+            </aQuery><aQuery><region name="Africa_Western" /><resourceQuery title="MSW production">
+                <axis1 name="resource">resource</axis1>
+                <axis2 name="Year">output</axis2>
+                <xPath buildList="false" dataName="production" group="false" sumAll="false">*[@type='resource' and (@name='biomass')]//output/node()</xPath>
+                <comments />
+            </resourceQuery>
+            </aQuery><aQuery><region name="Australia_NZ" /><resourceQuery title="MSW production">
+                <axis1 name="resource">resource</axis1>
+                <axis2 name="Year">output</axis2>
+                <xPath buildList="false" dataName="production" group="false" sumAll="false">*[@type='resource' and (@name='biomass')]//output/node()</xPath>
+                <comments />
+            </resourceQuery>
+            </aQuery><aQuery><region name="Brazil" /><resourceQuery title="MSW production">
+                <axis1 name="resource">resource</axis1>
+                <axis2 name="Year">output</axis2>
+                <xPath buildList="false" dataName="production" group="false" sumAll="false">*[@type='resource' and (@name='biomass')]//output/node()</xPath>
+                <comments />
+            </resourceQuery>
+            </aQuery><aQuery><region name="Canada" /><resourceQuery title="MSW production">
+                <axis1 name="resource">resource</axis1>
+                <axis2 name="Year">output</axis2>
+                <xPath buildList="false" dataName="production" group="false" sumAll="false">*[@type='resource' and (@name='biomass')]//output/node()</xPath>
+                <comments />
+            </resourceQuery>
+            </aQuery><aQuery><region name="Central America and Caribbean" /><resourceQuery title="MSW production">
+                <axis1 name="resource">resource</axis1>
+                <axis2 name="Year">output</axis2>
+                <xPath buildList="false" dataName="production" group="false" sumAll="false">*[@type='resource' and (@name='biomass')]//output/node()</xPath>
+                <comments />
+            </resourceQuery>
+            </aQuery><aQuery><region name="Central Asia" /><resourceQuery title="MSW production">
+                <axis1 name="resource">resource</axis1>
+                <axis2 name="Year">output</axis2>
+                <xPath buildList="false" dataName="production" group="false" sumAll="false">*[@type='resource' and (@name='biomass')]//output/node()</xPath>
+                <comments />
+            </resourceQuery>
+            </aQuery><aQuery><region name="China" /><resourceQuery title="MSW production">
+                <axis1 name="resource">resource</axis1>
+                <axis2 name="Year">output</axis2>
+                <xPath buildList="false" dataName="production" group="false" sumAll="false">*[@type='resource' and (@name='biomass')]//output/node()</xPath>
+                <comments />
+            </resourceQuery>
+            </aQuery><aQuery><region name="EU-12" /><resourceQuery title="MSW production">
+                <axis1 name="resource">resource</axis1>
+                <axis2 name="Year">output</axis2>
+                <xPath buildList="false" dataName="production" group="false" sumAll="false">*[@type='resource' and (@name='biomass')]//output/node()</xPath>
+                <comments />
+            </resourceQuery>
+            </aQuery><aQuery><region name="EU-15" /><resourceQuery title="MSW production">
+                <axis1 name="resource">resource</axis1>
+                <axis2 name="Year">output</axis2>
+                <xPath buildList="false" dataName="production" group="false" sumAll="false">*[@type='resource' and (@name='biomass')]//output/node()</xPath>
+                <comments />
+            </resourceQuery>
+            </aQuery><aQuery><region name="Europe_Eastern" /><resourceQuery title="MSW production">
+                <axis1 name="resource">resource</axis1>
+                <axis2 name="Year">output</axis2>
+                <xPath buildList="false" dataName="production" group="false" sumAll="false">*[@type='resource' and (@name='biomass')]//output/node()</xPath>
+                <comments />
+            </resourceQuery>
+            </aQuery><aQuery><region name="Europe_Non_EU" /><resourceQuery title="MSW production">
+                <axis1 name="resource">resource</axis1>
+                <axis2 name="Year">output</axis2>
+                <xPath buildList="false" dataName="production" group="false" sumAll="false">*[@type='resource' and (@name='biomass')]//output/node()</xPath>
+                <comments />
+            </resourceQuery>
+            </aQuery><aQuery><region name="European Free Trade Association" /><resourceQuery title="MSW production">
+                <axis1 name="resource">resource</axis1>
+                <axis2 name="Year">output</axis2>
+                <xPath buildList="false" dataName="production" group="false" sumAll="false">*[@type='resource' and (@name='biomass')]//output/node()</xPath>
+                <comments />
+            </resourceQuery>
+            </aQuery><aQuery><region name="India" /><resourceQuery title="MSW production">
+                <axis1 name="resource">resource</axis1>
+                <axis2 name="Year">output</axis2>
+                <xPath buildList="false" dataName="production" group="false" sumAll="false">*[@type='resource' and (@name='biomass')]//output/node()</xPath>
+                <comments />
+            </resourceQuery>
+            </aQuery><aQuery><region name="Indonesia" /><resourceQuery title="MSW production">
+                <axis1 name="resource">resource</axis1>
+                <axis2 name="Year">output</axis2>
+                <xPath buildList="false" dataName="production" group="false" sumAll="false">*[@type='resource' and (@name='biomass')]//output/node()</xPath>
+                <comments />
+            </resourceQuery>
+            </aQuery><aQuery><region name="Japan" /><resourceQuery title="MSW production">
+                <axis1 name="resource">resource</axis1>
+                <axis2 name="Year">output</axis2>
+                <xPath buildList="false" dataName="production" group="false" sumAll="false">*[@type='resource' and (@name='biomass')]//output/node()</xPath>
+                <comments />
+            </resourceQuery>
+            </aQuery><aQuery><region name="Mexico" /><resourceQuery title="MSW production">
+                <axis1 name="resource">resource</axis1>
+                <axis2 name="Year">output</axis2>
+                <xPath buildList="false" dataName="production" group="false" sumAll="false">*[@type='resource' and (@name='biomass')]//output/node()</xPath>
+                <comments />
+            </resourceQuery>
+            </aQuery><aQuery><region name="Middle East" /><resourceQuery title="MSW production">
+                <axis1 name="resource">resource</axis1>
+                <axis2 name="Year">output</axis2>
+                <xPath buildList="false" dataName="production" group="false" sumAll="false">*[@type='resource' and (@name='biomass')]//output/node()</xPath>
+                <comments />
+            </resourceQuery>
+            </aQuery><aQuery><region name="Pakistan" /><resourceQuery title="MSW production">
+                <axis1 name="resource">resource</axis1>
+                <axis2 name="Year">output</axis2>
+                <xPath buildList="false" dataName="production" group="false" sumAll="false">*[@type='resource' and (@name='biomass')]//output/node()</xPath>
+                <comments />
+            </resourceQuery>
+            </aQuery><aQuery><region name="Russia" /><resourceQuery title="MSW production">
+                <axis1 name="resource">resource</axis1>
+                <axis2 name="Year">output</axis2>
+                <xPath buildList="false" dataName="production" group="false" sumAll="false">*[@type='resource' and (@name='biomass')]//output/node()</xPath>
+                <comments />
+            </resourceQuery>
+            </aQuery><aQuery><region name="South Africa" /><resourceQuery title="MSW production">
+                <axis1 name="resource">resource</axis1>
+                <axis2 name="Year">output</axis2>
+                <xPath buildList="false" dataName="production" group="false" sumAll="false">*[@type='resource' and (@name='biomass')]//output/node()</xPath>
+                <comments />
+            </resourceQuery>
+            </aQuery><aQuery><region name="South America_Northern" /><resourceQuery title="MSW production">
+                <axis1 name="resource">resource</axis1>
+                <axis2 name="Year">output</axis2>
+                <xPath buildList="false" dataName="production" group="false" sumAll="false">*[@type='resource' and (@name='biomass')]//output/node()</xPath>
+                <comments />
+            </resourceQuery>
+            </aQuery><aQuery><region name="South America_Southern" /><resourceQuery title="MSW production">
+                <axis1 name="resource">resource</axis1>
+                <axis2 name="Year">output</axis2>
+                <xPath buildList="false" dataName="production" group="false" sumAll="false">*[@type='resource' and (@name='biomass')]//output/node()</xPath>
+                <comments />
+            </resourceQuery>
+            </aQuery><aQuery><region name="South Asia" /><resourceQuery title="MSW production">
+                <axis1 name="resource">resource</axis1>
+                <axis2 name="Year">output</axis2>
+                <xPath buildList="false" dataName="production" group="false" sumAll="false">*[@type='resource' and (@name='biomass')]//output/node()</xPath>
+                <comments />
+            </resourceQuery>
+            </aQuery><aQuery><region name="South Korea" /><resourceQuery title="MSW production">
+                <axis1 name="resource">resource</axis1>
+                <axis2 name="Year">output</axis2>
+                <xPath buildList="false" dataName="production" group="false" sumAll="false">*[@type='resource' and (@name='biomass')]//output/node()</xPath>
+                <comments />
+            </resourceQuery>
+            </aQuery><aQuery><region name="Southeast Asia" /><resourceQuery title="MSW production">
+                <axis1 name="resource">resource</axis1>
+                <axis2 name="Year">output</axis2>
+                <xPath buildList="false" dataName="production" group="false" sumAll="false">*[@type='resource' and (@name='biomass')]//output/node()</xPath>
+                <comments />
+            </resourceQuery>
+            </aQuery><aQuery><region name="Taiwan" /><resourceQuery title="MSW production">
+                <axis1 name="resource">resource</axis1>
+                <axis2 name="Year">output</axis2>
+                <xPath buildList="false" dataName="production" group="false" sumAll="false">*[@type='resource' and (@name='biomass')]//output/node()</xPath>
+                <comments />
+            </resourceQuery>
+            </aQuery><aQuery><region name="Argentina" /><resourceQuery title="MSW production">
+                <axis1 name="resource">resource</axis1>
+                <axis2 name="Year">output</axis2>
+                <xPath buildList="false" dataName="production" group="false" sumAll="false">*[@type='resource' and (@name='biomass')]//output/node()</xPath>
+                <comments />
+            </resourceQuery>
+            </aQuery><aQuery><region name="Colombia" /><resourceQuery title="MSW production">
+                <axis1 name="resource">resource</axis1>
+                <axis2 name="Year">output</axis2>
+                <xPath buildList="false" dataName="production" group="false" sumAll="false">*[@type='resource' and (@name='biomass')]//output/node()</xPath>
+                <comments />
+            </resourceQuery>
+            </aQuery></queries>

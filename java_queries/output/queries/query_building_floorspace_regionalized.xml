@@ -1,0 +1,201 @@
+<queries>
+
+<aQuery><region name="Global" /><supplyDemandQuery title="building floorspace">
+                    <axis1 name="building">gcam-consumer[@name]</axis1>
+                    <axis2 name="Year">floorspace[@year]</axis2>
+                    <xPath buildList="true" dataName="floorspace" group="false" sumAll="false">gcam-consumer//floorspace/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="USA" /><supplyDemandQuery title="building floorspace">
+                    <axis1 name="building">gcam-consumer[@name]</axis1>
+                    <axis2 name="Year">floorspace[@year]</axis2>
+                    <xPath buildList="true" dataName="floorspace" group="false" sumAll="false">gcam-consumer//floorspace/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Africa_Eastern" /><supplyDemandQuery title="building floorspace">
+                    <axis1 name="building">gcam-consumer[@name]</axis1>
+                    <axis2 name="Year">floorspace[@year]</axis2>
+                    <xPath buildList="true" dataName="floorspace" group="false" sumAll="false">gcam-consumer//floorspace/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Africa_Northern" /><supplyDemandQuery title="building floorspace">
+                    <axis1 name="building">gcam-consumer[@name]</axis1>
+                    <axis2 name="Year">floorspace[@year]</axis2>
+                    <xPath buildList="true" dataName="floorspace" group="false" sumAll="false">gcam-consumer//floorspace/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Africa_Southern" /><supplyDemandQuery title="building floorspace">
+                    <axis1 name="building">gcam-consumer[@name]</axis1>
+                    <axis2 name="Year">floorspace[@year]</axis2>
+                    <xPath buildList="true" dataName="floorspace" group="false" sumAll="false">gcam-consumer//floorspace/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Africa_Western" /><supplyDemandQuery title="building floorspace">
+                    <axis1 name="building">gcam-consumer[@name]</axis1>
+                    <axis2 name="Year">floorspace[@year]</axis2>
+                    <xPath buildList="true" dataName="floorspace" group="false" sumAll="false">gcam-consumer//floorspace/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Australia_NZ" /><supplyDemandQuery title="building floorspace">
+                    <axis1 name="building">gcam-consumer[@name]</axis1>
+                    <axis2 name="Year">floorspace[@year]</axis2>
+                    <xPath buildList="true" dataName="floorspace" group="false" sumAll="false">gcam-consumer//floorspace/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Brazil" /><supplyDemandQuery title="building floorspace">
+                    <axis1 name="building">gcam-consumer[@name]</axis1>
+                    <axis2 name="Year">floorspace[@year]</axis2>
+                    <xPath buildList="true" dataName="floorspace" group="false" sumAll="false">gcam-consumer//floorspace/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Canada" /><supplyDemandQuery title="building floorspace">
+                    <axis1 name="building">gcam-consumer[@name]</axis1>
+                    <axis2 name="Year">floorspace[@year]</axis2>
+                    <xPath buildList="true" dataName="floorspace" group="false" sumAll="false">gcam-consumer//floorspace/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Central America and Caribbean" /><supplyDemandQuery title="building floorspace">
+                    <axis1 name="building">gcam-consumer[@name]</axis1>
+                    <axis2 name="Year">floorspace[@year]</axis2>
+                    <xPath buildList="true" dataName="floorspace" group="false" sumAll="false">gcam-consumer//floorspace/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Central Asia" /><supplyDemandQuery title="building floorspace">
+                    <axis1 name="building">gcam-consumer[@name]</axis1>
+                    <axis2 name="Year">floorspace[@year]</axis2>
+                    <xPath buildList="true" dataName="floorspace" group="false" sumAll="false">gcam-consumer//floorspace/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="China" /><supplyDemandQuery title="building floorspace">
+                    <axis1 name="building">gcam-consumer[@name]</axis1>
+                    <axis2 name="Year">floorspace[@year]</axis2>
+                    <xPath buildList="true" dataName="floorspace" group="false" sumAll="false">gcam-consumer//floorspace/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="EU-12" /><supplyDemandQuery title="building floorspace">
+                    <axis1 name="building">gcam-consumer[@name]</axis1>
+                    <axis2 name="Year">floorspace[@year]</axis2>
+                    <xPath buildList="true" dataName="floorspace" group="false" sumAll="false">gcam-consumer//floorspace/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="EU-15" /><supplyDemandQuery title="building floorspace">
+                    <axis1 name="building">gcam-consumer[@name]</axis1>
+                    <axis2 name="Year">floorspace[@year]</axis2>
+                    <xPath buildList="true" dataName="floorspace" group="false" sumAll="false">gcam-consumer//floorspace/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Europe_Eastern" /><supplyDemandQuery title="building floorspace">
+                    <axis1 name="building">gcam-consumer[@name]</axis1>
+                    <axis2 name="Year">floorspace[@year]</axis2>
+                    <xPath buildList="true" dataName="floorspace" group="false" sumAll="false">gcam-consumer//floorspace/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Europe_Non_EU" /><supplyDemandQuery title="building floorspace">
+                    <axis1 name="building">gcam-consumer[@name]</axis1>
+                    <axis2 name="Year">floorspace[@year]</axis2>
+                    <xPath buildList="true" dataName="floorspace" group="false" sumAll="false">gcam-consumer//floorspace/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="European Free Trade Association" /><supplyDemandQuery title="building floorspace">
+                    <axis1 name="building">gcam-consumer[@name]</axis1>
+                    <axis2 name="Year">floorspace[@year]</axis2>
+                    <xPath buildList="true" dataName="floorspace" group="false" sumAll="false">gcam-consumer//floorspace/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="India" /><supplyDemandQuery title="building floorspace">
+                    <axis1 name="building">gcam-consumer[@name]</axis1>
+                    <axis2 name="Year">floorspace[@year]</axis2>
+                    <xPath buildList="true" dataName="floorspace" group="false" sumAll="false">gcam-consumer//floorspace/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Indonesia" /><supplyDemandQuery title="building floorspace">
+                    <axis1 name="building">gcam-consumer[@name]</axis1>
+                    <axis2 name="Year">floorspace[@year]</axis2>
+                    <xPath buildList="true" dataName="floorspace" group="false" sumAll="false">gcam-consumer//floorspace/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Japan" /><supplyDemandQuery title="building floorspace">
+                    <axis1 name="building">gcam-consumer[@name]</axis1>
+                    <axis2 name="Year">floorspace[@year]</axis2>
+                    <xPath buildList="true" dataName="floorspace" group="false" sumAll="false">gcam-consumer//floorspace/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Mexico" /><supplyDemandQuery title="building floorspace">
+                    <axis1 name="building">gcam-consumer[@name]</axis1>
+                    <axis2 name="Year">floorspace[@year]</axis2>
+                    <xPath buildList="true" dataName="floorspace" group="false" sumAll="false">gcam-consumer//floorspace/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Middle East" /><supplyDemandQuery title="building floorspace">
+                    <axis1 name="building">gcam-consumer[@name]</axis1>
+                    <axis2 name="Year">floorspace[@year]</axis2>
+                    <xPath buildList="true" dataName="floorspace" group="false" sumAll="false">gcam-consumer//floorspace/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Pakistan" /><supplyDemandQuery title="building floorspace">
+                    <axis1 name="building">gcam-consumer[@name]</axis1>
+                    <axis2 name="Year">floorspace[@year]</axis2>
+                    <xPath buildList="true" dataName="floorspace" group="false" sumAll="false">gcam-consumer//floorspace/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Russia" /><supplyDemandQuery title="building floorspace">
+                    <axis1 name="building">gcam-consumer[@name]</axis1>
+                    <axis2 name="Year">floorspace[@year]</axis2>
+                    <xPath buildList="true" dataName="floorspace" group="false" sumAll="false">gcam-consumer//floorspace/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="South Africa" /><supplyDemandQuery title="building floorspace">
+                    <axis1 name="building">gcam-consumer[@name]</axis1>
+                    <axis2 name="Year">floorspace[@year]</axis2>
+                    <xPath buildList="true" dataName="floorspace" group="false" sumAll="false">gcam-consumer//floorspace/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="South America_Northern" /><supplyDemandQuery title="building floorspace">
+                    <axis1 name="building">gcam-consumer[@name]</axis1>
+                    <axis2 name="Year">floorspace[@year]</axis2>
+                    <xPath buildList="true" dataName="floorspace" group="false" sumAll="false">gcam-consumer//floorspace/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="South America_Southern" /><supplyDemandQuery title="building floorspace">
+                    <axis1 name="building">gcam-consumer[@name]</axis1>
+                    <axis2 name="Year">floorspace[@year]</axis2>
+                    <xPath buildList="true" dataName="floorspace" group="false" sumAll="false">gcam-consumer//floorspace/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="South Asia" /><supplyDemandQuery title="building floorspace">
+                    <axis1 name="building">gcam-consumer[@name]</axis1>
+                    <axis2 name="Year">floorspace[@year]</axis2>
+                    <xPath buildList="true" dataName="floorspace" group="false" sumAll="false">gcam-consumer//floorspace/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="South Korea" /><supplyDemandQuery title="building floorspace">
+                    <axis1 name="building">gcam-consumer[@name]</axis1>
+                    <axis2 name="Year">floorspace[@year]</axis2>
+                    <xPath buildList="true" dataName="floorspace" group="false" sumAll="false">gcam-consumer//floorspace/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Southeast Asia" /><supplyDemandQuery title="building floorspace">
+                    <axis1 name="building">gcam-consumer[@name]</axis1>
+                    <axis2 name="Year">floorspace[@year]</axis2>
+                    <xPath buildList="true" dataName="floorspace" group="false" sumAll="false">gcam-consumer//floorspace/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Taiwan" /><supplyDemandQuery title="building floorspace">
+                    <axis1 name="building">gcam-consumer[@name]</axis1>
+                    <axis2 name="Year">floorspace[@year]</axis2>
+                    <xPath buildList="true" dataName="floorspace" group="false" sumAll="false">gcam-consumer//floorspace/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Argentina" /><supplyDemandQuery title="building floorspace">
+                    <axis1 name="building">gcam-consumer[@name]</axis1>
+                    <axis2 name="Year">floorspace[@year]</axis2>
+                    <xPath buildList="true" dataName="floorspace" group="false" sumAll="false">gcam-consumer//floorspace/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Colombia" /><supplyDemandQuery title="building floorspace">
+                    <axis1 name="building">gcam-consumer[@name]</axis1>
+                    <axis2 name="Year">floorspace[@year]</axis2>
+                    <xPath buildList="true" dataName="floorspace" group="false" sumAll="false">gcam-consumer//floorspace/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery></queries>

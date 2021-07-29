@@ -1,0 +1,16 @@
+<queries>
+
+<aQuery>
+	<region name="Global" /> 
+	
+
+<resourceQuery title="MSW production">
+                <axis1 name="resource">resource</axis1>
+                <axis2 name="Year">output</axis2>
+                <xPath buildList="false" dataName="production" group="false" sumAll="false">*[@type='resource' and (@name='biomass')]//output/node()</xPath>
+                <comments />
+            </resourceQuery>
+            </aQuery>
+
+
+</queries>

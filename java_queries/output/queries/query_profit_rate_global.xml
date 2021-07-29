@@ -1,0 +1,16 @@
+<queries>
+
+<aQuery>
+	<region name="Global" /> 
+	
+
+<query title="profit rate">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">profit-rate[@year]</axis2>
+                <xPath buildList="true" dataName="profit-rate" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//profit-rate/text()</xPath>
+                <comments />
+            </query>
+            </aQuery>
+
+
+</queries>

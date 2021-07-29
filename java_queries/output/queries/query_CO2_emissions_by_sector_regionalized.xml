@@ -1,0 +1,201 @@
+<queries>
+
+<aQuery><region name="Global" /><emissionsQueryBuilder title="CO2 emissions by sector">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">emissions</axis2>
+                <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type='sector']//CO2/emissions/node()</xPath>
+                <comments />
+            </emissionsQueryBuilder>
+            </aQuery><aQuery><region name="USA" /><emissionsQueryBuilder title="CO2 emissions by sector">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">emissions</axis2>
+                <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type='sector']//CO2/emissions/node()</xPath>
+                <comments />
+            </emissionsQueryBuilder>
+            </aQuery><aQuery><region name="Africa_Eastern" /><emissionsQueryBuilder title="CO2 emissions by sector">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">emissions</axis2>
+                <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type='sector']//CO2/emissions/node()</xPath>
+                <comments />
+            </emissionsQueryBuilder>
+            </aQuery><aQuery><region name="Africa_Northern" /><emissionsQueryBuilder title="CO2 emissions by sector">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">emissions</axis2>
+                <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type='sector']//CO2/emissions/node()</xPath>
+                <comments />
+            </emissionsQueryBuilder>
+            </aQuery><aQuery><region name="Africa_Southern" /><emissionsQueryBuilder title="CO2 emissions by sector">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">emissions</axis2>
+                <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type='sector']//CO2/emissions/node()</xPath>
+                <comments />
+            </emissionsQueryBuilder>
+            </aQuery><aQuery><region name="Africa_Western" /><emissionsQueryBuilder title="CO2 emissions by sector">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">emissions</axis2>
+                <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type='sector']//CO2/emissions/node()</xPath>
+                <comments />
+            </emissionsQueryBuilder>
+            </aQuery><aQuery><region name="Australia_NZ" /><emissionsQueryBuilder title="CO2 emissions by sector">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">emissions</axis2>
+                <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type='sector']//CO2/emissions/node()</xPath>
+                <comments />
+            </emissionsQueryBuilder>
+            </aQuery><aQuery><region name="Brazil" /><emissionsQueryBuilder title="CO2 emissions by sector">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">emissions</axis2>
+                <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type='sector']//CO2/emissions/node()</xPath>
+                <comments />
+            </emissionsQueryBuilder>
+            </aQuery><aQuery><region name="Canada" /><emissionsQueryBuilder title="CO2 emissions by sector">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">emissions</axis2>
+                <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type='sector']//CO2/emissions/node()</xPath>
+                <comments />
+            </emissionsQueryBuilder>
+            </aQuery><aQuery><region name="Central America and Caribbean" /><emissionsQueryBuilder title="CO2 emissions by sector">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">emissions</axis2>
+                <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type='sector']//CO2/emissions/node()</xPath>
+                <comments />
+            </emissionsQueryBuilder>
+            </aQuery><aQuery><region name="Central Asia" /><emissionsQueryBuilder title="CO2 emissions by sector">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">emissions</axis2>
+                <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type='sector']//CO2/emissions/node()</xPath>
+                <comments />
+            </emissionsQueryBuilder>
+            </aQuery><aQuery><region name="China" /><emissionsQueryBuilder title="CO2 emissions by sector">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">emissions</axis2>
+                <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type='sector']//CO2/emissions/node()</xPath>
+                <comments />
+            </emissionsQueryBuilder>
+            </aQuery><aQuery><region name="EU-12" /><emissionsQueryBuilder title="CO2 emissions by sector">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">emissions</axis2>
+                <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type='sector']//CO2/emissions/node()</xPath>
+                <comments />
+            </emissionsQueryBuilder>
+            </aQuery><aQuery><region name="EU-15" /><emissionsQueryBuilder title="CO2 emissions by sector">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">emissions</axis2>
+                <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type='sector']//CO2/emissions/node()</xPath>
+                <comments />
+            </emissionsQueryBuilder>
+            </aQuery><aQuery><region name="Europe_Eastern" /><emissionsQueryBuilder title="CO2 emissions by sector">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">emissions</axis2>
+                <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type='sector']//CO2/emissions/node()</xPath>
+                <comments />
+            </emissionsQueryBuilder>
+            </aQuery><aQuery><region name="Europe_Non_EU" /><emissionsQueryBuilder title="CO2 emissions by sector">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">emissions</axis2>
+                <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type='sector']//CO2/emissions/node()</xPath>
+                <comments />
+            </emissionsQueryBuilder>
+            </aQuery><aQuery><region name="European Free Trade Association" /><emissionsQueryBuilder title="CO2 emissions by sector">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">emissions</axis2>
+                <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type='sector']//CO2/emissions/node()</xPath>
+                <comments />
+            </emissionsQueryBuilder>
+            </aQuery><aQuery><region name="India" /><emissionsQueryBuilder title="CO2 emissions by sector">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">emissions</axis2>
+                <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type='sector']//CO2/emissions/node()</xPath>
+                <comments />
+            </emissionsQueryBuilder>
+            </aQuery><aQuery><region name="Indonesia" /><emissionsQueryBuilder title="CO2 emissions by sector">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">emissions</axis2>
+                <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type='sector']//CO2/emissions/node()</xPath>
+                <comments />
+            </emissionsQueryBuilder>
+            </aQuery><aQuery><region name="Japan" /><emissionsQueryBuilder title="CO2 emissions by sector">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">emissions</axis2>
+                <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type='sector']//CO2/emissions/node()</xPath>
+                <comments />
+            </emissionsQueryBuilder>
+            </aQuery><aQuery><region name="Mexico" /><emissionsQueryBuilder title="CO2 emissions by sector">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">emissions</axis2>
+                <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type='sector']//CO2/emissions/node()</xPath>
+                <comments />
+            </emissionsQueryBuilder>
+            </aQuery><aQuery><region name="Middle East" /><emissionsQueryBuilder title="CO2 emissions by sector">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">emissions</axis2>
+                <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type='sector']//CO2/emissions/node()</xPath>
+                <comments />
+            </emissionsQueryBuilder>
+            </aQuery><aQuery><region name="Pakistan" /><emissionsQueryBuilder title="CO2 emissions by sector">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">emissions</axis2>
+                <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type='sector']//CO2/emissions/node()</xPath>
+                <comments />
+            </emissionsQueryBuilder>
+            </aQuery><aQuery><region name="Russia" /><emissionsQueryBuilder title="CO2 emissions by sector">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">emissions</axis2>
+                <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type='sector']//CO2/emissions/node()</xPath>
+                <comments />
+            </emissionsQueryBuilder>
+            </aQuery><aQuery><region name="South Africa" /><emissionsQueryBuilder title="CO2 emissions by sector">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">emissions</axis2>
+                <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type='sector']//CO2/emissions/node()</xPath>
+                <comments />
+            </emissionsQueryBuilder>
+            </aQuery><aQuery><region name="South America_Northern" /><emissionsQueryBuilder title="CO2 emissions by sector">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">emissions</axis2>
+                <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type='sector']//CO2/emissions/node()</xPath>
+                <comments />
+            </emissionsQueryBuilder>
+            </aQuery><aQuery><region name="South America_Southern" /><emissionsQueryBuilder title="CO2 emissions by sector">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">emissions</axis2>
+                <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type='sector']//CO2/emissions/node()</xPath>
+                <comments />
+            </emissionsQueryBuilder>
+            </aQuery><aQuery><region name="South Asia" /><emissionsQueryBuilder title="CO2 emissions by sector">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">emissions</axis2>
+                <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type='sector']//CO2/emissions/node()</xPath>
+                <comments />
+            </emissionsQueryBuilder>
+            </aQuery><aQuery><region name="South Korea" /><emissionsQueryBuilder title="CO2 emissions by sector">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">emissions</axis2>
+                <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type='sector']//CO2/emissions/node()</xPath>
+                <comments />
+            </emissionsQueryBuilder>
+            </aQuery><aQuery><region name="Southeast Asia" /><emissionsQueryBuilder title="CO2 emissions by sector">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">emissions</axis2>
+                <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type='sector']//CO2/emissions/node()</xPath>
+                <comments />
+            </emissionsQueryBuilder>
+            </aQuery><aQuery><region name="Taiwan" /><emissionsQueryBuilder title="CO2 emissions by sector">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">emissions</axis2>
+                <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type='sector']//CO2/emissions/node()</xPath>
+                <comments />
+            </emissionsQueryBuilder>
+            </aQuery><aQuery><region name="Argentina" /><emissionsQueryBuilder title="CO2 emissions by sector">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">emissions</axis2>
+                <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type='sector']//CO2/emissions/node()</xPath>
+                <comments />
+            </emissionsQueryBuilder>
+            </aQuery><aQuery><region name="Colombia" /><emissionsQueryBuilder title="CO2 emissions by sector">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">emissions</axis2>
+                <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type='sector']//CO2/emissions/node()</xPath>
+                <comments />
+            </emissionsQueryBuilder>
+            </aQuery></queries>

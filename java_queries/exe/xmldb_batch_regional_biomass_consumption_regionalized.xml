@@ -1,0 +1,22 @@
+<ModelInterfaceBatch>
+    
+    <class name="ModelInterface.ModelGUI2.DbViewer">
+        <command name="XMLDB Batch File">
+            
+            
+
+            
+            
+			<queryFile>output/queries/query_regional_biomass_consumption_regionalized.xml</queryFile>
+            
+            <outFile>queryout_regional_biomass_consumption_regionalized.csv</outFile>
+            
+            <xmldbLocation>./db/database_basexdb</xmldbLocation>
+            
+            <batchQueryResultsInDifferentSheets>false</batchQueryResultsInDifferentSheets>
+            <batchQueryIncludeCharts>false</batchQueryIncludeCharts>
+            <batchQuerySplitRunsInDifferentSheets>false</batchQuerySplitRunsInDifferentSheets>
+            <batchQueryReplaceResults>true</batchQueryReplaceResults>
+        </command>
+    </class>
+</ModelInterfaceBatch>

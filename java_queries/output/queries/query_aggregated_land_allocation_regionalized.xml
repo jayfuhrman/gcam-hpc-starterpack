@@ -1,0 +1,1257 @@
+<queries>
+
+<aQuery><region name="Global" /><query title="aggregated land allocation">
+                <axis1 name="LandLeaf">LandLeaf[@crop]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="LandLeaf">
+                        <rewrite from="Grassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="FodderHerb" to="crops" />
+                        <rewrite from="MiscCrop" to="crops" />
+                        <rewrite from="PalmFruit" to="crops" />
+                        <rewrite from="FiberCrop" to="crops" />
+                        <rewrite from="OtherGrain" to="crops" />
+                        <rewrite from="FodderGrass" to="crops" />
+                        <rewrite from="ProtectedGrassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="biomassTree" to="biomass" />
+                        <rewrite from="OtherArableLand" to="otherarable" />
+                        <rewrite from="Rice" to="crops" />
+                        <rewrite from="UrbanLand" to="urban" />
+                        <rewrite from="RockIceDesert" to="rock and desert" />
+                        <rewrite from="RootTuber" to="crops" />
+                        <rewrite from="Corn" to="crops" />
+                        <rewrite from="OilCrop" to="crops" />
+                        <rewrite from="ProtectedShrubland" to="shrubs" />
+                        <rewrite from="SugarCrop" to="crops" />
+                        <rewrite from="UnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="Pasture" to="pasture (grazed)" />
+                        <rewrite from="Forest" to="forest (managed)" />
+                        <rewrite from="biomassGrass" to="biomass" />
+                        <rewrite from="Shrubland" to="shrubs" />
+                        <rewrite from="UnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="Tundra" to="tundra" />
+                        <rewrite from="Wheat" to="crops" />
+                    </level>
+                </labelRewriteList>
+            </query>
+            </aQuery><aQuery><region name="USA" /><query title="aggregated land allocation">
+                <axis1 name="LandLeaf">LandLeaf[@crop]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="LandLeaf">
+                        <rewrite from="Grassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="FodderHerb" to="crops" />
+                        <rewrite from="MiscCrop" to="crops" />
+                        <rewrite from="PalmFruit" to="crops" />
+                        <rewrite from="FiberCrop" to="crops" />
+                        <rewrite from="OtherGrain" to="crops" />
+                        <rewrite from="FodderGrass" to="crops" />
+                        <rewrite from="ProtectedGrassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="biomassTree" to="biomass" />
+                        <rewrite from="OtherArableLand" to="otherarable" />
+                        <rewrite from="Rice" to="crops" />
+                        <rewrite from="UrbanLand" to="urban" />
+                        <rewrite from="RockIceDesert" to="rock and desert" />
+                        <rewrite from="RootTuber" to="crops" />
+                        <rewrite from="Corn" to="crops" />
+                        <rewrite from="OilCrop" to="crops" />
+                        <rewrite from="ProtectedShrubland" to="shrubs" />
+                        <rewrite from="SugarCrop" to="crops" />
+                        <rewrite from="UnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="Pasture" to="pasture (grazed)" />
+                        <rewrite from="Forest" to="forest (managed)" />
+                        <rewrite from="biomassGrass" to="biomass" />
+                        <rewrite from="Shrubland" to="shrubs" />
+                        <rewrite from="UnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="Tundra" to="tundra" />
+                        <rewrite from="Wheat" to="crops" />
+                    </level>
+                </labelRewriteList>
+            </query>
+            </aQuery><aQuery><region name="Africa_Eastern" /><query title="aggregated land allocation">
+                <axis1 name="LandLeaf">LandLeaf[@crop]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="LandLeaf">
+                        <rewrite from="Grassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="FodderHerb" to="crops" />
+                        <rewrite from="MiscCrop" to="crops" />
+                        <rewrite from="PalmFruit" to="crops" />
+                        <rewrite from="FiberCrop" to="crops" />
+                        <rewrite from="OtherGrain" to="crops" />
+                        <rewrite from="FodderGrass" to="crops" />
+                        <rewrite from="ProtectedGrassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="biomassTree" to="biomass" />
+                        <rewrite from="OtherArableLand" to="otherarable" />
+                        <rewrite from="Rice" to="crops" />
+                        <rewrite from="UrbanLand" to="urban" />
+                        <rewrite from="RockIceDesert" to="rock and desert" />
+                        <rewrite from="RootTuber" to="crops" />
+                        <rewrite from="Corn" to="crops" />
+                        <rewrite from="OilCrop" to="crops" />
+                        <rewrite from="ProtectedShrubland" to="shrubs" />
+                        <rewrite from="SugarCrop" to="crops" />
+                        <rewrite from="UnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="Pasture" to="pasture (grazed)" />
+                        <rewrite from="Forest" to="forest (managed)" />
+                        <rewrite from="biomassGrass" to="biomass" />
+                        <rewrite from="Shrubland" to="shrubs" />
+                        <rewrite from="UnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="Tundra" to="tundra" />
+                        <rewrite from="Wheat" to="crops" />
+                    </level>
+                </labelRewriteList>
+            </query>
+            </aQuery><aQuery><region name="Africa_Northern" /><query title="aggregated land allocation">
+                <axis1 name="LandLeaf">LandLeaf[@crop]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="LandLeaf">
+                        <rewrite from="Grassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="FodderHerb" to="crops" />
+                        <rewrite from="MiscCrop" to="crops" />
+                        <rewrite from="PalmFruit" to="crops" />
+                        <rewrite from="FiberCrop" to="crops" />
+                        <rewrite from="OtherGrain" to="crops" />
+                        <rewrite from="FodderGrass" to="crops" />
+                        <rewrite from="ProtectedGrassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="biomassTree" to="biomass" />
+                        <rewrite from="OtherArableLand" to="otherarable" />
+                        <rewrite from="Rice" to="crops" />
+                        <rewrite from="UrbanLand" to="urban" />
+                        <rewrite from="RockIceDesert" to="rock and desert" />
+                        <rewrite from="RootTuber" to="crops" />
+                        <rewrite from="Corn" to="crops" />
+                        <rewrite from="OilCrop" to="crops" />
+                        <rewrite from="ProtectedShrubland" to="shrubs" />
+                        <rewrite from="SugarCrop" to="crops" />
+                        <rewrite from="UnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="Pasture" to="pasture (grazed)" />
+                        <rewrite from="Forest" to="forest (managed)" />
+                        <rewrite from="biomassGrass" to="biomass" />
+                        <rewrite from="Shrubland" to="shrubs" />
+                        <rewrite from="UnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="Tundra" to="tundra" />
+                        <rewrite from="Wheat" to="crops" />
+                    </level>
+                </labelRewriteList>
+            </query>
+            </aQuery><aQuery><region name="Africa_Southern" /><query title="aggregated land allocation">
+                <axis1 name="LandLeaf">LandLeaf[@crop]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="LandLeaf">
+                        <rewrite from="Grassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="FodderHerb" to="crops" />
+                        <rewrite from="MiscCrop" to="crops" />
+                        <rewrite from="PalmFruit" to="crops" />
+                        <rewrite from="FiberCrop" to="crops" />
+                        <rewrite from="OtherGrain" to="crops" />
+                        <rewrite from="FodderGrass" to="crops" />
+                        <rewrite from="ProtectedGrassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="biomassTree" to="biomass" />
+                        <rewrite from="OtherArableLand" to="otherarable" />
+                        <rewrite from="Rice" to="crops" />
+                        <rewrite from="UrbanLand" to="urban" />
+                        <rewrite from="RockIceDesert" to="rock and desert" />
+                        <rewrite from="RootTuber" to="crops" />
+                        <rewrite from="Corn" to="crops" />
+                        <rewrite from="OilCrop" to="crops" />
+                        <rewrite from="ProtectedShrubland" to="shrubs" />
+                        <rewrite from="SugarCrop" to="crops" />
+                        <rewrite from="UnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="Pasture" to="pasture (grazed)" />
+                        <rewrite from="Forest" to="forest (managed)" />
+                        <rewrite from="biomassGrass" to="biomass" />
+                        <rewrite from="Shrubland" to="shrubs" />
+                        <rewrite from="UnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="Tundra" to="tundra" />
+                        <rewrite from="Wheat" to="crops" />
+                    </level>
+                </labelRewriteList>
+            </query>
+            </aQuery><aQuery><region name="Africa_Western" /><query title="aggregated land allocation">
+                <axis1 name="LandLeaf">LandLeaf[@crop]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="LandLeaf">
+                        <rewrite from="Grassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="FodderHerb" to="crops" />
+                        <rewrite from="MiscCrop" to="crops" />
+                        <rewrite from="PalmFruit" to="crops" />
+                        <rewrite from="FiberCrop" to="crops" />
+                        <rewrite from="OtherGrain" to="crops" />
+                        <rewrite from="FodderGrass" to="crops" />
+                        <rewrite from="ProtectedGrassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="biomassTree" to="biomass" />
+                        <rewrite from="OtherArableLand" to="otherarable" />
+                        <rewrite from="Rice" to="crops" />
+                        <rewrite from="UrbanLand" to="urban" />
+                        <rewrite from="RockIceDesert" to="rock and desert" />
+                        <rewrite from="RootTuber" to="crops" />
+                        <rewrite from="Corn" to="crops" />
+                        <rewrite from="OilCrop" to="crops" />
+                        <rewrite from="ProtectedShrubland" to="shrubs" />
+                        <rewrite from="SugarCrop" to="crops" />
+                        <rewrite from="UnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="Pasture" to="pasture (grazed)" />
+                        <rewrite from="Forest" to="forest (managed)" />
+                        <rewrite from="biomassGrass" to="biomass" />
+                        <rewrite from="Shrubland" to="shrubs" />
+                        <rewrite from="UnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="Tundra" to="tundra" />
+                        <rewrite from="Wheat" to="crops" />
+                    </level>
+                </labelRewriteList>
+            </query>
+            </aQuery><aQuery><region name="Australia_NZ" /><query title="aggregated land allocation">
+                <axis1 name="LandLeaf">LandLeaf[@crop]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="LandLeaf">
+                        <rewrite from="Grassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="FodderHerb" to="crops" />
+                        <rewrite from="MiscCrop" to="crops" />
+                        <rewrite from="PalmFruit" to="crops" />
+                        <rewrite from="FiberCrop" to="crops" />
+                        <rewrite from="OtherGrain" to="crops" />
+                        <rewrite from="FodderGrass" to="crops" />
+                        <rewrite from="ProtectedGrassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="biomassTree" to="biomass" />
+                        <rewrite from="OtherArableLand" to="otherarable" />
+                        <rewrite from="Rice" to="crops" />
+                        <rewrite from="UrbanLand" to="urban" />
+                        <rewrite from="RockIceDesert" to="rock and desert" />
+                        <rewrite from="RootTuber" to="crops" />
+                        <rewrite from="Corn" to="crops" />
+                        <rewrite from="OilCrop" to="crops" />
+                        <rewrite from="ProtectedShrubland" to="shrubs" />
+                        <rewrite from="SugarCrop" to="crops" />
+                        <rewrite from="UnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="Pasture" to="pasture (grazed)" />
+                        <rewrite from="Forest" to="forest (managed)" />
+                        <rewrite from="biomassGrass" to="biomass" />
+                        <rewrite from="Shrubland" to="shrubs" />
+                        <rewrite from="UnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="Tundra" to="tundra" />
+                        <rewrite from="Wheat" to="crops" />
+                    </level>
+                </labelRewriteList>
+            </query>
+            </aQuery><aQuery><region name="Brazil" /><query title="aggregated land allocation">
+                <axis1 name="LandLeaf">LandLeaf[@crop]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="LandLeaf">
+                        <rewrite from="Grassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="FodderHerb" to="crops" />
+                        <rewrite from="MiscCrop" to="crops" />
+                        <rewrite from="PalmFruit" to="crops" />
+                        <rewrite from="FiberCrop" to="crops" />
+                        <rewrite from="OtherGrain" to="crops" />
+                        <rewrite from="FodderGrass" to="crops" />
+                        <rewrite from="ProtectedGrassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="biomassTree" to="biomass" />
+                        <rewrite from="OtherArableLand" to="otherarable" />
+                        <rewrite from="Rice" to="crops" />
+                        <rewrite from="UrbanLand" to="urban" />
+                        <rewrite from="RockIceDesert" to="rock and desert" />
+                        <rewrite from="RootTuber" to="crops" />
+                        <rewrite from="Corn" to="crops" />
+                        <rewrite from="OilCrop" to="crops" />
+                        <rewrite from="ProtectedShrubland" to="shrubs" />
+                        <rewrite from="SugarCrop" to="crops" />
+                        <rewrite from="UnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="Pasture" to="pasture (grazed)" />
+                        <rewrite from="Forest" to="forest (managed)" />
+                        <rewrite from="biomassGrass" to="biomass" />
+                        <rewrite from="Shrubland" to="shrubs" />
+                        <rewrite from="UnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="Tundra" to="tundra" />
+                        <rewrite from="Wheat" to="crops" />
+                    </level>
+                </labelRewriteList>
+            </query>
+            </aQuery><aQuery><region name="Canada" /><query title="aggregated land allocation">
+                <axis1 name="LandLeaf">LandLeaf[@crop]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="LandLeaf">
+                        <rewrite from="Grassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="FodderHerb" to="crops" />
+                        <rewrite from="MiscCrop" to="crops" />
+                        <rewrite from="PalmFruit" to="crops" />
+                        <rewrite from="FiberCrop" to="crops" />
+                        <rewrite from="OtherGrain" to="crops" />
+                        <rewrite from="FodderGrass" to="crops" />
+                        <rewrite from="ProtectedGrassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="biomassTree" to="biomass" />
+                        <rewrite from="OtherArableLand" to="otherarable" />
+                        <rewrite from="Rice" to="crops" />
+                        <rewrite from="UrbanLand" to="urban" />
+                        <rewrite from="RockIceDesert" to="rock and desert" />
+                        <rewrite from="RootTuber" to="crops" />
+                        <rewrite from="Corn" to="crops" />
+                        <rewrite from="OilCrop" to="crops" />
+                        <rewrite from="ProtectedShrubland" to="shrubs" />
+                        <rewrite from="SugarCrop" to="crops" />
+                        <rewrite from="UnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="Pasture" to="pasture (grazed)" />
+                        <rewrite from="Forest" to="forest (managed)" />
+                        <rewrite from="biomassGrass" to="biomass" />
+                        <rewrite from="Shrubland" to="shrubs" />
+                        <rewrite from="UnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="Tundra" to="tundra" />
+                        <rewrite from="Wheat" to="crops" />
+                    </level>
+                </labelRewriteList>
+            </query>
+            </aQuery><aQuery><region name="Central America and Caribbean" /><query title="aggregated land allocation">
+                <axis1 name="LandLeaf">LandLeaf[@crop]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="LandLeaf">
+                        <rewrite from="Grassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="FodderHerb" to="crops" />
+                        <rewrite from="MiscCrop" to="crops" />
+                        <rewrite from="PalmFruit" to="crops" />
+                        <rewrite from="FiberCrop" to="crops" />
+                        <rewrite from="OtherGrain" to="crops" />
+                        <rewrite from="FodderGrass" to="crops" />
+                        <rewrite from="ProtectedGrassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="biomassTree" to="biomass" />
+                        <rewrite from="OtherArableLand" to="otherarable" />
+                        <rewrite from="Rice" to="crops" />
+                        <rewrite from="UrbanLand" to="urban" />
+                        <rewrite from="RockIceDesert" to="rock and desert" />
+                        <rewrite from="RootTuber" to="crops" />
+                        <rewrite from="Corn" to="crops" />
+                        <rewrite from="OilCrop" to="crops" />
+                        <rewrite from="ProtectedShrubland" to="shrubs" />
+                        <rewrite from="SugarCrop" to="crops" />
+                        <rewrite from="UnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="Pasture" to="pasture (grazed)" />
+                        <rewrite from="Forest" to="forest (managed)" />
+                        <rewrite from="biomassGrass" to="biomass" />
+                        <rewrite from="Shrubland" to="shrubs" />
+                        <rewrite from="UnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="Tundra" to="tundra" />
+                        <rewrite from="Wheat" to="crops" />
+                    </level>
+                </labelRewriteList>
+            </query>
+            </aQuery><aQuery><region name="Central Asia" /><query title="aggregated land allocation">
+                <axis1 name="LandLeaf">LandLeaf[@crop]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="LandLeaf">
+                        <rewrite from="Grassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="FodderHerb" to="crops" />
+                        <rewrite from="MiscCrop" to="crops" />
+                        <rewrite from="PalmFruit" to="crops" />
+                        <rewrite from="FiberCrop" to="crops" />
+                        <rewrite from="OtherGrain" to="crops" />
+                        <rewrite from="FodderGrass" to="crops" />
+                        <rewrite from="ProtectedGrassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="biomassTree" to="biomass" />
+                        <rewrite from="OtherArableLand" to="otherarable" />
+                        <rewrite from="Rice" to="crops" />
+                        <rewrite from="UrbanLand" to="urban" />
+                        <rewrite from="RockIceDesert" to="rock and desert" />
+                        <rewrite from="RootTuber" to="crops" />
+                        <rewrite from="Corn" to="crops" />
+                        <rewrite from="OilCrop" to="crops" />
+                        <rewrite from="ProtectedShrubland" to="shrubs" />
+                        <rewrite from="SugarCrop" to="crops" />
+                        <rewrite from="UnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="Pasture" to="pasture (grazed)" />
+                        <rewrite from="Forest" to="forest (managed)" />
+                        <rewrite from="biomassGrass" to="biomass" />
+                        <rewrite from="Shrubland" to="shrubs" />
+                        <rewrite from="UnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="Tundra" to="tundra" />
+                        <rewrite from="Wheat" to="crops" />
+                    </level>
+                </labelRewriteList>
+            </query>
+            </aQuery><aQuery><region name="China" /><query title="aggregated land allocation">
+                <axis1 name="LandLeaf">LandLeaf[@crop]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="LandLeaf">
+                        <rewrite from="Grassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="FodderHerb" to="crops" />
+                        <rewrite from="MiscCrop" to="crops" />
+                        <rewrite from="PalmFruit" to="crops" />
+                        <rewrite from="FiberCrop" to="crops" />
+                        <rewrite from="OtherGrain" to="crops" />
+                        <rewrite from="FodderGrass" to="crops" />
+                        <rewrite from="ProtectedGrassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="biomassTree" to="biomass" />
+                        <rewrite from="OtherArableLand" to="otherarable" />
+                        <rewrite from="Rice" to="crops" />
+                        <rewrite from="UrbanLand" to="urban" />
+                        <rewrite from="RockIceDesert" to="rock and desert" />
+                        <rewrite from="RootTuber" to="crops" />
+                        <rewrite from="Corn" to="crops" />
+                        <rewrite from="OilCrop" to="crops" />
+                        <rewrite from="ProtectedShrubland" to="shrubs" />
+                        <rewrite from="SugarCrop" to="crops" />
+                        <rewrite from="UnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="Pasture" to="pasture (grazed)" />
+                        <rewrite from="Forest" to="forest (managed)" />
+                        <rewrite from="biomassGrass" to="biomass" />
+                        <rewrite from="Shrubland" to="shrubs" />
+                        <rewrite from="UnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="Tundra" to="tundra" />
+                        <rewrite from="Wheat" to="crops" />
+                    </level>
+                </labelRewriteList>
+            </query>
+            </aQuery><aQuery><region name="EU-12" /><query title="aggregated land allocation">
+                <axis1 name="LandLeaf">LandLeaf[@crop]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="LandLeaf">
+                        <rewrite from="Grassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="FodderHerb" to="crops" />
+                        <rewrite from="MiscCrop" to="crops" />
+                        <rewrite from="PalmFruit" to="crops" />
+                        <rewrite from="FiberCrop" to="crops" />
+                        <rewrite from="OtherGrain" to="crops" />
+                        <rewrite from="FodderGrass" to="crops" />
+                        <rewrite from="ProtectedGrassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="biomassTree" to="biomass" />
+                        <rewrite from="OtherArableLand" to="otherarable" />
+                        <rewrite from="Rice" to="crops" />
+                        <rewrite from="UrbanLand" to="urban" />
+                        <rewrite from="RockIceDesert" to="rock and desert" />
+                        <rewrite from="RootTuber" to="crops" />
+                        <rewrite from="Corn" to="crops" />
+                        <rewrite from="OilCrop" to="crops" />
+                        <rewrite from="ProtectedShrubland" to="shrubs" />
+                        <rewrite from="SugarCrop" to="crops" />
+                        <rewrite from="UnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="Pasture" to="pasture (grazed)" />
+                        <rewrite from="Forest" to="forest (managed)" />
+                        <rewrite from="biomassGrass" to="biomass" />
+                        <rewrite from="Shrubland" to="shrubs" />
+                        <rewrite from="UnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="Tundra" to="tundra" />
+                        <rewrite from="Wheat" to="crops" />
+                    </level>
+                </labelRewriteList>
+            </query>
+            </aQuery><aQuery><region name="EU-15" /><query title="aggregated land allocation">
+                <axis1 name="LandLeaf">LandLeaf[@crop]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="LandLeaf">
+                        <rewrite from="Grassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="FodderHerb" to="crops" />
+                        <rewrite from="MiscCrop" to="crops" />
+                        <rewrite from="PalmFruit" to="crops" />
+                        <rewrite from="FiberCrop" to="crops" />
+                        <rewrite from="OtherGrain" to="crops" />
+                        <rewrite from="FodderGrass" to="crops" />
+                        <rewrite from="ProtectedGrassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="biomassTree" to="biomass" />
+                        <rewrite from="OtherArableLand" to="otherarable" />
+                        <rewrite from="Rice" to="crops" />
+                        <rewrite from="UrbanLand" to="urban" />
+                        <rewrite from="RockIceDesert" to="rock and desert" />
+                        <rewrite from="RootTuber" to="crops" />
+                        <rewrite from="Corn" to="crops" />
+                        <rewrite from="OilCrop" to="crops" />
+                        <rewrite from="ProtectedShrubland" to="shrubs" />
+                        <rewrite from="SugarCrop" to="crops" />
+                        <rewrite from="UnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="Pasture" to="pasture (grazed)" />
+                        <rewrite from="Forest" to="forest (managed)" />
+                        <rewrite from="biomassGrass" to="biomass" />
+                        <rewrite from="Shrubland" to="shrubs" />
+                        <rewrite from="UnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="Tundra" to="tundra" />
+                        <rewrite from="Wheat" to="crops" />
+                    </level>
+                </labelRewriteList>
+            </query>
+            </aQuery><aQuery><region name="Europe_Eastern" /><query title="aggregated land allocation">
+                <axis1 name="LandLeaf">LandLeaf[@crop]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="LandLeaf">
+                        <rewrite from="Grassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="FodderHerb" to="crops" />
+                        <rewrite from="MiscCrop" to="crops" />
+                        <rewrite from="PalmFruit" to="crops" />
+                        <rewrite from="FiberCrop" to="crops" />
+                        <rewrite from="OtherGrain" to="crops" />
+                        <rewrite from="FodderGrass" to="crops" />
+                        <rewrite from="ProtectedGrassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="biomassTree" to="biomass" />
+                        <rewrite from="OtherArableLand" to="otherarable" />
+                        <rewrite from="Rice" to="crops" />
+                        <rewrite from="UrbanLand" to="urban" />
+                        <rewrite from="RockIceDesert" to="rock and desert" />
+                        <rewrite from="RootTuber" to="crops" />
+                        <rewrite from="Corn" to="crops" />
+                        <rewrite from="OilCrop" to="crops" />
+                        <rewrite from="ProtectedShrubland" to="shrubs" />
+                        <rewrite from="SugarCrop" to="crops" />
+                        <rewrite from="UnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="Pasture" to="pasture (grazed)" />
+                        <rewrite from="Forest" to="forest (managed)" />
+                        <rewrite from="biomassGrass" to="biomass" />
+                        <rewrite from="Shrubland" to="shrubs" />
+                        <rewrite from="UnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="Tundra" to="tundra" />
+                        <rewrite from="Wheat" to="crops" />
+                    </level>
+                </labelRewriteList>
+            </query>
+            </aQuery><aQuery><region name="Europe_Non_EU" /><query title="aggregated land allocation">
+                <axis1 name="LandLeaf">LandLeaf[@crop]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="LandLeaf">
+                        <rewrite from="Grassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="FodderHerb" to="crops" />
+                        <rewrite from="MiscCrop" to="crops" />
+                        <rewrite from="PalmFruit" to="crops" />
+                        <rewrite from="FiberCrop" to="crops" />
+                        <rewrite from="OtherGrain" to="crops" />
+                        <rewrite from="FodderGrass" to="crops" />
+                        <rewrite from="ProtectedGrassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="biomassTree" to="biomass" />
+                        <rewrite from="OtherArableLand" to="otherarable" />
+                        <rewrite from="Rice" to="crops" />
+                        <rewrite from="UrbanLand" to="urban" />
+                        <rewrite from="RockIceDesert" to="rock and desert" />
+                        <rewrite from="RootTuber" to="crops" />
+                        <rewrite from="Corn" to="crops" />
+                        <rewrite from="OilCrop" to="crops" />
+                        <rewrite from="ProtectedShrubland" to="shrubs" />
+                        <rewrite from="SugarCrop" to="crops" />
+                        <rewrite from="UnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="Pasture" to="pasture (grazed)" />
+                        <rewrite from="Forest" to="forest (managed)" />
+                        <rewrite from="biomassGrass" to="biomass" />
+                        <rewrite from="Shrubland" to="shrubs" />
+                        <rewrite from="UnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="Tundra" to="tundra" />
+                        <rewrite from="Wheat" to="crops" />
+                    </level>
+                </labelRewriteList>
+            </query>
+            </aQuery><aQuery><region name="European Free Trade Association" /><query title="aggregated land allocation">
+                <axis1 name="LandLeaf">LandLeaf[@crop]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="LandLeaf">
+                        <rewrite from="Grassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="FodderHerb" to="crops" />
+                        <rewrite from="MiscCrop" to="crops" />
+                        <rewrite from="PalmFruit" to="crops" />
+                        <rewrite from="FiberCrop" to="crops" />
+                        <rewrite from="OtherGrain" to="crops" />
+                        <rewrite from="FodderGrass" to="crops" />
+                        <rewrite from="ProtectedGrassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="biomassTree" to="biomass" />
+                        <rewrite from="OtherArableLand" to="otherarable" />
+                        <rewrite from="Rice" to="crops" />
+                        <rewrite from="UrbanLand" to="urban" />
+                        <rewrite from="RockIceDesert" to="rock and desert" />
+                        <rewrite from="RootTuber" to="crops" />
+                        <rewrite from="Corn" to="crops" />
+                        <rewrite from="OilCrop" to="crops" />
+                        <rewrite from="ProtectedShrubland" to="shrubs" />
+                        <rewrite from="SugarCrop" to="crops" />
+                        <rewrite from="UnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="Pasture" to="pasture (grazed)" />
+                        <rewrite from="Forest" to="forest (managed)" />
+                        <rewrite from="biomassGrass" to="biomass" />
+                        <rewrite from="Shrubland" to="shrubs" />
+                        <rewrite from="UnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="Tundra" to="tundra" />
+                        <rewrite from="Wheat" to="crops" />
+                    </level>
+                </labelRewriteList>
+            </query>
+            </aQuery><aQuery><region name="India" /><query title="aggregated land allocation">
+                <axis1 name="LandLeaf">LandLeaf[@crop]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="LandLeaf">
+                        <rewrite from="Grassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="FodderHerb" to="crops" />
+                        <rewrite from="MiscCrop" to="crops" />
+                        <rewrite from="PalmFruit" to="crops" />
+                        <rewrite from="FiberCrop" to="crops" />
+                        <rewrite from="OtherGrain" to="crops" />
+                        <rewrite from="FodderGrass" to="crops" />
+                        <rewrite from="ProtectedGrassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="biomassTree" to="biomass" />
+                        <rewrite from="OtherArableLand" to="otherarable" />
+                        <rewrite from="Rice" to="crops" />
+                        <rewrite from="UrbanLand" to="urban" />
+                        <rewrite from="RockIceDesert" to="rock and desert" />
+                        <rewrite from="RootTuber" to="crops" />
+                        <rewrite from="Corn" to="crops" />
+                        <rewrite from="OilCrop" to="crops" />
+                        <rewrite from="ProtectedShrubland" to="shrubs" />
+                        <rewrite from="SugarCrop" to="crops" />
+                        <rewrite from="UnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="Pasture" to="pasture (grazed)" />
+                        <rewrite from="Forest" to="forest (managed)" />
+                        <rewrite from="biomassGrass" to="biomass" />
+                        <rewrite from="Shrubland" to="shrubs" />
+                        <rewrite from="UnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="Tundra" to="tundra" />
+                        <rewrite from="Wheat" to="crops" />
+                    </level>
+                </labelRewriteList>
+            </query>
+            </aQuery><aQuery><region name="Indonesia" /><query title="aggregated land allocation">
+                <axis1 name="LandLeaf">LandLeaf[@crop]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="LandLeaf">
+                        <rewrite from="Grassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="FodderHerb" to="crops" />
+                        <rewrite from="MiscCrop" to="crops" />
+                        <rewrite from="PalmFruit" to="crops" />
+                        <rewrite from="FiberCrop" to="crops" />
+                        <rewrite from="OtherGrain" to="crops" />
+                        <rewrite from="FodderGrass" to="crops" />
+                        <rewrite from="ProtectedGrassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="biomassTree" to="biomass" />
+                        <rewrite from="OtherArableLand" to="otherarable" />
+                        <rewrite from="Rice" to="crops" />
+                        <rewrite from="UrbanLand" to="urban" />
+                        <rewrite from="RockIceDesert" to="rock and desert" />
+                        <rewrite from="RootTuber" to="crops" />
+                        <rewrite from="Corn" to="crops" />
+                        <rewrite from="OilCrop" to="crops" />
+                        <rewrite from="ProtectedShrubland" to="shrubs" />
+                        <rewrite from="SugarCrop" to="crops" />
+                        <rewrite from="UnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="Pasture" to="pasture (grazed)" />
+                        <rewrite from="Forest" to="forest (managed)" />
+                        <rewrite from="biomassGrass" to="biomass" />
+                        <rewrite from="Shrubland" to="shrubs" />
+                        <rewrite from="UnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="Tundra" to="tundra" />
+                        <rewrite from="Wheat" to="crops" />
+                    </level>
+                </labelRewriteList>
+            </query>
+            </aQuery><aQuery><region name="Japan" /><query title="aggregated land allocation">
+                <axis1 name="LandLeaf">LandLeaf[@crop]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="LandLeaf">
+                        <rewrite from="Grassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="FodderHerb" to="crops" />
+                        <rewrite from="MiscCrop" to="crops" />
+                        <rewrite from="PalmFruit" to="crops" />
+                        <rewrite from="FiberCrop" to="crops" />
+                        <rewrite from="OtherGrain" to="crops" />
+                        <rewrite from="FodderGrass" to="crops" />
+                        <rewrite from="ProtectedGrassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="biomassTree" to="biomass" />
+                        <rewrite from="OtherArableLand" to="otherarable" />
+                        <rewrite from="Rice" to="crops" />
+                        <rewrite from="UrbanLand" to="urban" />
+                        <rewrite from="RockIceDesert" to="rock and desert" />
+                        <rewrite from="RootTuber" to="crops" />
+                        <rewrite from="Corn" to="crops" />
+                        <rewrite from="OilCrop" to="crops" />
+                        <rewrite from="ProtectedShrubland" to="shrubs" />
+                        <rewrite from="SugarCrop" to="crops" />
+                        <rewrite from="UnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="Pasture" to="pasture (grazed)" />
+                        <rewrite from="Forest" to="forest (managed)" />
+                        <rewrite from="biomassGrass" to="biomass" />
+                        <rewrite from="Shrubland" to="shrubs" />
+                        <rewrite from="UnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="Tundra" to="tundra" />
+                        <rewrite from="Wheat" to="crops" />
+                    </level>
+                </labelRewriteList>
+            </query>
+            </aQuery><aQuery><region name="Mexico" /><query title="aggregated land allocation">
+                <axis1 name="LandLeaf">LandLeaf[@crop]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="LandLeaf">
+                        <rewrite from="Grassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="FodderHerb" to="crops" />
+                        <rewrite from="MiscCrop" to="crops" />
+                        <rewrite from="PalmFruit" to="crops" />
+                        <rewrite from="FiberCrop" to="crops" />
+                        <rewrite from="OtherGrain" to="crops" />
+                        <rewrite from="FodderGrass" to="crops" />
+                        <rewrite from="ProtectedGrassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="biomassTree" to="biomass" />
+                        <rewrite from="OtherArableLand" to="otherarable" />
+                        <rewrite from="Rice" to="crops" />
+                        <rewrite from="UrbanLand" to="urban" />
+                        <rewrite from="RockIceDesert" to="rock and desert" />
+                        <rewrite from="RootTuber" to="crops" />
+                        <rewrite from="Corn" to="crops" />
+                        <rewrite from="OilCrop" to="crops" />
+                        <rewrite from="ProtectedShrubland" to="shrubs" />
+                        <rewrite from="SugarCrop" to="crops" />
+                        <rewrite from="UnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="Pasture" to="pasture (grazed)" />
+                        <rewrite from="Forest" to="forest (managed)" />
+                        <rewrite from="biomassGrass" to="biomass" />
+                        <rewrite from="Shrubland" to="shrubs" />
+                        <rewrite from="UnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="Tundra" to="tundra" />
+                        <rewrite from="Wheat" to="crops" />
+                    </level>
+                </labelRewriteList>
+            </query>
+            </aQuery><aQuery><region name="Middle East" /><query title="aggregated land allocation">
+                <axis1 name="LandLeaf">LandLeaf[@crop]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="LandLeaf">
+                        <rewrite from="Grassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="FodderHerb" to="crops" />
+                        <rewrite from="MiscCrop" to="crops" />
+                        <rewrite from="PalmFruit" to="crops" />
+                        <rewrite from="FiberCrop" to="crops" />
+                        <rewrite from="OtherGrain" to="crops" />
+                        <rewrite from="FodderGrass" to="crops" />
+                        <rewrite from="ProtectedGrassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="biomassTree" to="biomass" />
+                        <rewrite from="OtherArableLand" to="otherarable" />
+                        <rewrite from="Rice" to="crops" />
+                        <rewrite from="UrbanLand" to="urban" />
+                        <rewrite from="RockIceDesert" to="rock and desert" />
+                        <rewrite from="RootTuber" to="crops" />
+                        <rewrite from="Corn" to="crops" />
+                        <rewrite from="OilCrop" to="crops" />
+                        <rewrite from="ProtectedShrubland" to="shrubs" />
+                        <rewrite from="SugarCrop" to="crops" />
+                        <rewrite from="UnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="Pasture" to="pasture (grazed)" />
+                        <rewrite from="Forest" to="forest (managed)" />
+                        <rewrite from="biomassGrass" to="biomass" />
+                        <rewrite from="Shrubland" to="shrubs" />
+                        <rewrite from="UnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="Tundra" to="tundra" />
+                        <rewrite from="Wheat" to="crops" />
+                    </level>
+                </labelRewriteList>
+            </query>
+            </aQuery><aQuery><region name="Pakistan" /><query title="aggregated land allocation">
+                <axis1 name="LandLeaf">LandLeaf[@crop]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="LandLeaf">
+                        <rewrite from="Grassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="FodderHerb" to="crops" />
+                        <rewrite from="MiscCrop" to="crops" />
+                        <rewrite from="PalmFruit" to="crops" />
+                        <rewrite from="FiberCrop" to="crops" />
+                        <rewrite from="OtherGrain" to="crops" />
+                        <rewrite from="FodderGrass" to="crops" />
+                        <rewrite from="ProtectedGrassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="biomassTree" to="biomass" />
+                        <rewrite from="OtherArableLand" to="otherarable" />
+                        <rewrite from="Rice" to="crops" />
+                        <rewrite from="UrbanLand" to="urban" />
+                        <rewrite from="RockIceDesert" to="rock and desert" />
+                        <rewrite from="RootTuber" to="crops" />
+                        <rewrite from="Corn" to="crops" />
+                        <rewrite from="OilCrop" to="crops" />
+                        <rewrite from="ProtectedShrubland" to="shrubs" />
+                        <rewrite from="SugarCrop" to="crops" />
+                        <rewrite from="UnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="Pasture" to="pasture (grazed)" />
+                        <rewrite from="Forest" to="forest (managed)" />
+                        <rewrite from="biomassGrass" to="biomass" />
+                        <rewrite from="Shrubland" to="shrubs" />
+                        <rewrite from="UnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="Tundra" to="tundra" />
+                        <rewrite from="Wheat" to="crops" />
+                    </level>
+                </labelRewriteList>
+            </query>
+            </aQuery><aQuery><region name="Russia" /><query title="aggregated land allocation">
+                <axis1 name="LandLeaf">LandLeaf[@crop]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="LandLeaf">
+                        <rewrite from="Grassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="FodderHerb" to="crops" />
+                        <rewrite from="MiscCrop" to="crops" />
+                        <rewrite from="PalmFruit" to="crops" />
+                        <rewrite from="FiberCrop" to="crops" />
+                        <rewrite from="OtherGrain" to="crops" />
+                        <rewrite from="FodderGrass" to="crops" />
+                        <rewrite from="ProtectedGrassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="biomassTree" to="biomass" />
+                        <rewrite from="OtherArableLand" to="otherarable" />
+                        <rewrite from="Rice" to="crops" />
+                        <rewrite from="UrbanLand" to="urban" />
+                        <rewrite from="RockIceDesert" to="rock and desert" />
+                        <rewrite from="RootTuber" to="crops" />
+                        <rewrite from="Corn" to="crops" />
+                        <rewrite from="OilCrop" to="crops" />
+                        <rewrite from="ProtectedShrubland" to="shrubs" />
+                        <rewrite from="SugarCrop" to="crops" />
+                        <rewrite from="UnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="Pasture" to="pasture (grazed)" />
+                        <rewrite from="Forest" to="forest (managed)" />
+                        <rewrite from="biomassGrass" to="biomass" />
+                        <rewrite from="Shrubland" to="shrubs" />
+                        <rewrite from="UnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="Tundra" to="tundra" />
+                        <rewrite from="Wheat" to="crops" />
+                    </level>
+                </labelRewriteList>
+            </query>
+            </aQuery><aQuery><region name="South Africa" /><query title="aggregated land allocation">
+                <axis1 name="LandLeaf">LandLeaf[@crop]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="LandLeaf">
+                        <rewrite from="Grassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="FodderHerb" to="crops" />
+                        <rewrite from="MiscCrop" to="crops" />
+                        <rewrite from="PalmFruit" to="crops" />
+                        <rewrite from="FiberCrop" to="crops" />
+                        <rewrite from="OtherGrain" to="crops" />
+                        <rewrite from="FodderGrass" to="crops" />
+                        <rewrite from="ProtectedGrassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="biomassTree" to="biomass" />
+                        <rewrite from="OtherArableLand" to="otherarable" />
+                        <rewrite from="Rice" to="crops" />
+                        <rewrite from="UrbanLand" to="urban" />
+                        <rewrite from="RockIceDesert" to="rock and desert" />
+                        <rewrite from="RootTuber" to="crops" />
+                        <rewrite from="Corn" to="crops" />
+                        <rewrite from="OilCrop" to="crops" />
+                        <rewrite from="ProtectedShrubland" to="shrubs" />
+                        <rewrite from="SugarCrop" to="crops" />
+                        <rewrite from="UnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="Pasture" to="pasture (grazed)" />
+                        <rewrite from="Forest" to="forest (managed)" />
+                        <rewrite from="biomassGrass" to="biomass" />
+                        <rewrite from="Shrubland" to="shrubs" />
+                        <rewrite from="UnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="Tundra" to="tundra" />
+                        <rewrite from="Wheat" to="crops" />
+                    </level>
+                </labelRewriteList>
+            </query>
+            </aQuery><aQuery><region name="South America_Northern" /><query title="aggregated land allocation">
+                <axis1 name="LandLeaf">LandLeaf[@crop]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="LandLeaf">
+                        <rewrite from="Grassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="FodderHerb" to="crops" />
+                        <rewrite from="MiscCrop" to="crops" />
+                        <rewrite from="PalmFruit" to="crops" />
+                        <rewrite from="FiberCrop" to="crops" />
+                        <rewrite from="OtherGrain" to="crops" />
+                        <rewrite from="FodderGrass" to="crops" />
+                        <rewrite from="ProtectedGrassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="biomassTree" to="biomass" />
+                        <rewrite from="OtherArableLand" to="otherarable" />
+                        <rewrite from="Rice" to="crops" />
+                        <rewrite from="UrbanLand" to="urban" />
+                        <rewrite from="RockIceDesert" to="rock and desert" />
+                        <rewrite from="RootTuber" to="crops" />
+                        <rewrite from="Corn" to="crops" />
+                        <rewrite from="OilCrop" to="crops" />
+                        <rewrite from="ProtectedShrubland" to="shrubs" />
+                        <rewrite from="SugarCrop" to="crops" />
+                        <rewrite from="UnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="Pasture" to="pasture (grazed)" />
+                        <rewrite from="Forest" to="forest (managed)" />
+                        <rewrite from="biomassGrass" to="biomass" />
+                        <rewrite from="Shrubland" to="shrubs" />
+                        <rewrite from="UnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="Tundra" to="tundra" />
+                        <rewrite from="Wheat" to="crops" />
+                    </level>
+                </labelRewriteList>
+            </query>
+            </aQuery><aQuery><region name="South America_Southern" /><query title="aggregated land allocation">
+                <axis1 name="LandLeaf">LandLeaf[@crop]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="LandLeaf">
+                        <rewrite from="Grassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="FodderHerb" to="crops" />
+                        <rewrite from="MiscCrop" to="crops" />
+                        <rewrite from="PalmFruit" to="crops" />
+                        <rewrite from="FiberCrop" to="crops" />
+                        <rewrite from="OtherGrain" to="crops" />
+                        <rewrite from="FodderGrass" to="crops" />
+                        <rewrite from="ProtectedGrassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="biomassTree" to="biomass" />
+                        <rewrite from="OtherArableLand" to="otherarable" />
+                        <rewrite from="Rice" to="crops" />
+                        <rewrite from="UrbanLand" to="urban" />
+                        <rewrite from="RockIceDesert" to="rock and desert" />
+                        <rewrite from="RootTuber" to="crops" />
+                        <rewrite from="Corn" to="crops" />
+                        <rewrite from="OilCrop" to="crops" />
+                        <rewrite from="ProtectedShrubland" to="shrubs" />
+                        <rewrite from="SugarCrop" to="crops" />
+                        <rewrite from="UnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="Pasture" to="pasture (grazed)" />
+                        <rewrite from="Forest" to="forest (managed)" />
+                        <rewrite from="biomassGrass" to="biomass" />
+                        <rewrite from="Shrubland" to="shrubs" />
+                        <rewrite from="UnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="Tundra" to="tundra" />
+                        <rewrite from="Wheat" to="crops" />
+                    </level>
+                </labelRewriteList>
+            </query>
+            </aQuery><aQuery><region name="South Asia" /><query title="aggregated land allocation">
+                <axis1 name="LandLeaf">LandLeaf[@crop]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="LandLeaf">
+                        <rewrite from="Grassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="FodderHerb" to="crops" />
+                        <rewrite from="MiscCrop" to="crops" />
+                        <rewrite from="PalmFruit" to="crops" />
+                        <rewrite from="FiberCrop" to="crops" />
+                        <rewrite from="OtherGrain" to="crops" />
+                        <rewrite from="FodderGrass" to="crops" />
+                        <rewrite from="ProtectedGrassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="biomassTree" to="biomass" />
+                        <rewrite from="OtherArableLand" to="otherarable" />
+                        <rewrite from="Rice" to="crops" />
+                        <rewrite from="UrbanLand" to="urban" />
+                        <rewrite from="RockIceDesert" to="rock and desert" />
+                        <rewrite from="RootTuber" to="crops" />
+                        <rewrite from="Corn" to="crops" />
+                        <rewrite from="OilCrop" to="crops" />
+                        <rewrite from="ProtectedShrubland" to="shrubs" />
+                        <rewrite from="SugarCrop" to="crops" />
+                        <rewrite from="UnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="Pasture" to="pasture (grazed)" />
+                        <rewrite from="Forest" to="forest (managed)" />
+                        <rewrite from="biomassGrass" to="biomass" />
+                        <rewrite from="Shrubland" to="shrubs" />
+                        <rewrite from="UnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="Tundra" to="tundra" />
+                        <rewrite from="Wheat" to="crops" />
+                    </level>
+                </labelRewriteList>
+            </query>
+            </aQuery><aQuery><region name="South Korea" /><query title="aggregated land allocation">
+                <axis1 name="LandLeaf">LandLeaf[@crop]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="LandLeaf">
+                        <rewrite from="Grassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="FodderHerb" to="crops" />
+                        <rewrite from="MiscCrop" to="crops" />
+                        <rewrite from="PalmFruit" to="crops" />
+                        <rewrite from="FiberCrop" to="crops" />
+                        <rewrite from="OtherGrain" to="crops" />
+                        <rewrite from="FodderGrass" to="crops" />
+                        <rewrite from="ProtectedGrassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="biomassTree" to="biomass" />
+                        <rewrite from="OtherArableLand" to="otherarable" />
+                        <rewrite from="Rice" to="crops" />
+                        <rewrite from="UrbanLand" to="urban" />
+                        <rewrite from="RockIceDesert" to="rock and desert" />
+                        <rewrite from="RootTuber" to="crops" />
+                        <rewrite from="Corn" to="crops" />
+                        <rewrite from="OilCrop" to="crops" />
+                        <rewrite from="ProtectedShrubland" to="shrubs" />
+                        <rewrite from="SugarCrop" to="crops" />
+                        <rewrite from="UnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="Pasture" to="pasture (grazed)" />
+                        <rewrite from="Forest" to="forest (managed)" />
+                        <rewrite from="biomassGrass" to="biomass" />
+                        <rewrite from="Shrubland" to="shrubs" />
+                        <rewrite from="UnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="Tundra" to="tundra" />
+                        <rewrite from="Wheat" to="crops" />
+                    </level>
+                </labelRewriteList>
+            </query>
+            </aQuery><aQuery><region name="Southeast Asia" /><query title="aggregated land allocation">
+                <axis1 name="LandLeaf">LandLeaf[@crop]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="LandLeaf">
+                        <rewrite from="Grassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="FodderHerb" to="crops" />
+                        <rewrite from="MiscCrop" to="crops" />
+                        <rewrite from="PalmFruit" to="crops" />
+                        <rewrite from="FiberCrop" to="crops" />
+                        <rewrite from="OtherGrain" to="crops" />
+                        <rewrite from="FodderGrass" to="crops" />
+                        <rewrite from="ProtectedGrassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="biomassTree" to="biomass" />
+                        <rewrite from="OtherArableLand" to="otherarable" />
+                        <rewrite from="Rice" to="crops" />
+                        <rewrite from="UrbanLand" to="urban" />
+                        <rewrite from="RockIceDesert" to="rock and desert" />
+                        <rewrite from="RootTuber" to="crops" />
+                        <rewrite from="Corn" to="crops" />
+                        <rewrite from="OilCrop" to="crops" />
+                        <rewrite from="ProtectedShrubland" to="shrubs" />
+                        <rewrite from="SugarCrop" to="crops" />
+                        <rewrite from="UnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="Pasture" to="pasture (grazed)" />
+                        <rewrite from="Forest" to="forest (managed)" />
+                        <rewrite from="biomassGrass" to="biomass" />
+                        <rewrite from="Shrubland" to="shrubs" />
+                        <rewrite from="UnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="Tundra" to="tundra" />
+                        <rewrite from="Wheat" to="crops" />
+                    </level>
+                </labelRewriteList>
+            </query>
+            </aQuery><aQuery><region name="Taiwan" /><query title="aggregated land allocation">
+                <axis1 name="LandLeaf">LandLeaf[@crop]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="LandLeaf">
+                        <rewrite from="Grassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="FodderHerb" to="crops" />
+                        <rewrite from="MiscCrop" to="crops" />
+                        <rewrite from="PalmFruit" to="crops" />
+                        <rewrite from="FiberCrop" to="crops" />
+                        <rewrite from="OtherGrain" to="crops" />
+                        <rewrite from="FodderGrass" to="crops" />
+                        <rewrite from="ProtectedGrassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="biomassTree" to="biomass" />
+                        <rewrite from="OtherArableLand" to="otherarable" />
+                        <rewrite from="Rice" to="crops" />
+                        <rewrite from="UrbanLand" to="urban" />
+                        <rewrite from="RockIceDesert" to="rock and desert" />
+                        <rewrite from="RootTuber" to="crops" />
+                        <rewrite from="Corn" to="crops" />
+                        <rewrite from="OilCrop" to="crops" />
+                        <rewrite from="ProtectedShrubland" to="shrubs" />
+                        <rewrite from="SugarCrop" to="crops" />
+                        <rewrite from="UnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="Pasture" to="pasture (grazed)" />
+                        <rewrite from="Forest" to="forest (managed)" />
+                        <rewrite from="biomassGrass" to="biomass" />
+                        <rewrite from="Shrubland" to="shrubs" />
+                        <rewrite from="UnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="Tundra" to="tundra" />
+                        <rewrite from="Wheat" to="crops" />
+                    </level>
+                </labelRewriteList>
+            </query>
+            </aQuery><aQuery><region name="Argentina" /><query title="aggregated land allocation">
+                <axis1 name="LandLeaf">LandLeaf[@crop]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="LandLeaf">
+                        <rewrite from="Grassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="FodderHerb" to="crops" />
+                        <rewrite from="MiscCrop" to="crops" />
+                        <rewrite from="PalmFruit" to="crops" />
+                        <rewrite from="FiberCrop" to="crops" />
+                        <rewrite from="OtherGrain" to="crops" />
+                        <rewrite from="FodderGrass" to="crops" />
+                        <rewrite from="ProtectedGrassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="biomassTree" to="biomass" />
+                        <rewrite from="OtherArableLand" to="otherarable" />
+                        <rewrite from="Rice" to="crops" />
+                        <rewrite from="UrbanLand" to="urban" />
+                        <rewrite from="RockIceDesert" to="rock and desert" />
+                        <rewrite from="RootTuber" to="crops" />
+                        <rewrite from="Corn" to="crops" />
+                        <rewrite from="OilCrop" to="crops" />
+                        <rewrite from="ProtectedShrubland" to="shrubs" />
+                        <rewrite from="SugarCrop" to="crops" />
+                        <rewrite from="UnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="Pasture" to="pasture (grazed)" />
+                        <rewrite from="Forest" to="forest (managed)" />
+                        <rewrite from="biomassGrass" to="biomass" />
+                        <rewrite from="Shrubland" to="shrubs" />
+                        <rewrite from="UnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="Tundra" to="tundra" />
+                        <rewrite from="Wheat" to="crops" />
+                    </level>
+                </labelRewriteList>
+            </query>
+            </aQuery><aQuery><region name="Colombia" /><query title="aggregated land allocation">
+                <axis1 name="LandLeaf">LandLeaf[@crop]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="LandLeaf">
+                        <rewrite from="Grassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="FodderHerb" to="crops" />
+                        <rewrite from="MiscCrop" to="crops" />
+                        <rewrite from="PalmFruit" to="crops" />
+                        <rewrite from="FiberCrop" to="crops" />
+                        <rewrite from="OtherGrain" to="crops" />
+                        <rewrite from="FodderGrass" to="crops" />
+                        <rewrite from="ProtectedGrassland" to="grass" />
+                        <rewrite from="ProtectedUnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="biomassTree" to="biomass" />
+                        <rewrite from="OtherArableLand" to="otherarable" />
+                        <rewrite from="Rice" to="crops" />
+                        <rewrite from="UrbanLand" to="urban" />
+                        <rewrite from="RockIceDesert" to="rock and desert" />
+                        <rewrite from="RootTuber" to="crops" />
+                        <rewrite from="Corn" to="crops" />
+                        <rewrite from="OilCrop" to="crops" />
+                        <rewrite from="ProtectedShrubland" to="shrubs" />
+                        <rewrite from="SugarCrop" to="crops" />
+                        <rewrite from="UnmanagedForest" to="forest (unmanaged)" />
+                        <rewrite from="Pasture" to="pasture (grazed)" />
+                        <rewrite from="Forest" to="forest (managed)" />
+                        <rewrite from="biomassGrass" to="biomass" />
+                        <rewrite from="Shrubland" to="shrubs" />
+                        <rewrite from="UnmanagedPasture" to="pasture (other)" />
+                        <rewrite from="Tundra" to="tundra" />
+                        <rewrite from="Wheat" to="crops" />
+                    </level>
+                </labelRewriteList>
+            </query>
+            </aQuery></queries>

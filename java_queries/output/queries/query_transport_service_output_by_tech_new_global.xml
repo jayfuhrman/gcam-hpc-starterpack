@@ -1,0 +1,18 @@
+<queries>
+
+<aQuery>
+	<region name="Global" /> 
+	
+
+<supplyDemandQuery title="transport service output by tech (new)">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">physical-output[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='transportation' or (exists(child::keyword[@final-energy='transportation'])))]/
+               *[@type='subsector']/*[@type='technology']/*[@type='output' (:collapse:) and not (@name='CAFEcredit')]/
+               physical-output[@vintage=parent::*/parent::*/@year]/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery>
+
+
+</queries>

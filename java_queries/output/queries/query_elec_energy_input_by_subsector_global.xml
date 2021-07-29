@@ -1,0 +1,71 @@
+<queries>
+
+<aQuery>
+	<region name="Global" /> 
+	
+
+<supplyDemandQuery title="elec energy input by subsector">
+                    <axis1 name="input">input</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld' or
+                  contains(@name,'elec_')) and not(contains(@name, 'water_td'))]/
+                  *[@type='subsector' and not (@name='elect_td_bld')]/
+                  *[@type='technology' (:collapse:) and not(
+                                   @name='biomass (conv)' or @name='biomass (conv CCS)' or @name='biomass (IGCC)' or @name='biomass (IGCC CCS)'
+                                   or @name='coal (conv pul)' or @name='coal (conv pul CCS)' or @name='coal (IGCC)' or @name='coal (IGCC CCS)'
+                                   or @name='gas (steam/CT)' or @name='gas (CC)' or @name='gas (CC CCS)'
+                                   or @name='refined liquids (steam/CT)' or @name='refined liquids (CC)' or @name='refined liquids (CC CCS)'
+                                   or @name='geothermal' or @name='Gen_II_LWR' or @name='Gen_III'
+                                   or @name='CSP' or @name='CSP_storage')]/
+                   *[@type='input' and not( contains( @name, 'water')) and @name != 'oil-credits']/
+                   demand-physical/node()
+                </xPath>
+                    <comments />
+                    <labelRewriteList append-values="false">
+                        <level name="sector">
+                            <rewrite from="elec_Gen_III" to="electricity" />
+                            <rewrite from="elec_CSP_storage" to="electricity" />
+                            <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
+                            <rewrite from="elec_geothermal" to="electricity" />
+                            <rewrite from="elec_refined liquids (CC)" to="electricity" />
+                            <rewrite from="elec_biomass (conv CCS)" to="electricity" />
+                            <rewrite from="elec_Gen_II_LWR" to="electricity" />
+                            <rewrite from="elec_gas (steam/CT)" to="electricity" />
+                            <rewrite from="elec_biomass (IGCC CCS)" to="electricity" />
+                            <rewrite from="elec_coal (IGCC CCS)" to="electricity" />
+                            <rewrite from="elec_coal (IGCC)" to="electricity" />
+                            <rewrite from="elec_coal (conv pul CCS)" to="electricity" />
+                            <rewrite from="elec_gas (CC)" to="electricity" />
+                            <rewrite from="elec_biomass (IGCC)" to="electricity" />
+                            <rewrite from="elec_coal (conv pul)" to="electricity" />
+                            <rewrite from="elec_CSP" to="electricity" />
+                            <rewrite from="elec_gas (CC CCS)" to="electricity" />
+                            <rewrite from="elec_biomass (conv)" to="electricity" />
+                            <rewrite from="elec_refined liquids (CC CCS)" to="electricity" />
+                        </level>
+                        <level name="subsector">
+                            <rewrite from="gas (CC)" to="gas" />
+                            <rewrite from="CSP" to="solar" />
+                            <rewrite from="gas (CC CCS)" to="gas" />
+                            <rewrite from="coal (IGCC CCS)" to="coal" />
+                            <rewrite from="biomass (conv)" to="biomass" />
+                            <rewrite from="Gen_II_LWR" to="nuclear" />
+                            <rewrite from="coal (conv pul)" to="coal" />
+                            <rewrite from="coal (IGCC)" to="coal" />
+                            <rewrite from="biomass (conv CCS)" to="biomass" />
+                            <rewrite from="gas (steam/CT)" to="gas" />
+                            <rewrite from="CSP_storage" to="solar" />
+                            <rewrite from="biomass (IGCC)" to="biomass" />
+                            <rewrite from="Gen_III" to="nuclear" />
+                            <rewrite from="coal (conv pul CCS)" to="coal" />
+                            <rewrite from="refined liquids (CC)" to="refined liquids" />
+                            <rewrite from="biomass (IGCC CCS)" to="biomass" />
+                            <rewrite from="refined liquids (CC CCS)" to="refined liquids" />
+                            <rewrite from="refined liquids (steam/CT)" to="refined liquids" />
+                        </level>
+                    </labelRewriteList>
+                </supplyDemandQuery>
+                </aQuery>
+
+
+</queries>

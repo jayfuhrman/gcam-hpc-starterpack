@@ -1,0 +1,16 @@
+<queries>
+
+<aQuery>
+	<region name="Global" /> 
+	
+
+<supplyDemandQuery title="inputs by sector">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">demand-physical[@vintage]</axis2>
+                <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector']//*[@type='input']/demand-physical/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery>
+
+
+</queries>

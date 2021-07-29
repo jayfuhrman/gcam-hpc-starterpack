@@ -1,0 +1,16 @@
+<queries>
+
+<aQuery>
+	<region name="Global" /> 
+	
+
+<emissionsQueryBuilder title="CO2 emissions by subsector">
+                <axis1 name="subsector">subsector</axis1>
+                <axis2 name="Year">emissions</axis2>
+                <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type = 'sector' ]/*[@type='subsector']//CO2/emissions/node()</xPath>
+                <comments />
+            </emissionsQueryBuilder>
+            </aQuery>
+
+
+</queries>

@@ -1,0 +1,1158 @@
+<queries>
+
+<aQuery><region name="Global" /><supplyDemandQuery title="total final energy by aggregate sector">
+                    <axis1 name="sector">sector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and ((@name='building' or @name='industry' or @name='transportation') or
+            (exists(child::keyword/@final-energy)))]//*[@type='input' (:collapse:) and
+            not(@name='limestone' or @name='process heat cement' or @name='industrial energy use' or
+                @name='industrial feedstocks' or @name='renewable' or contains(@name, 'trn_') or @name='oil-credits')]/
+            demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                    <labelRewriteList append-values="false">
+                        <level name="sector">
+                            <rewrite from="trn_pass_road_LDV_4W" to="transportation" />
+                            <rewrite from="trn_pass_road" to="transportation" />
+                            <rewrite from="trn_pass_road_LDV_2W" to="transportation" />
+                            <rewrite from="trn_freight_road" to="transportation" />
+                            <rewrite from="trn_freight" to="transportation" />
+                            <rewrite from="comm others" to="building" />
+                            <rewrite from="comm heating" to="building" />
+                            <rewrite from="industrial energy use" to="industry" />
+                            <rewrite from="comm cooling" to="building" />
+                            <rewrite from="trn_pass_road_LDV" to="transportation" />
+                            <rewrite from="trn_pass_road_bus" to="transportation" />
+                            <rewrite from="trn_aviation_intl" to="transportation" />
+                            <rewrite from="trn_pass" to="transportation" />
+                            <rewrite from="cement" to="industry" />
+                            <rewrite from="N fertilizer" to="industry" />
+                            <rewrite from="resid heating" to="building" />
+                            <rewrite from="resid others" to="building" />
+                            <rewrite from="process heat cement" to="industry" />
+                            <rewrite from="resid cooling" to="building" />
+                            <rewrite from="industrial feedstocks" to="industry" />
+                            <rewrite from="trn_shipping_intl" to="transportation" />
+                        </level>
+                    </labelRewriteList>
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="USA" /><supplyDemandQuery title="total final energy by aggregate sector">
+                    <axis1 name="sector">sector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and ((@name='building' or @name='industry' or @name='transportation') or
+            (exists(child::keyword/@final-energy)))]//*[@type='input' (:collapse:) and
+            not(@name='limestone' or @name='process heat cement' or @name='industrial energy use' or
+                @name='industrial feedstocks' or @name='renewable' or contains(@name, 'trn_') or @name='oil-credits')]/
+            demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                    <labelRewriteList append-values="false">
+                        <level name="sector">
+                            <rewrite from="trn_pass_road_LDV_4W" to="transportation" />
+                            <rewrite from="trn_pass_road" to="transportation" />
+                            <rewrite from="trn_pass_road_LDV_2W" to="transportation" />
+                            <rewrite from="trn_freight_road" to="transportation" />
+                            <rewrite from="trn_freight" to="transportation" />
+                            <rewrite from="comm others" to="building" />
+                            <rewrite from="comm heating" to="building" />
+                            <rewrite from="industrial energy use" to="industry" />
+                            <rewrite from="comm cooling" to="building" />
+                            <rewrite from="trn_pass_road_LDV" to="transportation" />
+                            <rewrite from="trn_pass_road_bus" to="transportation" />
+                            <rewrite from="trn_aviation_intl" to="transportation" />
+                            <rewrite from="trn_pass" to="transportation" />
+                            <rewrite from="cement" to="industry" />
+                            <rewrite from="N fertilizer" to="industry" />
+                            <rewrite from="resid heating" to="building" />
+                            <rewrite from="resid others" to="building" />
+                            <rewrite from="process heat cement" to="industry" />
+                            <rewrite from="resid cooling" to="building" />
+                            <rewrite from="industrial feedstocks" to="industry" />
+                            <rewrite from="trn_shipping_intl" to="transportation" />
+                        </level>
+                    </labelRewriteList>
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Africa_Eastern" /><supplyDemandQuery title="total final energy by aggregate sector">
+                    <axis1 name="sector">sector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and ((@name='building' or @name='industry' or @name='transportation') or
+            (exists(child::keyword/@final-energy)))]//*[@type='input' (:collapse:) and
+            not(@name='limestone' or @name='process heat cement' or @name='industrial energy use' or
+                @name='industrial feedstocks' or @name='renewable' or contains(@name, 'trn_') or @name='oil-credits')]/
+            demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                    <labelRewriteList append-values="false">
+                        <level name="sector">
+                            <rewrite from="trn_pass_road_LDV_4W" to="transportation" />
+                            <rewrite from="trn_pass_road" to="transportation" />
+                            <rewrite from="trn_pass_road_LDV_2W" to="transportation" />
+                            <rewrite from="trn_freight_road" to="transportation" />
+                            <rewrite from="trn_freight" to="transportation" />
+                            <rewrite from="comm others" to="building" />
+                            <rewrite from="comm heating" to="building" />
+                            <rewrite from="industrial energy use" to="industry" />
+                            <rewrite from="comm cooling" to="building" />
+                            <rewrite from="trn_pass_road_LDV" to="transportation" />
+                            <rewrite from="trn_pass_road_bus" to="transportation" />
+                            <rewrite from="trn_aviation_intl" to="transportation" />
+                            <rewrite from="trn_pass" to="transportation" />
+                            <rewrite from="cement" to="industry" />
+                            <rewrite from="N fertilizer" to="industry" />
+                            <rewrite from="resid heating" to="building" />
+                            <rewrite from="resid others" to="building" />
+                            <rewrite from="process heat cement" to="industry" />
+                            <rewrite from="resid cooling" to="building" />
+                            <rewrite from="industrial feedstocks" to="industry" />
+                            <rewrite from="trn_shipping_intl" to="transportation" />
+                        </level>
+                    </labelRewriteList>
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Africa_Northern" /><supplyDemandQuery title="total final energy by aggregate sector">
+                    <axis1 name="sector">sector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and ((@name='building' or @name='industry' or @name='transportation') or
+            (exists(child::keyword/@final-energy)))]//*[@type='input' (:collapse:) and
+            not(@name='limestone' or @name='process heat cement' or @name='industrial energy use' or
+                @name='industrial feedstocks' or @name='renewable' or contains(@name, 'trn_') or @name='oil-credits')]/
+            demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                    <labelRewriteList append-values="false">
+                        <level name="sector">
+                            <rewrite from="trn_pass_road_LDV_4W" to="transportation" />
+                            <rewrite from="trn_pass_road" to="transportation" />
+                            <rewrite from="trn_pass_road_LDV_2W" to="transportation" />
+                            <rewrite from="trn_freight_road" to="transportation" />
+                            <rewrite from="trn_freight" to="transportation" />
+                            <rewrite from="comm others" to="building" />
+                            <rewrite from="comm heating" to="building" />
+                            <rewrite from="industrial energy use" to="industry" />
+                            <rewrite from="comm cooling" to="building" />
+                            <rewrite from="trn_pass_road_LDV" to="transportation" />
+                            <rewrite from="trn_pass_road_bus" to="transportation" />
+                            <rewrite from="trn_aviation_intl" to="transportation" />
+                            <rewrite from="trn_pass" to="transportation" />
+                            <rewrite from="cement" to="industry" />
+                            <rewrite from="N fertilizer" to="industry" />
+                            <rewrite from="resid heating" to="building" />
+                            <rewrite from="resid others" to="building" />
+                            <rewrite from="process heat cement" to="industry" />
+                            <rewrite from="resid cooling" to="building" />
+                            <rewrite from="industrial feedstocks" to="industry" />
+                            <rewrite from="trn_shipping_intl" to="transportation" />
+                        </level>
+                    </labelRewriteList>
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Africa_Southern" /><supplyDemandQuery title="total final energy by aggregate sector">
+                    <axis1 name="sector">sector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and ((@name='building' or @name='industry' or @name='transportation') or
+            (exists(child::keyword/@final-energy)))]//*[@type='input' (:collapse:) and
+            not(@name='limestone' or @name='process heat cement' or @name='industrial energy use' or
+                @name='industrial feedstocks' or @name='renewable' or contains(@name, 'trn_') or @name='oil-credits')]/
+            demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                    <labelRewriteList append-values="false">
+                        <level name="sector">
+                            <rewrite from="trn_pass_road_LDV_4W" to="transportation" />
+                            <rewrite from="trn_pass_road" to="transportation" />
+                            <rewrite from="trn_pass_road_LDV_2W" to="transportation" />
+                            <rewrite from="trn_freight_road" to="transportation" />
+                            <rewrite from="trn_freight" to="transportation" />
+                            <rewrite from="comm others" to="building" />
+                            <rewrite from="comm heating" to="building" />
+                            <rewrite from="industrial energy use" to="industry" />
+                            <rewrite from="comm cooling" to="building" />
+                            <rewrite from="trn_pass_road_LDV" to="transportation" />
+                            <rewrite from="trn_pass_road_bus" to="transportation" />
+                            <rewrite from="trn_aviation_intl" to="transportation" />
+                            <rewrite from="trn_pass" to="transportation" />
+                            <rewrite from="cement" to="industry" />
+                            <rewrite from="N fertilizer" to="industry" />
+                            <rewrite from="resid heating" to="building" />
+                            <rewrite from="resid others" to="building" />
+                            <rewrite from="process heat cement" to="industry" />
+                            <rewrite from="resid cooling" to="building" />
+                            <rewrite from="industrial feedstocks" to="industry" />
+                            <rewrite from="trn_shipping_intl" to="transportation" />
+                        </level>
+                    </labelRewriteList>
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Africa_Western" /><supplyDemandQuery title="total final energy by aggregate sector">
+                    <axis1 name="sector">sector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and ((@name='building' or @name='industry' or @name='transportation') or
+            (exists(child::keyword/@final-energy)))]//*[@type='input' (:collapse:) and
+            not(@name='limestone' or @name='process heat cement' or @name='industrial energy use' or
+                @name='industrial feedstocks' or @name='renewable' or contains(@name, 'trn_') or @name='oil-credits')]/
+            demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                    <labelRewriteList append-values="false">
+                        <level name="sector">
+                            <rewrite from="trn_pass_road_LDV_4W" to="transportation" />
+                            <rewrite from="trn_pass_road" to="transportation" />
+                            <rewrite from="trn_pass_road_LDV_2W" to="transportation" />
+                            <rewrite from="trn_freight_road" to="transportation" />
+                            <rewrite from="trn_freight" to="transportation" />
+                            <rewrite from="comm others" to="building" />
+                            <rewrite from="comm heating" to="building" />
+                            <rewrite from="industrial energy use" to="industry" />
+                            <rewrite from="comm cooling" to="building" />
+                            <rewrite from="trn_pass_road_LDV" to="transportation" />
+                            <rewrite from="trn_pass_road_bus" to="transportation" />
+                            <rewrite from="trn_aviation_intl" to="transportation" />
+                            <rewrite from="trn_pass" to="transportation" />
+                            <rewrite from="cement" to="industry" />
+                            <rewrite from="N fertilizer" to="industry" />
+                            <rewrite from="resid heating" to="building" />
+                            <rewrite from="resid others" to="building" />
+                            <rewrite from="process heat cement" to="industry" />
+                            <rewrite from="resid cooling" to="building" />
+                            <rewrite from="industrial feedstocks" to="industry" />
+                            <rewrite from="trn_shipping_intl" to="transportation" />
+                        </level>
+                    </labelRewriteList>
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Australia_NZ" /><supplyDemandQuery title="total final energy by aggregate sector">
+                    <axis1 name="sector">sector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and ((@name='building' or @name='industry' or @name='transportation') or
+            (exists(child::keyword/@final-energy)))]//*[@type='input' (:collapse:) and
+            not(@name='limestone' or @name='process heat cement' or @name='industrial energy use' or
+                @name='industrial feedstocks' or @name='renewable' or contains(@name, 'trn_') or @name='oil-credits')]/
+            demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                    <labelRewriteList append-values="false">
+                        <level name="sector">
+                            <rewrite from="trn_pass_road_LDV_4W" to="transportation" />
+                            <rewrite from="trn_pass_road" to="transportation" />
+                            <rewrite from="trn_pass_road_LDV_2W" to="transportation" />
+                            <rewrite from="trn_freight_road" to="transportation" />
+                            <rewrite from="trn_freight" to="transportation" />
+                            <rewrite from="comm others" to="building" />
+                            <rewrite from="comm heating" to="building" />
+                            <rewrite from="industrial energy use" to="industry" />
+                            <rewrite from="comm cooling" to="building" />
+                            <rewrite from="trn_pass_road_LDV" to="transportation" />
+                            <rewrite from="trn_pass_road_bus" to="transportation" />
+                            <rewrite from="trn_aviation_intl" to="transportation" />
+                            <rewrite from="trn_pass" to="transportation" />
+                            <rewrite from="cement" to="industry" />
+                            <rewrite from="N fertilizer" to="industry" />
+                            <rewrite from="resid heating" to="building" />
+                            <rewrite from="resid others" to="building" />
+                            <rewrite from="process heat cement" to="industry" />
+                            <rewrite from="resid cooling" to="building" />
+                            <rewrite from="industrial feedstocks" to="industry" />
+                            <rewrite from="trn_shipping_intl" to="transportation" />
+                        </level>
+                    </labelRewriteList>
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Brazil" /><supplyDemandQuery title="total final energy by aggregate sector">
+                    <axis1 name="sector">sector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and ((@name='building' or @name='industry' or @name='transportation') or
+            (exists(child::keyword/@final-energy)))]//*[@type='input' (:collapse:) and
+            not(@name='limestone' or @name='process heat cement' or @name='industrial energy use' or
+                @name='industrial feedstocks' or @name='renewable' or contains(@name, 'trn_') or @name='oil-credits')]/
+            demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                    <labelRewriteList append-values="false">
+                        <level name="sector">
+                            <rewrite from="trn_pass_road_LDV_4W" to="transportation" />
+                            <rewrite from="trn_pass_road" to="transportation" />
+                            <rewrite from="trn_pass_road_LDV_2W" to="transportation" />
+                            <rewrite from="trn_freight_road" to="transportation" />
+                            <rewrite from="trn_freight" to="transportation" />
+                            <rewrite from="comm others" to="building" />
+                            <rewrite from="comm heating" to="building" />
+                            <rewrite from="industrial energy use" to="industry" />
+                            <rewrite from="comm cooling" to="building" />
+                            <rewrite from="trn_pass_road_LDV" to="transportation" />
+                            <rewrite from="trn_pass_road_bus" to="transportation" />
+                            <rewrite from="trn_aviation_intl" to="transportation" />
+                            <rewrite from="trn_pass" to="transportation" />
+                            <rewrite from="cement" to="industry" />
+                            <rewrite from="N fertilizer" to="industry" />
+                            <rewrite from="resid heating" to="building" />
+                            <rewrite from="resid others" to="building" />
+                            <rewrite from="process heat cement" to="industry" />
+                            <rewrite from="resid cooling" to="building" />
+                            <rewrite from="industrial feedstocks" to="industry" />
+                            <rewrite from="trn_shipping_intl" to="transportation" />
+                        </level>
+                    </labelRewriteList>
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Canada" /><supplyDemandQuery title="total final energy by aggregate sector">
+                    <axis1 name="sector">sector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and ((@name='building' or @name='industry' or @name='transportation') or
+            (exists(child::keyword/@final-energy)))]//*[@type='input' (:collapse:) and
+            not(@name='limestone' or @name='process heat cement' or @name='industrial energy use' or
+                @name='industrial feedstocks' or @name='renewable' or contains(@name, 'trn_') or @name='oil-credits')]/
+            demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                    <labelRewriteList append-values="false">
+                        <level name="sector">
+                            <rewrite from="trn_pass_road_LDV_4W" to="transportation" />
+                            <rewrite from="trn_pass_road" to="transportation" />
+                            <rewrite from="trn_pass_road_LDV_2W" to="transportation" />
+                            <rewrite from="trn_freight_road" to="transportation" />
+                            <rewrite from="trn_freight" to="transportation" />
+                            <rewrite from="comm others" to="building" />
+                            <rewrite from="comm heating" to="building" />
+                            <rewrite from="industrial energy use" to="industry" />
+                            <rewrite from="comm cooling" to="building" />
+                            <rewrite from="trn_pass_road_LDV" to="transportation" />
+                            <rewrite from="trn_pass_road_bus" to="transportation" />
+                            <rewrite from="trn_aviation_intl" to="transportation" />
+                            <rewrite from="trn_pass" to="transportation" />
+                            <rewrite from="cement" to="industry" />
+                            <rewrite from="N fertilizer" to="industry" />
+                            <rewrite from="resid heating" to="building" />
+                            <rewrite from="resid others" to="building" />
+                            <rewrite from="process heat cement" to="industry" />
+                            <rewrite from="resid cooling" to="building" />
+                            <rewrite from="industrial feedstocks" to="industry" />
+                            <rewrite from="trn_shipping_intl" to="transportation" />
+                        </level>
+                    </labelRewriteList>
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Central America and Caribbean" /><supplyDemandQuery title="total final energy by aggregate sector">
+                    <axis1 name="sector">sector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and ((@name='building' or @name='industry' or @name='transportation') or
+            (exists(child::keyword/@final-energy)))]//*[@type='input' (:collapse:) and
+            not(@name='limestone' or @name='process heat cement' or @name='industrial energy use' or
+                @name='industrial feedstocks' or @name='renewable' or contains(@name, 'trn_') or @name='oil-credits')]/
+            demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                    <labelRewriteList append-values="false">
+                        <level name="sector">
+                            <rewrite from="trn_pass_road_LDV_4W" to="transportation" />
+                            <rewrite from="trn_pass_road" to="transportation" />
+                            <rewrite from="trn_pass_road_LDV_2W" to="transportation" />
+                            <rewrite from="trn_freight_road" to="transportation" />
+                            <rewrite from="trn_freight" to="transportation" />
+                            <rewrite from="comm others" to="building" />
+                            <rewrite from="comm heating" to="building" />
+                            <rewrite from="industrial energy use" to="industry" />
+                            <rewrite from="comm cooling" to="building" />
+                            <rewrite from="trn_pass_road_LDV" to="transportation" />
+                            <rewrite from="trn_pass_road_bus" to="transportation" />
+                            <rewrite from="trn_aviation_intl" to="transportation" />
+                            <rewrite from="trn_pass" to="transportation" />
+                            <rewrite from="cement" to="industry" />
+                            <rewrite from="N fertilizer" to="industry" />
+                            <rewrite from="resid heating" to="building" />
+                            <rewrite from="resid others" to="building" />
+                            <rewrite from="process heat cement" to="industry" />
+                            <rewrite from="resid cooling" to="building" />
+                            <rewrite from="industrial feedstocks" to="industry" />
+                            <rewrite from="trn_shipping_intl" to="transportation" />
+                        </level>
+                    </labelRewriteList>
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Central Asia" /><supplyDemandQuery title="total final energy by aggregate sector">
+                    <axis1 name="sector">sector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and ((@name='building' or @name='industry' or @name='transportation') or
+            (exists(child::keyword/@final-energy)))]//*[@type='input' (:collapse:) and
+            not(@name='limestone' or @name='process heat cement' or @name='industrial energy use' or
+                @name='industrial feedstocks' or @name='renewable' or contains(@name, 'trn_') or @name='oil-credits')]/
+            demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                    <labelRewriteList append-values="false">
+                        <level name="sector">
+                            <rewrite from="trn_pass_road_LDV_4W" to="transportation" />
+                            <rewrite from="trn_pass_road" to="transportation" />
+                            <rewrite from="trn_pass_road_LDV_2W" to="transportation" />
+                            <rewrite from="trn_freight_road" to="transportation" />
+                            <rewrite from="trn_freight" to="transportation" />
+                            <rewrite from="comm others" to="building" />
+                            <rewrite from="comm heating" to="building" />
+                            <rewrite from="industrial energy use" to="industry" />
+                            <rewrite from="comm cooling" to="building" />
+                            <rewrite from="trn_pass_road_LDV" to="transportation" />
+                            <rewrite from="trn_pass_road_bus" to="transportation" />
+                            <rewrite from="trn_aviation_intl" to="transportation" />
+                            <rewrite from="trn_pass" to="transportation" />
+                            <rewrite from="cement" to="industry" />
+                            <rewrite from="N fertilizer" to="industry" />
+                            <rewrite from="resid heating" to="building" />
+                            <rewrite from="resid others" to="building" />
+                            <rewrite from="process heat cement" to="industry" />
+                            <rewrite from="resid cooling" to="building" />
+                            <rewrite from="industrial feedstocks" to="industry" />
+                            <rewrite from="trn_shipping_intl" to="transportation" />
+                        </level>
+                    </labelRewriteList>
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="China" /><supplyDemandQuery title="total final energy by aggregate sector">
+                    <axis1 name="sector">sector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and ((@name='building' or @name='industry' or @name='transportation') or
+            (exists(child::keyword/@final-energy)))]//*[@type='input' (:collapse:) and
+            not(@name='limestone' or @name='process heat cement' or @name='industrial energy use' or
+                @name='industrial feedstocks' or @name='renewable' or contains(@name, 'trn_') or @name='oil-credits')]/
+            demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                    <labelRewriteList append-values="false">
+                        <level name="sector">
+                            <rewrite from="trn_pass_road_LDV_4W" to="transportation" />
+                            <rewrite from="trn_pass_road" to="transportation" />
+                            <rewrite from="trn_pass_road_LDV_2W" to="transportation" />
+                            <rewrite from="trn_freight_road" to="transportation" />
+                            <rewrite from="trn_freight" to="transportation" />
+                            <rewrite from="comm others" to="building" />
+                            <rewrite from="comm heating" to="building" />
+                            <rewrite from="industrial energy use" to="industry" />
+                            <rewrite from="comm cooling" to="building" />
+                            <rewrite from="trn_pass_road_LDV" to="transportation" />
+                            <rewrite from="trn_pass_road_bus" to="transportation" />
+                            <rewrite from="trn_aviation_intl" to="transportation" />
+                            <rewrite from="trn_pass" to="transportation" />
+                            <rewrite from="cement" to="industry" />
+                            <rewrite from="N fertilizer" to="industry" />
+                            <rewrite from="resid heating" to="building" />
+                            <rewrite from="resid others" to="building" />
+                            <rewrite from="process heat cement" to="industry" />
+                            <rewrite from="resid cooling" to="building" />
+                            <rewrite from="industrial feedstocks" to="industry" />
+                            <rewrite from="trn_shipping_intl" to="transportation" />
+                        </level>
+                    </labelRewriteList>
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="EU-12" /><supplyDemandQuery title="total final energy by aggregate sector">
+                    <axis1 name="sector">sector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and ((@name='building' or @name='industry' or @name='transportation') or
+            (exists(child::keyword/@final-energy)))]//*[@type='input' (:collapse:) and
+            not(@name='limestone' or @name='process heat cement' or @name='industrial energy use' or
+                @name='industrial feedstocks' or @name='renewable' or contains(@name, 'trn_') or @name='oil-credits')]/
+            demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                    <labelRewriteList append-values="false">
+                        <level name="sector">
+                            <rewrite from="trn_pass_road_LDV_4W" to="transportation" />
+                            <rewrite from="trn_pass_road" to="transportation" />
+                            <rewrite from="trn_pass_road_LDV_2W" to="transportation" />
+                            <rewrite from="trn_freight_road" to="transportation" />
+                            <rewrite from="trn_freight" to="transportation" />
+                            <rewrite from="comm others" to="building" />
+                            <rewrite from="comm heating" to="building" />
+                            <rewrite from="industrial energy use" to="industry" />
+                            <rewrite from="comm cooling" to="building" />
+                            <rewrite from="trn_pass_road_LDV" to="transportation" />
+                            <rewrite from="trn_pass_road_bus" to="transportation" />
+                            <rewrite from="trn_aviation_intl" to="transportation" />
+                            <rewrite from="trn_pass" to="transportation" />
+                            <rewrite from="cement" to="industry" />
+                            <rewrite from="N fertilizer" to="industry" />
+                            <rewrite from="resid heating" to="building" />
+                            <rewrite from="resid others" to="building" />
+                            <rewrite from="process heat cement" to="industry" />
+                            <rewrite from="resid cooling" to="building" />
+                            <rewrite from="industrial feedstocks" to="industry" />
+                            <rewrite from="trn_shipping_intl" to="transportation" />
+                        </level>
+                    </labelRewriteList>
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="EU-15" /><supplyDemandQuery title="total final energy by aggregate sector">
+                    <axis1 name="sector">sector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and ((@name='building' or @name='industry' or @name='transportation') or
+            (exists(child::keyword/@final-energy)))]//*[@type='input' (:collapse:) and
+            not(@name='limestone' or @name='process heat cement' or @name='industrial energy use' or
+                @name='industrial feedstocks' or @name='renewable' or contains(@name, 'trn_') or @name='oil-credits')]/
+            demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                    <labelRewriteList append-values="false">
+                        <level name="sector">
+                            <rewrite from="trn_pass_road_LDV_4W" to="transportation" />
+                            <rewrite from="trn_pass_road" to="transportation" />
+                            <rewrite from="trn_pass_road_LDV_2W" to="transportation" />
+                            <rewrite from="trn_freight_road" to="transportation" />
+                            <rewrite from="trn_freight" to="transportation" />
+                            <rewrite from="comm others" to="building" />
+                            <rewrite from="comm heating" to="building" />
+                            <rewrite from="industrial energy use" to="industry" />
+                            <rewrite from="comm cooling" to="building" />
+                            <rewrite from="trn_pass_road_LDV" to="transportation" />
+                            <rewrite from="trn_pass_road_bus" to="transportation" />
+                            <rewrite from="trn_aviation_intl" to="transportation" />
+                            <rewrite from="trn_pass" to="transportation" />
+                            <rewrite from="cement" to="industry" />
+                            <rewrite from="N fertilizer" to="industry" />
+                            <rewrite from="resid heating" to="building" />
+                            <rewrite from="resid others" to="building" />
+                            <rewrite from="process heat cement" to="industry" />
+                            <rewrite from="resid cooling" to="building" />
+                            <rewrite from="industrial feedstocks" to="industry" />
+                            <rewrite from="trn_shipping_intl" to="transportation" />
+                        </level>
+                    </labelRewriteList>
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Europe_Eastern" /><supplyDemandQuery title="total final energy by aggregate sector">
+                    <axis1 name="sector">sector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and ((@name='building' or @name='industry' or @name='transportation') or
+            (exists(child::keyword/@final-energy)))]//*[@type='input' (:collapse:) and
+            not(@name='limestone' or @name='process heat cement' or @name='industrial energy use' or
+                @name='industrial feedstocks' or @name='renewable' or contains(@name, 'trn_') or @name='oil-credits')]/
+            demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                    <labelRewriteList append-values="false">
+                        <level name="sector">
+                            <rewrite from="trn_pass_road_LDV_4W" to="transportation" />
+                            <rewrite from="trn_pass_road" to="transportation" />
+                            <rewrite from="trn_pass_road_LDV_2W" to="transportation" />
+                            <rewrite from="trn_freight_road" to="transportation" />
+                            <rewrite from="trn_freight" to="transportation" />
+                            <rewrite from="comm others" to="building" />
+                            <rewrite from="comm heating" to="building" />
+                            <rewrite from="industrial energy use" to="industry" />
+                            <rewrite from="comm cooling" to="building" />
+                            <rewrite from="trn_pass_road_LDV" to="transportation" />
+                            <rewrite from="trn_pass_road_bus" to="transportation" />
+                            <rewrite from="trn_aviation_intl" to="transportation" />
+                            <rewrite from="trn_pass" to="transportation" />
+                            <rewrite from="cement" to="industry" />
+                            <rewrite from="N fertilizer" to="industry" />
+                            <rewrite from="resid heating" to="building" />
+                            <rewrite from="resid others" to="building" />
+                            <rewrite from="process heat cement" to="industry" />
+                            <rewrite from="resid cooling" to="building" />
+                            <rewrite from="industrial feedstocks" to="industry" />
+                            <rewrite from="trn_shipping_intl" to="transportation" />
+                        </level>
+                    </labelRewriteList>
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Europe_Non_EU" /><supplyDemandQuery title="total final energy by aggregate sector">
+                    <axis1 name="sector">sector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and ((@name='building' or @name='industry' or @name='transportation') or
+            (exists(child::keyword/@final-energy)))]//*[@type='input' (:collapse:) and
+            not(@name='limestone' or @name='process heat cement' or @name='industrial energy use' or
+                @name='industrial feedstocks' or @name='renewable' or contains(@name, 'trn_') or @name='oil-credits')]/
+            demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                    <labelRewriteList append-values="false">
+                        <level name="sector">
+                            <rewrite from="trn_pass_road_LDV_4W" to="transportation" />
+                            <rewrite from="trn_pass_road" to="transportation" />
+                            <rewrite from="trn_pass_road_LDV_2W" to="transportation" />
+                            <rewrite from="trn_freight_road" to="transportation" />
+                            <rewrite from="trn_freight" to="transportation" />
+                            <rewrite from="comm others" to="building" />
+                            <rewrite from="comm heating" to="building" />
+                            <rewrite from="industrial energy use" to="industry" />
+                            <rewrite from="comm cooling" to="building" />
+                            <rewrite from="trn_pass_road_LDV" to="transportation" />
+                            <rewrite from="trn_pass_road_bus" to="transportation" />
+                            <rewrite from="trn_aviation_intl" to="transportation" />
+                            <rewrite from="trn_pass" to="transportation" />
+                            <rewrite from="cement" to="industry" />
+                            <rewrite from="N fertilizer" to="industry" />
+                            <rewrite from="resid heating" to="building" />
+                            <rewrite from="resid others" to="building" />
+                            <rewrite from="process heat cement" to="industry" />
+                            <rewrite from="resid cooling" to="building" />
+                            <rewrite from="industrial feedstocks" to="industry" />
+                            <rewrite from="trn_shipping_intl" to="transportation" />
+                        </level>
+                    </labelRewriteList>
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="European Free Trade Association" /><supplyDemandQuery title="total final energy by aggregate sector">
+                    <axis1 name="sector">sector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and ((@name='building' or @name='industry' or @name='transportation') or
+            (exists(child::keyword/@final-energy)))]//*[@type='input' (:collapse:) and
+            not(@name='limestone' or @name='process heat cement' or @name='industrial energy use' or
+                @name='industrial feedstocks' or @name='renewable' or contains(@name, 'trn_') or @name='oil-credits')]/
+            demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                    <labelRewriteList append-values="false">
+                        <level name="sector">
+                            <rewrite from="trn_pass_road_LDV_4W" to="transportation" />
+                            <rewrite from="trn_pass_road" to="transportation" />
+                            <rewrite from="trn_pass_road_LDV_2W" to="transportation" />
+                            <rewrite from="trn_freight_road" to="transportation" />
+                            <rewrite from="trn_freight" to="transportation" />
+                            <rewrite from="comm others" to="building" />
+                            <rewrite from="comm heating" to="building" />
+                            <rewrite from="industrial energy use" to="industry" />
+                            <rewrite from="comm cooling" to="building" />
+                            <rewrite from="trn_pass_road_LDV" to="transportation" />
+                            <rewrite from="trn_pass_road_bus" to="transportation" />
+                            <rewrite from="trn_aviation_intl" to="transportation" />
+                            <rewrite from="trn_pass" to="transportation" />
+                            <rewrite from="cement" to="industry" />
+                            <rewrite from="N fertilizer" to="industry" />
+                            <rewrite from="resid heating" to="building" />
+                            <rewrite from="resid others" to="building" />
+                            <rewrite from="process heat cement" to="industry" />
+                            <rewrite from="resid cooling" to="building" />
+                            <rewrite from="industrial feedstocks" to="industry" />
+                            <rewrite from="trn_shipping_intl" to="transportation" />
+                        </level>
+                    </labelRewriteList>
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="India" /><supplyDemandQuery title="total final energy by aggregate sector">
+                    <axis1 name="sector">sector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and ((@name='building' or @name='industry' or @name='transportation') or
+            (exists(child::keyword/@final-energy)))]//*[@type='input' (:collapse:) and
+            not(@name='limestone' or @name='process heat cement' or @name='industrial energy use' or
+                @name='industrial feedstocks' or @name='renewable' or contains(@name, 'trn_') or @name='oil-credits')]/
+            demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                    <labelRewriteList append-values="false">
+                        <level name="sector">
+                            <rewrite from="trn_pass_road_LDV_4W" to="transportation" />
+                            <rewrite from="trn_pass_road" to="transportation" />
+                            <rewrite from="trn_pass_road_LDV_2W" to="transportation" />
+                            <rewrite from="trn_freight_road" to="transportation" />
+                            <rewrite from="trn_freight" to="transportation" />
+                            <rewrite from="comm others" to="building" />
+                            <rewrite from="comm heating" to="building" />
+                            <rewrite from="industrial energy use" to="industry" />
+                            <rewrite from="comm cooling" to="building" />
+                            <rewrite from="trn_pass_road_LDV" to="transportation" />
+                            <rewrite from="trn_pass_road_bus" to="transportation" />
+                            <rewrite from="trn_aviation_intl" to="transportation" />
+                            <rewrite from="trn_pass" to="transportation" />
+                            <rewrite from="cement" to="industry" />
+                            <rewrite from="N fertilizer" to="industry" />
+                            <rewrite from="resid heating" to="building" />
+                            <rewrite from="resid others" to="building" />
+                            <rewrite from="process heat cement" to="industry" />
+                            <rewrite from="resid cooling" to="building" />
+                            <rewrite from="industrial feedstocks" to="industry" />
+                            <rewrite from="trn_shipping_intl" to="transportation" />
+                        </level>
+                    </labelRewriteList>
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Indonesia" /><supplyDemandQuery title="total final energy by aggregate sector">
+                    <axis1 name="sector">sector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and ((@name='building' or @name='industry' or @name='transportation') or
+            (exists(child::keyword/@final-energy)))]//*[@type='input' (:collapse:) and
+            not(@name='limestone' or @name='process heat cement' or @name='industrial energy use' or
+                @name='industrial feedstocks' or @name='renewable' or contains(@name, 'trn_') or @name='oil-credits')]/
+            demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                    <labelRewriteList append-values="false">
+                        <level name="sector">
+                            <rewrite from="trn_pass_road_LDV_4W" to="transportation" />
+                            <rewrite from="trn_pass_road" to="transportation" />
+                            <rewrite from="trn_pass_road_LDV_2W" to="transportation" />
+                            <rewrite from="trn_freight_road" to="transportation" />
+                            <rewrite from="trn_freight" to="transportation" />
+                            <rewrite from="comm others" to="building" />
+                            <rewrite from="comm heating" to="building" />
+                            <rewrite from="industrial energy use" to="industry" />
+                            <rewrite from="comm cooling" to="building" />
+                            <rewrite from="trn_pass_road_LDV" to="transportation" />
+                            <rewrite from="trn_pass_road_bus" to="transportation" />
+                            <rewrite from="trn_aviation_intl" to="transportation" />
+                            <rewrite from="trn_pass" to="transportation" />
+                            <rewrite from="cement" to="industry" />
+                            <rewrite from="N fertilizer" to="industry" />
+                            <rewrite from="resid heating" to="building" />
+                            <rewrite from="resid others" to="building" />
+                            <rewrite from="process heat cement" to="industry" />
+                            <rewrite from="resid cooling" to="building" />
+                            <rewrite from="industrial feedstocks" to="industry" />
+                            <rewrite from="trn_shipping_intl" to="transportation" />
+                        </level>
+                    </labelRewriteList>
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Japan" /><supplyDemandQuery title="total final energy by aggregate sector">
+                    <axis1 name="sector">sector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and ((@name='building' or @name='industry' or @name='transportation') or
+            (exists(child::keyword/@final-energy)))]//*[@type='input' (:collapse:) and
+            not(@name='limestone' or @name='process heat cement' or @name='industrial energy use' or
+                @name='industrial feedstocks' or @name='renewable' or contains(@name, 'trn_') or @name='oil-credits')]/
+            demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                    <labelRewriteList append-values="false">
+                        <level name="sector">
+                            <rewrite from="trn_pass_road_LDV_4W" to="transportation" />
+                            <rewrite from="trn_pass_road" to="transportation" />
+                            <rewrite from="trn_pass_road_LDV_2W" to="transportation" />
+                            <rewrite from="trn_freight_road" to="transportation" />
+                            <rewrite from="trn_freight" to="transportation" />
+                            <rewrite from="comm others" to="building" />
+                            <rewrite from="comm heating" to="building" />
+                            <rewrite from="industrial energy use" to="industry" />
+                            <rewrite from="comm cooling" to="building" />
+                            <rewrite from="trn_pass_road_LDV" to="transportation" />
+                            <rewrite from="trn_pass_road_bus" to="transportation" />
+                            <rewrite from="trn_aviation_intl" to="transportation" />
+                            <rewrite from="trn_pass" to="transportation" />
+                            <rewrite from="cement" to="industry" />
+                            <rewrite from="N fertilizer" to="industry" />
+                            <rewrite from="resid heating" to="building" />
+                            <rewrite from="resid others" to="building" />
+                            <rewrite from="process heat cement" to="industry" />
+                            <rewrite from="resid cooling" to="building" />
+                            <rewrite from="industrial feedstocks" to="industry" />
+                            <rewrite from="trn_shipping_intl" to="transportation" />
+                        </level>
+                    </labelRewriteList>
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Mexico" /><supplyDemandQuery title="total final energy by aggregate sector">
+                    <axis1 name="sector">sector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and ((@name='building' or @name='industry' or @name='transportation') or
+            (exists(child::keyword/@final-energy)))]//*[@type='input' (:collapse:) and
+            not(@name='limestone' or @name='process heat cement' or @name='industrial energy use' or
+                @name='industrial feedstocks' or @name='renewable' or contains(@name, 'trn_') or @name='oil-credits')]/
+            demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                    <labelRewriteList append-values="false">
+                        <level name="sector">
+                            <rewrite from="trn_pass_road_LDV_4W" to="transportation" />
+                            <rewrite from="trn_pass_road" to="transportation" />
+                            <rewrite from="trn_pass_road_LDV_2W" to="transportation" />
+                            <rewrite from="trn_freight_road" to="transportation" />
+                            <rewrite from="trn_freight" to="transportation" />
+                            <rewrite from="comm others" to="building" />
+                            <rewrite from="comm heating" to="building" />
+                            <rewrite from="industrial energy use" to="industry" />
+                            <rewrite from="comm cooling" to="building" />
+                            <rewrite from="trn_pass_road_LDV" to="transportation" />
+                            <rewrite from="trn_pass_road_bus" to="transportation" />
+                            <rewrite from="trn_aviation_intl" to="transportation" />
+                            <rewrite from="trn_pass" to="transportation" />
+                            <rewrite from="cement" to="industry" />
+                            <rewrite from="N fertilizer" to="industry" />
+                            <rewrite from="resid heating" to="building" />
+                            <rewrite from="resid others" to="building" />
+                            <rewrite from="process heat cement" to="industry" />
+                            <rewrite from="resid cooling" to="building" />
+                            <rewrite from="industrial feedstocks" to="industry" />
+                            <rewrite from="trn_shipping_intl" to="transportation" />
+                        </level>
+                    </labelRewriteList>
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Middle East" /><supplyDemandQuery title="total final energy by aggregate sector">
+                    <axis1 name="sector">sector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and ((@name='building' or @name='industry' or @name='transportation') or
+            (exists(child::keyword/@final-energy)))]//*[@type='input' (:collapse:) and
+            not(@name='limestone' or @name='process heat cement' or @name='industrial energy use' or
+                @name='industrial feedstocks' or @name='renewable' or contains(@name, 'trn_') or @name='oil-credits')]/
+            demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                    <labelRewriteList append-values="false">
+                        <level name="sector">
+                            <rewrite from="trn_pass_road_LDV_4W" to="transportation" />
+                            <rewrite from="trn_pass_road" to="transportation" />
+                            <rewrite from="trn_pass_road_LDV_2W" to="transportation" />
+                            <rewrite from="trn_freight_road" to="transportation" />
+                            <rewrite from="trn_freight" to="transportation" />
+                            <rewrite from="comm others" to="building" />
+                            <rewrite from="comm heating" to="building" />
+                            <rewrite from="industrial energy use" to="industry" />
+                            <rewrite from="comm cooling" to="building" />
+                            <rewrite from="trn_pass_road_LDV" to="transportation" />
+                            <rewrite from="trn_pass_road_bus" to="transportation" />
+                            <rewrite from="trn_aviation_intl" to="transportation" />
+                            <rewrite from="trn_pass" to="transportation" />
+                            <rewrite from="cement" to="industry" />
+                            <rewrite from="N fertilizer" to="industry" />
+                            <rewrite from="resid heating" to="building" />
+                            <rewrite from="resid others" to="building" />
+                            <rewrite from="process heat cement" to="industry" />
+                            <rewrite from="resid cooling" to="building" />
+                            <rewrite from="industrial feedstocks" to="industry" />
+                            <rewrite from="trn_shipping_intl" to="transportation" />
+                        </level>
+                    </labelRewriteList>
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Pakistan" /><supplyDemandQuery title="total final energy by aggregate sector">
+                    <axis1 name="sector">sector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and ((@name='building' or @name='industry' or @name='transportation') or
+            (exists(child::keyword/@final-energy)))]//*[@type='input' (:collapse:) and
+            not(@name='limestone' or @name='process heat cement' or @name='industrial energy use' or
+                @name='industrial feedstocks' or @name='renewable' or contains(@name, 'trn_') or @name='oil-credits')]/
+            demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                    <labelRewriteList append-values="false">
+                        <level name="sector">
+                            <rewrite from="trn_pass_road_LDV_4W" to="transportation" />
+                            <rewrite from="trn_pass_road" to="transportation" />
+                            <rewrite from="trn_pass_road_LDV_2W" to="transportation" />
+                            <rewrite from="trn_freight_road" to="transportation" />
+                            <rewrite from="trn_freight" to="transportation" />
+                            <rewrite from="comm others" to="building" />
+                            <rewrite from="comm heating" to="building" />
+                            <rewrite from="industrial energy use" to="industry" />
+                            <rewrite from="comm cooling" to="building" />
+                            <rewrite from="trn_pass_road_LDV" to="transportation" />
+                            <rewrite from="trn_pass_road_bus" to="transportation" />
+                            <rewrite from="trn_aviation_intl" to="transportation" />
+                            <rewrite from="trn_pass" to="transportation" />
+                            <rewrite from="cement" to="industry" />
+                            <rewrite from="N fertilizer" to="industry" />
+                            <rewrite from="resid heating" to="building" />
+                            <rewrite from="resid others" to="building" />
+                            <rewrite from="process heat cement" to="industry" />
+                            <rewrite from="resid cooling" to="building" />
+                            <rewrite from="industrial feedstocks" to="industry" />
+                            <rewrite from="trn_shipping_intl" to="transportation" />
+                        </level>
+                    </labelRewriteList>
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Russia" /><supplyDemandQuery title="total final energy by aggregate sector">
+                    <axis1 name="sector">sector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and ((@name='building' or @name='industry' or @name='transportation') or
+            (exists(child::keyword/@final-energy)))]//*[@type='input' (:collapse:) and
+            not(@name='limestone' or @name='process heat cement' or @name='industrial energy use' or
+                @name='industrial feedstocks' or @name='renewable' or contains(@name, 'trn_') or @name='oil-credits')]/
+            demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                    <labelRewriteList append-values="false">
+                        <level name="sector">
+                            <rewrite from="trn_pass_road_LDV_4W" to="transportation" />
+                            <rewrite from="trn_pass_road" to="transportation" />
+                            <rewrite from="trn_pass_road_LDV_2W" to="transportation" />
+                            <rewrite from="trn_freight_road" to="transportation" />
+                            <rewrite from="trn_freight" to="transportation" />
+                            <rewrite from="comm others" to="building" />
+                            <rewrite from="comm heating" to="building" />
+                            <rewrite from="industrial energy use" to="industry" />
+                            <rewrite from="comm cooling" to="building" />
+                            <rewrite from="trn_pass_road_LDV" to="transportation" />
+                            <rewrite from="trn_pass_road_bus" to="transportation" />
+                            <rewrite from="trn_aviation_intl" to="transportation" />
+                            <rewrite from="trn_pass" to="transportation" />
+                            <rewrite from="cement" to="industry" />
+                            <rewrite from="N fertilizer" to="industry" />
+                            <rewrite from="resid heating" to="building" />
+                            <rewrite from="resid others" to="building" />
+                            <rewrite from="process heat cement" to="industry" />
+                            <rewrite from="resid cooling" to="building" />
+                            <rewrite from="industrial feedstocks" to="industry" />
+                            <rewrite from="trn_shipping_intl" to="transportation" />
+                        </level>
+                    </labelRewriteList>
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="South Africa" /><supplyDemandQuery title="total final energy by aggregate sector">
+                    <axis1 name="sector">sector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and ((@name='building' or @name='industry' or @name='transportation') or
+            (exists(child::keyword/@final-energy)))]//*[@type='input' (:collapse:) and
+            not(@name='limestone' or @name='process heat cement' or @name='industrial energy use' or
+                @name='industrial feedstocks' or @name='renewable' or contains(@name, 'trn_') or @name='oil-credits')]/
+            demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                    <labelRewriteList append-values="false">
+                        <level name="sector">
+                            <rewrite from="trn_pass_road_LDV_4W" to="transportation" />
+                            <rewrite from="trn_pass_road" to="transportation" />
+                            <rewrite from="trn_pass_road_LDV_2W" to="transportation" />
+                            <rewrite from="trn_freight_road" to="transportation" />
+                            <rewrite from="trn_freight" to="transportation" />
+                            <rewrite from="comm others" to="building" />
+                            <rewrite from="comm heating" to="building" />
+                            <rewrite from="industrial energy use" to="industry" />
+                            <rewrite from="comm cooling" to="building" />
+                            <rewrite from="trn_pass_road_LDV" to="transportation" />
+                            <rewrite from="trn_pass_road_bus" to="transportation" />
+                            <rewrite from="trn_aviation_intl" to="transportation" />
+                            <rewrite from="trn_pass" to="transportation" />
+                            <rewrite from="cement" to="industry" />
+                            <rewrite from="N fertilizer" to="industry" />
+                            <rewrite from="resid heating" to="building" />
+                            <rewrite from="resid others" to="building" />
+                            <rewrite from="process heat cement" to="industry" />
+                            <rewrite from="resid cooling" to="building" />
+                            <rewrite from="industrial feedstocks" to="industry" />
+                            <rewrite from="trn_shipping_intl" to="transportation" />
+                        </level>
+                    </labelRewriteList>
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="South America_Northern" /><supplyDemandQuery title="total final energy by aggregate sector">
+                    <axis1 name="sector">sector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and ((@name='building' or @name='industry' or @name='transportation') or
+            (exists(child::keyword/@final-energy)))]//*[@type='input' (:collapse:) and
+            not(@name='limestone' or @name='process heat cement' or @name='industrial energy use' or
+                @name='industrial feedstocks' or @name='renewable' or contains(@name, 'trn_') or @name='oil-credits')]/
+            demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                    <labelRewriteList append-values="false">
+                        <level name="sector">
+                            <rewrite from="trn_pass_road_LDV_4W" to="transportation" />
+                            <rewrite from="trn_pass_road" to="transportation" />
+                            <rewrite from="trn_pass_road_LDV_2W" to="transportation" />
+                            <rewrite from="trn_freight_road" to="transportation" />
+                            <rewrite from="trn_freight" to="transportation" />
+                            <rewrite from="comm others" to="building" />
+                            <rewrite from="comm heating" to="building" />
+                            <rewrite from="industrial energy use" to="industry" />
+                            <rewrite from="comm cooling" to="building" />
+                            <rewrite from="trn_pass_road_LDV" to="transportation" />
+                            <rewrite from="trn_pass_road_bus" to="transportation" />
+                            <rewrite from="trn_aviation_intl" to="transportation" />
+                            <rewrite from="trn_pass" to="transportation" />
+                            <rewrite from="cement" to="industry" />
+                            <rewrite from="N fertilizer" to="industry" />
+                            <rewrite from="resid heating" to="building" />
+                            <rewrite from="resid others" to="building" />
+                            <rewrite from="process heat cement" to="industry" />
+                            <rewrite from="resid cooling" to="building" />
+                            <rewrite from="industrial feedstocks" to="industry" />
+                            <rewrite from="trn_shipping_intl" to="transportation" />
+                        </level>
+                    </labelRewriteList>
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="South America_Southern" /><supplyDemandQuery title="total final energy by aggregate sector">
+                    <axis1 name="sector">sector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and ((@name='building' or @name='industry' or @name='transportation') or
+            (exists(child::keyword/@final-energy)))]//*[@type='input' (:collapse:) and
+            not(@name='limestone' or @name='process heat cement' or @name='industrial energy use' or
+                @name='industrial feedstocks' or @name='renewable' or contains(@name, 'trn_') or @name='oil-credits')]/
+            demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                    <labelRewriteList append-values="false">
+                        <level name="sector">
+                            <rewrite from="trn_pass_road_LDV_4W" to="transportation" />
+                            <rewrite from="trn_pass_road" to="transportation" />
+                            <rewrite from="trn_pass_road_LDV_2W" to="transportation" />
+                            <rewrite from="trn_freight_road" to="transportation" />
+                            <rewrite from="trn_freight" to="transportation" />
+                            <rewrite from="comm others" to="building" />
+                            <rewrite from="comm heating" to="building" />
+                            <rewrite from="industrial energy use" to="industry" />
+                            <rewrite from="comm cooling" to="building" />
+                            <rewrite from="trn_pass_road_LDV" to="transportation" />
+                            <rewrite from="trn_pass_road_bus" to="transportation" />
+                            <rewrite from="trn_aviation_intl" to="transportation" />
+                            <rewrite from="trn_pass" to="transportation" />
+                            <rewrite from="cement" to="industry" />
+                            <rewrite from="N fertilizer" to="industry" />
+                            <rewrite from="resid heating" to="building" />
+                            <rewrite from="resid others" to="building" />
+                            <rewrite from="process heat cement" to="industry" />
+                            <rewrite from="resid cooling" to="building" />
+                            <rewrite from="industrial feedstocks" to="industry" />
+                            <rewrite from="trn_shipping_intl" to="transportation" />
+                        </level>
+                    </labelRewriteList>
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="South Asia" /><supplyDemandQuery title="total final energy by aggregate sector">
+                    <axis1 name="sector">sector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and ((@name='building' or @name='industry' or @name='transportation') or
+            (exists(child::keyword/@final-energy)))]//*[@type='input' (:collapse:) and
+            not(@name='limestone' or @name='process heat cement' or @name='industrial energy use' or
+                @name='industrial feedstocks' or @name='renewable' or contains(@name, 'trn_') or @name='oil-credits')]/
+            demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                    <labelRewriteList append-values="false">
+                        <level name="sector">
+                            <rewrite from="trn_pass_road_LDV_4W" to="transportation" />
+                            <rewrite from="trn_pass_road" to="transportation" />
+                            <rewrite from="trn_pass_road_LDV_2W" to="transportation" />
+                            <rewrite from="trn_freight_road" to="transportation" />
+                            <rewrite from="trn_freight" to="transportation" />
+                            <rewrite from="comm others" to="building" />
+                            <rewrite from="comm heating" to="building" />
+                            <rewrite from="industrial energy use" to="industry" />
+                            <rewrite from="comm cooling" to="building" />
+                            <rewrite from="trn_pass_road_LDV" to="transportation" />
+                            <rewrite from="trn_pass_road_bus" to="transportation" />
+                            <rewrite from="trn_aviation_intl" to="transportation" />
+                            <rewrite from="trn_pass" to="transportation" />
+                            <rewrite from="cement" to="industry" />
+                            <rewrite from="N fertilizer" to="industry" />
+                            <rewrite from="resid heating" to="building" />
+                            <rewrite from="resid others" to="building" />
+                            <rewrite from="process heat cement" to="industry" />
+                            <rewrite from="resid cooling" to="building" />
+                            <rewrite from="industrial feedstocks" to="industry" />
+                            <rewrite from="trn_shipping_intl" to="transportation" />
+                        </level>
+                    </labelRewriteList>
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="South Korea" /><supplyDemandQuery title="total final energy by aggregate sector">
+                    <axis1 name="sector">sector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and ((@name='building' or @name='industry' or @name='transportation') or
+            (exists(child::keyword/@final-energy)))]//*[@type='input' (:collapse:) and
+            not(@name='limestone' or @name='process heat cement' or @name='industrial energy use' or
+                @name='industrial feedstocks' or @name='renewable' or contains(@name, 'trn_') or @name='oil-credits')]/
+            demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                    <labelRewriteList append-values="false">
+                        <level name="sector">
+                            <rewrite from="trn_pass_road_LDV_4W" to="transportation" />
+                            <rewrite from="trn_pass_road" to="transportation" />
+                            <rewrite from="trn_pass_road_LDV_2W" to="transportation" />
+                            <rewrite from="trn_freight_road" to="transportation" />
+                            <rewrite from="trn_freight" to="transportation" />
+                            <rewrite from="comm others" to="building" />
+                            <rewrite from="comm heating" to="building" />
+                            <rewrite from="industrial energy use" to="industry" />
+                            <rewrite from="comm cooling" to="building" />
+                            <rewrite from="trn_pass_road_LDV" to="transportation" />
+                            <rewrite from="trn_pass_road_bus" to="transportation" />
+                            <rewrite from="trn_aviation_intl" to="transportation" />
+                            <rewrite from="trn_pass" to="transportation" />
+                            <rewrite from="cement" to="industry" />
+                            <rewrite from="N fertilizer" to="industry" />
+                            <rewrite from="resid heating" to="building" />
+                            <rewrite from="resid others" to="building" />
+                            <rewrite from="process heat cement" to="industry" />
+                            <rewrite from="resid cooling" to="building" />
+                            <rewrite from="industrial feedstocks" to="industry" />
+                            <rewrite from="trn_shipping_intl" to="transportation" />
+                        </level>
+                    </labelRewriteList>
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Southeast Asia" /><supplyDemandQuery title="total final energy by aggregate sector">
+                    <axis1 name="sector">sector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and ((@name='building' or @name='industry' or @name='transportation') or
+            (exists(child::keyword/@final-energy)))]//*[@type='input' (:collapse:) and
+            not(@name='limestone' or @name='process heat cement' or @name='industrial energy use' or
+                @name='industrial feedstocks' or @name='renewable' or contains(@name, 'trn_') or @name='oil-credits')]/
+            demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                    <labelRewriteList append-values="false">
+                        <level name="sector">
+                            <rewrite from="trn_pass_road_LDV_4W" to="transportation" />
+                            <rewrite from="trn_pass_road" to="transportation" />
+                            <rewrite from="trn_pass_road_LDV_2W" to="transportation" />
+                            <rewrite from="trn_freight_road" to="transportation" />
+                            <rewrite from="trn_freight" to="transportation" />
+                            <rewrite from="comm others" to="building" />
+                            <rewrite from="comm heating" to="building" />
+                            <rewrite from="industrial energy use" to="industry" />
+                            <rewrite from="comm cooling" to="building" />
+                            <rewrite from="trn_pass_road_LDV" to="transportation" />
+                            <rewrite from="trn_pass_road_bus" to="transportation" />
+                            <rewrite from="trn_aviation_intl" to="transportation" />
+                            <rewrite from="trn_pass" to="transportation" />
+                            <rewrite from="cement" to="industry" />
+                            <rewrite from="N fertilizer" to="industry" />
+                            <rewrite from="resid heating" to="building" />
+                            <rewrite from="resid others" to="building" />
+                            <rewrite from="process heat cement" to="industry" />
+                            <rewrite from="resid cooling" to="building" />
+                            <rewrite from="industrial feedstocks" to="industry" />
+                            <rewrite from="trn_shipping_intl" to="transportation" />
+                        </level>
+                    </labelRewriteList>
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Taiwan" /><supplyDemandQuery title="total final energy by aggregate sector">
+                    <axis1 name="sector">sector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and ((@name='building' or @name='industry' or @name='transportation') or
+            (exists(child::keyword/@final-energy)))]//*[@type='input' (:collapse:) and
+            not(@name='limestone' or @name='process heat cement' or @name='industrial energy use' or
+                @name='industrial feedstocks' or @name='renewable' or contains(@name, 'trn_') or @name='oil-credits')]/
+            demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                    <labelRewriteList append-values="false">
+                        <level name="sector">
+                            <rewrite from="trn_pass_road_LDV_4W" to="transportation" />
+                            <rewrite from="trn_pass_road" to="transportation" />
+                            <rewrite from="trn_pass_road_LDV_2W" to="transportation" />
+                            <rewrite from="trn_freight_road" to="transportation" />
+                            <rewrite from="trn_freight" to="transportation" />
+                            <rewrite from="comm others" to="building" />
+                            <rewrite from="comm heating" to="building" />
+                            <rewrite from="industrial energy use" to="industry" />
+                            <rewrite from="comm cooling" to="building" />
+                            <rewrite from="trn_pass_road_LDV" to="transportation" />
+                            <rewrite from="trn_pass_road_bus" to="transportation" />
+                            <rewrite from="trn_aviation_intl" to="transportation" />
+                            <rewrite from="trn_pass" to="transportation" />
+                            <rewrite from="cement" to="industry" />
+                            <rewrite from="N fertilizer" to="industry" />
+                            <rewrite from="resid heating" to="building" />
+                            <rewrite from="resid others" to="building" />
+                            <rewrite from="process heat cement" to="industry" />
+                            <rewrite from="resid cooling" to="building" />
+                            <rewrite from="industrial feedstocks" to="industry" />
+                            <rewrite from="trn_shipping_intl" to="transportation" />
+                        </level>
+                    </labelRewriteList>
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Argentina" /><supplyDemandQuery title="total final energy by aggregate sector">
+                    <axis1 name="sector">sector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and ((@name='building' or @name='industry' or @name='transportation') or
+            (exists(child::keyword/@final-energy)))]//*[@type='input' (:collapse:) and
+            not(@name='limestone' or @name='process heat cement' or @name='industrial energy use' or
+                @name='industrial feedstocks' or @name='renewable' or contains(@name, 'trn_') or @name='oil-credits')]/
+            demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                    <labelRewriteList append-values="false">
+                        <level name="sector">
+                            <rewrite from="trn_pass_road_LDV_4W" to="transportation" />
+                            <rewrite from="trn_pass_road" to="transportation" />
+                            <rewrite from="trn_pass_road_LDV_2W" to="transportation" />
+                            <rewrite from="trn_freight_road" to="transportation" />
+                            <rewrite from="trn_freight" to="transportation" />
+                            <rewrite from="comm others" to="building" />
+                            <rewrite from="comm heating" to="building" />
+                            <rewrite from="industrial energy use" to="industry" />
+                            <rewrite from="comm cooling" to="building" />
+                            <rewrite from="trn_pass_road_LDV" to="transportation" />
+                            <rewrite from="trn_pass_road_bus" to="transportation" />
+                            <rewrite from="trn_aviation_intl" to="transportation" />
+                            <rewrite from="trn_pass" to="transportation" />
+                            <rewrite from="cement" to="industry" />
+                            <rewrite from="N fertilizer" to="industry" />
+                            <rewrite from="resid heating" to="building" />
+                            <rewrite from="resid others" to="building" />
+                            <rewrite from="process heat cement" to="industry" />
+                            <rewrite from="resid cooling" to="building" />
+                            <rewrite from="industrial feedstocks" to="industry" />
+                            <rewrite from="trn_shipping_intl" to="transportation" />
+                        </level>
+                    </labelRewriteList>
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Colombia" /><supplyDemandQuery title="total final energy by aggregate sector">
+                    <axis1 name="sector">sector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and ((@name='building' or @name='industry' or @name='transportation') or
+            (exists(child::keyword/@final-energy)))]//*[@type='input' (:collapse:) and
+            not(@name='limestone' or @name='process heat cement' or @name='industrial energy use' or
+                @name='industrial feedstocks' or @name='renewable' or contains(@name, 'trn_') or @name='oil-credits')]/
+            demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                    <labelRewriteList append-values="false">
+                        <level name="sector">
+                            <rewrite from="trn_pass_road_LDV_4W" to="transportation" />
+                            <rewrite from="trn_pass_road" to="transportation" />
+                            <rewrite from="trn_pass_road_LDV_2W" to="transportation" />
+                            <rewrite from="trn_freight_road" to="transportation" />
+                            <rewrite from="trn_freight" to="transportation" />
+                            <rewrite from="comm others" to="building" />
+                            <rewrite from="comm heating" to="building" />
+                            <rewrite from="industrial energy use" to="industry" />
+                            <rewrite from="comm cooling" to="building" />
+                            <rewrite from="trn_pass_road_LDV" to="transportation" />
+                            <rewrite from="trn_pass_road_bus" to="transportation" />
+                            <rewrite from="trn_aviation_intl" to="transportation" />
+                            <rewrite from="trn_pass" to="transportation" />
+                            <rewrite from="cement" to="industry" />
+                            <rewrite from="N fertilizer" to="industry" />
+                            <rewrite from="resid heating" to="building" />
+                            <rewrite from="resid others" to="building" />
+                            <rewrite from="process heat cement" to="industry" />
+                            <rewrite from="resid cooling" to="building" />
+                            <rewrite from="industrial feedstocks" to="industry" />
+                            <rewrite from="trn_shipping_intl" to="transportation" />
+                        </level>
+                    </labelRewriteList>
+                </supplyDemandQuery>
+                </aQuery></queries>

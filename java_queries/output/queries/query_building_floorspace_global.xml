@@ -1,0 +1,16 @@
+<queries>
+
+<aQuery>
+	<region name="Global" /> 
+	
+
+<supplyDemandQuery title="building floorspace">
+                    <axis1 name="building">gcam-consumer[@name]</axis1>
+                    <axis2 name="Year">floorspace[@year]</axis2>
+                    <xPath buildList="true" dataName="floorspace" group="false" sumAll="false">gcam-consumer//floorspace/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery>
+
+
+</queries>

@@ -1,9 +1,10 @@
 <queries>
 
 <aQuery><region name="Global" /><query title="land allocation by crop and water source">
-            <axis1 name="water">water[@name]</axis1>
-            <axis2 name="Year">land-allocation[@year]</axis2>
-            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false"> 
+                <axis1 name="water">water[@name]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">
+                     
             declare function local:nest-land-category($leaf as node(), $level as xs:string, $child as node()*) as node() {
                 let $attrMatch := $leaf/@*[name()=$level],
                     $attrValue := if(exists($attrMatch)) then string($attrMatch) else "NA"
@@ -45,13 +46,15 @@
             };
             local:run-nest-land-categories((:scenarios:), (:regions:), (:collection:))
             
-            </xPath>
-            <comments />
-         </query>
-         </aQuery><aQuery><region name="USA" /><query title="land allocation by crop and water source">
-            <axis1 name="water">water[@name]</axis1>
-            <axis2 name="Year">land-allocation[@year]</axis2>
-            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false"> 
+            
+                </xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="USA" /><query title="land allocation by crop and water source">
+                <axis1 name="water">water[@name]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">
+                     
             declare function local:nest-land-category($leaf as node(), $level as xs:string, $child as node()*) as node() {
                 let $attrMatch := $leaf/@*[name()=$level],
                     $attrValue := if(exists($attrMatch)) then string($attrMatch) else "NA"
@@ -93,13 +96,15 @@
             };
             local:run-nest-land-categories((:scenarios:), (:regions:), (:collection:))
             
-            </xPath>
-            <comments />
-         </query>
-         </aQuery><aQuery><region name="Africa_Eastern" /><query title="land allocation by crop and water source">
-            <axis1 name="water">water[@name]</axis1>
-            <axis2 name="Year">land-allocation[@year]</axis2>
-            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false"> 
+            
+                </xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="Africa_Eastern" /><query title="land allocation by crop and water source">
+                <axis1 name="water">water[@name]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">
+                     
             declare function local:nest-land-category($leaf as node(), $level as xs:string, $child as node()*) as node() {
                 let $attrMatch := $leaf/@*[name()=$level],
                     $attrValue := if(exists($attrMatch)) then string($attrMatch) else "NA"
@@ -141,13 +146,15 @@
             };
             local:run-nest-land-categories((:scenarios:), (:regions:), (:collection:))
             
-            </xPath>
-            <comments />
-         </query>
-         </aQuery><aQuery><region name="Africa_Northern" /><query title="land allocation by crop and water source">
-            <axis1 name="water">water[@name]</axis1>
-            <axis2 name="Year">land-allocation[@year]</axis2>
-            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false"> 
+            
+                </xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="Africa_Northern" /><query title="land allocation by crop and water source">
+                <axis1 name="water">water[@name]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">
+                     
             declare function local:nest-land-category($leaf as node(), $level as xs:string, $child as node()*) as node() {
                 let $attrMatch := $leaf/@*[name()=$level],
                     $attrValue := if(exists($attrMatch)) then string($attrMatch) else "NA"
@@ -189,13 +196,15 @@
             };
             local:run-nest-land-categories((:scenarios:), (:regions:), (:collection:))
             
-            </xPath>
-            <comments />
-         </query>
-         </aQuery><aQuery><region name="Africa_Southern" /><query title="land allocation by crop and water source">
-            <axis1 name="water">water[@name]</axis1>
-            <axis2 name="Year">land-allocation[@year]</axis2>
-            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false"> 
+            
+                </xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="Africa_Southern" /><query title="land allocation by crop and water source">
+                <axis1 name="water">water[@name]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">
+                     
             declare function local:nest-land-category($leaf as node(), $level as xs:string, $child as node()*) as node() {
                 let $attrMatch := $leaf/@*[name()=$level],
                     $attrValue := if(exists($attrMatch)) then string($attrMatch) else "NA"
@@ -237,13 +246,15 @@
             };
             local:run-nest-land-categories((:scenarios:), (:regions:), (:collection:))
             
-            </xPath>
-            <comments />
-         </query>
-         </aQuery><aQuery><region name="Africa_Western" /><query title="land allocation by crop and water source">
-            <axis1 name="water">water[@name]</axis1>
-            <axis2 name="Year">land-allocation[@year]</axis2>
-            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false"> 
+            
+                </xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="Africa_Western" /><query title="land allocation by crop and water source">
+                <axis1 name="water">water[@name]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">
+                     
             declare function local:nest-land-category($leaf as node(), $level as xs:string, $child as node()*) as node() {
                 let $attrMatch := $leaf/@*[name()=$level],
                     $attrValue := if(exists($attrMatch)) then string($attrMatch) else "NA"
@@ -285,13 +296,15 @@
             };
             local:run-nest-land-categories((:scenarios:), (:regions:), (:collection:))
             
-            </xPath>
-            <comments />
-         </query>
-         </aQuery><aQuery><region name="Australia_NZ" /><query title="land allocation by crop and water source">
-            <axis1 name="water">water[@name]</axis1>
-            <axis2 name="Year">land-allocation[@year]</axis2>
-            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false"> 
+            
+                </xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="Australia_NZ" /><query title="land allocation by crop and water source">
+                <axis1 name="water">water[@name]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">
+                     
             declare function local:nest-land-category($leaf as node(), $level as xs:string, $child as node()*) as node() {
                 let $attrMatch := $leaf/@*[name()=$level],
                     $attrValue := if(exists($attrMatch)) then string($attrMatch) else "NA"
@@ -333,13 +346,15 @@
             };
             local:run-nest-land-categories((:scenarios:), (:regions:), (:collection:))
             
-            </xPath>
-            <comments />
-         </query>
-         </aQuery><aQuery><region name="Brazil" /><query title="land allocation by crop and water source">
-            <axis1 name="water">water[@name]</axis1>
-            <axis2 name="Year">land-allocation[@year]</axis2>
-            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false"> 
+            
+                </xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="Brazil" /><query title="land allocation by crop and water source">
+                <axis1 name="water">water[@name]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">
+                     
             declare function local:nest-land-category($leaf as node(), $level as xs:string, $child as node()*) as node() {
                 let $attrMatch := $leaf/@*[name()=$level],
                     $attrValue := if(exists($attrMatch)) then string($attrMatch) else "NA"
@@ -381,13 +396,15 @@
             };
             local:run-nest-land-categories((:scenarios:), (:regions:), (:collection:))
             
-            </xPath>
-            <comments />
-         </query>
-         </aQuery><aQuery><region name="Canada" /><query title="land allocation by crop and water source">
-            <axis1 name="water">water[@name]</axis1>
-            <axis2 name="Year">land-allocation[@year]</axis2>
-            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false"> 
+            
+                </xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="Canada" /><query title="land allocation by crop and water source">
+                <axis1 name="water">water[@name]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">
+                     
             declare function local:nest-land-category($leaf as node(), $level as xs:string, $child as node()*) as node() {
                 let $attrMatch := $leaf/@*[name()=$level],
                     $attrValue := if(exists($attrMatch)) then string($attrMatch) else "NA"
@@ -429,13 +446,15 @@
             };
             local:run-nest-land-categories((:scenarios:), (:regions:), (:collection:))
             
-            </xPath>
-            <comments />
-         </query>
-         </aQuery><aQuery><region name="Central America and Caribbean" /><query title="land allocation by crop and water source">
-            <axis1 name="water">water[@name]</axis1>
-            <axis2 name="Year">land-allocation[@year]</axis2>
-            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false"> 
+            
+                </xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="Central America and Caribbean" /><query title="land allocation by crop and water source">
+                <axis1 name="water">water[@name]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">
+                     
             declare function local:nest-land-category($leaf as node(), $level as xs:string, $child as node()*) as node() {
                 let $attrMatch := $leaf/@*[name()=$level],
                     $attrValue := if(exists($attrMatch)) then string($attrMatch) else "NA"
@@ -477,13 +496,15 @@
             };
             local:run-nest-land-categories((:scenarios:), (:regions:), (:collection:))
             
-            </xPath>
-            <comments />
-         </query>
-         </aQuery><aQuery><region name="Central Asia" /><query title="land allocation by crop and water source">
-            <axis1 name="water">water[@name]</axis1>
-            <axis2 name="Year">land-allocation[@year]</axis2>
-            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false"> 
+            
+                </xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="Central Asia" /><query title="land allocation by crop and water source">
+                <axis1 name="water">water[@name]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">
+                     
             declare function local:nest-land-category($leaf as node(), $level as xs:string, $child as node()*) as node() {
                 let $attrMatch := $leaf/@*[name()=$level],
                     $attrValue := if(exists($attrMatch)) then string($attrMatch) else "NA"
@@ -525,13 +546,15 @@
             };
             local:run-nest-land-categories((:scenarios:), (:regions:), (:collection:))
             
-            </xPath>
-            <comments />
-         </query>
-         </aQuery><aQuery><region name="China" /><query title="land allocation by crop and water source">
-            <axis1 name="water">water[@name]</axis1>
-            <axis2 name="Year">land-allocation[@year]</axis2>
-            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false"> 
+            
+                </xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="China" /><query title="land allocation by crop and water source">
+                <axis1 name="water">water[@name]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">
+                     
             declare function local:nest-land-category($leaf as node(), $level as xs:string, $child as node()*) as node() {
                 let $attrMatch := $leaf/@*[name()=$level],
                     $attrValue := if(exists($attrMatch)) then string($attrMatch) else "NA"
@@ -573,13 +596,15 @@
             };
             local:run-nest-land-categories((:scenarios:), (:regions:), (:collection:))
             
-            </xPath>
-            <comments />
-         </query>
-         </aQuery><aQuery><region name="EU-12" /><query title="land allocation by crop and water source">
-            <axis1 name="water">water[@name]</axis1>
-            <axis2 name="Year">land-allocation[@year]</axis2>
-            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false"> 
+            
+                </xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="EU-12" /><query title="land allocation by crop and water source">
+                <axis1 name="water">water[@name]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">
+                     
             declare function local:nest-land-category($leaf as node(), $level as xs:string, $child as node()*) as node() {
                 let $attrMatch := $leaf/@*[name()=$level],
                     $attrValue := if(exists($attrMatch)) then string($attrMatch) else "NA"
@@ -621,13 +646,15 @@
             };
             local:run-nest-land-categories((:scenarios:), (:regions:), (:collection:))
             
-            </xPath>
-            <comments />
-         </query>
-         </aQuery><aQuery><region name="EU-15" /><query title="land allocation by crop and water source">
-            <axis1 name="water">water[@name]</axis1>
-            <axis2 name="Year">land-allocation[@year]</axis2>
-            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false"> 
+            
+                </xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="EU-15" /><query title="land allocation by crop and water source">
+                <axis1 name="water">water[@name]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">
+                     
             declare function local:nest-land-category($leaf as node(), $level as xs:string, $child as node()*) as node() {
                 let $attrMatch := $leaf/@*[name()=$level],
                     $attrValue := if(exists($attrMatch)) then string($attrMatch) else "NA"
@@ -669,13 +696,15 @@
             };
             local:run-nest-land-categories((:scenarios:), (:regions:), (:collection:))
             
-            </xPath>
-            <comments />
-         </query>
-         </aQuery><aQuery><region name="Europe_Eastern" /><query title="land allocation by crop and water source">
-            <axis1 name="water">water[@name]</axis1>
-            <axis2 name="Year">land-allocation[@year]</axis2>
-            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false"> 
+            
+                </xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="Europe_Eastern" /><query title="land allocation by crop and water source">
+                <axis1 name="water">water[@name]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">
+                     
             declare function local:nest-land-category($leaf as node(), $level as xs:string, $child as node()*) as node() {
                 let $attrMatch := $leaf/@*[name()=$level],
                     $attrValue := if(exists($attrMatch)) then string($attrMatch) else "NA"
@@ -717,13 +746,15 @@
             };
             local:run-nest-land-categories((:scenarios:), (:regions:), (:collection:))
             
-            </xPath>
-            <comments />
-         </query>
-         </aQuery><aQuery><region name="Europe_Non_EU" /><query title="land allocation by crop and water source">
-            <axis1 name="water">water[@name]</axis1>
-            <axis2 name="Year">land-allocation[@year]</axis2>
-            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false"> 
+            
+                </xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="Europe_Non_EU" /><query title="land allocation by crop and water source">
+                <axis1 name="water">water[@name]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">
+                     
             declare function local:nest-land-category($leaf as node(), $level as xs:string, $child as node()*) as node() {
                 let $attrMatch := $leaf/@*[name()=$level],
                     $attrValue := if(exists($attrMatch)) then string($attrMatch) else "NA"
@@ -765,13 +796,15 @@
             };
             local:run-nest-land-categories((:scenarios:), (:regions:), (:collection:))
             
-            </xPath>
-            <comments />
-         </query>
-         </aQuery><aQuery><region name="European Free Trade Association" /><query title="land allocation by crop and water source">
-            <axis1 name="water">water[@name]</axis1>
-            <axis2 name="Year">land-allocation[@year]</axis2>
-            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false"> 
+            
+                </xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="European Free Trade Association" /><query title="land allocation by crop and water source">
+                <axis1 name="water">water[@name]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">
+                     
             declare function local:nest-land-category($leaf as node(), $level as xs:string, $child as node()*) as node() {
                 let $attrMatch := $leaf/@*[name()=$level],
                     $attrValue := if(exists($attrMatch)) then string($attrMatch) else "NA"
@@ -813,13 +846,15 @@
             };
             local:run-nest-land-categories((:scenarios:), (:regions:), (:collection:))
             
-            </xPath>
-            <comments />
-         </query>
-         </aQuery><aQuery><region name="India" /><query title="land allocation by crop and water source">
-            <axis1 name="water">water[@name]</axis1>
-            <axis2 name="Year">land-allocation[@year]</axis2>
-            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false"> 
+            
+                </xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="India" /><query title="land allocation by crop and water source">
+                <axis1 name="water">water[@name]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">
+                     
             declare function local:nest-land-category($leaf as node(), $level as xs:string, $child as node()*) as node() {
                 let $attrMatch := $leaf/@*[name()=$level],
                     $attrValue := if(exists($attrMatch)) then string($attrMatch) else "NA"
@@ -861,13 +896,15 @@
             };
             local:run-nest-land-categories((:scenarios:), (:regions:), (:collection:))
             
-            </xPath>
-            <comments />
-         </query>
-         </aQuery><aQuery><region name="Indonesia" /><query title="land allocation by crop and water source">
-            <axis1 name="water">water[@name]</axis1>
-            <axis2 name="Year">land-allocation[@year]</axis2>
-            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false"> 
+            
+                </xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="Indonesia" /><query title="land allocation by crop and water source">
+                <axis1 name="water">water[@name]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">
+                     
             declare function local:nest-land-category($leaf as node(), $level as xs:string, $child as node()*) as node() {
                 let $attrMatch := $leaf/@*[name()=$level],
                     $attrValue := if(exists($attrMatch)) then string($attrMatch) else "NA"
@@ -909,13 +946,15 @@
             };
             local:run-nest-land-categories((:scenarios:), (:regions:), (:collection:))
             
-            </xPath>
-            <comments />
-         </query>
-         </aQuery><aQuery><region name="Japan" /><query title="land allocation by crop and water source">
-            <axis1 name="water">water[@name]</axis1>
-            <axis2 name="Year">land-allocation[@year]</axis2>
-            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false"> 
+            
+                </xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="Japan" /><query title="land allocation by crop and water source">
+                <axis1 name="water">water[@name]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">
+                     
             declare function local:nest-land-category($leaf as node(), $level as xs:string, $child as node()*) as node() {
                 let $attrMatch := $leaf/@*[name()=$level],
                     $attrValue := if(exists($attrMatch)) then string($attrMatch) else "NA"
@@ -957,13 +996,15 @@
             };
             local:run-nest-land-categories((:scenarios:), (:regions:), (:collection:))
             
-            </xPath>
-            <comments />
-         </query>
-         </aQuery><aQuery><region name="Mexico" /><query title="land allocation by crop and water source">
-            <axis1 name="water">water[@name]</axis1>
-            <axis2 name="Year">land-allocation[@year]</axis2>
-            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false"> 
+            
+                </xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="Mexico" /><query title="land allocation by crop and water source">
+                <axis1 name="water">water[@name]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">
+                     
             declare function local:nest-land-category($leaf as node(), $level as xs:string, $child as node()*) as node() {
                 let $attrMatch := $leaf/@*[name()=$level],
                     $attrValue := if(exists($attrMatch)) then string($attrMatch) else "NA"
@@ -1005,13 +1046,15 @@
             };
             local:run-nest-land-categories((:scenarios:), (:regions:), (:collection:))
             
-            </xPath>
-            <comments />
-         </query>
-         </aQuery><aQuery><region name="Middle East" /><query title="land allocation by crop and water source">
-            <axis1 name="water">water[@name]</axis1>
-            <axis2 name="Year">land-allocation[@year]</axis2>
-            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false"> 
+            
+                </xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="Middle East" /><query title="land allocation by crop and water source">
+                <axis1 name="water">water[@name]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">
+                     
             declare function local:nest-land-category($leaf as node(), $level as xs:string, $child as node()*) as node() {
                 let $attrMatch := $leaf/@*[name()=$level],
                     $attrValue := if(exists($attrMatch)) then string($attrMatch) else "NA"
@@ -1053,13 +1096,15 @@
             };
             local:run-nest-land-categories((:scenarios:), (:regions:), (:collection:))
             
-            </xPath>
-            <comments />
-         </query>
-         </aQuery><aQuery><region name="Pakistan" /><query title="land allocation by crop and water source">
-            <axis1 name="water">water[@name]</axis1>
-            <axis2 name="Year">land-allocation[@year]</axis2>
-            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false"> 
+            
+                </xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="Pakistan" /><query title="land allocation by crop and water source">
+                <axis1 name="water">water[@name]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">
+                     
             declare function local:nest-land-category($leaf as node(), $level as xs:string, $child as node()*) as node() {
                 let $attrMatch := $leaf/@*[name()=$level],
                     $attrValue := if(exists($attrMatch)) then string($attrMatch) else "NA"
@@ -1101,13 +1146,15 @@
             };
             local:run-nest-land-categories((:scenarios:), (:regions:), (:collection:))
             
-            </xPath>
-            <comments />
-         </query>
-         </aQuery><aQuery><region name="Russia" /><query title="land allocation by crop and water source">
-            <axis1 name="water">water[@name]</axis1>
-            <axis2 name="Year">land-allocation[@year]</axis2>
-            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false"> 
+            
+                </xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="Russia" /><query title="land allocation by crop and water source">
+                <axis1 name="water">water[@name]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">
+                     
             declare function local:nest-land-category($leaf as node(), $level as xs:string, $child as node()*) as node() {
                 let $attrMatch := $leaf/@*[name()=$level],
                     $attrValue := if(exists($attrMatch)) then string($attrMatch) else "NA"
@@ -1149,13 +1196,15 @@
             };
             local:run-nest-land-categories((:scenarios:), (:regions:), (:collection:))
             
-            </xPath>
-            <comments />
-         </query>
-         </aQuery><aQuery><region name="South Africa" /><query title="land allocation by crop and water source">
-            <axis1 name="water">water[@name]</axis1>
-            <axis2 name="Year">land-allocation[@year]</axis2>
-            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false"> 
+            
+                </xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="South Africa" /><query title="land allocation by crop and water source">
+                <axis1 name="water">water[@name]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">
+                     
             declare function local:nest-land-category($leaf as node(), $level as xs:string, $child as node()*) as node() {
                 let $attrMatch := $leaf/@*[name()=$level],
                     $attrValue := if(exists($attrMatch)) then string($attrMatch) else "NA"
@@ -1197,13 +1246,15 @@
             };
             local:run-nest-land-categories((:scenarios:), (:regions:), (:collection:))
             
-            </xPath>
-            <comments />
-         </query>
-         </aQuery><aQuery><region name="South America_Northern" /><query title="land allocation by crop and water source">
-            <axis1 name="water">water[@name]</axis1>
-            <axis2 name="Year">land-allocation[@year]</axis2>
-            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false"> 
+            
+                </xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="South America_Northern" /><query title="land allocation by crop and water source">
+                <axis1 name="water">water[@name]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">
+                     
             declare function local:nest-land-category($leaf as node(), $level as xs:string, $child as node()*) as node() {
                 let $attrMatch := $leaf/@*[name()=$level],
                     $attrValue := if(exists($attrMatch)) then string($attrMatch) else "NA"
@@ -1245,13 +1296,15 @@
             };
             local:run-nest-land-categories((:scenarios:), (:regions:), (:collection:))
             
-            </xPath>
-            <comments />
-         </query>
-         </aQuery><aQuery><region name="South America_Southern" /><query title="land allocation by crop and water source">
-            <axis1 name="water">water[@name]</axis1>
-            <axis2 name="Year">land-allocation[@year]</axis2>
-            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false"> 
+            
+                </xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="South America_Southern" /><query title="land allocation by crop and water source">
+                <axis1 name="water">water[@name]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">
+                     
             declare function local:nest-land-category($leaf as node(), $level as xs:string, $child as node()*) as node() {
                 let $attrMatch := $leaf/@*[name()=$level],
                     $attrValue := if(exists($attrMatch)) then string($attrMatch) else "NA"
@@ -1293,13 +1346,15 @@
             };
             local:run-nest-land-categories((:scenarios:), (:regions:), (:collection:))
             
-            </xPath>
-            <comments />
-         </query>
-         </aQuery><aQuery><region name="South Asia" /><query title="land allocation by crop and water source">
-            <axis1 name="water">water[@name]</axis1>
-            <axis2 name="Year">land-allocation[@year]</axis2>
-            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false"> 
+            
+                </xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="South Asia" /><query title="land allocation by crop and water source">
+                <axis1 name="water">water[@name]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">
+                     
             declare function local:nest-land-category($leaf as node(), $level as xs:string, $child as node()*) as node() {
                 let $attrMatch := $leaf/@*[name()=$level],
                     $attrValue := if(exists($attrMatch)) then string($attrMatch) else "NA"
@@ -1341,13 +1396,15 @@
             };
             local:run-nest-land-categories((:scenarios:), (:regions:), (:collection:))
             
-            </xPath>
-            <comments />
-         </query>
-         </aQuery><aQuery><region name="South Korea" /><query title="land allocation by crop and water source">
-            <axis1 name="water">water[@name]</axis1>
-            <axis2 name="Year">land-allocation[@year]</axis2>
-            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false"> 
+            
+                </xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="South Korea" /><query title="land allocation by crop and water source">
+                <axis1 name="water">water[@name]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">
+                     
             declare function local:nest-land-category($leaf as node(), $level as xs:string, $child as node()*) as node() {
                 let $attrMatch := $leaf/@*[name()=$level],
                     $attrValue := if(exists($attrMatch)) then string($attrMatch) else "NA"
@@ -1389,13 +1446,15 @@
             };
             local:run-nest-land-categories((:scenarios:), (:regions:), (:collection:))
             
-            </xPath>
-            <comments />
-         </query>
-         </aQuery><aQuery><region name="Southeast Asia" /><query title="land allocation by crop and water source">
-            <axis1 name="water">water[@name]</axis1>
-            <axis2 name="Year">land-allocation[@year]</axis2>
-            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false"> 
+            
+                </xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="Southeast Asia" /><query title="land allocation by crop and water source">
+                <axis1 name="water">water[@name]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">
+                     
             declare function local:nest-land-category($leaf as node(), $level as xs:string, $child as node()*) as node() {
                 let $attrMatch := $leaf/@*[name()=$level],
                     $attrValue := if(exists($attrMatch)) then string($attrMatch) else "NA"
@@ -1437,13 +1496,15 @@
             };
             local:run-nest-land-categories((:scenarios:), (:regions:), (:collection:))
             
-            </xPath>
-            <comments />
-         </query>
-         </aQuery><aQuery><region name="Taiwan" /><query title="land allocation by crop and water source">
-            <axis1 name="water">water[@name]</axis1>
-            <axis2 name="Year">land-allocation[@year]</axis2>
-            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false"> 
+            
+                </xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="Taiwan" /><query title="land allocation by crop and water source">
+                <axis1 name="water">water[@name]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">
+                     
             declare function local:nest-land-category($leaf as node(), $level as xs:string, $child as node()*) as node() {
                 let $attrMatch := $leaf/@*[name()=$level],
                     $attrValue := if(exists($attrMatch)) then string($attrMatch) else "NA"
@@ -1485,13 +1546,15 @@
             };
             local:run-nest-land-categories((:scenarios:), (:regions:), (:collection:))
             
-            </xPath>
-            <comments />
-         </query>
-         </aQuery><aQuery><region name="Argentina" /><query title="land allocation by crop and water source">
-            <axis1 name="water">water[@name]</axis1>
-            <axis2 name="Year">land-allocation[@year]</axis2>
-            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false"> 
+            
+                </xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="Argentina" /><query title="land allocation by crop and water source">
+                <axis1 name="water">water[@name]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">
+                     
             declare function local:nest-land-category($leaf as node(), $level as xs:string, $child as node()*) as node() {
                 let $attrMatch := $leaf/@*[name()=$level],
                     $attrValue := if(exists($attrMatch)) then string($attrMatch) else "NA"
@@ -1533,13 +1596,15 @@
             };
             local:run-nest-land-categories((:scenarios:), (:regions:), (:collection:))
             
-            </xPath>
-            <comments />
-         </query>
-         </aQuery><aQuery><region name="Colombia" /><query title="land allocation by crop and water source">
-            <axis1 name="water">water[@name]</axis1>
-            <axis2 name="Year">land-allocation[@year]</axis2>
-            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false"> 
+            
+                </xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="Colombia" /><query title="land allocation by crop and water source">
+                <axis1 name="water">water[@name]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">
+                     
             declare function local:nest-land-category($leaf as node(), $level as xs:string, $child as node()*) as node() {
                 let $attrMatch := $leaf/@*[name()=$level],
                     $attrValue := if(exists($attrMatch)) then string($attrMatch) else "NA"
@@ -1581,7 +1646,8 @@
             };
             local:run-nest-land-categories((:scenarios:), (:regions:), (:collection:))
             
-            </xPath>
-            <comments />
-         </query>
-         </aQuery></queries>
+            
+                </xPath>
+                <comments />
+            </query>
+            </aQuery></queries>

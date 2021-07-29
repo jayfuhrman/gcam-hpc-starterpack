@@ -1,0 +1,201 @@
+<queries>
+
+<aQuery><region name="Global" /><query title="profit rate">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">profit-rate[@year]</axis2>
+                <xPath buildList="true" dataName="profit-rate" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//profit-rate/text()</xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="USA" /><query title="profit rate">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">profit-rate[@year]</axis2>
+                <xPath buildList="true" dataName="profit-rate" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//profit-rate/text()</xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="Africa_Eastern" /><query title="profit rate">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">profit-rate[@year]</axis2>
+                <xPath buildList="true" dataName="profit-rate" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//profit-rate/text()</xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="Africa_Northern" /><query title="profit rate">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">profit-rate[@year]</axis2>
+                <xPath buildList="true" dataName="profit-rate" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//profit-rate/text()</xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="Africa_Southern" /><query title="profit rate">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">profit-rate[@year]</axis2>
+                <xPath buildList="true" dataName="profit-rate" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//profit-rate/text()</xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="Africa_Western" /><query title="profit rate">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">profit-rate[@year]</axis2>
+                <xPath buildList="true" dataName="profit-rate" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//profit-rate/text()</xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="Australia_NZ" /><query title="profit rate">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">profit-rate[@year]</axis2>
+                <xPath buildList="true" dataName="profit-rate" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//profit-rate/text()</xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="Brazil" /><query title="profit rate">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">profit-rate[@year]</axis2>
+                <xPath buildList="true" dataName="profit-rate" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//profit-rate/text()</xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="Canada" /><query title="profit rate">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">profit-rate[@year]</axis2>
+                <xPath buildList="true" dataName="profit-rate" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//profit-rate/text()</xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="Central America and Caribbean" /><query title="profit rate">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">profit-rate[@year]</axis2>
+                <xPath buildList="true" dataName="profit-rate" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//profit-rate/text()</xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="Central Asia" /><query title="profit rate">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">profit-rate[@year]</axis2>
+                <xPath buildList="true" dataName="profit-rate" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//profit-rate/text()</xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="China" /><query title="profit rate">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">profit-rate[@year]</axis2>
+                <xPath buildList="true" dataName="profit-rate" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//profit-rate/text()</xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="EU-12" /><query title="profit rate">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">profit-rate[@year]</axis2>
+                <xPath buildList="true" dataName="profit-rate" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//profit-rate/text()</xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="EU-15" /><query title="profit rate">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">profit-rate[@year]</axis2>
+                <xPath buildList="true" dataName="profit-rate" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//profit-rate/text()</xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="Europe_Eastern" /><query title="profit rate">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">profit-rate[@year]</axis2>
+                <xPath buildList="true" dataName="profit-rate" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//profit-rate/text()</xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="Europe_Non_EU" /><query title="profit rate">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">profit-rate[@year]</axis2>
+                <xPath buildList="true" dataName="profit-rate" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//profit-rate/text()</xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="European Free Trade Association" /><query title="profit rate">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">profit-rate[@year]</axis2>
+                <xPath buildList="true" dataName="profit-rate" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//profit-rate/text()</xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="India" /><query title="profit rate">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">profit-rate[@year]</axis2>
+                <xPath buildList="true" dataName="profit-rate" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//profit-rate/text()</xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="Indonesia" /><query title="profit rate">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">profit-rate[@year]</axis2>
+                <xPath buildList="true" dataName="profit-rate" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//profit-rate/text()</xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="Japan" /><query title="profit rate">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">profit-rate[@year]</axis2>
+                <xPath buildList="true" dataName="profit-rate" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//profit-rate/text()</xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="Mexico" /><query title="profit rate">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">profit-rate[@year]</axis2>
+                <xPath buildList="true" dataName="profit-rate" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//profit-rate/text()</xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="Middle East" /><query title="profit rate">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">profit-rate[@year]</axis2>
+                <xPath buildList="true" dataName="profit-rate" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//profit-rate/text()</xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="Pakistan" /><query title="profit rate">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">profit-rate[@year]</axis2>
+                <xPath buildList="true" dataName="profit-rate" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//profit-rate/text()</xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="Russia" /><query title="profit rate">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">profit-rate[@year]</axis2>
+                <xPath buildList="true" dataName="profit-rate" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//profit-rate/text()</xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="South Africa" /><query title="profit rate">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">profit-rate[@year]</axis2>
+                <xPath buildList="true" dataName="profit-rate" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//profit-rate/text()</xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="South America_Northern" /><query title="profit rate">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">profit-rate[@year]</axis2>
+                <xPath buildList="true" dataName="profit-rate" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//profit-rate/text()</xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="South America_Southern" /><query title="profit rate">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">profit-rate[@year]</axis2>
+                <xPath buildList="true" dataName="profit-rate" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//profit-rate/text()</xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="South Asia" /><query title="profit rate">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">profit-rate[@year]</axis2>
+                <xPath buildList="true" dataName="profit-rate" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//profit-rate/text()</xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="South Korea" /><query title="profit rate">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">profit-rate[@year]</axis2>
+                <xPath buildList="true" dataName="profit-rate" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//profit-rate/text()</xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="Southeast Asia" /><query title="profit rate">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">profit-rate[@year]</axis2>
+                <xPath buildList="true" dataName="profit-rate" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//profit-rate/text()</xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="Taiwan" /><query title="profit rate">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">profit-rate[@year]</axis2>
+                <xPath buildList="true" dataName="profit-rate" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//profit-rate/text()</xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="Argentina" /><query title="profit rate">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">profit-rate[@year]</axis2>
+                <xPath buildList="true" dataName="profit-rate" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//profit-rate/text()</xPath>
+                <comments />
+            </query>
+            </aQuery><aQuery><region name="Colombia" /><query title="profit rate">
+                <axis1 name="LandLeaf">LandLeaf</axis1>
+                <axis2 name="Year">profit-rate[@year]</axis2>
+                <xPath buildList="true" dataName="profit-rate" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//profit-rate/text()</xPath>
+                <comments />
+            </query>
+            </aQuery></queries>

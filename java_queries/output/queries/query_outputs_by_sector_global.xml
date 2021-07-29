@@ -5,12 +5,12 @@
 	
 
 <supplyDemandQuery title="outputs by sector">
-            <axis1 name="sector">sector[@name]</axis1>
-            <axis2 name="Year">physical-output[@vintage]</axis2>
-            <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector']//*[@type='output']/physical-output/node()</xPath>
-            <comments />
-         </supplyDemandQuery>
-         </aQuery>
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">physical-output[@vintage]</axis2>
+                <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector']//*[@type='output']/physical-output/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+            </aQuery>
 
 
 </queries>

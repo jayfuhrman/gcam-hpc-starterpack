@@ -7,7 +7,7 @@
 
             
             
-			<queryFile>../output/queries/query_land_allocation_in_a_specified_land_use_region_global.xml</queryFile>
+			<queryFile>output/queries/query_land_allocation_in_a_specified_land_use_region_global.xml</queryFile>
             
             <outFile>queryout_land_allocation_in_a_specified_land_use_region_global.csv</outFile>
             

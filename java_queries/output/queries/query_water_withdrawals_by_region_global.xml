@@ -5,13 +5,13 @@
 	
 
 <supplyDemandQuery title="water withdrawals by region">
-         <axis1 name="region">region</axis1>
-         <axis2 name="Year">demand-physical[@vintage]</axis2>
-         <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' (:collapse:)]//*[@type='input' (:collapse:) and contains(@name,'water_td')
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">demand-physical[@vintage]</axis2>
+            <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' (:collapse:) and not(contains(@name, 'water_td'))]//*[@type='input' (:collapse:) and contains(@name,'water_td')
          and ends-with(@name,'_W')]/demand-physical/node()</xPath>
-         <comments />
-      </supplyDemandQuery>
-      </aQuery>
+            <comments />
+        </supplyDemandQuery>
+        </aQuery>
 
 
 </queries>

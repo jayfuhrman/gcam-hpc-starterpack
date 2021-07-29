@@ -1,0 +1,234 @@
+<queries>
+
+<aQuery><region name="Global" /><supplyDemandQuery title="regional biomass consumption">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">demand-physical[@vintage]</axis2>
+                <xPath buildList="false" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='regional biomass')]//*[@type='input']/
+            demand-physical/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+        </aQuery><aQuery><region name="USA" /><supplyDemandQuery title="regional biomass consumption">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">demand-physical[@vintage]</axis2>
+                <xPath buildList="false" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='regional biomass')]//*[@type='input']/
+            demand-physical/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+        </aQuery><aQuery><region name="Africa_Eastern" /><supplyDemandQuery title="regional biomass consumption">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">demand-physical[@vintage]</axis2>
+                <xPath buildList="false" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='regional biomass')]//*[@type='input']/
+            demand-physical/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+        </aQuery><aQuery><region name="Africa_Northern" /><supplyDemandQuery title="regional biomass consumption">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">demand-physical[@vintage]</axis2>
+                <xPath buildList="false" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='regional biomass')]//*[@type='input']/
+            demand-physical/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+        </aQuery><aQuery><region name="Africa_Southern" /><supplyDemandQuery title="regional biomass consumption">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">demand-physical[@vintage]</axis2>
+                <xPath buildList="false" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='regional biomass')]//*[@type='input']/
+            demand-physical/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+        </aQuery><aQuery><region name="Africa_Western" /><supplyDemandQuery title="regional biomass consumption">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">demand-physical[@vintage]</axis2>
+                <xPath buildList="false" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='regional biomass')]//*[@type='input']/
+            demand-physical/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+        </aQuery><aQuery><region name="Australia_NZ" /><supplyDemandQuery title="regional biomass consumption">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">demand-physical[@vintage]</axis2>
+                <xPath buildList="false" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='regional biomass')]//*[@type='input']/
+            demand-physical/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+        </aQuery><aQuery><region name="Brazil" /><supplyDemandQuery title="regional biomass consumption">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">demand-physical[@vintage]</axis2>
+                <xPath buildList="false" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='regional biomass')]//*[@type='input']/
+            demand-physical/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+        </aQuery><aQuery><region name="Canada" /><supplyDemandQuery title="regional biomass consumption">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">demand-physical[@vintage]</axis2>
+                <xPath buildList="false" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='regional biomass')]//*[@type='input']/
+            demand-physical/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+        </aQuery><aQuery><region name="Central America and Caribbean" /><supplyDemandQuery title="regional biomass consumption">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">demand-physical[@vintage]</axis2>
+                <xPath buildList="false" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='regional biomass')]//*[@type='input']/
+            demand-physical/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+        </aQuery><aQuery><region name="Central Asia" /><supplyDemandQuery title="regional biomass consumption">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">demand-physical[@vintage]</axis2>
+                <xPath buildList="false" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='regional biomass')]//*[@type='input']/
+            demand-physical/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+        </aQuery><aQuery><region name="China" /><supplyDemandQuery title="regional biomass consumption">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">demand-physical[@vintage]</axis2>
+                <xPath buildList="false" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='regional biomass')]//*[@type='input']/
+            demand-physical/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+        </aQuery><aQuery><region name="EU-12" /><supplyDemandQuery title="regional biomass consumption">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">demand-physical[@vintage]</axis2>
+                <xPath buildList="false" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='regional biomass')]//*[@type='input']/
+            demand-physical/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+        </aQuery><aQuery><region name="EU-15" /><supplyDemandQuery title="regional biomass consumption">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">demand-physical[@vintage]</axis2>
+                <xPath buildList="false" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='regional biomass')]//*[@type='input']/
+            demand-physical/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+        </aQuery><aQuery><region name="Europe_Eastern" /><supplyDemandQuery title="regional biomass consumption">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">demand-physical[@vintage]</axis2>
+                <xPath buildList="false" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='regional biomass')]//*[@type='input']/
+            demand-physical/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+        </aQuery><aQuery><region name="Europe_Non_EU" /><supplyDemandQuery title="regional biomass consumption">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">demand-physical[@vintage]</axis2>
+                <xPath buildList="false" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='regional biomass')]//*[@type='input']/
+            demand-physical/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+        </aQuery><aQuery><region name="European Free Trade Association" /><supplyDemandQuery title="regional biomass consumption">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">demand-physical[@vintage]</axis2>
+                <xPath buildList="false" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='regional biomass')]//*[@type='input']/
+            demand-physical/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+        </aQuery><aQuery><region name="India" /><supplyDemandQuery title="regional biomass consumption">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">demand-physical[@vintage]</axis2>
+                <xPath buildList="false" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='regional biomass')]//*[@type='input']/
+            demand-physical/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+        </aQuery><aQuery><region name="Indonesia" /><supplyDemandQuery title="regional biomass consumption">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">demand-physical[@vintage]</axis2>
+                <xPath buildList="false" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='regional biomass')]//*[@type='input']/
+            demand-physical/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+        </aQuery><aQuery><region name="Japan" /><supplyDemandQuery title="regional biomass consumption">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">demand-physical[@vintage]</axis2>
+                <xPath buildList="false" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='regional biomass')]//*[@type='input']/
+            demand-physical/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+        </aQuery><aQuery><region name="Mexico" /><supplyDemandQuery title="regional biomass consumption">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">demand-physical[@vintage]</axis2>
+                <xPath buildList="false" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='regional biomass')]//*[@type='input']/
+            demand-physical/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+        </aQuery><aQuery><region name="Middle East" /><supplyDemandQuery title="regional biomass consumption">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">demand-physical[@vintage]</axis2>
+                <xPath buildList="false" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='regional biomass')]//*[@type='input']/
+            demand-physical/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+        </aQuery><aQuery><region name="Pakistan" /><supplyDemandQuery title="regional biomass consumption">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">demand-physical[@vintage]</axis2>
+                <xPath buildList="false" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='regional biomass')]//*[@type='input']/
+            demand-physical/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+        </aQuery><aQuery><region name="Russia" /><supplyDemandQuery title="regional biomass consumption">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">demand-physical[@vintage]</axis2>
+                <xPath buildList="false" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='regional biomass')]//*[@type='input']/
+            demand-physical/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+        </aQuery><aQuery><region name="South Africa" /><supplyDemandQuery title="regional biomass consumption">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">demand-physical[@vintage]</axis2>
+                <xPath buildList="false" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='regional biomass')]//*[@type='input']/
+            demand-physical/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+        </aQuery><aQuery><region name="South America_Northern" /><supplyDemandQuery title="regional biomass consumption">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">demand-physical[@vintage]</axis2>
+                <xPath buildList="false" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='regional biomass')]//*[@type='input']/
+            demand-physical/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+        </aQuery><aQuery><region name="South America_Southern" /><supplyDemandQuery title="regional biomass consumption">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">demand-physical[@vintage]</axis2>
+                <xPath buildList="false" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='regional biomass')]//*[@type='input']/
+            demand-physical/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+        </aQuery><aQuery><region name="South Asia" /><supplyDemandQuery title="regional biomass consumption">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">demand-physical[@vintage]</axis2>
+                <xPath buildList="false" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='regional biomass')]//*[@type='input']/
+            demand-physical/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+        </aQuery><aQuery><region name="South Korea" /><supplyDemandQuery title="regional biomass consumption">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">demand-physical[@vintage]</axis2>
+                <xPath buildList="false" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='regional biomass')]//*[@type='input']/
+            demand-physical/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+        </aQuery><aQuery><region name="Southeast Asia" /><supplyDemandQuery title="regional biomass consumption">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">demand-physical[@vintage]</axis2>
+                <xPath buildList="false" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='regional biomass')]//*[@type='input']/
+            demand-physical/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+        </aQuery><aQuery><region name="Taiwan" /><supplyDemandQuery title="regional biomass consumption">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">demand-physical[@vintage]</axis2>
+                <xPath buildList="false" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='regional biomass')]//*[@type='input']/
+            demand-physical/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+        </aQuery><aQuery><region name="Argentina" /><supplyDemandQuery title="regional biomass consumption">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">demand-physical[@vintage]</axis2>
+                <xPath buildList="false" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='regional biomass')]//*[@type='input']/
+            demand-physical/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+        </aQuery><aQuery><region name="Colombia" /><supplyDemandQuery title="regional biomass consumption">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">demand-physical[@vintage]</axis2>
+                <xPath buildList="false" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='regional biomass')]//*[@type='input']/
+            demand-physical/node()</xPath>
+                <comments />
+            </supplyDemandQuery>
+        </aQuery></queries>

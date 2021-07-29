@@ -1,0 +1,22 @@
+<ModelInterfaceBatch>
+    
+    <class name="ModelInterface.ModelGUI2.DbViewer">
+        <command name="XMLDB Batch File">
+            
+            
+
+            
+            
+			<queryFile>output/queries/query_transport_final_energy_by_tech_and_fuel_global.xml</queryFile>
+            
+            <outFile>queryout_transport_final_energy_by_tech_and_fuel_global.csv</outFile>
+            
+            <xmldbLocation>./db/database_basexdb</xmldbLocation>
+            
+            <batchQueryResultsInDifferentSheets>false</batchQueryResultsInDifferentSheets>
+            <batchQueryIncludeCharts>false</batchQueryIncludeCharts>
+            <batchQuerySplitRunsInDifferentSheets>false</batchQuerySplitRunsInDifferentSheets>
+            <batchQueryReplaceResults>true</batchQueryReplaceResults>
+        </command>
+    </class>
+</ModelInterfaceBatch>

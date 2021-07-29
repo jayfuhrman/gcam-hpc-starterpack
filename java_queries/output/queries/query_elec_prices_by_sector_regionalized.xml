@@ -1,0 +1,234 @@
+<queries>
+
+<aQuery><region name="Global" /><supplyDemandQuery title="elec prices by sector">
+                    <axis1 name="fuel">sector</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld' or @name='elect_td_ind'
+               or @name='elect_td_trn')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="USA" /><supplyDemandQuery title="elec prices by sector">
+                    <axis1 name="fuel">sector</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld' or @name='elect_td_ind'
+               or @name='elect_td_trn')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Africa_Eastern" /><supplyDemandQuery title="elec prices by sector">
+                    <axis1 name="fuel">sector</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld' or @name='elect_td_ind'
+               or @name='elect_td_trn')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Africa_Northern" /><supplyDemandQuery title="elec prices by sector">
+                    <axis1 name="fuel">sector</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld' or @name='elect_td_ind'
+               or @name='elect_td_trn')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Africa_Southern" /><supplyDemandQuery title="elec prices by sector">
+                    <axis1 name="fuel">sector</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld' or @name='elect_td_ind'
+               or @name='elect_td_trn')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Africa_Western" /><supplyDemandQuery title="elec prices by sector">
+                    <axis1 name="fuel">sector</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld' or @name='elect_td_ind'
+               or @name='elect_td_trn')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Australia_NZ" /><supplyDemandQuery title="elec prices by sector">
+                    <axis1 name="fuel">sector</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld' or @name='elect_td_ind'
+               or @name='elect_td_trn')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Brazil" /><supplyDemandQuery title="elec prices by sector">
+                    <axis1 name="fuel">sector</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld' or @name='elect_td_ind'
+               or @name='elect_td_trn')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Canada" /><supplyDemandQuery title="elec prices by sector">
+                    <axis1 name="fuel">sector</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld' or @name='elect_td_ind'
+               or @name='elect_td_trn')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Central America and Caribbean" /><supplyDemandQuery title="elec prices by sector">
+                    <axis1 name="fuel">sector</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld' or @name='elect_td_ind'
+               or @name='elect_td_trn')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Central Asia" /><supplyDemandQuery title="elec prices by sector">
+                    <axis1 name="fuel">sector</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld' or @name='elect_td_ind'
+               or @name='elect_td_trn')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="China" /><supplyDemandQuery title="elec prices by sector">
+                    <axis1 name="fuel">sector</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld' or @name='elect_td_ind'
+               or @name='elect_td_trn')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="EU-12" /><supplyDemandQuery title="elec prices by sector">
+                    <axis1 name="fuel">sector</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld' or @name='elect_td_ind'
+               or @name='elect_td_trn')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="EU-15" /><supplyDemandQuery title="elec prices by sector">
+                    <axis1 name="fuel">sector</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld' or @name='elect_td_ind'
+               or @name='elect_td_trn')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Europe_Eastern" /><supplyDemandQuery title="elec prices by sector">
+                    <axis1 name="fuel">sector</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld' or @name='elect_td_ind'
+               or @name='elect_td_trn')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Europe_Non_EU" /><supplyDemandQuery title="elec prices by sector">
+                    <axis1 name="fuel">sector</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld' or @name='elect_td_ind'
+               or @name='elect_td_trn')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="European Free Trade Association" /><supplyDemandQuery title="elec prices by sector">
+                    <axis1 name="fuel">sector</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld' or @name='elect_td_ind'
+               or @name='elect_td_trn')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="India" /><supplyDemandQuery title="elec prices by sector">
+                    <axis1 name="fuel">sector</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld' or @name='elect_td_ind'
+               or @name='elect_td_trn')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Indonesia" /><supplyDemandQuery title="elec prices by sector">
+                    <axis1 name="fuel">sector</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld' or @name='elect_td_ind'
+               or @name='elect_td_trn')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Japan" /><supplyDemandQuery title="elec prices by sector">
+                    <axis1 name="fuel">sector</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld' or @name='elect_td_ind'
+               or @name='elect_td_trn')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Mexico" /><supplyDemandQuery title="elec prices by sector">
+                    <axis1 name="fuel">sector</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld' or @name='elect_td_ind'
+               or @name='elect_td_trn')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Middle East" /><supplyDemandQuery title="elec prices by sector">
+                    <axis1 name="fuel">sector</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld' or @name='elect_td_ind'
+               or @name='elect_td_trn')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Pakistan" /><supplyDemandQuery title="elec prices by sector">
+                    <axis1 name="fuel">sector</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld' or @name='elect_td_ind'
+               or @name='elect_td_trn')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Russia" /><supplyDemandQuery title="elec prices by sector">
+                    <axis1 name="fuel">sector</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld' or @name='elect_td_ind'
+               or @name='elect_td_trn')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="South Africa" /><supplyDemandQuery title="elec prices by sector">
+                    <axis1 name="fuel">sector</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld' or @name='elect_td_ind'
+               or @name='elect_td_trn')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="South America_Northern" /><supplyDemandQuery title="elec prices by sector">
+                    <axis1 name="fuel">sector</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld' or @name='elect_td_ind'
+               or @name='elect_td_trn')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="South America_Southern" /><supplyDemandQuery title="elec prices by sector">
+                    <axis1 name="fuel">sector</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld' or @name='elect_td_ind'
+               or @name='elect_td_trn')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="South Asia" /><supplyDemandQuery title="elec prices by sector">
+                    <axis1 name="fuel">sector</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld' or @name='elect_td_ind'
+               or @name='elect_td_trn')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="South Korea" /><supplyDemandQuery title="elec prices by sector">
+                    <axis1 name="fuel">sector</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld' or @name='elect_td_ind'
+               or @name='elect_td_trn')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Southeast Asia" /><supplyDemandQuery title="elec prices by sector">
+                    <axis1 name="fuel">sector</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld' or @name='elect_td_ind'
+               or @name='elect_td_trn')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Taiwan" /><supplyDemandQuery title="elec prices by sector">
+                    <axis1 name="fuel">sector</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld' or @name='elect_td_ind'
+               or @name='elect_td_trn')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Argentina" /><supplyDemandQuery title="elec prices by sector">
+                    <axis1 name="fuel">sector</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld' or @name='elect_td_ind'
+               or @name='elect_td_trn')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Colombia" /><supplyDemandQuery title="elec prices by sector">
+                    <axis1 name="fuel">sector</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="price" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='elect_td_bld' or @name='elect_td_ind'
+               or @name='elect_td_trn')]/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery></queries>

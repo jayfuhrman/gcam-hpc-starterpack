@@ -7,7 +7,7 @@
 
             
             
-			<queryFile>../output/queries/query_outputs_by_sector_global.xml</queryFile>
+			<queryFile>output/queries/query_outputs_by_sector_global.xml</queryFile>
             
             <outFile>queryout_outputs_by_sector_global.csv</outFile>
             

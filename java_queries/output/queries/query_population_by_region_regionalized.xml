@@ -1,0 +1,201 @@
+<queries>
+
+<aQuery><region name="Global" /><demographicsQuery title="population by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">populationMiniCAM</axis2>
+            <xPath buildList="true" dataName="total-population" group="false" sumAll="false">demographics/populationMiniCAM/total-population/node()</xPath>
+            <comments />
+        </demographicsQuery>
+        </aQuery><aQuery><region name="USA" /><demographicsQuery title="population by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">populationMiniCAM</axis2>
+            <xPath buildList="true" dataName="total-population" group="false" sumAll="false">demographics/populationMiniCAM/total-population/node()</xPath>
+            <comments />
+        </demographicsQuery>
+        </aQuery><aQuery><region name="Africa_Eastern" /><demographicsQuery title="population by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">populationMiniCAM</axis2>
+            <xPath buildList="true" dataName="total-population" group="false" sumAll="false">demographics/populationMiniCAM/total-population/node()</xPath>
+            <comments />
+        </demographicsQuery>
+        </aQuery><aQuery><region name="Africa_Northern" /><demographicsQuery title="population by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">populationMiniCAM</axis2>
+            <xPath buildList="true" dataName="total-population" group="false" sumAll="false">demographics/populationMiniCAM/total-population/node()</xPath>
+            <comments />
+        </demographicsQuery>
+        </aQuery><aQuery><region name="Africa_Southern" /><demographicsQuery title="population by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">populationMiniCAM</axis2>
+            <xPath buildList="true" dataName="total-population" group="false" sumAll="false">demographics/populationMiniCAM/total-population/node()</xPath>
+            <comments />
+        </demographicsQuery>
+        </aQuery><aQuery><region name="Africa_Western" /><demographicsQuery title="population by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">populationMiniCAM</axis2>
+            <xPath buildList="true" dataName="total-population" group="false" sumAll="false">demographics/populationMiniCAM/total-population/node()</xPath>
+            <comments />
+        </demographicsQuery>
+        </aQuery><aQuery><region name="Australia_NZ" /><demographicsQuery title="population by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">populationMiniCAM</axis2>
+            <xPath buildList="true" dataName="total-population" group="false" sumAll="false">demographics/populationMiniCAM/total-population/node()</xPath>
+            <comments />
+        </demographicsQuery>
+        </aQuery><aQuery><region name="Brazil" /><demographicsQuery title="population by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">populationMiniCAM</axis2>
+            <xPath buildList="true" dataName="total-population" group="false" sumAll="false">demographics/populationMiniCAM/total-population/node()</xPath>
+            <comments />
+        </demographicsQuery>
+        </aQuery><aQuery><region name="Canada" /><demographicsQuery title="population by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">populationMiniCAM</axis2>
+            <xPath buildList="true" dataName="total-population" group="false" sumAll="false">demographics/populationMiniCAM/total-population/node()</xPath>
+            <comments />
+        </demographicsQuery>
+        </aQuery><aQuery><region name="Central America and Caribbean" /><demographicsQuery title="population by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">populationMiniCAM</axis2>
+            <xPath buildList="true" dataName="total-population" group="false" sumAll="false">demographics/populationMiniCAM/total-population/node()</xPath>
+            <comments />
+        </demographicsQuery>
+        </aQuery><aQuery><region name="Central Asia" /><demographicsQuery title="population by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">populationMiniCAM</axis2>
+            <xPath buildList="true" dataName="total-population" group="false" sumAll="false">demographics/populationMiniCAM/total-population/node()</xPath>
+            <comments />
+        </demographicsQuery>
+        </aQuery><aQuery><region name="China" /><demographicsQuery title="population by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">populationMiniCAM</axis2>
+            <xPath buildList="true" dataName="total-population" group="false" sumAll="false">demographics/populationMiniCAM/total-population/node()</xPath>
+            <comments />
+        </demographicsQuery>
+        </aQuery><aQuery><region name="EU-12" /><demographicsQuery title="population by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">populationMiniCAM</axis2>
+            <xPath buildList="true" dataName="total-population" group="false" sumAll="false">demographics/populationMiniCAM/total-population/node()</xPath>
+            <comments />
+        </demographicsQuery>
+        </aQuery><aQuery><region name="EU-15" /><demographicsQuery title="population by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">populationMiniCAM</axis2>
+            <xPath buildList="true" dataName="total-population" group="false" sumAll="false">demographics/populationMiniCAM/total-population/node()</xPath>
+            <comments />
+        </demographicsQuery>
+        </aQuery><aQuery><region name="Europe_Eastern" /><demographicsQuery title="population by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">populationMiniCAM</axis2>
+            <xPath buildList="true" dataName="total-population" group="false" sumAll="false">demographics/populationMiniCAM/total-population/node()</xPath>
+            <comments />
+        </demographicsQuery>
+        </aQuery><aQuery><region name="Europe_Non_EU" /><demographicsQuery title="population by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">populationMiniCAM</axis2>
+            <xPath buildList="true" dataName="total-population" group="false" sumAll="false">demographics/populationMiniCAM/total-population/node()</xPath>
+            <comments />
+        </demographicsQuery>
+        </aQuery><aQuery><region name="European Free Trade Association" /><demographicsQuery title="population by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">populationMiniCAM</axis2>
+            <xPath buildList="true" dataName="total-population" group="false" sumAll="false">demographics/populationMiniCAM/total-population/node()</xPath>
+            <comments />
+        </demographicsQuery>
+        </aQuery><aQuery><region name="India" /><demographicsQuery title="population by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">populationMiniCAM</axis2>
+            <xPath buildList="true" dataName="total-population" group="false" sumAll="false">demographics/populationMiniCAM/total-population/node()</xPath>
+            <comments />
+        </demographicsQuery>
+        </aQuery><aQuery><region name="Indonesia" /><demographicsQuery title="population by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">populationMiniCAM</axis2>
+            <xPath buildList="true" dataName="total-population" group="false" sumAll="false">demographics/populationMiniCAM/total-population/node()</xPath>
+            <comments />
+        </demographicsQuery>
+        </aQuery><aQuery><region name="Japan" /><demographicsQuery title="population by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">populationMiniCAM</axis2>
+            <xPath buildList="true" dataName="total-population" group="false" sumAll="false">demographics/populationMiniCAM/total-population/node()</xPath>
+            <comments />
+        </demographicsQuery>
+        </aQuery><aQuery><region name="Mexico" /><demographicsQuery title="population by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">populationMiniCAM</axis2>
+            <xPath buildList="true" dataName="total-population" group="false" sumAll="false">demographics/populationMiniCAM/total-population/node()</xPath>
+            <comments />
+        </demographicsQuery>
+        </aQuery><aQuery><region name="Middle East" /><demographicsQuery title="population by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">populationMiniCAM</axis2>
+            <xPath buildList="true" dataName="total-population" group="false" sumAll="false">demographics/populationMiniCAM/total-population/node()</xPath>
+            <comments />
+        </demographicsQuery>
+        </aQuery><aQuery><region name="Pakistan" /><demographicsQuery title="population by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">populationMiniCAM</axis2>
+            <xPath buildList="true" dataName="total-population" group="false" sumAll="false">demographics/populationMiniCAM/total-population/node()</xPath>
+            <comments />
+        </demographicsQuery>
+        </aQuery><aQuery><region name="Russia" /><demographicsQuery title="population by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">populationMiniCAM</axis2>
+            <xPath buildList="true" dataName="total-population" group="false" sumAll="false">demographics/populationMiniCAM/total-population/node()</xPath>
+            <comments />
+        </demographicsQuery>
+        </aQuery><aQuery><region name="South Africa" /><demographicsQuery title="population by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">populationMiniCAM</axis2>
+            <xPath buildList="true" dataName="total-population" group="false" sumAll="false">demographics/populationMiniCAM/total-population/node()</xPath>
+            <comments />
+        </demographicsQuery>
+        </aQuery><aQuery><region name="South America_Northern" /><demographicsQuery title="population by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">populationMiniCAM</axis2>
+            <xPath buildList="true" dataName="total-population" group="false" sumAll="false">demographics/populationMiniCAM/total-population/node()</xPath>
+            <comments />
+        </demographicsQuery>
+        </aQuery><aQuery><region name="South America_Southern" /><demographicsQuery title="population by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">populationMiniCAM</axis2>
+            <xPath buildList="true" dataName="total-population" group="false" sumAll="false">demographics/populationMiniCAM/total-population/node()</xPath>
+            <comments />
+        </demographicsQuery>
+        </aQuery><aQuery><region name="South Asia" /><demographicsQuery title="population by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">populationMiniCAM</axis2>
+            <xPath buildList="true" dataName="total-population" group="false" sumAll="false">demographics/populationMiniCAM/total-population/node()</xPath>
+            <comments />
+        </demographicsQuery>
+        </aQuery><aQuery><region name="South Korea" /><demographicsQuery title="population by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">populationMiniCAM</axis2>
+            <xPath buildList="true" dataName="total-population" group="false" sumAll="false">demographics/populationMiniCAM/total-population/node()</xPath>
+            <comments />
+        </demographicsQuery>
+        </aQuery><aQuery><region name="Southeast Asia" /><demographicsQuery title="population by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">populationMiniCAM</axis2>
+            <xPath buildList="true" dataName="total-population" group="false" sumAll="false">demographics/populationMiniCAM/total-population/node()</xPath>
+            <comments />
+        </demographicsQuery>
+        </aQuery><aQuery><region name="Taiwan" /><demographicsQuery title="population by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">populationMiniCAM</axis2>
+            <xPath buildList="true" dataName="total-population" group="false" sumAll="false">demographics/populationMiniCAM/total-population/node()</xPath>
+            <comments />
+        </demographicsQuery>
+        </aQuery><aQuery><region name="Argentina" /><demographicsQuery title="population by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">populationMiniCAM</axis2>
+            <xPath buildList="true" dataName="total-population" group="false" sumAll="false">demographics/populationMiniCAM/total-population/node()</xPath>
+            <comments />
+        </demographicsQuery>
+        </aQuery><aQuery><region name="Colombia" /><demographicsQuery title="population by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">populationMiniCAM</axis2>
+            <xPath buildList="true" dataName="total-population" group="false" sumAll="false">demographics/populationMiniCAM/total-population/node()</xPath>
+            <comments />
+        </demographicsQuery>
+        </aQuery></queries>

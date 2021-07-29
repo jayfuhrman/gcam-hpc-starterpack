@@ -1,0 +1,19 @@
+<queries>
+
+<aQuery>
+	<region name="Global" /> 
+	
+
+<supplyDemandQuery title="transport final energy by tech (new)">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='transportation' or (exists(child::keyword[@final-energy='transportation'])))]/
+               *[@type='subsector']/*[@type='technology']/
+               *[@type='input' and not (@name='renewable') and not(contains(@name,'trn_'))]/
+               demand-physical[@vintage=parent::*/parent::*/@year]/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery>
+
+
+</queries>

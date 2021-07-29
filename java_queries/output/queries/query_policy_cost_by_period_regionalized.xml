@@ -1,0 +1,201 @@
+<queries>
+
+<aQuery><region name="Global" /><costCurveQuery title="policy cost by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Year">DataPoint</axis2>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/y/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery><aQuery><region name="USA" /><costCurveQuery title="policy cost by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Year">DataPoint</axis2>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/y/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery><aQuery><region name="Africa_Eastern" /><costCurveQuery title="policy cost by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Year">DataPoint</axis2>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/y/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery><aQuery><region name="Africa_Northern" /><costCurveQuery title="policy cost by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Year">DataPoint</axis2>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/y/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery><aQuery><region name="Africa_Southern" /><costCurveQuery title="policy cost by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Year">DataPoint</axis2>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/y/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery><aQuery><region name="Africa_Western" /><costCurveQuery title="policy cost by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Year">DataPoint</axis2>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/y/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery><aQuery><region name="Australia_NZ" /><costCurveQuery title="policy cost by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Year">DataPoint</axis2>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/y/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery><aQuery><region name="Brazil" /><costCurveQuery title="policy cost by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Year">DataPoint</axis2>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/y/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery><aQuery><region name="Canada" /><costCurveQuery title="policy cost by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Year">DataPoint</axis2>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/y/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery><aQuery><region name="Central America and Caribbean" /><costCurveQuery title="policy cost by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Year">DataPoint</axis2>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/y/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery><aQuery><region name="Central Asia" /><costCurveQuery title="policy cost by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Year">DataPoint</axis2>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/y/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery><aQuery><region name="China" /><costCurveQuery title="policy cost by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Year">DataPoint</axis2>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/y/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery><aQuery><region name="EU-12" /><costCurveQuery title="policy cost by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Year">DataPoint</axis2>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/y/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery><aQuery><region name="EU-15" /><costCurveQuery title="policy cost by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Year">DataPoint</axis2>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/y/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery><aQuery><region name="Europe_Eastern" /><costCurveQuery title="policy cost by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Year">DataPoint</axis2>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/y/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery><aQuery><region name="Europe_Non_EU" /><costCurveQuery title="policy cost by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Year">DataPoint</axis2>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/y/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery><aQuery><region name="European Free Trade Association" /><costCurveQuery title="policy cost by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Year">DataPoint</axis2>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/y/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery><aQuery><region name="India" /><costCurveQuery title="policy cost by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Year">DataPoint</axis2>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/y/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery><aQuery><region name="Indonesia" /><costCurveQuery title="policy cost by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Year">DataPoint</axis2>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/y/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery><aQuery><region name="Japan" /><costCurveQuery title="policy cost by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Year">DataPoint</axis2>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/y/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery><aQuery><region name="Mexico" /><costCurveQuery title="policy cost by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Year">DataPoint</axis2>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/y/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery><aQuery><region name="Middle East" /><costCurveQuery title="policy cost by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Year">DataPoint</axis2>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/y/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery><aQuery><region name="Pakistan" /><costCurveQuery title="policy cost by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Year">DataPoint</axis2>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/y/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery><aQuery><region name="Russia" /><costCurveQuery title="policy cost by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Year">DataPoint</axis2>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/y/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery><aQuery><region name="South Africa" /><costCurveQuery title="policy cost by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Year">DataPoint</axis2>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/y/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery><aQuery><region name="South America_Northern" /><costCurveQuery title="policy cost by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Year">DataPoint</axis2>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/y/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery><aQuery><region name="South America_Southern" /><costCurveQuery title="policy cost by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Year">DataPoint</axis2>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/y/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery><aQuery><region name="South Asia" /><costCurveQuery title="policy cost by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Year">DataPoint</axis2>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/y/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery><aQuery><region name="South Korea" /><costCurveQuery title="policy cost by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Year">DataPoint</axis2>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/y/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery><aQuery><region name="Southeast Asia" /><costCurveQuery title="policy cost by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Year">DataPoint</axis2>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/y/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery><aQuery><region name="Taiwan" /><costCurveQuery title="policy cost by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Year">DataPoint</axis2>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/y/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery><aQuery><region name="Argentina" /><costCurveQuery title="policy cost by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Year">DataPoint</axis2>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/y/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery><aQuery><region name="Colombia" /><costCurveQuery title="policy cost by period">
+            <axis1 name="region">Curve</axis1>
+            <axis2 name="Year">DataPoint</axis2>
+            <xPath buildList="true" dataName="Cost" group="false" sumAll="false">PointSet/DataPoint/y/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery></queries>

@@ -72,6 +72,7 @@ query_strs = ['CO2 emissions by sector',
               'LUC emissions by region',
               'LUC emissions by LUT',
               'regional biomass consumption',
+              'primary energy consumption with CCS by region (direct equivalent)'
               ]
 
 gcam_global=['USA',
@@ -123,7 +124,7 @@ def create_query_files(query_strs,states):
     #import numpy as np
 
     if states==False:
-        for query_str in query_strs2:
+        for query_str in query_strs:
             
             path = query_str.replace(" ","_")
             path = path.replace("(","")
@@ -131,7 +132,7 @@ def create_query_files(query_strs,states):
             path = path+'_global'
 #            path = path+'_global'            
             
-            all_queries = ET.parse('batch_query_templates/Main_queries_template.xml')
+            all_queries = ET.parse('batch_query_templates/Main_queries.xml')
             #all_queries_root = all_queries.getroot()
             
             #ET.dump(all_queries_root)
@@ -153,7 +154,7 @@ def create_query_files(query_strs,states):
             
             
             
-            query_folder = ''
+            query_folder = 'output/queries/'
             query_file = 'query_'+path+'.xml'
             query_template.write(query_folder+query_file)
 
@@ -169,21 +170,21 @@ def create_query_files(query_strs,states):
             outFile_path = xmldb_batch_root.findall(".//*outFile")[0]
             
             
-            query_folder = ''
+            query_folder = 'output/queries/'
             queryFile_path.text = query_folder+query_file
             outFile_path.text = 'queryout_'+path+'.csv'
             
-            xmldb_pointer_folder = 'xmldb/'
+            xmldb_pointer_folder = 'exe/'
             xmldb_pointer_file = 'xmldb_batch_'+path+'.xml'
             
             xmldb_batch.write(xmldb_pointer_folder+xmldb_pointer_file)
-            print('Done creating xml file. Please copy the following bash code into the run_model.sh file:')
+            #print('Done creating xml file. Please copy the following bash code into the run_model.sh file:')
             print('java ModelInterface.InterfaceMain -b ${SCRATCHDIR}/exe_$2/'+xmldb_pointer_file)
             print('')
             
-            print('If running query on an already-completed GCAM run, set the TARGETFILE and QUERYFILE as follows before running the postproc_scratch.sh script:')
-            print('TARGETFILE='+xmldb_pointer_file)
-            print('QUERYFILE='+query_file)
+            #print('If running query on an already-completed GCAM run, set the TARGETFILE and QUERYFILE as follows before running the postproc_scratch.sh script:')
+            #print('TARGETFILE='+xmldb_pointer_file)
+            #print('QUERYFILE='+query_file)
     else:
 ##US states + GCAM 32 regions + Global region
         for query_str in query_strs:
@@ -194,7 +195,7 @@ def create_query_files(query_strs,states):
             path = path+'_states'
             
             
-            all_queries = ET.parse('batch_query_templates/Main_queries_template.xml')
+            all_queries = ET.parse('batch_query_templates/Main_queries.xml')
             #all_queries_root = all_queries.getroot()
             
             #ET.dump(all_queries_root)
@@ -262,4 +263,4 @@ def create_query_files(query_strs,states):
         
     
 
-create_query_files(query_strs,True)    
+create_query_files(query_strs,False)    

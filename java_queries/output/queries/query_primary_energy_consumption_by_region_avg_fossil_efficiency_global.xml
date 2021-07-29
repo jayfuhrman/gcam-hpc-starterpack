@@ -5,9 +5,10 @@
 	
 
 <supplyDemandQuery title="primary energy consumption by region (avg fossil efficiency)">
-            <axis1 name="fuel">input[@name]</axis1>
-            <axis2 name="Year">demand-physical[@vintage]</axis2>
-            <xPath buildList="true" dataName="input" group="false" sumAll="false"> 
+                <axis1 name="fuel">input[@name]</axis1>
+                <axis2 name="Year">demand-physical[@vintage]</axis2>
+                <xPath buildList="true" dataName="input" group="false" sumAll="false">
+                     
       	 	 	 declare function local:get-weighted-eff($outputs as node()*) as node()* {
 			 	 		   unordered {
 			 			     for $year in distinct-values($outputs/physical-output/@vintage)
@@ -110,32 +111,39 @@
 	 	 }; 
             	 local:run-primary-energy((:scenarios:), (:regions:), (:collection:))
                  
-            </xPath>
-            <comments />
-            <labelRewriteList append-values="false">
-               <level name="input">
-                  <rewrite from="traditional biomass" to="j traditional biomass" />
-                  <rewrite from="geothermal-elect" to="i geothermal" />
-                  <rewrite from="biomass" to="d biomass" />
-                  <rewrite from="total biomass" to="d biomass" />
-                  <rewrite from="nuclear-H2" to="e nuclear" />
-                  <rewrite from="natural gas" to="b natural gas" />
-                  <rewrite from="wind-elect" to="g wind" />
-                  <rewrite from="exotic-elect" to="j breakthrough" />
-                  <rewrite from="elect_td_ind" to="" />
-                  <rewrite from="solar-elect" to="h solar" />
-                  <rewrite from="solar-H2" to="h solar" />
-                  <rewrite from="regional natural gas" to="" />
-                  <rewrite from="coal" to="c coal" />
-                  <rewrite from="crude oil" to="a oil" />
-                  <rewrite from="hydro-elect" to="f hydro" />
-                  <rewrite from="nuclear-elect" to="e nuclear" />
-                  <rewrite from="traded unconventional oil" to="a oil" />
-                  <rewrite from="wind-H2" to="g wind" />
-               </level>
-            </labelRewriteList>
-         </supplyDemandQuery>
-         </aQuery>
+            
+                </xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="input">
+                        <rewrite from="exotic-elect" to="j breakthrough" />
+                        <rewrite from="wind-H2" to="g wind" />
+                        <rewrite from="biomass" to="d biomass" />
+                        <rewrite from="traditional biomass" to="j traditional biomass" />
+                        <rewrite from="regional corn for ethanol" to="d biomass" />
+                        <rewrite from="crude oil" to="a oil" />
+                        <rewrite from="nuclear-elect" to="e nuclear" />
+                        <rewrite from="solar-H2" to="h solar" />
+                        <rewrite from="regional natural gas" to="" />
+                        <rewrite from="regional biomassOil" to="d biomass" />
+                        <rewrite from="traded unconventional oil" to="a oil" />
+                        <rewrite from="geothermal-elect" to="i geothermal" />
+                        <rewrite from="natural gas" to="b natural gas" />
+                        <rewrite from="wholesale gas" to="" />
+                        <rewrite from="hydro-elect" to="f hydro" />
+                        <rewrite from="solar-elect" to="h solar" />
+                        <rewrite from="coal" to="c coal" />
+                        <rewrite from="traded oil" to="a oil" />
+                        <rewrite from="traded natural gas" to="b natural gas" />
+                        <rewrite from="traded coal" to="c coal" />
+                        <rewrite from="elect_td_ind" to="" />
+                        <rewrite from="wind-elect" to="g wind" />
+                        <rewrite from="total biomass" to="d biomass" />
+                        <rewrite from="nuclear-H2" to="e nuclear" />
+                    </level>
+                </labelRewriteList>
+            </supplyDemandQuery>
+            </aQuery>
 
 
 </queries>

@@ -7,7 +7,7 @@
 
             
             
-			<queryFile>../output/queries/query_transport_service_output_by_tech_global.xml</queryFile>
+			<queryFile>output/queries/query_transport_service_output_by_tech_global.xml</queryFile>
             
             <outFile>queryout_transport_service_output_by_tech_global.csv</outFile>
             

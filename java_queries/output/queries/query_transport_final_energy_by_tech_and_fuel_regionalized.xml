@@ -1,0 +1,267 @@
+<queries>
+
+<aQuery><region name="Global" /><supplyDemandQuery title="transport final energy by tech and fuel">
+                    <axis1 name="mode">subsector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='transportation' or (exists(child::keyword[@final-energy='transportation'])))]/
+               *[@type='subsector']/*[@type='technology']/*[@type='input' and not(@name='renewable')]/
+               demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="USA" /><supplyDemandQuery title="transport final energy by tech and fuel">
+                    <axis1 name="mode">subsector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='transportation' or (exists(child::keyword[@final-energy='transportation'])))]/
+               *[@type='subsector']/*[@type='technology']/*[@type='input' and not(@name='renewable')]/
+               demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Africa_Eastern" /><supplyDemandQuery title="transport final energy by tech and fuel">
+                    <axis1 name="mode">subsector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='transportation' or (exists(child::keyword[@final-energy='transportation'])))]/
+               *[@type='subsector']/*[@type='technology']/*[@type='input' and not(@name='renewable')]/
+               demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Africa_Northern" /><supplyDemandQuery title="transport final energy by tech and fuel">
+                    <axis1 name="mode">subsector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='transportation' or (exists(child::keyword[@final-energy='transportation'])))]/
+               *[@type='subsector']/*[@type='technology']/*[@type='input' and not(@name='renewable')]/
+               demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Africa_Southern" /><supplyDemandQuery title="transport final energy by tech and fuel">
+                    <axis1 name="mode">subsector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='transportation' or (exists(child::keyword[@final-energy='transportation'])))]/
+               *[@type='subsector']/*[@type='technology']/*[@type='input' and not(@name='renewable')]/
+               demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Africa_Western" /><supplyDemandQuery title="transport final energy by tech and fuel">
+                    <axis1 name="mode">subsector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='transportation' or (exists(child::keyword[@final-energy='transportation'])))]/
+               *[@type='subsector']/*[@type='technology']/*[@type='input' and not(@name='renewable')]/
+               demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Australia_NZ" /><supplyDemandQuery title="transport final energy by tech and fuel">
+                    <axis1 name="mode">subsector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='transportation' or (exists(child::keyword[@final-energy='transportation'])))]/
+               *[@type='subsector']/*[@type='technology']/*[@type='input' and not(@name='renewable')]/
+               demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Brazil" /><supplyDemandQuery title="transport final energy by tech and fuel">
+                    <axis1 name="mode">subsector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='transportation' or (exists(child::keyword[@final-energy='transportation'])))]/
+               *[@type='subsector']/*[@type='technology']/*[@type='input' and not(@name='renewable')]/
+               demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Canada" /><supplyDemandQuery title="transport final energy by tech and fuel">
+                    <axis1 name="mode">subsector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='transportation' or (exists(child::keyword[@final-energy='transportation'])))]/
+               *[@type='subsector']/*[@type='technology']/*[@type='input' and not(@name='renewable')]/
+               demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Central America and Caribbean" /><supplyDemandQuery title="transport final energy by tech and fuel">
+                    <axis1 name="mode">subsector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='transportation' or (exists(child::keyword[@final-energy='transportation'])))]/
+               *[@type='subsector']/*[@type='technology']/*[@type='input' and not(@name='renewable')]/
+               demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Central Asia" /><supplyDemandQuery title="transport final energy by tech and fuel">
+                    <axis1 name="mode">subsector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='transportation' or (exists(child::keyword[@final-energy='transportation'])))]/
+               *[@type='subsector']/*[@type='technology']/*[@type='input' and not(@name='renewable')]/
+               demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="China" /><supplyDemandQuery title="transport final energy by tech and fuel">
+                    <axis1 name="mode">subsector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='transportation' or (exists(child::keyword[@final-energy='transportation'])))]/
+               *[@type='subsector']/*[@type='technology']/*[@type='input' and not(@name='renewable')]/
+               demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="EU-12" /><supplyDemandQuery title="transport final energy by tech and fuel">
+                    <axis1 name="mode">subsector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='transportation' or (exists(child::keyword[@final-energy='transportation'])))]/
+               *[@type='subsector']/*[@type='technology']/*[@type='input' and not(@name='renewable')]/
+               demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="EU-15" /><supplyDemandQuery title="transport final energy by tech and fuel">
+                    <axis1 name="mode">subsector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='transportation' or (exists(child::keyword[@final-energy='transportation'])))]/
+               *[@type='subsector']/*[@type='technology']/*[@type='input' and not(@name='renewable')]/
+               demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Europe_Eastern" /><supplyDemandQuery title="transport final energy by tech and fuel">
+                    <axis1 name="mode">subsector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='transportation' or (exists(child::keyword[@final-energy='transportation'])))]/
+               *[@type='subsector']/*[@type='technology']/*[@type='input' and not(@name='renewable')]/
+               demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Europe_Non_EU" /><supplyDemandQuery title="transport final energy by tech and fuel">
+                    <axis1 name="mode">subsector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='transportation' or (exists(child::keyword[@final-energy='transportation'])))]/
+               *[@type='subsector']/*[@type='technology']/*[@type='input' and not(@name='renewable')]/
+               demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="European Free Trade Association" /><supplyDemandQuery title="transport final energy by tech and fuel">
+                    <axis1 name="mode">subsector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='transportation' or (exists(child::keyword[@final-energy='transportation'])))]/
+               *[@type='subsector']/*[@type='technology']/*[@type='input' and not(@name='renewable')]/
+               demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="India" /><supplyDemandQuery title="transport final energy by tech and fuel">
+                    <axis1 name="mode">subsector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='transportation' or (exists(child::keyword[@final-energy='transportation'])))]/
+               *[@type='subsector']/*[@type='technology']/*[@type='input' and not(@name='renewable')]/
+               demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Indonesia" /><supplyDemandQuery title="transport final energy by tech and fuel">
+                    <axis1 name="mode">subsector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='transportation' or (exists(child::keyword[@final-energy='transportation'])))]/
+               *[@type='subsector']/*[@type='technology']/*[@type='input' and not(@name='renewable')]/
+               demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Japan" /><supplyDemandQuery title="transport final energy by tech and fuel">
+                    <axis1 name="mode">subsector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='transportation' or (exists(child::keyword[@final-energy='transportation'])))]/
+               *[@type='subsector']/*[@type='technology']/*[@type='input' and not(@name='renewable')]/
+               demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Mexico" /><supplyDemandQuery title="transport final energy by tech and fuel">
+                    <axis1 name="mode">subsector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='transportation' or (exists(child::keyword[@final-energy='transportation'])))]/
+               *[@type='subsector']/*[@type='technology']/*[@type='input' and not(@name='renewable')]/
+               demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Middle East" /><supplyDemandQuery title="transport final energy by tech and fuel">
+                    <axis1 name="mode">subsector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='transportation' or (exists(child::keyword[@final-energy='transportation'])))]/
+               *[@type='subsector']/*[@type='technology']/*[@type='input' and not(@name='renewable')]/
+               demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Pakistan" /><supplyDemandQuery title="transport final energy by tech and fuel">
+                    <axis1 name="mode">subsector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='transportation' or (exists(child::keyword[@final-energy='transportation'])))]/
+               *[@type='subsector']/*[@type='technology']/*[@type='input' and not(@name='renewable')]/
+               demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Russia" /><supplyDemandQuery title="transport final energy by tech and fuel">
+                    <axis1 name="mode">subsector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='transportation' or (exists(child::keyword[@final-energy='transportation'])))]/
+               *[@type='subsector']/*[@type='technology']/*[@type='input' and not(@name='renewable')]/
+               demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="South Africa" /><supplyDemandQuery title="transport final energy by tech and fuel">
+                    <axis1 name="mode">subsector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='transportation' or (exists(child::keyword[@final-energy='transportation'])))]/
+               *[@type='subsector']/*[@type='technology']/*[@type='input' and not(@name='renewable')]/
+               demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="South America_Northern" /><supplyDemandQuery title="transport final energy by tech and fuel">
+                    <axis1 name="mode">subsector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='transportation' or (exists(child::keyword[@final-energy='transportation'])))]/
+               *[@type='subsector']/*[@type='technology']/*[@type='input' and not(@name='renewable')]/
+               demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="South America_Southern" /><supplyDemandQuery title="transport final energy by tech and fuel">
+                    <axis1 name="mode">subsector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='transportation' or (exists(child::keyword[@final-energy='transportation'])))]/
+               *[@type='subsector']/*[@type='technology']/*[@type='input' and not(@name='renewable')]/
+               demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="South Asia" /><supplyDemandQuery title="transport final energy by tech and fuel">
+                    <axis1 name="mode">subsector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='transportation' or (exists(child::keyword[@final-energy='transportation'])))]/
+               *[@type='subsector']/*[@type='technology']/*[@type='input' and not(@name='renewable')]/
+               demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="South Korea" /><supplyDemandQuery title="transport final energy by tech and fuel">
+                    <axis1 name="mode">subsector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='transportation' or (exists(child::keyword[@final-energy='transportation'])))]/
+               *[@type='subsector']/*[@type='technology']/*[@type='input' and not(@name='renewable')]/
+               demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Southeast Asia" /><supplyDemandQuery title="transport final energy by tech and fuel">
+                    <axis1 name="mode">subsector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='transportation' or (exists(child::keyword[@final-energy='transportation'])))]/
+               *[@type='subsector']/*[@type='technology']/*[@type='input' and not(@name='renewable')]/
+               demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Taiwan" /><supplyDemandQuery title="transport final energy by tech and fuel">
+                    <axis1 name="mode">subsector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='transportation' or (exists(child::keyword[@final-energy='transportation'])))]/
+               *[@type='subsector']/*[@type='technology']/*[@type='input' and not(@name='renewable')]/
+               demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Argentina" /><supplyDemandQuery title="transport final energy by tech and fuel">
+                    <axis1 name="mode">subsector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='transportation' or (exists(child::keyword[@final-energy='transportation'])))]/
+               *[@type='subsector']/*[@type='technology']/*[@type='input' and not(@name='renewable')]/
+               demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Colombia" /><supplyDemandQuery title="transport final energy by tech and fuel">
+                    <axis1 name="mode">subsector</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='transportation' or (exists(child::keyword[@final-energy='transportation'])))]/
+               *[@type='subsector']/*[@type='technology']/*[@type='input' and not(@name='renewable')]/
+               demand-physical[@unit='EJ']/node()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery></queries>

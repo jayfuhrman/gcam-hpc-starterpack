@@ -1,9 +1,10 @@
 <queries>
 
 <aQuery><region name="Global" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
-            <axis1 name="sector">sector[@name]</axis1>
-            <axis2 name="Year">emissions[@year]</axis2>
-            <xPath buildList="true" dataName="input" group="false" sumAll="false"> 
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">emissions[@year]</axis2>
+                <xPath buildList="true" dataName="input" group="false" sumAll="false">
+                     
             declare function local:append-heirarchy($parent as node(), $append as node()*) as node() {
             let $scn := $parent/ancestor::scenario,
             $rgn := $parent (: /ancestor::region :)
@@ -169,30 +170,32 @@
             };
             local:run-emiss-by-enduse((:scenarios:), (:regions:), (:collection:))
             
-         </xPath>
-            <comments />
-            <labelRewriteList append-values="false">
-               <level name="sector">
-                  <rewrite from="elec_coal (conv pul)" to="electricity" />
-                  <rewrite from="elec_gas (CC)" to="electricity" />
-                  <rewrite from="elec_CSP" to="electricity" />
-                  <rewrite from="elec_Gen_II_LWR" to="electricity" />
-                  <rewrite from="elec_refined liquids (CC)" to="electricity" />
-                  <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
-                  <rewrite from="elec_Gen_III" to="electricity" />
-                  <rewrite from="elec_geothermal" to="electricity" />
-                  <rewrite from="elec_biomass (conv)" to="electricity" />
-                  <rewrite from="elec_gas (steam/CT)" to="electricity" />
-                  <rewrite from="elec_biomass (IGCC)" to="electricity" />
-                  <rewrite from="elec_coal (IGCC)" to="electricity" />
-                  <rewrite from="elec_CSP_storage" to="electricity" />
-               </level>
-            </labelRewriteList>
-         </supplyDemandQuery>
-         </aQuery><aQuery><region name="USA" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
-            <axis1 name="sector">sector[@name]</axis1>
-            <axis2 name="Year">emissions[@year]</axis2>
-            <xPath buildList="true" dataName="input" group="false" sumAll="false"> 
+         
+                </xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="sector">
+                        <rewrite from="elec_Gen_III" to="electricity" />
+                        <rewrite from="elec_CSP_storage" to="electricity" />
+                        <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
+                        <rewrite from="elec_geothermal" to="electricity" />
+                        <rewrite from="elec_refined liquids (CC)" to="electricity" />
+                        <rewrite from="elec_Gen_II_LWR" to="electricity" />
+                        <rewrite from="elec_gas (steam/CT)" to="electricity" />
+                        <rewrite from="elec_coal (IGCC)" to="electricity" />
+                        <rewrite from="elec_gas (CC)" to="electricity" />
+                        <rewrite from="elec_biomass (IGCC)" to="electricity" />
+                        <rewrite from="elec_coal (conv pul)" to="electricity" />
+                        <rewrite from="elec_CSP" to="electricity" />
+                        <rewrite from="elec_biomass (conv)" to="electricity" />
+                    </level>
+                </labelRewriteList>
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="USA" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">emissions[@year]</axis2>
+                <xPath buildList="true" dataName="input" group="false" sumAll="false">
+                     
             declare function local:append-heirarchy($parent as node(), $append as node()*) as node() {
             let $scn := $parent/ancestor::scenario,
             $rgn := $parent (: /ancestor::region :)
@@ -358,30 +361,32 @@
             };
             local:run-emiss-by-enduse((:scenarios:), (:regions:), (:collection:))
             
-         </xPath>
-            <comments />
-            <labelRewriteList append-values="false">
-               <level name="sector">
-                  <rewrite from="elec_coal (conv pul)" to="electricity" />
-                  <rewrite from="elec_gas (CC)" to="electricity" />
-                  <rewrite from="elec_CSP" to="electricity" />
-                  <rewrite from="elec_Gen_II_LWR" to="electricity" />
-                  <rewrite from="elec_refined liquids (CC)" to="electricity" />
-                  <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
-                  <rewrite from="elec_Gen_III" to="electricity" />
-                  <rewrite from="elec_geothermal" to="electricity" />
-                  <rewrite from="elec_biomass (conv)" to="electricity" />
-                  <rewrite from="elec_gas (steam/CT)" to="electricity" />
-                  <rewrite from="elec_biomass (IGCC)" to="electricity" />
-                  <rewrite from="elec_coal (IGCC)" to="electricity" />
-                  <rewrite from="elec_CSP_storage" to="electricity" />
-               </level>
-            </labelRewriteList>
-         </supplyDemandQuery>
-         </aQuery><aQuery><region name="Africa_Eastern" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
-            <axis1 name="sector">sector[@name]</axis1>
-            <axis2 name="Year">emissions[@year]</axis2>
-            <xPath buildList="true" dataName="input" group="false" sumAll="false"> 
+         
+                </xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="sector">
+                        <rewrite from="elec_Gen_III" to="electricity" />
+                        <rewrite from="elec_CSP_storage" to="electricity" />
+                        <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
+                        <rewrite from="elec_geothermal" to="electricity" />
+                        <rewrite from="elec_refined liquids (CC)" to="electricity" />
+                        <rewrite from="elec_Gen_II_LWR" to="electricity" />
+                        <rewrite from="elec_gas (steam/CT)" to="electricity" />
+                        <rewrite from="elec_coal (IGCC)" to="electricity" />
+                        <rewrite from="elec_gas (CC)" to="electricity" />
+                        <rewrite from="elec_biomass (IGCC)" to="electricity" />
+                        <rewrite from="elec_coal (conv pul)" to="electricity" />
+                        <rewrite from="elec_CSP" to="electricity" />
+                        <rewrite from="elec_biomass (conv)" to="electricity" />
+                    </level>
+                </labelRewriteList>
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Africa_Eastern" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">emissions[@year]</axis2>
+                <xPath buildList="true" dataName="input" group="false" sumAll="false">
+                     
             declare function local:append-heirarchy($parent as node(), $append as node()*) as node() {
             let $scn := $parent/ancestor::scenario,
             $rgn := $parent (: /ancestor::region :)
@@ -547,30 +552,32 @@
             };
             local:run-emiss-by-enduse((:scenarios:), (:regions:), (:collection:))
             
-         </xPath>
-            <comments />
-            <labelRewriteList append-values="false">
-               <level name="sector">
-                  <rewrite from="elec_coal (conv pul)" to="electricity" />
-                  <rewrite from="elec_gas (CC)" to="electricity" />
-                  <rewrite from="elec_CSP" to="electricity" />
-                  <rewrite from="elec_Gen_II_LWR" to="electricity" />
-                  <rewrite from="elec_refined liquids (CC)" to="electricity" />
-                  <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
-                  <rewrite from="elec_Gen_III" to="electricity" />
-                  <rewrite from="elec_geothermal" to="electricity" />
-                  <rewrite from="elec_biomass (conv)" to="electricity" />
-                  <rewrite from="elec_gas (steam/CT)" to="electricity" />
-                  <rewrite from="elec_biomass (IGCC)" to="electricity" />
-                  <rewrite from="elec_coal (IGCC)" to="electricity" />
-                  <rewrite from="elec_CSP_storage" to="electricity" />
-               </level>
-            </labelRewriteList>
-         </supplyDemandQuery>
-         </aQuery><aQuery><region name="Africa_Northern" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
-            <axis1 name="sector">sector[@name]</axis1>
-            <axis2 name="Year">emissions[@year]</axis2>
-            <xPath buildList="true" dataName="input" group="false" sumAll="false"> 
+         
+                </xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="sector">
+                        <rewrite from="elec_Gen_III" to="electricity" />
+                        <rewrite from="elec_CSP_storage" to="electricity" />
+                        <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
+                        <rewrite from="elec_geothermal" to="electricity" />
+                        <rewrite from="elec_refined liquids (CC)" to="electricity" />
+                        <rewrite from="elec_Gen_II_LWR" to="electricity" />
+                        <rewrite from="elec_gas (steam/CT)" to="electricity" />
+                        <rewrite from="elec_coal (IGCC)" to="electricity" />
+                        <rewrite from="elec_gas (CC)" to="electricity" />
+                        <rewrite from="elec_biomass (IGCC)" to="electricity" />
+                        <rewrite from="elec_coal (conv pul)" to="electricity" />
+                        <rewrite from="elec_CSP" to="electricity" />
+                        <rewrite from="elec_biomass (conv)" to="electricity" />
+                    </level>
+                </labelRewriteList>
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Africa_Northern" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">emissions[@year]</axis2>
+                <xPath buildList="true" dataName="input" group="false" sumAll="false">
+                     
             declare function local:append-heirarchy($parent as node(), $append as node()*) as node() {
             let $scn := $parent/ancestor::scenario,
             $rgn := $parent (: /ancestor::region :)
@@ -736,30 +743,32 @@
             };
             local:run-emiss-by-enduse((:scenarios:), (:regions:), (:collection:))
             
-         </xPath>
-            <comments />
-            <labelRewriteList append-values="false">
-               <level name="sector">
-                  <rewrite from="elec_coal (conv pul)" to="electricity" />
-                  <rewrite from="elec_gas (CC)" to="electricity" />
-                  <rewrite from="elec_CSP" to="electricity" />
-                  <rewrite from="elec_Gen_II_LWR" to="electricity" />
-                  <rewrite from="elec_refined liquids (CC)" to="electricity" />
-                  <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
-                  <rewrite from="elec_Gen_III" to="electricity" />
-                  <rewrite from="elec_geothermal" to="electricity" />
-                  <rewrite from="elec_biomass (conv)" to="electricity" />
-                  <rewrite from="elec_gas (steam/CT)" to="electricity" />
-                  <rewrite from="elec_biomass (IGCC)" to="electricity" />
-                  <rewrite from="elec_coal (IGCC)" to="electricity" />
-                  <rewrite from="elec_CSP_storage" to="electricity" />
-               </level>
-            </labelRewriteList>
-         </supplyDemandQuery>
-         </aQuery><aQuery><region name="Africa_Southern" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
-            <axis1 name="sector">sector[@name]</axis1>
-            <axis2 name="Year">emissions[@year]</axis2>
-            <xPath buildList="true" dataName="input" group="false" sumAll="false"> 
+         
+                </xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="sector">
+                        <rewrite from="elec_Gen_III" to="electricity" />
+                        <rewrite from="elec_CSP_storage" to="electricity" />
+                        <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
+                        <rewrite from="elec_geothermal" to="electricity" />
+                        <rewrite from="elec_refined liquids (CC)" to="electricity" />
+                        <rewrite from="elec_Gen_II_LWR" to="electricity" />
+                        <rewrite from="elec_gas (steam/CT)" to="electricity" />
+                        <rewrite from="elec_coal (IGCC)" to="electricity" />
+                        <rewrite from="elec_gas (CC)" to="electricity" />
+                        <rewrite from="elec_biomass (IGCC)" to="electricity" />
+                        <rewrite from="elec_coal (conv pul)" to="electricity" />
+                        <rewrite from="elec_CSP" to="electricity" />
+                        <rewrite from="elec_biomass (conv)" to="electricity" />
+                    </level>
+                </labelRewriteList>
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Africa_Southern" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">emissions[@year]</axis2>
+                <xPath buildList="true" dataName="input" group="false" sumAll="false">
+                     
             declare function local:append-heirarchy($parent as node(), $append as node()*) as node() {
             let $scn := $parent/ancestor::scenario,
             $rgn := $parent (: /ancestor::region :)
@@ -925,30 +934,32 @@
             };
             local:run-emiss-by-enduse((:scenarios:), (:regions:), (:collection:))
             
-         </xPath>
-            <comments />
-            <labelRewriteList append-values="false">
-               <level name="sector">
-                  <rewrite from="elec_coal (conv pul)" to="electricity" />
-                  <rewrite from="elec_gas (CC)" to="electricity" />
-                  <rewrite from="elec_CSP" to="electricity" />
-                  <rewrite from="elec_Gen_II_LWR" to="electricity" />
-                  <rewrite from="elec_refined liquids (CC)" to="electricity" />
-                  <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
-                  <rewrite from="elec_Gen_III" to="electricity" />
-                  <rewrite from="elec_geothermal" to="electricity" />
-                  <rewrite from="elec_biomass (conv)" to="electricity" />
-                  <rewrite from="elec_gas (steam/CT)" to="electricity" />
-                  <rewrite from="elec_biomass (IGCC)" to="electricity" />
-                  <rewrite from="elec_coal (IGCC)" to="electricity" />
-                  <rewrite from="elec_CSP_storage" to="electricity" />
-               </level>
-            </labelRewriteList>
-         </supplyDemandQuery>
-         </aQuery><aQuery><region name="Africa_Western" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
-            <axis1 name="sector">sector[@name]</axis1>
-            <axis2 name="Year">emissions[@year]</axis2>
-            <xPath buildList="true" dataName="input" group="false" sumAll="false"> 
+         
+                </xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="sector">
+                        <rewrite from="elec_Gen_III" to="electricity" />
+                        <rewrite from="elec_CSP_storage" to="electricity" />
+                        <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
+                        <rewrite from="elec_geothermal" to="electricity" />
+                        <rewrite from="elec_refined liquids (CC)" to="electricity" />
+                        <rewrite from="elec_Gen_II_LWR" to="electricity" />
+                        <rewrite from="elec_gas (steam/CT)" to="electricity" />
+                        <rewrite from="elec_coal (IGCC)" to="electricity" />
+                        <rewrite from="elec_gas (CC)" to="electricity" />
+                        <rewrite from="elec_biomass (IGCC)" to="electricity" />
+                        <rewrite from="elec_coal (conv pul)" to="electricity" />
+                        <rewrite from="elec_CSP" to="electricity" />
+                        <rewrite from="elec_biomass (conv)" to="electricity" />
+                    </level>
+                </labelRewriteList>
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Africa_Western" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">emissions[@year]</axis2>
+                <xPath buildList="true" dataName="input" group="false" sumAll="false">
+                     
             declare function local:append-heirarchy($parent as node(), $append as node()*) as node() {
             let $scn := $parent/ancestor::scenario,
             $rgn := $parent (: /ancestor::region :)
@@ -1114,30 +1125,32 @@
             };
             local:run-emiss-by-enduse((:scenarios:), (:regions:), (:collection:))
             
-         </xPath>
-            <comments />
-            <labelRewriteList append-values="false">
-               <level name="sector">
-                  <rewrite from="elec_coal (conv pul)" to="electricity" />
-                  <rewrite from="elec_gas (CC)" to="electricity" />
-                  <rewrite from="elec_CSP" to="electricity" />
-                  <rewrite from="elec_Gen_II_LWR" to="electricity" />
-                  <rewrite from="elec_refined liquids (CC)" to="electricity" />
-                  <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
-                  <rewrite from="elec_Gen_III" to="electricity" />
-                  <rewrite from="elec_geothermal" to="electricity" />
-                  <rewrite from="elec_biomass (conv)" to="electricity" />
-                  <rewrite from="elec_gas (steam/CT)" to="electricity" />
-                  <rewrite from="elec_biomass (IGCC)" to="electricity" />
-                  <rewrite from="elec_coal (IGCC)" to="electricity" />
-                  <rewrite from="elec_CSP_storage" to="electricity" />
-               </level>
-            </labelRewriteList>
-         </supplyDemandQuery>
-         </aQuery><aQuery><region name="Australia_NZ" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
-            <axis1 name="sector">sector[@name]</axis1>
-            <axis2 name="Year">emissions[@year]</axis2>
-            <xPath buildList="true" dataName="input" group="false" sumAll="false"> 
+         
+                </xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="sector">
+                        <rewrite from="elec_Gen_III" to="electricity" />
+                        <rewrite from="elec_CSP_storage" to="electricity" />
+                        <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
+                        <rewrite from="elec_geothermal" to="electricity" />
+                        <rewrite from="elec_refined liquids (CC)" to="electricity" />
+                        <rewrite from="elec_Gen_II_LWR" to="electricity" />
+                        <rewrite from="elec_gas (steam/CT)" to="electricity" />
+                        <rewrite from="elec_coal (IGCC)" to="electricity" />
+                        <rewrite from="elec_gas (CC)" to="electricity" />
+                        <rewrite from="elec_biomass (IGCC)" to="electricity" />
+                        <rewrite from="elec_coal (conv pul)" to="electricity" />
+                        <rewrite from="elec_CSP" to="electricity" />
+                        <rewrite from="elec_biomass (conv)" to="electricity" />
+                    </level>
+                </labelRewriteList>
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Australia_NZ" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">emissions[@year]</axis2>
+                <xPath buildList="true" dataName="input" group="false" sumAll="false">
+                     
             declare function local:append-heirarchy($parent as node(), $append as node()*) as node() {
             let $scn := $parent/ancestor::scenario,
             $rgn := $parent (: /ancestor::region :)
@@ -1303,30 +1316,32 @@
             };
             local:run-emiss-by-enduse((:scenarios:), (:regions:), (:collection:))
             
-         </xPath>
-            <comments />
-            <labelRewriteList append-values="false">
-               <level name="sector">
-                  <rewrite from="elec_coal (conv pul)" to="electricity" />
-                  <rewrite from="elec_gas (CC)" to="electricity" />
-                  <rewrite from="elec_CSP" to="electricity" />
-                  <rewrite from="elec_Gen_II_LWR" to="electricity" />
-                  <rewrite from="elec_refined liquids (CC)" to="electricity" />
-                  <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
-                  <rewrite from="elec_Gen_III" to="electricity" />
-                  <rewrite from="elec_geothermal" to="electricity" />
-                  <rewrite from="elec_biomass (conv)" to="electricity" />
-                  <rewrite from="elec_gas (steam/CT)" to="electricity" />
-                  <rewrite from="elec_biomass (IGCC)" to="electricity" />
-                  <rewrite from="elec_coal (IGCC)" to="electricity" />
-                  <rewrite from="elec_CSP_storage" to="electricity" />
-               </level>
-            </labelRewriteList>
-         </supplyDemandQuery>
-         </aQuery><aQuery><region name="Brazil" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
-            <axis1 name="sector">sector[@name]</axis1>
-            <axis2 name="Year">emissions[@year]</axis2>
-            <xPath buildList="true" dataName="input" group="false" sumAll="false"> 
+         
+                </xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="sector">
+                        <rewrite from="elec_Gen_III" to="electricity" />
+                        <rewrite from="elec_CSP_storage" to="electricity" />
+                        <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
+                        <rewrite from="elec_geothermal" to="electricity" />
+                        <rewrite from="elec_refined liquids (CC)" to="electricity" />
+                        <rewrite from="elec_Gen_II_LWR" to="electricity" />
+                        <rewrite from="elec_gas (steam/CT)" to="electricity" />
+                        <rewrite from="elec_coal (IGCC)" to="electricity" />
+                        <rewrite from="elec_gas (CC)" to="electricity" />
+                        <rewrite from="elec_biomass (IGCC)" to="electricity" />
+                        <rewrite from="elec_coal (conv pul)" to="electricity" />
+                        <rewrite from="elec_CSP" to="electricity" />
+                        <rewrite from="elec_biomass (conv)" to="electricity" />
+                    </level>
+                </labelRewriteList>
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Brazil" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">emissions[@year]</axis2>
+                <xPath buildList="true" dataName="input" group="false" sumAll="false">
+                     
             declare function local:append-heirarchy($parent as node(), $append as node()*) as node() {
             let $scn := $parent/ancestor::scenario,
             $rgn := $parent (: /ancestor::region :)
@@ -1492,30 +1507,32 @@
             };
             local:run-emiss-by-enduse((:scenarios:), (:regions:), (:collection:))
             
-         </xPath>
-            <comments />
-            <labelRewriteList append-values="false">
-               <level name="sector">
-                  <rewrite from="elec_coal (conv pul)" to="electricity" />
-                  <rewrite from="elec_gas (CC)" to="electricity" />
-                  <rewrite from="elec_CSP" to="electricity" />
-                  <rewrite from="elec_Gen_II_LWR" to="electricity" />
-                  <rewrite from="elec_refined liquids (CC)" to="electricity" />
-                  <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
-                  <rewrite from="elec_Gen_III" to="electricity" />
-                  <rewrite from="elec_geothermal" to="electricity" />
-                  <rewrite from="elec_biomass (conv)" to="electricity" />
-                  <rewrite from="elec_gas (steam/CT)" to="electricity" />
-                  <rewrite from="elec_biomass (IGCC)" to="electricity" />
-                  <rewrite from="elec_coal (IGCC)" to="electricity" />
-                  <rewrite from="elec_CSP_storage" to="electricity" />
-               </level>
-            </labelRewriteList>
-         </supplyDemandQuery>
-         </aQuery><aQuery><region name="Canada" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
-            <axis1 name="sector">sector[@name]</axis1>
-            <axis2 name="Year">emissions[@year]</axis2>
-            <xPath buildList="true" dataName="input" group="false" sumAll="false"> 
+         
+                </xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="sector">
+                        <rewrite from="elec_Gen_III" to="electricity" />
+                        <rewrite from="elec_CSP_storage" to="electricity" />
+                        <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
+                        <rewrite from="elec_geothermal" to="electricity" />
+                        <rewrite from="elec_refined liquids (CC)" to="electricity" />
+                        <rewrite from="elec_Gen_II_LWR" to="electricity" />
+                        <rewrite from="elec_gas (steam/CT)" to="electricity" />
+                        <rewrite from="elec_coal (IGCC)" to="electricity" />
+                        <rewrite from="elec_gas (CC)" to="electricity" />
+                        <rewrite from="elec_biomass (IGCC)" to="electricity" />
+                        <rewrite from="elec_coal (conv pul)" to="electricity" />
+                        <rewrite from="elec_CSP" to="electricity" />
+                        <rewrite from="elec_biomass (conv)" to="electricity" />
+                    </level>
+                </labelRewriteList>
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Canada" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">emissions[@year]</axis2>
+                <xPath buildList="true" dataName="input" group="false" sumAll="false">
+                     
             declare function local:append-heirarchy($parent as node(), $append as node()*) as node() {
             let $scn := $parent/ancestor::scenario,
             $rgn := $parent (: /ancestor::region :)
@@ -1681,30 +1698,32 @@
             };
             local:run-emiss-by-enduse((:scenarios:), (:regions:), (:collection:))
             
-         </xPath>
-            <comments />
-            <labelRewriteList append-values="false">
-               <level name="sector">
-                  <rewrite from="elec_coal (conv pul)" to="electricity" />
-                  <rewrite from="elec_gas (CC)" to="electricity" />
-                  <rewrite from="elec_CSP" to="electricity" />
-                  <rewrite from="elec_Gen_II_LWR" to="electricity" />
-                  <rewrite from="elec_refined liquids (CC)" to="electricity" />
-                  <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
-                  <rewrite from="elec_Gen_III" to="electricity" />
-                  <rewrite from="elec_geothermal" to="electricity" />
-                  <rewrite from="elec_biomass (conv)" to="electricity" />
-                  <rewrite from="elec_gas (steam/CT)" to="electricity" />
-                  <rewrite from="elec_biomass (IGCC)" to="electricity" />
-                  <rewrite from="elec_coal (IGCC)" to="electricity" />
-                  <rewrite from="elec_CSP_storage" to="electricity" />
-               </level>
-            </labelRewriteList>
-         </supplyDemandQuery>
-         </aQuery><aQuery><region name="Central America and Caribbean" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
-            <axis1 name="sector">sector[@name]</axis1>
-            <axis2 name="Year">emissions[@year]</axis2>
-            <xPath buildList="true" dataName="input" group="false" sumAll="false"> 
+         
+                </xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="sector">
+                        <rewrite from="elec_Gen_III" to="electricity" />
+                        <rewrite from="elec_CSP_storage" to="electricity" />
+                        <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
+                        <rewrite from="elec_geothermal" to="electricity" />
+                        <rewrite from="elec_refined liquids (CC)" to="electricity" />
+                        <rewrite from="elec_Gen_II_LWR" to="electricity" />
+                        <rewrite from="elec_gas (steam/CT)" to="electricity" />
+                        <rewrite from="elec_coal (IGCC)" to="electricity" />
+                        <rewrite from="elec_gas (CC)" to="electricity" />
+                        <rewrite from="elec_biomass (IGCC)" to="electricity" />
+                        <rewrite from="elec_coal (conv pul)" to="electricity" />
+                        <rewrite from="elec_CSP" to="electricity" />
+                        <rewrite from="elec_biomass (conv)" to="electricity" />
+                    </level>
+                </labelRewriteList>
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Central America and Caribbean" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">emissions[@year]</axis2>
+                <xPath buildList="true" dataName="input" group="false" sumAll="false">
+                     
             declare function local:append-heirarchy($parent as node(), $append as node()*) as node() {
             let $scn := $parent/ancestor::scenario,
             $rgn := $parent (: /ancestor::region :)
@@ -1870,30 +1889,32 @@
             };
             local:run-emiss-by-enduse((:scenarios:), (:regions:), (:collection:))
             
-         </xPath>
-            <comments />
-            <labelRewriteList append-values="false">
-               <level name="sector">
-                  <rewrite from="elec_coal (conv pul)" to="electricity" />
-                  <rewrite from="elec_gas (CC)" to="electricity" />
-                  <rewrite from="elec_CSP" to="electricity" />
-                  <rewrite from="elec_Gen_II_LWR" to="electricity" />
-                  <rewrite from="elec_refined liquids (CC)" to="electricity" />
-                  <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
-                  <rewrite from="elec_Gen_III" to="electricity" />
-                  <rewrite from="elec_geothermal" to="electricity" />
-                  <rewrite from="elec_biomass (conv)" to="electricity" />
-                  <rewrite from="elec_gas (steam/CT)" to="electricity" />
-                  <rewrite from="elec_biomass (IGCC)" to="electricity" />
-                  <rewrite from="elec_coal (IGCC)" to="electricity" />
-                  <rewrite from="elec_CSP_storage" to="electricity" />
-               </level>
-            </labelRewriteList>
-         </supplyDemandQuery>
-         </aQuery><aQuery><region name="Central Asia" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
-            <axis1 name="sector">sector[@name]</axis1>
-            <axis2 name="Year">emissions[@year]</axis2>
-            <xPath buildList="true" dataName="input" group="false" sumAll="false"> 
+         
+                </xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="sector">
+                        <rewrite from="elec_Gen_III" to="electricity" />
+                        <rewrite from="elec_CSP_storage" to="electricity" />
+                        <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
+                        <rewrite from="elec_geothermal" to="electricity" />
+                        <rewrite from="elec_refined liquids (CC)" to="electricity" />
+                        <rewrite from="elec_Gen_II_LWR" to="electricity" />
+                        <rewrite from="elec_gas (steam/CT)" to="electricity" />
+                        <rewrite from="elec_coal (IGCC)" to="electricity" />
+                        <rewrite from="elec_gas (CC)" to="electricity" />
+                        <rewrite from="elec_biomass (IGCC)" to="electricity" />
+                        <rewrite from="elec_coal (conv pul)" to="electricity" />
+                        <rewrite from="elec_CSP" to="electricity" />
+                        <rewrite from="elec_biomass (conv)" to="electricity" />
+                    </level>
+                </labelRewriteList>
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Central Asia" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">emissions[@year]</axis2>
+                <xPath buildList="true" dataName="input" group="false" sumAll="false">
+                     
             declare function local:append-heirarchy($parent as node(), $append as node()*) as node() {
             let $scn := $parent/ancestor::scenario,
             $rgn := $parent (: /ancestor::region :)
@@ -2059,30 +2080,32 @@
             };
             local:run-emiss-by-enduse((:scenarios:), (:regions:), (:collection:))
             
-         </xPath>
-            <comments />
-            <labelRewriteList append-values="false">
-               <level name="sector">
-                  <rewrite from="elec_coal (conv pul)" to="electricity" />
-                  <rewrite from="elec_gas (CC)" to="electricity" />
-                  <rewrite from="elec_CSP" to="electricity" />
-                  <rewrite from="elec_Gen_II_LWR" to="electricity" />
-                  <rewrite from="elec_refined liquids (CC)" to="electricity" />
-                  <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
-                  <rewrite from="elec_Gen_III" to="electricity" />
-                  <rewrite from="elec_geothermal" to="electricity" />
-                  <rewrite from="elec_biomass (conv)" to="electricity" />
-                  <rewrite from="elec_gas (steam/CT)" to="electricity" />
-                  <rewrite from="elec_biomass (IGCC)" to="electricity" />
-                  <rewrite from="elec_coal (IGCC)" to="electricity" />
-                  <rewrite from="elec_CSP_storage" to="electricity" />
-               </level>
-            </labelRewriteList>
-         </supplyDemandQuery>
-         </aQuery><aQuery><region name="China" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
-            <axis1 name="sector">sector[@name]</axis1>
-            <axis2 name="Year">emissions[@year]</axis2>
-            <xPath buildList="true" dataName="input" group="false" sumAll="false"> 
+         
+                </xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="sector">
+                        <rewrite from="elec_Gen_III" to="electricity" />
+                        <rewrite from="elec_CSP_storage" to="electricity" />
+                        <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
+                        <rewrite from="elec_geothermal" to="electricity" />
+                        <rewrite from="elec_refined liquids (CC)" to="electricity" />
+                        <rewrite from="elec_Gen_II_LWR" to="electricity" />
+                        <rewrite from="elec_gas (steam/CT)" to="electricity" />
+                        <rewrite from="elec_coal (IGCC)" to="electricity" />
+                        <rewrite from="elec_gas (CC)" to="electricity" />
+                        <rewrite from="elec_biomass (IGCC)" to="electricity" />
+                        <rewrite from="elec_coal (conv pul)" to="electricity" />
+                        <rewrite from="elec_CSP" to="electricity" />
+                        <rewrite from="elec_biomass (conv)" to="electricity" />
+                    </level>
+                </labelRewriteList>
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="China" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">emissions[@year]</axis2>
+                <xPath buildList="true" dataName="input" group="false" sumAll="false">
+                     
             declare function local:append-heirarchy($parent as node(), $append as node()*) as node() {
             let $scn := $parent/ancestor::scenario,
             $rgn := $parent (: /ancestor::region :)
@@ -2248,30 +2271,32 @@
             };
             local:run-emiss-by-enduse((:scenarios:), (:regions:), (:collection:))
             
-         </xPath>
-            <comments />
-            <labelRewriteList append-values="false">
-               <level name="sector">
-                  <rewrite from="elec_coal (conv pul)" to="electricity" />
-                  <rewrite from="elec_gas (CC)" to="electricity" />
-                  <rewrite from="elec_CSP" to="electricity" />
-                  <rewrite from="elec_Gen_II_LWR" to="electricity" />
-                  <rewrite from="elec_refined liquids (CC)" to="electricity" />
-                  <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
-                  <rewrite from="elec_Gen_III" to="electricity" />
-                  <rewrite from="elec_geothermal" to="electricity" />
-                  <rewrite from="elec_biomass (conv)" to="electricity" />
-                  <rewrite from="elec_gas (steam/CT)" to="electricity" />
-                  <rewrite from="elec_biomass (IGCC)" to="electricity" />
-                  <rewrite from="elec_coal (IGCC)" to="electricity" />
-                  <rewrite from="elec_CSP_storage" to="electricity" />
-               </level>
-            </labelRewriteList>
-         </supplyDemandQuery>
-         </aQuery><aQuery><region name="EU-12" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
-            <axis1 name="sector">sector[@name]</axis1>
-            <axis2 name="Year">emissions[@year]</axis2>
-            <xPath buildList="true" dataName="input" group="false" sumAll="false"> 
+         
+                </xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="sector">
+                        <rewrite from="elec_Gen_III" to="electricity" />
+                        <rewrite from="elec_CSP_storage" to="electricity" />
+                        <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
+                        <rewrite from="elec_geothermal" to="electricity" />
+                        <rewrite from="elec_refined liquids (CC)" to="electricity" />
+                        <rewrite from="elec_Gen_II_LWR" to="electricity" />
+                        <rewrite from="elec_gas (steam/CT)" to="electricity" />
+                        <rewrite from="elec_coal (IGCC)" to="electricity" />
+                        <rewrite from="elec_gas (CC)" to="electricity" />
+                        <rewrite from="elec_biomass (IGCC)" to="electricity" />
+                        <rewrite from="elec_coal (conv pul)" to="electricity" />
+                        <rewrite from="elec_CSP" to="electricity" />
+                        <rewrite from="elec_biomass (conv)" to="electricity" />
+                    </level>
+                </labelRewriteList>
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="EU-12" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">emissions[@year]</axis2>
+                <xPath buildList="true" dataName="input" group="false" sumAll="false">
+                     
             declare function local:append-heirarchy($parent as node(), $append as node()*) as node() {
             let $scn := $parent/ancestor::scenario,
             $rgn := $parent (: /ancestor::region :)
@@ -2437,30 +2462,32 @@
             };
             local:run-emiss-by-enduse((:scenarios:), (:regions:), (:collection:))
             
-         </xPath>
-            <comments />
-            <labelRewriteList append-values="false">
-               <level name="sector">
-                  <rewrite from="elec_coal (conv pul)" to="electricity" />
-                  <rewrite from="elec_gas (CC)" to="electricity" />
-                  <rewrite from="elec_CSP" to="electricity" />
-                  <rewrite from="elec_Gen_II_LWR" to="electricity" />
-                  <rewrite from="elec_refined liquids (CC)" to="electricity" />
-                  <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
-                  <rewrite from="elec_Gen_III" to="electricity" />
-                  <rewrite from="elec_geothermal" to="electricity" />
-                  <rewrite from="elec_biomass (conv)" to="electricity" />
-                  <rewrite from="elec_gas (steam/CT)" to="electricity" />
-                  <rewrite from="elec_biomass (IGCC)" to="electricity" />
-                  <rewrite from="elec_coal (IGCC)" to="electricity" />
-                  <rewrite from="elec_CSP_storage" to="electricity" />
-               </level>
-            </labelRewriteList>
-         </supplyDemandQuery>
-         </aQuery><aQuery><region name="EU-15" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
-            <axis1 name="sector">sector[@name]</axis1>
-            <axis2 name="Year">emissions[@year]</axis2>
-            <xPath buildList="true" dataName="input" group="false" sumAll="false"> 
+         
+                </xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="sector">
+                        <rewrite from="elec_Gen_III" to="electricity" />
+                        <rewrite from="elec_CSP_storage" to="electricity" />
+                        <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
+                        <rewrite from="elec_geothermal" to="electricity" />
+                        <rewrite from="elec_refined liquids (CC)" to="electricity" />
+                        <rewrite from="elec_Gen_II_LWR" to="electricity" />
+                        <rewrite from="elec_gas (steam/CT)" to="electricity" />
+                        <rewrite from="elec_coal (IGCC)" to="electricity" />
+                        <rewrite from="elec_gas (CC)" to="electricity" />
+                        <rewrite from="elec_biomass (IGCC)" to="electricity" />
+                        <rewrite from="elec_coal (conv pul)" to="electricity" />
+                        <rewrite from="elec_CSP" to="electricity" />
+                        <rewrite from="elec_biomass (conv)" to="electricity" />
+                    </level>
+                </labelRewriteList>
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="EU-15" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">emissions[@year]</axis2>
+                <xPath buildList="true" dataName="input" group="false" sumAll="false">
+                     
             declare function local:append-heirarchy($parent as node(), $append as node()*) as node() {
             let $scn := $parent/ancestor::scenario,
             $rgn := $parent (: /ancestor::region :)
@@ -2626,30 +2653,32 @@
             };
             local:run-emiss-by-enduse((:scenarios:), (:regions:), (:collection:))
             
-         </xPath>
-            <comments />
-            <labelRewriteList append-values="false">
-               <level name="sector">
-                  <rewrite from="elec_coal (conv pul)" to="electricity" />
-                  <rewrite from="elec_gas (CC)" to="electricity" />
-                  <rewrite from="elec_CSP" to="electricity" />
-                  <rewrite from="elec_Gen_II_LWR" to="electricity" />
-                  <rewrite from="elec_refined liquids (CC)" to="electricity" />
-                  <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
-                  <rewrite from="elec_Gen_III" to="electricity" />
-                  <rewrite from="elec_geothermal" to="electricity" />
-                  <rewrite from="elec_biomass (conv)" to="electricity" />
-                  <rewrite from="elec_gas (steam/CT)" to="electricity" />
-                  <rewrite from="elec_biomass (IGCC)" to="electricity" />
-                  <rewrite from="elec_coal (IGCC)" to="electricity" />
-                  <rewrite from="elec_CSP_storage" to="electricity" />
-               </level>
-            </labelRewriteList>
-         </supplyDemandQuery>
-         </aQuery><aQuery><region name="Europe_Eastern" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
-            <axis1 name="sector">sector[@name]</axis1>
-            <axis2 name="Year">emissions[@year]</axis2>
-            <xPath buildList="true" dataName="input" group="false" sumAll="false"> 
+         
+                </xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="sector">
+                        <rewrite from="elec_Gen_III" to="electricity" />
+                        <rewrite from="elec_CSP_storage" to="electricity" />
+                        <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
+                        <rewrite from="elec_geothermal" to="electricity" />
+                        <rewrite from="elec_refined liquids (CC)" to="electricity" />
+                        <rewrite from="elec_Gen_II_LWR" to="electricity" />
+                        <rewrite from="elec_gas (steam/CT)" to="electricity" />
+                        <rewrite from="elec_coal (IGCC)" to="electricity" />
+                        <rewrite from="elec_gas (CC)" to="electricity" />
+                        <rewrite from="elec_biomass (IGCC)" to="electricity" />
+                        <rewrite from="elec_coal (conv pul)" to="electricity" />
+                        <rewrite from="elec_CSP" to="electricity" />
+                        <rewrite from="elec_biomass (conv)" to="electricity" />
+                    </level>
+                </labelRewriteList>
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Europe_Eastern" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">emissions[@year]</axis2>
+                <xPath buildList="true" dataName="input" group="false" sumAll="false">
+                     
             declare function local:append-heirarchy($parent as node(), $append as node()*) as node() {
             let $scn := $parent/ancestor::scenario,
             $rgn := $parent (: /ancestor::region :)
@@ -2815,30 +2844,32 @@
             };
             local:run-emiss-by-enduse((:scenarios:), (:regions:), (:collection:))
             
-         </xPath>
-            <comments />
-            <labelRewriteList append-values="false">
-               <level name="sector">
-                  <rewrite from="elec_coal (conv pul)" to="electricity" />
-                  <rewrite from="elec_gas (CC)" to="electricity" />
-                  <rewrite from="elec_CSP" to="electricity" />
-                  <rewrite from="elec_Gen_II_LWR" to="electricity" />
-                  <rewrite from="elec_refined liquids (CC)" to="electricity" />
-                  <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
-                  <rewrite from="elec_Gen_III" to="electricity" />
-                  <rewrite from="elec_geothermal" to="electricity" />
-                  <rewrite from="elec_biomass (conv)" to="electricity" />
-                  <rewrite from="elec_gas (steam/CT)" to="electricity" />
-                  <rewrite from="elec_biomass (IGCC)" to="electricity" />
-                  <rewrite from="elec_coal (IGCC)" to="electricity" />
-                  <rewrite from="elec_CSP_storage" to="electricity" />
-               </level>
-            </labelRewriteList>
-         </supplyDemandQuery>
-         </aQuery><aQuery><region name="Europe_Non_EU" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
-            <axis1 name="sector">sector[@name]</axis1>
-            <axis2 name="Year">emissions[@year]</axis2>
-            <xPath buildList="true" dataName="input" group="false" sumAll="false"> 
+         
+                </xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="sector">
+                        <rewrite from="elec_Gen_III" to="electricity" />
+                        <rewrite from="elec_CSP_storage" to="electricity" />
+                        <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
+                        <rewrite from="elec_geothermal" to="electricity" />
+                        <rewrite from="elec_refined liquids (CC)" to="electricity" />
+                        <rewrite from="elec_Gen_II_LWR" to="electricity" />
+                        <rewrite from="elec_gas (steam/CT)" to="electricity" />
+                        <rewrite from="elec_coal (IGCC)" to="electricity" />
+                        <rewrite from="elec_gas (CC)" to="electricity" />
+                        <rewrite from="elec_biomass (IGCC)" to="electricity" />
+                        <rewrite from="elec_coal (conv pul)" to="electricity" />
+                        <rewrite from="elec_CSP" to="electricity" />
+                        <rewrite from="elec_biomass (conv)" to="electricity" />
+                    </level>
+                </labelRewriteList>
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Europe_Non_EU" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">emissions[@year]</axis2>
+                <xPath buildList="true" dataName="input" group="false" sumAll="false">
+                     
             declare function local:append-heirarchy($parent as node(), $append as node()*) as node() {
             let $scn := $parent/ancestor::scenario,
             $rgn := $parent (: /ancestor::region :)
@@ -3004,30 +3035,32 @@
             };
             local:run-emiss-by-enduse((:scenarios:), (:regions:), (:collection:))
             
-         </xPath>
-            <comments />
-            <labelRewriteList append-values="false">
-               <level name="sector">
-                  <rewrite from="elec_coal (conv pul)" to="electricity" />
-                  <rewrite from="elec_gas (CC)" to="electricity" />
-                  <rewrite from="elec_CSP" to="electricity" />
-                  <rewrite from="elec_Gen_II_LWR" to="electricity" />
-                  <rewrite from="elec_refined liquids (CC)" to="electricity" />
-                  <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
-                  <rewrite from="elec_Gen_III" to="electricity" />
-                  <rewrite from="elec_geothermal" to="electricity" />
-                  <rewrite from="elec_biomass (conv)" to="electricity" />
-                  <rewrite from="elec_gas (steam/CT)" to="electricity" />
-                  <rewrite from="elec_biomass (IGCC)" to="electricity" />
-                  <rewrite from="elec_coal (IGCC)" to="electricity" />
-                  <rewrite from="elec_CSP_storage" to="electricity" />
-               </level>
-            </labelRewriteList>
-         </supplyDemandQuery>
-         </aQuery><aQuery><region name="European Free Trade Association" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
-            <axis1 name="sector">sector[@name]</axis1>
-            <axis2 name="Year">emissions[@year]</axis2>
-            <xPath buildList="true" dataName="input" group="false" sumAll="false"> 
+         
+                </xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="sector">
+                        <rewrite from="elec_Gen_III" to="electricity" />
+                        <rewrite from="elec_CSP_storage" to="electricity" />
+                        <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
+                        <rewrite from="elec_geothermal" to="electricity" />
+                        <rewrite from="elec_refined liquids (CC)" to="electricity" />
+                        <rewrite from="elec_Gen_II_LWR" to="electricity" />
+                        <rewrite from="elec_gas (steam/CT)" to="electricity" />
+                        <rewrite from="elec_coal (IGCC)" to="electricity" />
+                        <rewrite from="elec_gas (CC)" to="electricity" />
+                        <rewrite from="elec_biomass (IGCC)" to="electricity" />
+                        <rewrite from="elec_coal (conv pul)" to="electricity" />
+                        <rewrite from="elec_CSP" to="electricity" />
+                        <rewrite from="elec_biomass (conv)" to="electricity" />
+                    </level>
+                </labelRewriteList>
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="European Free Trade Association" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">emissions[@year]</axis2>
+                <xPath buildList="true" dataName="input" group="false" sumAll="false">
+                     
             declare function local:append-heirarchy($parent as node(), $append as node()*) as node() {
             let $scn := $parent/ancestor::scenario,
             $rgn := $parent (: /ancestor::region :)
@@ -3193,30 +3226,32 @@
             };
             local:run-emiss-by-enduse((:scenarios:), (:regions:), (:collection:))
             
-         </xPath>
-            <comments />
-            <labelRewriteList append-values="false">
-               <level name="sector">
-                  <rewrite from="elec_coal (conv pul)" to="electricity" />
-                  <rewrite from="elec_gas (CC)" to="electricity" />
-                  <rewrite from="elec_CSP" to="electricity" />
-                  <rewrite from="elec_Gen_II_LWR" to="electricity" />
-                  <rewrite from="elec_refined liquids (CC)" to="electricity" />
-                  <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
-                  <rewrite from="elec_Gen_III" to="electricity" />
-                  <rewrite from="elec_geothermal" to="electricity" />
-                  <rewrite from="elec_biomass (conv)" to="electricity" />
-                  <rewrite from="elec_gas (steam/CT)" to="electricity" />
-                  <rewrite from="elec_biomass (IGCC)" to="electricity" />
-                  <rewrite from="elec_coal (IGCC)" to="electricity" />
-                  <rewrite from="elec_CSP_storage" to="electricity" />
-               </level>
-            </labelRewriteList>
-         </supplyDemandQuery>
-         </aQuery><aQuery><region name="India" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
-            <axis1 name="sector">sector[@name]</axis1>
-            <axis2 name="Year">emissions[@year]</axis2>
-            <xPath buildList="true" dataName="input" group="false" sumAll="false"> 
+         
+                </xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="sector">
+                        <rewrite from="elec_Gen_III" to="electricity" />
+                        <rewrite from="elec_CSP_storage" to="electricity" />
+                        <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
+                        <rewrite from="elec_geothermal" to="electricity" />
+                        <rewrite from="elec_refined liquids (CC)" to="electricity" />
+                        <rewrite from="elec_Gen_II_LWR" to="electricity" />
+                        <rewrite from="elec_gas (steam/CT)" to="electricity" />
+                        <rewrite from="elec_coal (IGCC)" to="electricity" />
+                        <rewrite from="elec_gas (CC)" to="electricity" />
+                        <rewrite from="elec_biomass (IGCC)" to="electricity" />
+                        <rewrite from="elec_coal (conv pul)" to="electricity" />
+                        <rewrite from="elec_CSP" to="electricity" />
+                        <rewrite from="elec_biomass (conv)" to="electricity" />
+                    </level>
+                </labelRewriteList>
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="India" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">emissions[@year]</axis2>
+                <xPath buildList="true" dataName="input" group="false" sumAll="false">
+                     
             declare function local:append-heirarchy($parent as node(), $append as node()*) as node() {
             let $scn := $parent/ancestor::scenario,
             $rgn := $parent (: /ancestor::region :)
@@ -3382,30 +3417,32 @@
             };
             local:run-emiss-by-enduse((:scenarios:), (:regions:), (:collection:))
             
-         </xPath>
-            <comments />
-            <labelRewriteList append-values="false">
-               <level name="sector">
-                  <rewrite from="elec_coal (conv pul)" to="electricity" />
-                  <rewrite from="elec_gas (CC)" to="electricity" />
-                  <rewrite from="elec_CSP" to="electricity" />
-                  <rewrite from="elec_Gen_II_LWR" to="electricity" />
-                  <rewrite from="elec_refined liquids (CC)" to="electricity" />
-                  <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
-                  <rewrite from="elec_Gen_III" to="electricity" />
-                  <rewrite from="elec_geothermal" to="electricity" />
-                  <rewrite from="elec_biomass (conv)" to="electricity" />
-                  <rewrite from="elec_gas (steam/CT)" to="electricity" />
-                  <rewrite from="elec_biomass (IGCC)" to="electricity" />
-                  <rewrite from="elec_coal (IGCC)" to="electricity" />
-                  <rewrite from="elec_CSP_storage" to="electricity" />
-               </level>
-            </labelRewriteList>
-         </supplyDemandQuery>
-         </aQuery><aQuery><region name="Indonesia" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
-            <axis1 name="sector">sector[@name]</axis1>
-            <axis2 name="Year">emissions[@year]</axis2>
-            <xPath buildList="true" dataName="input" group="false" sumAll="false"> 
+         
+                </xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="sector">
+                        <rewrite from="elec_Gen_III" to="electricity" />
+                        <rewrite from="elec_CSP_storage" to="electricity" />
+                        <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
+                        <rewrite from="elec_geothermal" to="electricity" />
+                        <rewrite from="elec_refined liquids (CC)" to="electricity" />
+                        <rewrite from="elec_Gen_II_LWR" to="electricity" />
+                        <rewrite from="elec_gas (steam/CT)" to="electricity" />
+                        <rewrite from="elec_coal (IGCC)" to="electricity" />
+                        <rewrite from="elec_gas (CC)" to="electricity" />
+                        <rewrite from="elec_biomass (IGCC)" to="electricity" />
+                        <rewrite from="elec_coal (conv pul)" to="electricity" />
+                        <rewrite from="elec_CSP" to="electricity" />
+                        <rewrite from="elec_biomass (conv)" to="electricity" />
+                    </level>
+                </labelRewriteList>
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Indonesia" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">emissions[@year]</axis2>
+                <xPath buildList="true" dataName="input" group="false" sumAll="false">
+                     
             declare function local:append-heirarchy($parent as node(), $append as node()*) as node() {
             let $scn := $parent/ancestor::scenario,
             $rgn := $parent (: /ancestor::region :)
@@ -3571,30 +3608,32 @@
             };
             local:run-emiss-by-enduse((:scenarios:), (:regions:), (:collection:))
             
-         </xPath>
-            <comments />
-            <labelRewriteList append-values="false">
-               <level name="sector">
-                  <rewrite from="elec_coal (conv pul)" to="electricity" />
-                  <rewrite from="elec_gas (CC)" to="electricity" />
-                  <rewrite from="elec_CSP" to="electricity" />
-                  <rewrite from="elec_Gen_II_LWR" to="electricity" />
-                  <rewrite from="elec_refined liquids (CC)" to="electricity" />
-                  <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
-                  <rewrite from="elec_Gen_III" to="electricity" />
-                  <rewrite from="elec_geothermal" to="electricity" />
-                  <rewrite from="elec_biomass (conv)" to="electricity" />
-                  <rewrite from="elec_gas (steam/CT)" to="electricity" />
-                  <rewrite from="elec_biomass (IGCC)" to="electricity" />
-                  <rewrite from="elec_coal (IGCC)" to="electricity" />
-                  <rewrite from="elec_CSP_storage" to="electricity" />
-               </level>
-            </labelRewriteList>
-         </supplyDemandQuery>
-         </aQuery><aQuery><region name="Japan" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
-            <axis1 name="sector">sector[@name]</axis1>
-            <axis2 name="Year">emissions[@year]</axis2>
-            <xPath buildList="true" dataName="input" group="false" sumAll="false"> 
+         
+                </xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="sector">
+                        <rewrite from="elec_Gen_III" to="electricity" />
+                        <rewrite from="elec_CSP_storage" to="electricity" />
+                        <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
+                        <rewrite from="elec_geothermal" to="electricity" />
+                        <rewrite from="elec_refined liquids (CC)" to="electricity" />
+                        <rewrite from="elec_Gen_II_LWR" to="electricity" />
+                        <rewrite from="elec_gas (steam/CT)" to="electricity" />
+                        <rewrite from="elec_coal (IGCC)" to="electricity" />
+                        <rewrite from="elec_gas (CC)" to="electricity" />
+                        <rewrite from="elec_biomass (IGCC)" to="electricity" />
+                        <rewrite from="elec_coal (conv pul)" to="electricity" />
+                        <rewrite from="elec_CSP" to="electricity" />
+                        <rewrite from="elec_biomass (conv)" to="electricity" />
+                    </level>
+                </labelRewriteList>
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Japan" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">emissions[@year]</axis2>
+                <xPath buildList="true" dataName="input" group="false" sumAll="false">
+                     
             declare function local:append-heirarchy($parent as node(), $append as node()*) as node() {
             let $scn := $parent/ancestor::scenario,
             $rgn := $parent (: /ancestor::region :)
@@ -3760,30 +3799,32 @@
             };
             local:run-emiss-by-enduse((:scenarios:), (:regions:), (:collection:))
             
-         </xPath>
-            <comments />
-            <labelRewriteList append-values="false">
-               <level name="sector">
-                  <rewrite from="elec_coal (conv pul)" to="electricity" />
-                  <rewrite from="elec_gas (CC)" to="electricity" />
-                  <rewrite from="elec_CSP" to="electricity" />
-                  <rewrite from="elec_Gen_II_LWR" to="electricity" />
-                  <rewrite from="elec_refined liquids (CC)" to="electricity" />
-                  <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
-                  <rewrite from="elec_Gen_III" to="electricity" />
-                  <rewrite from="elec_geothermal" to="electricity" />
-                  <rewrite from="elec_biomass (conv)" to="electricity" />
-                  <rewrite from="elec_gas (steam/CT)" to="electricity" />
-                  <rewrite from="elec_biomass (IGCC)" to="electricity" />
-                  <rewrite from="elec_coal (IGCC)" to="electricity" />
-                  <rewrite from="elec_CSP_storage" to="electricity" />
-               </level>
-            </labelRewriteList>
-         </supplyDemandQuery>
-         </aQuery><aQuery><region name="Mexico" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
-            <axis1 name="sector">sector[@name]</axis1>
-            <axis2 name="Year">emissions[@year]</axis2>
-            <xPath buildList="true" dataName="input" group="false" sumAll="false"> 
+         
+                </xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="sector">
+                        <rewrite from="elec_Gen_III" to="electricity" />
+                        <rewrite from="elec_CSP_storage" to="electricity" />
+                        <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
+                        <rewrite from="elec_geothermal" to="electricity" />
+                        <rewrite from="elec_refined liquids (CC)" to="electricity" />
+                        <rewrite from="elec_Gen_II_LWR" to="electricity" />
+                        <rewrite from="elec_gas (steam/CT)" to="electricity" />
+                        <rewrite from="elec_coal (IGCC)" to="electricity" />
+                        <rewrite from="elec_gas (CC)" to="electricity" />
+                        <rewrite from="elec_biomass (IGCC)" to="electricity" />
+                        <rewrite from="elec_coal (conv pul)" to="electricity" />
+                        <rewrite from="elec_CSP" to="electricity" />
+                        <rewrite from="elec_biomass (conv)" to="electricity" />
+                    </level>
+                </labelRewriteList>
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Mexico" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">emissions[@year]</axis2>
+                <xPath buildList="true" dataName="input" group="false" sumAll="false">
+                     
             declare function local:append-heirarchy($parent as node(), $append as node()*) as node() {
             let $scn := $parent/ancestor::scenario,
             $rgn := $parent (: /ancestor::region :)
@@ -3949,30 +3990,32 @@
             };
             local:run-emiss-by-enduse((:scenarios:), (:regions:), (:collection:))
             
-         </xPath>
-            <comments />
-            <labelRewriteList append-values="false">
-               <level name="sector">
-                  <rewrite from="elec_coal (conv pul)" to="electricity" />
-                  <rewrite from="elec_gas (CC)" to="electricity" />
-                  <rewrite from="elec_CSP" to="electricity" />
-                  <rewrite from="elec_Gen_II_LWR" to="electricity" />
-                  <rewrite from="elec_refined liquids (CC)" to="electricity" />
-                  <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
-                  <rewrite from="elec_Gen_III" to="electricity" />
-                  <rewrite from="elec_geothermal" to="electricity" />
-                  <rewrite from="elec_biomass (conv)" to="electricity" />
-                  <rewrite from="elec_gas (steam/CT)" to="electricity" />
-                  <rewrite from="elec_biomass (IGCC)" to="electricity" />
-                  <rewrite from="elec_coal (IGCC)" to="electricity" />
-                  <rewrite from="elec_CSP_storage" to="electricity" />
-               </level>
-            </labelRewriteList>
-         </supplyDemandQuery>
-         </aQuery><aQuery><region name="Middle East" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
-            <axis1 name="sector">sector[@name]</axis1>
-            <axis2 name="Year">emissions[@year]</axis2>
-            <xPath buildList="true" dataName="input" group="false" sumAll="false"> 
+         
+                </xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="sector">
+                        <rewrite from="elec_Gen_III" to="electricity" />
+                        <rewrite from="elec_CSP_storage" to="electricity" />
+                        <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
+                        <rewrite from="elec_geothermal" to="electricity" />
+                        <rewrite from="elec_refined liquids (CC)" to="electricity" />
+                        <rewrite from="elec_Gen_II_LWR" to="electricity" />
+                        <rewrite from="elec_gas (steam/CT)" to="electricity" />
+                        <rewrite from="elec_coal (IGCC)" to="electricity" />
+                        <rewrite from="elec_gas (CC)" to="electricity" />
+                        <rewrite from="elec_biomass (IGCC)" to="electricity" />
+                        <rewrite from="elec_coal (conv pul)" to="electricity" />
+                        <rewrite from="elec_CSP" to="electricity" />
+                        <rewrite from="elec_biomass (conv)" to="electricity" />
+                    </level>
+                </labelRewriteList>
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Middle East" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">emissions[@year]</axis2>
+                <xPath buildList="true" dataName="input" group="false" sumAll="false">
+                     
             declare function local:append-heirarchy($parent as node(), $append as node()*) as node() {
             let $scn := $parent/ancestor::scenario,
             $rgn := $parent (: /ancestor::region :)
@@ -4138,30 +4181,32 @@
             };
             local:run-emiss-by-enduse((:scenarios:), (:regions:), (:collection:))
             
-         </xPath>
-            <comments />
-            <labelRewriteList append-values="false">
-               <level name="sector">
-                  <rewrite from="elec_coal (conv pul)" to="electricity" />
-                  <rewrite from="elec_gas (CC)" to="electricity" />
-                  <rewrite from="elec_CSP" to="electricity" />
-                  <rewrite from="elec_Gen_II_LWR" to="electricity" />
-                  <rewrite from="elec_refined liquids (CC)" to="electricity" />
-                  <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
-                  <rewrite from="elec_Gen_III" to="electricity" />
-                  <rewrite from="elec_geothermal" to="electricity" />
-                  <rewrite from="elec_biomass (conv)" to="electricity" />
-                  <rewrite from="elec_gas (steam/CT)" to="electricity" />
-                  <rewrite from="elec_biomass (IGCC)" to="electricity" />
-                  <rewrite from="elec_coal (IGCC)" to="electricity" />
-                  <rewrite from="elec_CSP_storage" to="electricity" />
-               </level>
-            </labelRewriteList>
-         </supplyDemandQuery>
-         </aQuery><aQuery><region name="Pakistan" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
-            <axis1 name="sector">sector[@name]</axis1>
-            <axis2 name="Year">emissions[@year]</axis2>
-            <xPath buildList="true" dataName="input" group="false" sumAll="false"> 
+         
+                </xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="sector">
+                        <rewrite from="elec_Gen_III" to="electricity" />
+                        <rewrite from="elec_CSP_storage" to="electricity" />
+                        <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
+                        <rewrite from="elec_geothermal" to="electricity" />
+                        <rewrite from="elec_refined liquids (CC)" to="electricity" />
+                        <rewrite from="elec_Gen_II_LWR" to="electricity" />
+                        <rewrite from="elec_gas (steam/CT)" to="electricity" />
+                        <rewrite from="elec_coal (IGCC)" to="electricity" />
+                        <rewrite from="elec_gas (CC)" to="electricity" />
+                        <rewrite from="elec_biomass (IGCC)" to="electricity" />
+                        <rewrite from="elec_coal (conv pul)" to="electricity" />
+                        <rewrite from="elec_CSP" to="electricity" />
+                        <rewrite from="elec_biomass (conv)" to="electricity" />
+                    </level>
+                </labelRewriteList>
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Pakistan" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">emissions[@year]</axis2>
+                <xPath buildList="true" dataName="input" group="false" sumAll="false">
+                     
             declare function local:append-heirarchy($parent as node(), $append as node()*) as node() {
             let $scn := $parent/ancestor::scenario,
             $rgn := $parent (: /ancestor::region :)
@@ -4327,30 +4372,32 @@
             };
             local:run-emiss-by-enduse((:scenarios:), (:regions:), (:collection:))
             
-         </xPath>
-            <comments />
-            <labelRewriteList append-values="false">
-               <level name="sector">
-                  <rewrite from="elec_coal (conv pul)" to="electricity" />
-                  <rewrite from="elec_gas (CC)" to="electricity" />
-                  <rewrite from="elec_CSP" to="electricity" />
-                  <rewrite from="elec_Gen_II_LWR" to="electricity" />
-                  <rewrite from="elec_refined liquids (CC)" to="electricity" />
-                  <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
-                  <rewrite from="elec_Gen_III" to="electricity" />
-                  <rewrite from="elec_geothermal" to="electricity" />
-                  <rewrite from="elec_biomass (conv)" to="electricity" />
-                  <rewrite from="elec_gas (steam/CT)" to="electricity" />
-                  <rewrite from="elec_biomass (IGCC)" to="electricity" />
-                  <rewrite from="elec_coal (IGCC)" to="electricity" />
-                  <rewrite from="elec_CSP_storage" to="electricity" />
-               </level>
-            </labelRewriteList>
-         </supplyDemandQuery>
-         </aQuery><aQuery><region name="Russia" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
-            <axis1 name="sector">sector[@name]</axis1>
-            <axis2 name="Year">emissions[@year]</axis2>
-            <xPath buildList="true" dataName="input" group="false" sumAll="false"> 
+         
+                </xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="sector">
+                        <rewrite from="elec_Gen_III" to="electricity" />
+                        <rewrite from="elec_CSP_storage" to="electricity" />
+                        <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
+                        <rewrite from="elec_geothermal" to="electricity" />
+                        <rewrite from="elec_refined liquids (CC)" to="electricity" />
+                        <rewrite from="elec_Gen_II_LWR" to="electricity" />
+                        <rewrite from="elec_gas (steam/CT)" to="electricity" />
+                        <rewrite from="elec_coal (IGCC)" to="electricity" />
+                        <rewrite from="elec_gas (CC)" to="electricity" />
+                        <rewrite from="elec_biomass (IGCC)" to="electricity" />
+                        <rewrite from="elec_coal (conv pul)" to="electricity" />
+                        <rewrite from="elec_CSP" to="electricity" />
+                        <rewrite from="elec_biomass (conv)" to="electricity" />
+                    </level>
+                </labelRewriteList>
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Russia" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">emissions[@year]</axis2>
+                <xPath buildList="true" dataName="input" group="false" sumAll="false">
+                     
             declare function local:append-heirarchy($parent as node(), $append as node()*) as node() {
             let $scn := $parent/ancestor::scenario,
             $rgn := $parent (: /ancestor::region :)
@@ -4516,30 +4563,32 @@
             };
             local:run-emiss-by-enduse((:scenarios:), (:regions:), (:collection:))
             
-         </xPath>
-            <comments />
-            <labelRewriteList append-values="false">
-               <level name="sector">
-                  <rewrite from="elec_coal (conv pul)" to="electricity" />
-                  <rewrite from="elec_gas (CC)" to="electricity" />
-                  <rewrite from="elec_CSP" to="electricity" />
-                  <rewrite from="elec_Gen_II_LWR" to="electricity" />
-                  <rewrite from="elec_refined liquids (CC)" to="electricity" />
-                  <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
-                  <rewrite from="elec_Gen_III" to="electricity" />
-                  <rewrite from="elec_geothermal" to="electricity" />
-                  <rewrite from="elec_biomass (conv)" to="electricity" />
-                  <rewrite from="elec_gas (steam/CT)" to="electricity" />
-                  <rewrite from="elec_biomass (IGCC)" to="electricity" />
-                  <rewrite from="elec_coal (IGCC)" to="electricity" />
-                  <rewrite from="elec_CSP_storage" to="electricity" />
-               </level>
-            </labelRewriteList>
-         </supplyDemandQuery>
-         </aQuery><aQuery><region name="South Africa" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
-            <axis1 name="sector">sector[@name]</axis1>
-            <axis2 name="Year">emissions[@year]</axis2>
-            <xPath buildList="true" dataName="input" group="false" sumAll="false"> 
+         
+                </xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="sector">
+                        <rewrite from="elec_Gen_III" to="electricity" />
+                        <rewrite from="elec_CSP_storage" to="electricity" />
+                        <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
+                        <rewrite from="elec_geothermal" to="electricity" />
+                        <rewrite from="elec_refined liquids (CC)" to="electricity" />
+                        <rewrite from="elec_Gen_II_LWR" to="electricity" />
+                        <rewrite from="elec_gas (steam/CT)" to="electricity" />
+                        <rewrite from="elec_coal (IGCC)" to="electricity" />
+                        <rewrite from="elec_gas (CC)" to="electricity" />
+                        <rewrite from="elec_biomass (IGCC)" to="electricity" />
+                        <rewrite from="elec_coal (conv pul)" to="electricity" />
+                        <rewrite from="elec_CSP" to="electricity" />
+                        <rewrite from="elec_biomass (conv)" to="electricity" />
+                    </level>
+                </labelRewriteList>
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="South Africa" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">emissions[@year]</axis2>
+                <xPath buildList="true" dataName="input" group="false" sumAll="false">
+                     
             declare function local:append-heirarchy($parent as node(), $append as node()*) as node() {
             let $scn := $parent/ancestor::scenario,
             $rgn := $parent (: /ancestor::region :)
@@ -4705,30 +4754,32 @@
             };
             local:run-emiss-by-enduse((:scenarios:), (:regions:), (:collection:))
             
-         </xPath>
-            <comments />
-            <labelRewriteList append-values="false">
-               <level name="sector">
-                  <rewrite from="elec_coal (conv pul)" to="electricity" />
-                  <rewrite from="elec_gas (CC)" to="electricity" />
-                  <rewrite from="elec_CSP" to="electricity" />
-                  <rewrite from="elec_Gen_II_LWR" to="electricity" />
-                  <rewrite from="elec_refined liquids (CC)" to="electricity" />
-                  <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
-                  <rewrite from="elec_Gen_III" to="electricity" />
-                  <rewrite from="elec_geothermal" to="electricity" />
-                  <rewrite from="elec_biomass (conv)" to="electricity" />
-                  <rewrite from="elec_gas (steam/CT)" to="electricity" />
-                  <rewrite from="elec_biomass (IGCC)" to="electricity" />
-                  <rewrite from="elec_coal (IGCC)" to="electricity" />
-                  <rewrite from="elec_CSP_storage" to="electricity" />
-               </level>
-            </labelRewriteList>
-         </supplyDemandQuery>
-         </aQuery><aQuery><region name="South America_Northern" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
-            <axis1 name="sector">sector[@name]</axis1>
-            <axis2 name="Year">emissions[@year]</axis2>
-            <xPath buildList="true" dataName="input" group="false" sumAll="false"> 
+         
+                </xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="sector">
+                        <rewrite from="elec_Gen_III" to="electricity" />
+                        <rewrite from="elec_CSP_storage" to="electricity" />
+                        <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
+                        <rewrite from="elec_geothermal" to="electricity" />
+                        <rewrite from="elec_refined liquids (CC)" to="electricity" />
+                        <rewrite from="elec_Gen_II_LWR" to="electricity" />
+                        <rewrite from="elec_gas (steam/CT)" to="electricity" />
+                        <rewrite from="elec_coal (IGCC)" to="electricity" />
+                        <rewrite from="elec_gas (CC)" to="electricity" />
+                        <rewrite from="elec_biomass (IGCC)" to="electricity" />
+                        <rewrite from="elec_coal (conv pul)" to="electricity" />
+                        <rewrite from="elec_CSP" to="electricity" />
+                        <rewrite from="elec_biomass (conv)" to="electricity" />
+                    </level>
+                </labelRewriteList>
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="South America_Northern" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">emissions[@year]</axis2>
+                <xPath buildList="true" dataName="input" group="false" sumAll="false">
+                     
             declare function local:append-heirarchy($parent as node(), $append as node()*) as node() {
             let $scn := $parent/ancestor::scenario,
             $rgn := $parent (: /ancestor::region :)
@@ -4894,30 +4945,32 @@
             };
             local:run-emiss-by-enduse((:scenarios:), (:regions:), (:collection:))
             
-         </xPath>
-            <comments />
-            <labelRewriteList append-values="false">
-               <level name="sector">
-                  <rewrite from="elec_coal (conv pul)" to="electricity" />
-                  <rewrite from="elec_gas (CC)" to="electricity" />
-                  <rewrite from="elec_CSP" to="electricity" />
-                  <rewrite from="elec_Gen_II_LWR" to="electricity" />
-                  <rewrite from="elec_refined liquids (CC)" to="electricity" />
-                  <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
-                  <rewrite from="elec_Gen_III" to="electricity" />
-                  <rewrite from="elec_geothermal" to="electricity" />
-                  <rewrite from="elec_biomass (conv)" to="electricity" />
-                  <rewrite from="elec_gas (steam/CT)" to="electricity" />
-                  <rewrite from="elec_biomass (IGCC)" to="electricity" />
-                  <rewrite from="elec_coal (IGCC)" to="electricity" />
-                  <rewrite from="elec_CSP_storage" to="electricity" />
-               </level>
-            </labelRewriteList>
-         </supplyDemandQuery>
-         </aQuery><aQuery><region name="South America_Southern" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
-            <axis1 name="sector">sector[@name]</axis1>
-            <axis2 name="Year">emissions[@year]</axis2>
-            <xPath buildList="true" dataName="input" group="false" sumAll="false"> 
+         
+                </xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="sector">
+                        <rewrite from="elec_Gen_III" to="electricity" />
+                        <rewrite from="elec_CSP_storage" to="electricity" />
+                        <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
+                        <rewrite from="elec_geothermal" to="electricity" />
+                        <rewrite from="elec_refined liquids (CC)" to="electricity" />
+                        <rewrite from="elec_Gen_II_LWR" to="electricity" />
+                        <rewrite from="elec_gas (steam/CT)" to="electricity" />
+                        <rewrite from="elec_coal (IGCC)" to="electricity" />
+                        <rewrite from="elec_gas (CC)" to="electricity" />
+                        <rewrite from="elec_biomass (IGCC)" to="electricity" />
+                        <rewrite from="elec_coal (conv pul)" to="electricity" />
+                        <rewrite from="elec_CSP" to="electricity" />
+                        <rewrite from="elec_biomass (conv)" to="electricity" />
+                    </level>
+                </labelRewriteList>
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="South America_Southern" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">emissions[@year]</axis2>
+                <xPath buildList="true" dataName="input" group="false" sumAll="false">
+                     
             declare function local:append-heirarchy($parent as node(), $append as node()*) as node() {
             let $scn := $parent/ancestor::scenario,
             $rgn := $parent (: /ancestor::region :)
@@ -5083,30 +5136,32 @@
             };
             local:run-emiss-by-enduse((:scenarios:), (:regions:), (:collection:))
             
-         </xPath>
-            <comments />
-            <labelRewriteList append-values="false">
-               <level name="sector">
-                  <rewrite from="elec_coal (conv pul)" to="electricity" />
-                  <rewrite from="elec_gas (CC)" to="electricity" />
-                  <rewrite from="elec_CSP" to="electricity" />
-                  <rewrite from="elec_Gen_II_LWR" to="electricity" />
-                  <rewrite from="elec_refined liquids (CC)" to="electricity" />
-                  <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
-                  <rewrite from="elec_Gen_III" to="electricity" />
-                  <rewrite from="elec_geothermal" to="electricity" />
-                  <rewrite from="elec_biomass (conv)" to="electricity" />
-                  <rewrite from="elec_gas (steam/CT)" to="electricity" />
-                  <rewrite from="elec_biomass (IGCC)" to="electricity" />
-                  <rewrite from="elec_coal (IGCC)" to="electricity" />
-                  <rewrite from="elec_CSP_storage" to="electricity" />
-               </level>
-            </labelRewriteList>
-         </supplyDemandQuery>
-         </aQuery><aQuery><region name="South Asia" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
-            <axis1 name="sector">sector[@name]</axis1>
-            <axis2 name="Year">emissions[@year]</axis2>
-            <xPath buildList="true" dataName="input" group="false" sumAll="false"> 
+         
+                </xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="sector">
+                        <rewrite from="elec_Gen_III" to="electricity" />
+                        <rewrite from="elec_CSP_storage" to="electricity" />
+                        <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
+                        <rewrite from="elec_geothermal" to="electricity" />
+                        <rewrite from="elec_refined liquids (CC)" to="electricity" />
+                        <rewrite from="elec_Gen_II_LWR" to="electricity" />
+                        <rewrite from="elec_gas (steam/CT)" to="electricity" />
+                        <rewrite from="elec_coal (IGCC)" to="electricity" />
+                        <rewrite from="elec_gas (CC)" to="electricity" />
+                        <rewrite from="elec_biomass (IGCC)" to="electricity" />
+                        <rewrite from="elec_coal (conv pul)" to="electricity" />
+                        <rewrite from="elec_CSP" to="electricity" />
+                        <rewrite from="elec_biomass (conv)" to="electricity" />
+                    </level>
+                </labelRewriteList>
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="South Asia" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">emissions[@year]</axis2>
+                <xPath buildList="true" dataName="input" group="false" sumAll="false">
+                     
             declare function local:append-heirarchy($parent as node(), $append as node()*) as node() {
             let $scn := $parent/ancestor::scenario,
             $rgn := $parent (: /ancestor::region :)
@@ -5272,30 +5327,32 @@
             };
             local:run-emiss-by-enduse((:scenarios:), (:regions:), (:collection:))
             
-         </xPath>
-            <comments />
-            <labelRewriteList append-values="false">
-               <level name="sector">
-                  <rewrite from="elec_coal (conv pul)" to="electricity" />
-                  <rewrite from="elec_gas (CC)" to="electricity" />
-                  <rewrite from="elec_CSP" to="electricity" />
-                  <rewrite from="elec_Gen_II_LWR" to="electricity" />
-                  <rewrite from="elec_refined liquids (CC)" to="electricity" />
-                  <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
-                  <rewrite from="elec_Gen_III" to="electricity" />
-                  <rewrite from="elec_geothermal" to="electricity" />
-                  <rewrite from="elec_biomass (conv)" to="electricity" />
-                  <rewrite from="elec_gas (steam/CT)" to="electricity" />
-                  <rewrite from="elec_biomass (IGCC)" to="electricity" />
-                  <rewrite from="elec_coal (IGCC)" to="electricity" />
-                  <rewrite from="elec_CSP_storage" to="electricity" />
-               </level>
-            </labelRewriteList>
-         </supplyDemandQuery>
-         </aQuery><aQuery><region name="South Korea" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
-            <axis1 name="sector">sector[@name]</axis1>
-            <axis2 name="Year">emissions[@year]</axis2>
-            <xPath buildList="true" dataName="input" group="false" sumAll="false"> 
+         
+                </xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="sector">
+                        <rewrite from="elec_Gen_III" to="electricity" />
+                        <rewrite from="elec_CSP_storage" to="electricity" />
+                        <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
+                        <rewrite from="elec_geothermal" to="electricity" />
+                        <rewrite from="elec_refined liquids (CC)" to="electricity" />
+                        <rewrite from="elec_Gen_II_LWR" to="electricity" />
+                        <rewrite from="elec_gas (steam/CT)" to="electricity" />
+                        <rewrite from="elec_coal (IGCC)" to="electricity" />
+                        <rewrite from="elec_gas (CC)" to="electricity" />
+                        <rewrite from="elec_biomass (IGCC)" to="electricity" />
+                        <rewrite from="elec_coal (conv pul)" to="electricity" />
+                        <rewrite from="elec_CSP" to="electricity" />
+                        <rewrite from="elec_biomass (conv)" to="electricity" />
+                    </level>
+                </labelRewriteList>
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="South Korea" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">emissions[@year]</axis2>
+                <xPath buildList="true" dataName="input" group="false" sumAll="false">
+                     
             declare function local:append-heirarchy($parent as node(), $append as node()*) as node() {
             let $scn := $parent/ancestor::scenario,
             $rgn := $parent (: /ancestor::region :)
@@ -5461,30 +5518,32 @@
             };
             local:run-emiss-by-enduse((:scenarios:), (:regions:), (:collection:))
             
-         </xPath>
-            <comments />
-            <labelRewriteList append-values="false">
-               <level name="sector">
-                  <rewrite from="elec_coal (conv pul)" to="electricity" />
-                  <rewrite from="elec_gas (CC)" to="electricity" />
-                  <rewrite from="elec_CSP" to="electricity" />
-                  <rewrite from="elec_Gen_II_LWR" to="electricity" />
-                  <rewrite from="elec_refined liquids (CC)" to="electricity" />
-                  <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
-                  <rewrite from="elec_Gen_III" to="electricity" />
-                  <rewrite from="elec_geothermal" to="electricity" />
-                  <rewrite from="elec_biomass (conv)" to="electricity" />
-                  <rewrite from="elec_gas (steam/CT)" to="electricity" />
-                  <rewrite from="elec_biomass (IGCC)" to="electricity" />
-                  <rewrite from="elec_coal (IGCC)" to="electricity" />
-                  <rewrite from="elec_CSP_storage" to="electricity" />
-               </level>
-            </labelRewriteList>
-         </supplyDemandQuery>
-         </aQuery><aQuery><region name="Southeast Asia" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
-            <axis1 name="sector">sector[@name]</axis1>
-            <axis2 name="Year">emissions[@year]</axis2>
-            <xPath buildList="true" dataName="input" group="false" sumAll="false"> 
+         
+                </xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="sector">
+                        <rewrite from="elec_Gen_III" to="electricity" />
+                        <rewrite from="elec_CSP_storage" to="electricity" />
+                        <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
+                        <rewrite from="elec_geothermal" to="electricity" />
+                        <rewrite from="elec_refined liquids (CC)" to="electricity" />
+                        <rewrite from="elec_Gen_II_LWR" to="electricity" />
+                        <rewrite from="elec_gas (steam/CT)" to="electricity" />
+                        <rewrite from="elec_coal (IGCC)" to="electricity" />
+                        <rewrite from="elec_gas (CC)" to="electricity" />
+                        <rewrite from="elec_biomass (IGCC)" to="electricity" />
+                        <rewrite from="elec_coal (conv pul)" to="electricity" />
+                        <rewrite from="elec_CSP" to="electricity" />
+                        <rewrite from="elec_biomass (conv)" to="electricity" />
+                    </level>
+                </labelRewriteList>
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Southeast Asia" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">emissions[@year]</axis2>
+                <xPath buildList="true" dataName="input" group="false" sumAll="false">
+                     
             declare function local:append-heirarchy($parent as node(), $append as node()*) as node() {
             let $scn := $parent/ancestor::scenario,
             $rgn := $parent (: /ancestor::region :)
@@ -5650,30 +5709,32 @@
             };
             local:run-emiss-by-enduse((:scenarios:), (:regions:), (:collection:))
             
-         </xPath>
-            <comments />
-            <labelRewriteList append-values="false">
-               <level name="sector">
-                  <rewrite from="elec_coal (conv pul)" to="electricity" />
-                  <rewrite from="elec_gas (CC)" to="electricity" />
-                  <rewrite from="elec_CSP" to="electricity" />
-                  <rewrite from="elec_Gen_II_LWR" to="electricity" />
-                  <rewrite from="elec_refined liquids (CC)" to="electricity" />
-                  <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
-                  <rewrite from="elec_Gen_III" to="electricity" />
-                  <rewrite from="elec_geothermal" to="electricity" />
-                  <rewrite from="elec_biomass (conv)" to="electricity" />
-                  <rewrite from="elec_gas (steam/CT)" to="electricity" />
-                  <rewrite from="elec_biomass (IGCC)" to="electricity" />
-                  <rewrite from="elec_coal (IGCC)" to="electricity" />
-                  <rewrite from="elec_CSP_storage" to="electricity" />
-               </level>
-            </labelRewriteList>
-         </supplyDemandQuery>
-         </aQuery><aQuery><region name="Taiwan" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
-            <axis1 name="sector">sector[@name]</axis1>
-            <axis2 name="Year">emissions[@year]</axis2>
-            <xPath buildList="true" dataName="input" group="false" sumAll="false"> 
+         
+                </xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="sector">
+                        <rewrite from="elec_Gen_III" to="electricity" />
+                        <rewrite from="elec_CSP_storage" to="electricity" />
+                        <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
+                        <rewrite from="elec_geothermal" to="electricity" />
+                        <rewrite from="elec_refined liquids (CC)" to="electricity" />
+                        <rewrite from="elec_Gen_II_LWR" to="electricity" />
+                        <rewrite from="elec_gas (steam/CT)" to="electricity" />
+                        <rewrite from="elec_coal (IGCC)" to="electricity" />
+                        <rewrite from="elec_gas (CC)" to="electricity" />
+                        <rewrite from="elec_biomass (IGCC)" to="electricity" />
+                        <rewrite from="elec_coal (conv pul)" to="electricity" />
+                        <rewrite from="elec_CSP" to="electricity" />
+                        <rewrite from="elec_biomass (conv)" to="electricity" />
+                    </level>
+                </labelRewriteList>
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Taiwan" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">emissions[@year]</axis2>
+                <xPath buildList="true" dataName="input" group="false" sumAll="false">
+                     
             declare function local:append-heirarchy($parent as node(), $append as node()*) as node() {
             let $scn := $parent/ancestor::scenario,
             $rgn := $parent (: /ancestor::region :)
@@ -5839,30 +5900,32 @@
             };
             local:run-emiss-by-enduse((:scenarios:), (:regions:), (:collection:))
             
-         </xPath>
-            <comments />
-            <labelRewriteList append-values="false">
-               <level name="sector">
-                  <rewrite from="elec_coal (conv pul)" to="electricity" />
-                  <rewrite from="elec_gas (CC)" to="electricity" />
-                  <rewrite from="elec_CSP" to="electricity" />
-                  <rewrite from="elec_Gen_II_LWR" to="electricity" />
-                  <rewrite from="elec_refined liquids (CC)" to="electricity" />
-                  <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
-                  <rewrite from="elec_Gen_III" to="electricity" />
-                  <rewrite from="elec_geothermal" to="electricity" />
-                  <rewrite from="elec_biomass (conv)" to="electricity" />
-                  <rewrite from="elec_gas (steam/CT)" to="electricity" />
-                  <rewrite from="elec_biomass (IGCC)" to="electricity" />
-                  <rewrite from="elec_coal (IGCC)" to="electricity" />
-                  <rewrite from="elec_CSP_storage" to="electricity" />
-               </level>
-            </labelRewriteList>
-         </supplyDemandQuery>
-         </aQuery><aQuery><region name="Argentina" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
-            <axis1 name="sector">sector[@name]</axis1>
-            <axis2 name="Year">emissions[@year]</axis2>
-            <xPath buildList="true" dataName="input" group="false" sumAll="false"> 
+         
+                </xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="sector">
+                        <rewrite from="elec_Gen_III" to="electricity" />
+                        <rewrite from="elec_CSP_storage" to="electricity" />
+                        <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
+                        <rewrite from="elec_geothermal" to="electricity" />
+                        <rewrite from="elec_refined liquids (CC)" to="electricity" />
+                        <rewrite from="elec_Gen_II_LWR" to="electricity" />
+                        <rewrite from="elec_gas (steam/CT)" to="electricity" />
+                        <rewrite from="elec_coal (IGCC)" to="electricity" />
+                        <rewrite from="elec_gas (CC)" to="electricity" />
+                        <rewrite from="elec_biomass (IGCC)" to="electricity" />
+                        <rewrite from="elec_coal (conv pul)" to="electricity" />
+                        <rewrite from="elec_CSP" to="electricity" />
+                        <rewrite from="elec_biomass (conv)" to="electricity" />
+                    </level>
+                </labelRewriteList>
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Argentina" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">emissions[@year]</axis2>
+                <xPath buildList="true" dataName="input" group="false" sumAll="false">
+                     
             declare function local:append-heirarchy($parent as node(), $append as node()*) as node() {
             let $scn := $parent/ancestor::scenario,
             $rgn := $parent (: /ancestor::region :)
@@ -6028,30 +6091,32 @@
             };
             local:run-emiss-by-enduse((:scenarios:), (:regions:), (:collection:))
             
-         </xPath>
-            <comments />
-            <labelRewriteList append-values="false">
-               <level name="sector">
-                  <rewrite from="elec_coal (conv pul)" to="electricity" />
-                  <rewrite from="elec_gas (CC)" to="electricity" />
-                  <rewrite from="elec_CSP" to="electricity" />
-                  <rewrite from="elec_Gen_II_LWR" to="electricity" />
-                  <rewrite from="elec_refined liquids (CC)" to="electricity" />
-                  <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
-                  <rewrite from="elec_Gen_III" to="electricity" />
-                  <rewrite from="elec_geothermal" to="electricity" />
-                  <rewrite from="elec_biomass (conv)" to="electricity" />
-                  <rewrite from="elec_gas (steam/CT)" to="electricity" />
-                  <rewrite from="elec_biomass (IGCC)" to="electricity" />
-                  <rewrite from="elec_coal (IGCC)" to="electricity" />
-                  <rewrite from="elec_CSP_storage" to="electricity" />
-               </level>
-            </labelRewriteList>
-         </supplyDemandQuery>
-         </aQuery><aQuery><region name="Colombia" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
-            <axis1 name="sector">sector[@name]</axis1>
-            <axis2 name="Year">emissions[@year]</axis2>
-            <xPath buildList="true" dataName="input" group="false" sumAll="false"> 
+         
+                </xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="sector">
+                        <rewrite from="elec_Gen_III" to="electricity" />
+                        <rewrite from="elec_CSP_storage" to="electricity" />
+                        <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
+                        <rewrite from="elec_geothermal" to="electricity" />
+                        <rewrite from="elec_refined liquids (CC)" to="electricity" />
+                        <rewrite from="elec_Gen_II_LWR" to="electricity" />
+                        <rewrite from="elec_gas (steam/CT)" to="electricity" />
+                        <rewrite from="elec_coal (IGCC)" to="electricity" />
+                        <rewrite from="elec_gas (CC)" to="electricity" />
+                        <rewrite from="elec_biomass (IGCC)" to="electricity" />
+                        <rewrite from="elec_coal (conv pul)" to="electricity" />
+                        <rewrite from="elec_CSP" to="electricity" />
+                        <rewrite from="elec_biomass (conv)" to="electricity" />
+                    </level>
+                </labelRewriteList>
+            </supplyDemandQuery>
+            </aQuery><aQuery><region name="Colombia" /><supplyDemandQuery title="CO2 emissions by sector (no bio)">
+                <axis1 name="sector">sector[@name]</axis1>
+                <axis2 name="Year">emissions[@year]</axis2>
+                <xPath buildList="true" dataName="input" group="false" sumAll="false">
+                     
             declare function local:append-heirarchy($parent as node(), $append as node()*) as node() {
             let $scn := $parent/ancestor::scenario,
             $rgn := $parent (: /ancestor::region :)
@@ -6217,24 +6282,25 @@
             };
             local:run-emiss-by-enduse((:scenarios:), (:regions:), (:collection:))
             
-         </xPath>
-            <comments />
-            <labelRewriteList append-values="false">
-               <level name="sector">
-                  <rewrite from="elec_coal (conv pul)" to="electricity" />
-                  <rewrite from="elec_gas (CC)" to="electricity" />
-                  <rewrite from="elec_CSP" to="electricity" />
-                  <rewrite from="elec_Gen_II_LWR" to="electricity" />
-                  <rewrite from="elec_refined liquids (CC)" to="electricity" />
-                  <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
-                  <rewrite from="elec_Gen_III" to="electricity" />
-                  <rewrite from="elec_geothermal" to="electricity" />
-                  <rewrite from="elec_biomass (conv)" to="electricity" />
-                  <rewrite from="elec_gas (steam/CT)" to="electricity" />
-                  <rewrite from="elec_biomass (IGCC)" to="electricity" />
-                  <rewrite from="elec_coal (IGCC)" to="electricity" />
-                  <rewrite from="elec_CSP_storage" to="electricity" />
-               </level>
-            </labelRewriteList>
-         </supplyDemandQuery>
-         </aQuery></queries>
+         
+                </xPath>
+                <comments />
+                <labelRewriteList append-values="false">
+                    <level name="sector">
+                        <rewrite from="elec_Gen_III" to="electricity" />
+                        <rewrite from="elec_CSP_storage" to="electricity" />
+                        <rewrite from="elec_refined liquids (steam/CT)" to="electricity" />
+                        <rewrite from="elec_geothermal" to="electricity" />
+                        <rewrite from="elec_refined liquids (CC)" to="electricity" />
+                        <rewrite from="elec_Gen_II_LWR" to="electricity" />
+                        <rewrite from="elec_gas (steam/CT)" to="electricity" />
+                        <rewrite from="elec_coal (IGCC)" to="electricity" />
+                        <rewrite from="elec_gas (CC)" to="electricity" />
+                        <rewrite from="elec_biomass (IGCC)" to="electricity" />
+                        <rewrite from="elec_coal (conv pul)" to="electricity" />
+                        <rewrite from="elec_CSP" to="electricity" />
+                        <rewrite from="elec_biomass (conv)" to="electricity" />
+                    </level>
+                </labelRewriteList>
+            </supplyDemandQuery>
+            </aQuery></queries>

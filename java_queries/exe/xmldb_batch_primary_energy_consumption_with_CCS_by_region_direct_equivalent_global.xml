@@ -7,7 +7,7 @@
 
             
             
-			<queryFile>../output/queries/query_primary_energy_consumption_with_CCS_by_region_direct_equivalent_global.xml</queryFile>
+			<queryFile>output/queries/query_primary_energy_consumption_with_CCS_by_region_direct_equivalent_global.xml</queryFile>
             
             <outFile>queryout_primary_energy_consumption_with_CCS_by_region_direct_equivalent_global.csv</outFile>
             

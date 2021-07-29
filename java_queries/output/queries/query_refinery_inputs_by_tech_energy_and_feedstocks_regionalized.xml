@@ -1,0 +1,300 @@
+<queries>
+
+<aQuery><region name="Global" /><supplyDemandQuery title="refinery inputs by tech (energy and feedstocks)">
+                    <axis1 name="input">input</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='refining' or @name='regional oil' or
+               @name='regional corn for ethanol' or @name='regional sugar for ethanol')]/
+               *[@type='subsector']/*[@type='technology']/
+               *[@type='input' and not(contains(@name,'water'))]/demand-physical/node()</xPath>
+                    <comments>includes passthrough sectors for refining</comments>
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="USA" /><supplyDemandQuery title="refinery inputs by tech (energy and feedstocks)">
+                    <axis1 name="input">input</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='refining' or @name='regional oil' or
+               @name='regional corn for ethanol' or @name='regional sugar for ethanol')]/
+               *[@type='subsector']/*[@type='technology']/
+               *[@type='input' and not(contains(@name,'water'))]/demand-physical/node()</xPath>
+                    <comments>includes passthrough sectors for refining</comments>
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Africa_Eastern" /><supplyDemandQuery title="refinery inputs by tech (energy and feedstocks)">
+                    <axis1 name="input">input</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='refining' or @name='regional oil' or
+               @name='regional corn for ethanol' or @name='regional sugar for ethanol')]/
+               *[@type='subsector']/*[@type='technology']/
+               *[@type='input' and not(contains(@name,'water'))]/demand-physical/node()</xPath>
+                    <comments>includes passthrough sectors for refining</comments>
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Africa_Northern" /><supplyDemandQuery title="refinery inputs by tech (energy and feedstocks)">
+                    <axis1 name="input">input</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='refining' or @name='regional oil' or
+               @name='regional corn for ethanol' or @name='regional sugar for ethanol')]/
+               *[@type='subsector']/*[@type='technology']/
+               *[@type='input' and not(contains(@name,'water'))]/demand-physical/node()</xPath>
+                    <comments>includes passthrough sectors for refining</comments>
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Africa_Southern" /><supplyDemandQuery title="refinery inputs by tech (energy and feedstocks)">
+                    <axis1 name="input">input</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='refining' or @name='regional oil' or
+               @name='regional corn for ethanol' or @name='regional sugar for ethanol')]/
+               *[@type='subsector']/*[@type='technology']/
+               *[@type='input' and not(contains(@name,'water'))]/demand-physical/node()</xPath>
+                    <comments>includes passthrough sectors for refining</comments>
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Africa_Western" /><supplyDemandQuery title="refinery inputs by tech (energy and feedstocks)">
+                    <axis1 name="input">input</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='refining' or @name='regional oil' or
+               @name='regional corn for ethanol' or @name='regional sugar for ethanol')]/
+               *[@type='subsector']/*[@type='technology']/
+               *[@type='input' and not(contains(@name,'water'))]/demand-physical/node()</xPath>
+                    <comments>includes passthrough sectors for refining</comments>
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Australia_NZ" /><supplyDemandQuery title="refinery inputs by tech (energy and feedstocks)">
+                    <axis1 name="input">input</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='refining' or @name='regional oil' or
+               @name='regional corn for ethanol' or @name='regional sugar for ethanol')]/
+               *[@type='subsector']/*[@type='technology']/
+               *[@type='input' and not(contains(@name,'water'))]/demand-physical/node()</xPath>
+                    <comments>includes passthrough sectors for refining</comments>
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Brazil" /><supplyDemandQuery title="refinery inputs by tech (energy and feedstocks)">
+                    <axis1 name="input">input</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='refining' or @name='regional oil' or
+               @name='regional corn for ethanol' or @name='regional sugar for ethanol')]/
+               *[@type='subsector']/*[@type='technology']/
+               *[@type='input' and not(contains(@name,'water'))]/demand-physical/node()</xPath>
+                    <comments>includes passthrough sectors for refining</comments>
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Canada" /><supplyDemandQuery title="refinery inputs by tech (energy and feedstocks)">
+                    <axis1 name="input">input</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='refining' or @name='regional oil' or
+               @name='regional corn for ethanol' or @name='regional sugar for ethanol')]/
+               *[@type='subsector']/*[@type='technology']/
+               *[@type='input' and not(contains(@name,'water'))]/demand-physical/node()</xPath>
+                    <comments>includes passthrough sectors for refining</comments>
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Central America and Caribbean" /><supplyDemandQuery title="refinery inputs by tech (energy and feedstocks)">
+                    <axis1 name="input">input</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='refining' or @name='regional oil' or
+               @name='regional corn for ethanol' or @name='regional sugar for ethanol')]/
+               *[@type='subsector']/*[@type='technology']/
+               *[@type='input' and not(contains(@name,'water'))]/demand-physical/node()</xPath>
+                    <comments>includes passthrough sectors for refining</comments>
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Central Asia" /><supplyDemandQuery title="refinery inputs by tech (energy and feedstocks)">
+                    <axis1 name="input">input</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='refining' or @name='regional oil' or
+               @name='regional corn for ethanol' or @name='regional sugar for ethanol')]/
+               *[@type='subsector']/*[@type='technology']/
+               *[@type='input' and not(contains(@name,'water'))]/demand-physical/node()</xPath>
+                    <comments>includes passthrough sectors for refining</comments>
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="China" /><supplyDemandQuery title="refinery inputs by tech (energy and feedstocks)">
+                    <axis1 name="input">input</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='refining' or @name='regional oil' or
+               @name='regional corn for ethanol' or @name='regional sugar for ethanol')]/
+               *[@type='subsector']/*[@type='technology']/
+               *[@type='input' and not(contains(@name,'water'))]/demand-physical/node()</xPath>
+                    <comments>includes passthrough sectors for refining</comments>
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="EU-12" /><supplyDemandQuery title="refinery inputs by tech (energy and feedstocks)">
+                    <axis1 name="input">input</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='refining' or @name='regional oil' or
+               @name='regional corn for ethanol' or @name='regional sugar for ethanol')]/
+               *[@type='subsector']/*[@type='technology']/
+               *[@type='input' and not(contains(@name,'water'))]/demand-physical/node()</xPath>
+                    <comments>includes passthrough sectors for refining</comments>
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="EU-15" /><supplyDemandQuery title="refinery inputs by tech (energy and feedstocks)">
+                    <axis1 name="input">input</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='refining' or @name='regional oil' or
+               @name='regional corn for ethanol' or @name='regional sugar for ethanol')]/
+               *[@type='subsector']/*[@type='technology']/
+               *[@type='input' and not(contains(@name,'water'))]/demand-physical/node()</xPath>
+                    <comments>includes passthrough sectors for refining</comments>
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Europe_Eastern" /><supplyDemandQuery title="refinery inputs by tech (energy and feedstocks)">
+                    <axis1 name="input">input</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='refining' or @name='regional oil' or
+               @name='regional corn for ethanol' or @name='regional sugar for ethanol')]/
+               *[@type='subsector']/*[@type='technology']/
+               *[@type='input' and not(contains(@name,'water'))]/demand-physical/node()</xPath>
+                    <comments>includes passthrough sectors for refining</comments>
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Europe_Non_EU" /><supplyDemandQuery title="refinery inputs by tech (energy and feedstocks)">
+                    <axis1 name="input">input</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='refining' or @name='regional oil' or
+               @name='regional corn for ethanol' or @name='regional sugar for ethanol')]/
+               *[@type='subsector']/*[@type='technology']/
+               *[@type='input' and not(contains(@name,'water'))]/demand-physical/node()</xPath>
+                    <comments>includes passthrough sectors for refining</comments>
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="European Free Trade Association" /><supplyDemandQuery title="refinery inputs by tech (energy and feedstocks)">
+                    <axis1 name="input">input</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='refining' or @name='regional oil' or
+               @name='regional corn for ethanol' or @name='regional sugar for ethanol')]/
+               *[@type='subsector']/*[@type='technology']/
+               *[@type='input' and not(contains(@name,'water'))]/demand-physical/node()</xPath>
+                    <comments>includes passthrough sectors for refining</comments>
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="India" /><supplyDemandQuery title="refinery inputs by tech (energy and feedstocks)">
+                    <axis1 name="input">input</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='refining' or @name='regional oil' or
+               @name='regional corn for ethanol' or @name='regional sugar for ethanol')]/
+               *[@type='subsector']/*[@type='technology']/
+               *[@type='input' and not(contains(@name,'water'))]/demand-physical/node()</xPath>
+                    <comments>includes passthrough sectors for refining</comments>
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Indonesia" /><supplyDemandQuery title="refinery inputs by tech (energy and feedstocks)">
+                    <axis1 name="input">input</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='refining' or @name='regional oil' or
+               @name='regional corn for ethanol' or @name='regional sugar for ethanol')]/
+               *[@type='subsector']/*[@type='technology']/
+               *[@type='input' and not(contains(@name,'water'))]/demand-physical/node()</xPath>
+                    <comments>includes passthrough sectors for refining</comments>
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Japan" /><supplyDemandQuery title="refinery inputs by tech (energy and feedstocks)">
+                    <axis1 name="input">input</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='refining' or @name='regional oil' or
+               @name='regional corn for ethanol' or @name='regional sugar for ethanol')]/
+               *[@type='subsector']/*[@type='technology']/
+               *[@type='input' and not(contains(@name,'water'))]/demand-physical/node()</xPath>
+                    <comments>includes passthrough sectors for refining</comments>
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Mexico" /><supplyDemandQuery title="refinery inputs by tech (energy and feedstocks)">
+                    <axis1 name="input">input</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='refining' or @name='regional oil' or
+               @name='regional corn for ethanol' or @name='regional sugar for ethanol')]/
+               *[@type='subsector']/*[@type='technology']/
+               *[@type='input' and not(contains(@name,'water'))]/demand-physical/node()</xPath>
+                    <comments>includes passthrough sectors for refining</comments>
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Middle East" /><supplyDemandQuery title="refinery inputs by tech (energy and feedstocks)">
+                    <axis1 name="input">input</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='refining' or @name='regional oil' or
+               @name='regional corn for ethanol' or @name='regional sugar for ethanol')]/
+               *[@type='subsector']/*[@type='technology']/
+               *[@type='input' and not(contains(@name,'water'))]/demand-physical/node()</xPath>
+                    <comments>includes passthrough sectors for refining</comments>
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Pakistan" /><supplyDemandQuery title="refinery inputs by tech (energy and feedstocks)">
+                    <axis1 name="input">input</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='refining' or @name='regional oil' or
+               @name='regional corn for ethanol' or @name='regional sugar for ethanol')]/
+               *[@type='subsector']/*[@type='technology']/
+               *[@type='input' and not(contains(@name,'water'))]/demand-physical/node()</xPath>
+                    <comments>includes passthrough sectors for refining</comments>
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Russia" /><supplyDemandQuery title="refinery inputs by tech (energy and feedstocks)">
+                    <axis1 name="input">input</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='refining' or @name='regional oil' or
+               @name='regional corn for ethanol' or @name='regional sugar for ethanol')]/
+               *[@type='subsector']/*[@type='technology']/
+               *[@type='input' and not(contains(@name,'water'))]/demand-physical/node()</xPath>
+                    <comments>includes passthrough sectors for refining</comments>
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="South Africa" /><supplyDemandQuery title="refinery inputs by tech (energy and feedstocks)">
+                    <axis1 name="input">input</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='refining' or @name='regional oil' or
+               @name='regional corn for ethanol' or @name='regional sugar for ethanol')]/
+               *[@type='subsector']/*[@type='technology']/
+               *[@type='input' and not(contains(@name,'water'))]/demand-physical/node()</xPath>
+                    <comments>includes passthrough sectors for refining</comments>
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="South America_Northern" /><supplyDemandQuery title="refinery inputs by tech (energy and feedstocks)">
+                    <axis1 name="input">input</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='refining' or @name='regional oil' or
+               @name='regional corn for ethanol' or @name='regional sugar for ethanol')]/
+               *[@type='subsector']/*[@type='technology']/
+               *[@type='input' and not(contains(@name,'water'))]/demand-physical/node()</xPath>
+                    <comments>includes passthrough sectors for refining</comments>
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="South America_Southern" /><supplyDemandQuery title="refinery inputs by tech (energy and feedstocks)">
+                    <axis1 name="input">input</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='refining' or @name='regional oil' or
+               @name='regional corn for ethanol' or @name='regional sugar for ethanol')]/
+               *[@type='subsector']/*[@type='technology']/
+               *[@type='input' and not(contains(@name,'water'))]/demand-physical/node()</xPath>
+                    <comments>includes passthrough sectors for refining</comments>
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="South Asia" /><supplyDemandQuery title="refinery inputs by tech (energy and feedstocks)">
+                    <axis1 name="input">input</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='refining' or @name='regional oil' or
+               @name='regional corn for ethanol' or @name='regional sugar for ethanol')]/
+               *[@type='subsector']/*[@type='technology']/
+               *[@type='input' and not(contains(@name,'water'))]/demand-physical/node()</xPath>
+                    <comments>includes passthrough sectors for refining</comments>
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="South Korea" /><supplyDemandQuery title="refinery inputs by tech (energy and feedstocks)">
+                    <axis1 name="input">input</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='refining' or @name='regional oil' or
+               @name='regional corn for ethanol' or @name='regional sugar for ethanol')]/
+               *[@type='subsector']/*[@type='technology']/
+               *[@type='input' and not(contains(@name,'water'))]/demand-physical/node()</xPath>
+                    <comments>includes passthrough sectors for refining</comments>
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Southeast Asia" /><supplyDemandQuery title="refinery inputs by tech (energy and feedstocks)">
+                    <axis1 name="input">input</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='refining' or @name='regional oil' or
+               @name='regional corn for ethanol' or @name='regional sugar for ethanol')]/
+               *[@type='subsector']/*[@type='technology']/
+               *[@type='input' and not(contains(@name,'water'))]/demand-physical/node()</xPath>
+                    <comments>includes passthrough sectors for refining</comments>
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Taiwan" /><supplyDemandQuery title="refinery inputs by tech (energy and feedstocks)">
+                    <axis1 name="input">input</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='refining' or @name='regional oil' or
+               @name='regional corn for ethanol' or @name='regional sugar for ethanol')]/
+               *[@type='subsector']/*[@type='technology']/
+               *[@type='input' and not(contains(@name,'water'))]/demand-physical/node()</xPath>
+                    <comments>includes passthrough sectors for refining</comments>
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Argentina" /><supplyDemandQuery title="refinery inputs by tech (energy and feedstocks)">
+                    <axis1 name="input">input</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='refining' or @name='regional oil' or
+               @name='regional corn for ethanol' or @name='regional sugar for ethanol')]/
+               *[@type='subsector']/*[@type='technology']/
+               *[@type='input' and not(contains(@name,'water'))]/demand-physical/node()</xPath>
+                    <comments>includes passthrough sectors for refining</comments>
+                </supplyDemandQuery>
+                </aQuery><aQuery><region name="Colombia" /><supplyDemandQuery title="refinery inputs by tech (energy and feedstocks)">
+                    <axis1 name="input">input</axis1>
+                    <axis2 name="Year">demand-physical[@vintage]</axis2>
+                    <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and (@name='refining' or @name='regional oil' or
+               @name='regional corn for ethanol' or @name='regional sugar for ethanol')]/
+               *[@type='subsector']/*[@type='technology']/
+               *[@type='input' and not(contains(@name,'water'))]/demand-physical/node()</xPath>
+                    <comments>includes passthrough sectors for refining</comments>
+                </supplyDemandQuery>
+                </aQuery></queries>

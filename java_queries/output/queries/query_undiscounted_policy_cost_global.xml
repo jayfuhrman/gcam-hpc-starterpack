@@ -1,0 +1,16 @@
+<queries>
+
+<aQuery>
+	<region name="Global" /> 
+	
+
+<costCurveQuery title="undiscounted policy cost">
+            <axis1 name="UndiscountedCost">UndiscountedCost</axis1>
+            <axis2 name="region">UndiscountedCost</axis2>
+            <xPath buildList="true" dataName="Undiscounted Cost" group="false" sumAll="false">/text()</xPath>
+            <comments />
+        </costCurveQuery>
+        </aQuery>
+
+
+</queries>

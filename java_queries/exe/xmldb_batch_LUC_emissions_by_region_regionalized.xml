@@ -1,0 +1,22 @@
+<ModelInterfaceBatch>
+    
+    <class name="ModelInterface.ModelGUI2.DbViewer">
+        <command name="XMLDB Batch File">
+            
+            
+
+            
+            
+			<queryFile>output/queries/query_LUC_emissions_by_region_regionalized.xml</queryFile>
+            
+            <outFile>queryout_LUC_emissions_by_region_regionalized.csv</outFile>
+            
+            <xmldbLocation>./db/database_basexdb</xmldbLocation>
+            
+            <batchQueryResultsInDifferentSheets>false</batchQueryResultsInDifferentSheets>
+            <batchQueryIncludeCharts>false</batchQueryIncludeCharts>
+            <batchQuerySplitRunsInDifferentSheets>false</batchQuerySplitRunsInDifferentSheets>
+            <batchQueryReplaceResults>true</batchQueryReplaceResults>
+        </command>
+    </class>
+</ModelInterfaceBatch>

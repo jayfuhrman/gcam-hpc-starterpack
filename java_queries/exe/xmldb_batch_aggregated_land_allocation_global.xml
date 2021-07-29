@@ -7,7 +7,7 @@
 
             
             
-			<queryFile>../output/queries/query_aggregated_land_allocation_global.xml</queryFile>
+			<queryFile>output/queries/query_aggregated_land_allocation_global.xml</queryFile>
             
             <outFile>queryout_aggregated_land_allocation_global.csv</outFile>
             

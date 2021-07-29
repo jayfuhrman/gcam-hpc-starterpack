@@ -1,0 +1,16 @@
+<queries>
+
+<aQuery>
+	<region name="Global" /> 
+	
+
+<query title="detailed land allocation">
+                <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//land-allocation/text()</xPath>
+                <comments />
+            </query>
+            </aQuery>
+
+
+</queries>

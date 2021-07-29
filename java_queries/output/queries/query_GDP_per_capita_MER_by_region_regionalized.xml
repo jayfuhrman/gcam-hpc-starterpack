@@ -1,0 +1,201 @@
+<queries>
+
+<aQuery><region name="Global" /><gdpQueryBuilder title="GDP per capita MER by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">gdp-per-capita-mer</axis2>
+            <xPath buildList="true" dataName="gdp-per-capita-mer" group="false" sumAll="false">GDP/gdp-per-capita-mer/text()</xPath>
+            <comments />
+        </gdpQueryBuilder>
+        </aQuery><aQuery><region name="USA" /><gdpQueryBuilder title="GDP per capita MER by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">gdp-per-capita-mer</axis2>
+            <xPath buildList="true" dataName="gdp-per-capita-mer" group="false" sumAll="false">GDP/gdp-per-capita-mer/text()</xPath>
+            <comments />
+        </gdpQueryBuilder>
+        </aQuery><aQuery><region name="Africa_Eastern" /><gdpQueryBuilder title="GDP per capita MER by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">gdp-per-capita-mer</axis2>
+            <xPath buildList="true" dataName="gdp-per-capita-mer" group="false" sumAll="false">GDP/gdp-per-capita-mer/text()</xPath>
+            <comments />
+        </gdpQueryBuilder>
+        </aQuery><aQuery><region name="Africa_Northern" /><gdpQueryBuilder title="GDP per capita MER by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">gdp-per-capita-mer</axis2>
+            <xPath buildList="true" dataName="gdp-per-capita-mer" group="false" sumAll="false">GDP/gdp-per-capita-mer/text()</xPath>
+            <comments />
+        </gdpQueryBuilder>
+        </aQuery><aQuery><region name="Africa_Southern" /><gdpQueryBuilder title="GDP per capita MER by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">gdp-per-capita-mer</axis2>
+            <xPath buildList="true" dataName="gdp-per-capita-mer" group="false" sumAll="false">GDP/gdp-per-capita-mer/text()</xPath>
+            <comments />
+        </gdpQueryBuilder>
+        </aQuery><aQuery><region name="Africa_Western" /><gdpQueryBuilder title="GDP per capita MER by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">gdp-per-capita-mer</axis2>
+            <xPath buildList="true" dataName="gdp-per-capita-mer" group="false" sumAll="false">GDP/gdp-per-capita-mer/text()</xPath>
+            <comments />
+        </gdpQueryBuilder>
+        </aQuery><aQuery><region name="Australia_NZ" /><gdpQueryBuilder title="GDP per capita MER by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">gdp-per-capita-mer</axis2>
+            <xPath buildList="true" dataName="gdp-per-capita-mer" group="false" sumAll="false">GDP/gdp-per-capita-mer/text()</xPath>
+            <comments />
+        </gdpQueryBuilder>
+        </aQuery><aQuery><region name="Brazil" /><gdpQueryBuilder title="GDP per capita MER by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">gdp-per-capita-mer</axis2>
+            <xPath buildList="true" dataName="gdp-per-capita-mer" group="false" sumAll="false">GDP/gdp-per-capita-mer/text()</xPath>
+            <comments />
+        </gdpQueryBuilder>
+        </aQuery><aQuery><region name="Canada" /><gdpQueryBuilder title="GDP per capita MER by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">gdp-per-capita-mer</axis2>
+            <xPath buildList="true" dataName="gdp-per-capita-mer" group="false" sumAll="false">GDP/gdp-per-capita-mer/text()</xPath>
+            <comments />
+        </gdpQueryBuilder>
+        </aQuery><aQuery><region name="Central America and Caribbean" /><gdpQueryBuilder title="GDP per capita MER by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">gdp-per-capita-mer</axis2>
+            <xPath buildList="true" dataName="gdp-per-capita-mer" group="false" sumAll="false">GDP/gdp-per-capita-mer/text()</xPath>
+            <comments />
+        </gdpQueryBuilder>
+        </aQuery><aQuery><region name="Central Asia" /><gdpQueryBuilder title="GDP per capita MER by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">gdp-per-capita-mer</axis2>
+            <xPath buildList="true" dataName="gdp-per-capita-mer" group="false" sumAll="false">GDP/gdp-per-capita-mer/text()</xPath>
+            <comments />
+        </gdpQueryBuilder>
+        </aQuery><aQuery><region name="China" /><gdpQueryBuilder title="GDP per capita MER by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">gdp-per-capita-mer</axis2>
+            <xPath buildList="true" dataName="gdp-per-capita-mer" group="false" sumAll="false">GDP/gdp-per-capita-mer/text()</xPath>
+            <comments />
+        </gdpQueryBuilder>
+        </aQuery><aQuery><region name="EU-12" /><gdpQueryBuilder title="GDP per capita MER by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">gdp-per-capita-mer</axis2>
+            <xPath buildList="true" dataName="gdp-per-capita-mer" group="false" sumAll="false">GDP/gdp-per-capita-mer/text()</xPath>
+            <comments />
+        </gdpQueryBuilder>
+        </aQuery><aQuery><region name="EU-15" /><gdpQueryBuilder title="GDP per capita MER by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">gdp-per-capita-mer</axis2>
+            <xPath buildList="true" dataName="gdp-per-capita-mer" group="false" sumAll="false">GDP/gdp-per-capita-mer/text()</xPath>
+            <comments />
+        </gdpQueryBuilder>
+        </aQuery><aQuery><region name="Europe_Eastern" /><gdpQueryBuilder title="GDP per capita MER by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">gdp-per-capita-mer</axis2>
+            <xPath buildList="true" dataName="gdp-per-capita-mer" group="false" sumAll="false">GDP/gdp-per-capita-mer/text()</xPath>
+            <comments />
+        </gdpQueryBuilder>
+        </aQuery><aQuery><region name="Europe_Non_EU" /><gdpQueryBuilder title="GDP per capita MER by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">gdp-per-capita-mer</axis2>
+            <xPath buildList="true" dataName="gdp-per-capita-mer" group="false" sumAll="false">GDP/gdp-per-capita-mer/text()</xPath>
+            <comments />
+        </gdpQueryBuilder>
+        </aQuery><aQuery><region name="European Free Trade Association" /><gdpQueryBuilder title="GDP per capita MER by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">gdp-per-capita-mer</axis2>
+            <xPath buildList="true" dataName="gdp-per-capita-mer" group="false" sumAll="false">GDP/gdp-per-capita-mer/text()</xPath>
+            <comments />
+        </gdpQueryBuilder>
+        </aQuery><aQuery><region name="India" /><gdpQueryBuilder title="GDP per capita MER by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">gdp-per-capita-mer</axis2>
+            <xPath buildList="true" dataName="gdp-per-capita-mer" group="false" sumAll="false">GDP/gdp-per-capita-mer/text()</xPath>
+            <comments />
+        </gdpQueryBuilder>
+        </aQuery><aQuery><region name="Indonesia" /><gdpQueryBuilder title="GDP per capita MER by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">gdp-per-capita-mer</axis2>
+            <xPath buildList="true" dataName="gdp-per-capita-mer" group="false" sumAll="false">GDP/gdp-per-capita-mer/text()</xPath>
+            <comments />
+        </gdpQueryBuilder>
+        </aQuery><aQuery><region name="Japan" /><gdpQueryBuilder title="GDP per capita MER by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">gdp-per-capita-mer</axis2>
+            <xPath buildList="true" dataName="gdp-per-capita-mer" group="false" sumAll="false">GDP/gdp-per-capita-mer/text()</xPath>
+            <comments />
+        </gdpQueryBuilder>
+        </aQuery><aQuery><region name="Mexico" /><gdpQueryBuilder title="GDP per capita MER by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">gdp-per-capita-mer</axis2>
+            <xPath buildList="true" dataName="gdp-per-capita-mer" group="false" sumAll="false">GDP/gdp-per-capita-mer/text()</xPath>
+            <comments />
+        </gdpQueryBuilder>
+        </aQuery><aQuery><region name="Middle East" /><gdpQueryBuilder title="GDP per capita MER by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">gdp-per-capita-mer</axis2>
+            <xPath buildList="true" dataName="gdp-per-capita-mer" group="false" sumAll="false">GDP/gdp-per-capita-mer/text()</xPath>
+            <comments />
+        </gdpQueryBuilder>
+        </aQuery><aQuery><region name="Pakistan" /><gdpQueryBuilder title="GDP per capita MER by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">gdp-per-capita-mer</axis2>
+            <xPath buildList="true" dataName="gdp-per-capita-mer" group="false" sumAll="false">GDP/gdp-per-capita-mer/text()</xPath>
+            <comments />
+        </gdpQueryBuilder>
+        </aQuery><aQuery><region name="Russia" /><gdpQueryBuilder title="GDP per capita MER by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">gdp-per-capita-mer</axis2>
+            <xPath buildList="true" dataName="gdp-per-capita-mer" group="false" sumAll="false">GDP/gdp-per-capita-mer/text()</xPath>
+            <comments />
+        </gdpQueryBuilder>
+        </aQuery><aQuery><region name="South Africa" /><gdpQueryBuilder title="GDP per capita MER by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">gdp-per-capita-mer</axis2>
+            <xPath buildList="true" dataName="gdp-per-capita-mer" group="false" sumAll="false">GDP/gdp-per-capita-mer/text()</xPath>
+            <comments />
+        </gdpQueryBuilder>
+        </aQuery><aQuery><region name="South America_Northern" /><gdpQueryBuilder title="GDP per capita MER by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">gdp-per-capita-mer</axis2>
+            <xPath buildList="true" dataName="gdp-per-capita-mer" group="false" sumAll="false">GDP/gdp-per-capita-mer/text()</xPath>
+            <comments />
+        </gdpQueryBuilder>
+        </aQuery><aQuery><region name="South America_Southern" /><gdpQueryBuilder title="GDP per capita MER by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">gdp-per-capita-mer</axis2>
+            <xPath buildList="true" dataName="gdp-per-capita-mer" group="false" sumAll="false">GDP/gdp-per-capita-mer/text()</xPath>
+            <comments />
+        </gdpQueryBuilder>
+        </aQuery><aQuery><region name="South Asia" /><gdpQueryBuilder title="GDP per capita MER by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">gdp-per-capita-mer</axis2>
+            <xPath buildList="true" dataName="gdp-per-capita-mer" group="false" sumAll="false">GDP/gdp-per-capita-mer/text()</xPath>
+            <comments />
+        </gdpQueryBuilder>
+        </aQuery><aQuery><region name="South Korea" /><gdpQueryBuilder title="GDP per capita MER by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">gdp-per-capita-mer</axis2>
+            <xPath buildList="true" dataName="gdp-per-capita-mer" group="false" sumAll="false">GDP/gdp-per-capita-mer/text()</xPath>
+            <comments />
+        </gdpQueryBuilder>
+        </aQuery><aQuery><region name="Southeast Asia" /><gdpQueryBuilder title="GDP per capita MER by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">gdp-per-capita-mer</axis2>
+            <xPath buildList="true" dataName="gdp-per-capita-mer" group="false" sumAll="false">GDP/gdp-per-capita-mer/text()</xPath>
+            <comments />
+        </gdpQueryBuilder>
+        </aQuery><aQuery><region name="Taiwan" /><gdpQueryBuilder title="GDP per capita MER by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">gdp-per-capita-mer</axis2>
+            <xPath buildList="true" dataName="gdp-per-capita-mer" group="false" sumAll="false">GDP/gdp-per-capita-mer/text()</xPath>
+            <comments />
+        </gdpQueryBuilder>
+        </aQuery><aQuery><region name="Argentina" /><gdpQueryBuilder title="GDP per capita MER by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">gdp-per-capita-mer</axis2>
+            <xPath buildList="true" dataName="gdp-per-capita-mer" group="false" sumAll="false">GDP/gdp-per-capita-mer/text()</xPath>
+            <comments />
+        </gdpQueryBuilder>
+        </aQuery><aQuery><region name="Colombia" /><gdpQueryBuilder title="GDP per capita MER by region">
+            <axis1 name="region">region</axis1>
+            <axis2 name="Year">gdp-per-capita-mer</axis2>
+            <xPath buildList="true" dataName="gdp-per-capita-mer" group="false" sumAll="false">GDP/gdp-per-capita-mer/text()</xPath>
+            <comments />
+        </gdpQueryBuilder>
+        </aQuery></queries>

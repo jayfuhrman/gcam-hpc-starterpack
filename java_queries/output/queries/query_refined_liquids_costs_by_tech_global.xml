@@ -1,0 +1,16 @@
+<queries>
+
+<aQuery>
+	<region name="Global" /> 
+	
+
+<supplyDemandQuery title="refined liquids costs by tech">
+                    <axis1 name="technology">technology</axis1>
+                    <axis2 name="Year">cost</axis2>
+                    <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='refining')]/*[@type='subsector']/*[@type='technology']/cost/text()</xPath>
+                    <comments />
+                </supplyDemandQuery>
+                </aQuery>
+
+
+</queries>

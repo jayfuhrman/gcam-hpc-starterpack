@@ -5,12 +5,12 @@
 	
 
 <marketQuery title="prices of all markets">
-            <axis1 name="market">market</axis1>
-            <axis2 name="Year">market</axis2>
-            <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true()]/price/node()</xPath>
-            <comments />
-         </marketQuery>
-         </aQuery>
+                <axis1 name="market">market</axis1>
+                <axis2 name="Year">market</axis2>
+                <xPath buildList="true" dataName="price" group="false" sumAll="false">Marketplace/market[true()]/price/node()</xPath>
+                <comments />
+            </marketQuery>
+            </aQuery>
 
 
 </queries>

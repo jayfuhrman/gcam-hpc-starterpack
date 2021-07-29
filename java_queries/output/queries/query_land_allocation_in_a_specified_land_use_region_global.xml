@@ -5,14 +5,14 @@
 	
 
 <query title="land allocation in a specified land use region">
-            <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
-            <axis2 name="Year">land-allocation[@year]</axis2>
-            <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//
+                <axis1 name="LandLeaf">LandLeaf[@name]</axis1>
+                <axis2 name="Year">land-allocation[@year]</axis2>
+                <xPath buildList="true" dataName="LandLeaf" group="false" sumAll="false">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//
             LandLeaf[@land-region='MissouriR']/
             land-allocation/text()</xPath>
-            <comments />
-         </query>
-         </aQuery>
+                <comments />
+            </query>
+            </aQuery>
 
 
 </queries>
