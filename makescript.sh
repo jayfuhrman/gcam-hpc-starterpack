@@ -99,7 +99,7 @@ cp ${INSTALLDIR}/libs ${GCAMDIR}
 
 #make clean #uncomment if error
 source gcam_build.setup
-make gcam -j 8 #comment out if error
+make gcam -j 16 #comment out if error
 #make gcam #uncomment if error
 
 
