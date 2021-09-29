@@ -3,8 +3,13 @@
 # This is the main script used for running GCAM on the Evergreen cluster
 # It is adapted from the NERSC version!
 
-echo "To ensure most up-to-date configuration-sets directory, run copy_config.sh"
-./copy_config.sh
+#echo "To ensure most up-to-date configuration-sets directory, run copy_config.sh"
+#./copy_config.sh
+
+export COMP_ID=cff2aa
+export GCAMDIR=/sfs/qumulo/qhome/${COMP_ID}/GCAM-core
+export SCRATCHDIR=/sfs/lustre/bahamut/scratch/${COMP_ID}
+
 
 EXPECTED_ARGS=2
 
@@ -29,11 +34,8 @@ fi
 
 # skip sync of files (possibly would want to do this from HOME to EMSL_HOME?)
 RUN_DIR_NAME=
-#WORKSPACE_DIR_NAME=/sfs/qumulo/qhome/jgf5fz/gcam_dac_high_elec
+#WORKSPACE_DIR_NAME=/sfs/qumulo/qhome/${COMP_ID}/gcam_dac_high_elec
 INPUT_OPTIONS="--include=*.xml --include=Hist_to_2008_Annual.csv --exclude=.svn --exclude=*.*"
-
-GCAMDIR=/sfs/qumulo/qhome/jgf5fz/gcam_dac_high_elec
-SCRATCHDIR=/sfs/lustre/bahamut/scratch/jgf5fz
 
 #otherwise will append
 #jf-- commented out first line bc it was throwing errors
