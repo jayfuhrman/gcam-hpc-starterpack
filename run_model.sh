@@ -17,9 +17,6 @@ module load java
 
 CONFIGURATION_FILE=${1}_${2}.xml
 
-GCAMDIR=/home/cff2aa/GCAM-core
-SCRATCHDIR=/sfs/lustre/bahamut/scratch/cff2aa
-
 cp ${GCAMDIR}/configuration-sets/run_set_documentation.txt ${SCRATCHDIR}
 echo "copied run set documentation to scratch"
 
