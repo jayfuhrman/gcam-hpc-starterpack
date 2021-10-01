@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?><scenario>
+    <world>
+        <region name="VA">
+            <ghgpolicy name="CO2">
+                <market>VA</market>
+                <constraint year="2025">22.34745303</constraint>
+                <constraint year="2030">17.897962424</constraint>
+                <constraint year="2035">13.448471818</constraint>
+                <constraint year="2040">8.998981212</constraint>
+                <constraint year="2045">4.549490606</constraint>
+                <constraint year="2050">0.1</constraint>
+                <constraint year="2055">0.1</constraint>
+                <constraint year="2060">0.1</constraint>
+                <constraint year="2065">0.1</constraint>
+                <constraint year="2070">0.1</constraint>
+                <constraint year="2075">0.1</constraint>
+                <constraint year="2080">0.1</constraint>
+                <constraint year="2085">0.1</constraint>
+                <constraint year="2090">0.1</constraint>
+                <constraint year="2095">0.1</constraint>
+                <constraint year="2100">0.1</constraint>
+            </ghgpolicy>
+        </region>
+        <region name="AK">
+            <ghgpolicy name="CO2">
+                <market>USA</market>
+                <constraint year="2025">1146.111865</constraint>
+                <constraint year="2030">916.889492</constraint>
+                <constraint year="2035">687.667119</constraint>
+                <constraint year="2040">458.444746</constraint>
+                <constraint year="2045">229.222373</constraint>
+                <constraint year="2050">10</constraint>
+                <constraint year="2055">10</constraint>
+                <constraint year="2060">10</constraint>
+                <constraint year="2065">10</constraint>
+                <constraint year="2070">10</constraint>
+                <constraint year="2075">10</constraint>
+                <constraint year="2080">10</constraint>
+                <constraint year="2085">10</constraint>
+                <constraint year="2090">10</constraint>
+                <constraint year="2095">10</constraint>
+                <constraint year="2100">10</constraint>
+            </ghgpolicy>
+        </region>
+        <region name="USA">
+            <ghgpolicy name="CO2">
+                <market>USA</market>
+            </ghgpolicy>
+        </region>
+        <region name="AL">
+            <ghgpolicy name="CO2">
+                <market>USA</market>
+            </ghgpolicy>
+        </region>
+        <region name="AR">
+            <ghgpolicy name="CO2">
+                <market>USA</market>
+            </ghgpolicy>
+        </region>
+        <region name="AZ">
+            <ghgpolicy name="CO2">
+                <market>USA</market>
+            </ghgpolicy>
+        </region>
+        <region name="CA">
+            <ghgpolicy name="CO2">
+                <market>USA</market>
+            </ghgpolicy>
+        </region>
+        <region name="CO">
+            <ghgpolicy name="CO2">
+                <market>USA</market>
+            </ghgpolicy>
+        </region>
+        <region name="CT">
+            <ghgpolicy name="CO2">
+                <market>USA</market>
+            </ghgpolicy>
+        </region>
+        <region name="DC">
+            <ghgpolicy name="CO2">
+                <market>USA</market>
+            </ghgpolicy>
+        </region>
+        <region name="DE">
+            <ghgpolicy name="CO2">
+                <market>USA</market>
+            </ghgpolicy>
+        </region>
+        <region name="FL">
+            <ghgpolicy name="CO2">
+                <market>USA</market>
+            </ghgpolicy>
+        </region>
+        <region name="GA">
+            <ghgpolicy name="CO2">
+                <market>USA</market>
+            </ghgpolicy>
+        </region>
+        <region name="HI">
+            <ghgpolicy name="CO2">
+                <market>USA</market>
+            </ghgpolicy>
+        </region>
+        <region name="IA">
+            <ghgpolicy name="CO2">
+                <market>USA</market>
+            </ghgpolicy>
+        </region>
+        <region name="ID">
+            <ghgpolicy name="CO2">
+                <market>USA</market>
+            </ghgpolicy>
+        </region>
+        <region name="IL">
+            <ghgpolicy name="CO2">
+                <market>USA</market>
+            </ghgpolicy>
+        </region>
+        <region name="IN">
+            <ghgpolicy name="CO2">
+                <market>USA</market>
+            </ghgpolicy>
+        </region>
+        <region name="KS">
+            <ghgpolicy name="CO2">
+                <market>USA</market>
+            </ghgpolicy>
+        </region>
+        <region name="KY">
+            <ghgpolicy name="CO2">
+                <market>USA</market>
+            </ghgpolicy>
+        </region>
+        <region name="LA">
+            <ghgpolicy name="CO2">
+                <market>USA</market>
+            </ghgpolicy>
+        </region>
+        <region name="MA">
+            <ghgpolicy name="CO2">
+                <market>USA</market>
+            </ghgpolicy>
+        </region>
+        <region name="MD">
+            <ghgpolicy name="CO2">
+                <market>USA</market>
+            </ghgpolicy>
+        </region>
+        <region name="ME">
+            <ghgpolicy name="CO2">
+                <market>USA</market>
+            </ghgpolicy>
+        </region>
+        <region name="MI">
+            <ghgpolicy name="CO2">
+                <market>USA</market>
+            </ghgpolicy>
+        </region>
+        <region name="MN">
+            <ghgpolicy name="CO2">
+                <market>USA</market>
+            </ghgpolicy>
+        </region>
+        <region name="MO">
+            <ghgpolicy name="CO2">
+                <market>USA</market>
+            </ghgpolicy>
+        </region>
+        <region name="MS">
+            <ghgpolicy name="CO2">
+                <market>USA</market>
+            </ghgpolicy>
+        </region>
+        <region name="MT">
+            <ghgpolicy name="CO2">
+                <market>USA</market>
+            </ghgpolicy>
+        </region>
+        <region name="NC">
+            <ghgpolicy name="CO2">
+                <market>USA</market>
+            </ghgpolicy>
+        </region>
+        <region name="ND">
+            <ghgpolicy name="CO2">
+                <market>USA</market>
+            </ghgpolicy>
+        </region>
+        <region name="NE">
+            <ghgpolicy name="CO2">
+                <market>USA</market>
+            </ghgpolicy>
+        </region>
+        <region name="NH">
+            <ghgpolicy name="CO2">
+                <market>USA</market>
+            </ghgpolicy>
+        </region>
+        <region name="NJ">
+            <ghgpolicy name="CO2">
+                <market>USA</market>
+            </ghgpolicy>
+        </region>
+        <region name="NM">
+            <ghgpolicy name="CO2">
+                <market>USA</market>
+            </ghgpolicy>
+        </region>
+        <region name="NV">
+            <ghgpolicy name="CO2">
+                <market>USA</market>
+            </ghgpolicy>
+        </region>
+        <region name="NY">
+            <ghgpolicy name="CO2">
+                <market>USA</market>
+            </ghgpolicy>
+        </region>
+        <region name="OH">
+            <ghgpolicy name="CO2">
+                <market>USA</market>
+            </ghgpolicy>
+        </region>
+        <region name="OK">
+            <ghgpolicy name="CO2">
+                <market>USA</market>
+            </ghgpolicy>
+        </region>
+        <region name="OR">
+            <ghgpolicy name="CO2">
+                <market>USA</market>
+            </ghgpolicy>
+        </region>
+        <region name="PA">
+            <ghgpolicy name="CO2">
+                <market>USA</market>
+            </ghgpolicy>
+        </region>
+        <region name="RI">
+            <ghgpolicy name="CO2">
+                <market>USA</market>
+            </ghgpolicy>
+        </region>
+        <region name="SC">
+            <ghgpolicy name="CO2">
+                <market>USA</market>
+            </ghgpolicy>
+        </region>
+        <region name="SD">
+            <ghgpolicy name="CO2">
+                <market>USA</market>
+            </ghgpolicy>
+        </region>
+        <region name="TN">
+            <ghgpolicy name="CO2">
+                <market>USA</market>
+            </ghgpolicy>
+        </region>
+        <region name="TX">
+            <ghgpolicy name="CO2">
+                <market>USA</market>
+            </ghgpolicy>
+        </region>
+        <region name="UT">
+            <ghgpolicy name="CO2">
+                <market>USA</market>
+            </ghgpolicy>
+        </region>
+        <region name="VT">
+            <ghgpolicy name="CO2">
+                <market>USA</market>
+            </ghgpolicy>
+        </region>
+        <region name="WA">
+            <ghgpolicy name="CO2">
+                <market>USA</market>
+            </ghgpolicy>
+        </region>
+        <region name="WI">
+            <ghgpolicy name="CO2">
+                <market>USA</market>
+            </ghgpolicy>
+        </region>
+        <region name="WV">
+            <ghgpolicy name="CO2">
+                <market>USA</market>
+            </ghgpolicy>
+        </region>
+        <region name="WY">
+            <ghgpolicy name="CO2">
+                <market>USA</market>
+            </ghgpolicy>
+        </region>
+        <region name="Africa_Eastern">
+            <ghgpolicy name="CO2">
+                <market>Global</market>
+                <constraint year="2025">8405.950763</constraint>
+                <constraint year="2030">6724.76061</constraint>
+                <constraint year="2035">5043.570458</constraint>
+                <constraint year="2040">3362.380305</constraint>
+                <constraint year="2045">1681.190153</constraint>
+                <constraint year="2050">10</constraint>
+                <constraint year="2055">10</constraint>
+                <constraint year="2060">10</constraint>
+                <constraint year="2065">10</constraint>
+                <constraint year="2070">10</constraint>
+                <constraint year="2075">10</constraint>
+                <constraint year="2080">10</constraint>
+                <constraint year="2085">10</constraint>
+                <constraint year="2090">10</constraint>
+                <constraint year="2095">10</constraint>
+                <constraint year="2100">10</constraint>
+            </ghgpolicy>
+        </region>
+        <region name="Africa_Northern">
+            <ghgpolicy name="CO2">
+                <market>Global</market>
+            </ghgpolicy>
+        </region>
+        <region name="Africa_Southern">
+            <ghgpolicy name="CO2">
+                <market>Global</market>
+            </ghgpolicy>
+        </region>
+        <region name="Africa_Western">
+            <ghgpolicy name="CO2">
+                <market>Global</market>
+            </ghgpolicy>
+        </region>
+        <region name="Argentina">
+            <ghgpolicy name="CO2">
+                <market>Global</market>
+            </ghgpolicy>
+        </region>
+        <region name="Australia_NZ">
+            <ghgpolicy name="CO2">
+                <market>Global</market>
+            </ghgpolicy>
+        </region>
+        <region name="Brazil">
+            <ghgpolicy name="CO2">
+                <market>Global</market>
+            </ghgpolicy>
+        </region>
+        <region name="Canada">
+            <ghgpolicy name="CO2">
+                <market>Global</market>
+            </ghgpolicy>
+        </region>
+        <region name="Central America and Caribbean">
+            <ghgpolicy name="CO2">
+                <market>Global</market>
+            </ghgpolicy>
+        </region>
+        <region name="Central Asia">
+            <ghgpolicy name="CO2">
+                <market>Global</market>
+            </ghgpolicy>
+        </region>
+        <region name="China">
+            <ghgpolicy name="CO2">
+                <market>Global</market>
+            </ghgpolicy>
+        </region>
+        <region name="Colombia">
+            <ghgpolicy name="CO2">
+                <market>Global</market>
+            </ghgpolicy>
+        </region>
+        <region name="EU-12">
+            <ghgpolicy name="CO2">
+                <market>Global</market>
+            </ghgpolicy>
+        </region>
+        <region name="EU-15">
+            <ghgpolicy name="CO2">
+                <market>Global</market>
+            </ghgpolicy>
+        </region>
+        <region name="Europe_Eastern">
+            <ghgpolicy name="CO2">
+                <market>Global</market>
+            </ghgpolicy>
+        </region>
+        <region name="Europe_Non_EU">
+            <ghgpolicy name="CO2">
+                <market>Global</market>
+            </ghgpolicy>
+        </region>
+        <region name="European Free Trade Association">
+            <ghgpolicy name="CO2">
+                <market>Global</market>
+            </ghgpolicy>
+        </region>
+        <region name="India">
+            <ghgpolicy name="CO2">
+                <market>Global</market>
+            </ghgpolicy>
+        </region>
+        <region name="Indonesia">
+            <ghgpolicy name="CO2">
+                <market>Global</market>
+            </ghgpolicy>
+        </region>
+        <region name="Japan">
+            <ghgpolicy name="CO2">
+                <market>Global</market>
+            </ghgpolicy>
+        </region>
+        <region name="Mexico">
+            <ghgpolicy name="CO2">
+                <market>Global</market>
+            </ghgpolicy>
+        </region>
+        <region name="Middle East">
+            <ghgpolicy name="CO2">
+                <market>Global</market>
+            </ghgpolicy>
+        </region>
+        <region name="Pakistan">
+            <ghgpolicy name="CO2">
+                <market>Global</market>
+            </ghgpolicy>
+        </region>
+        <region name="Russia">
+            <ghgpolicy name="CO2">
+                <market>Global</market>
+            </ghgpolicy>
+        </region>
+        <region name="South Africa">
+            <ghgpolicy name="CO2">
+                <market>Global</market>
+            </ghgpolicy>
+        </region>
+        <region name="South America_Northern">
+            <ghgpolicy name="CO2">
+                <market>Global</market>
+            </ghgpolicy>
+        </region>
+        <region name="South America_Southern">
+            <ghgpolicy name="CO2">
+                <market>Global</market>
+            </ghgpolicy>
+        </region>
+        <region name="South Asia">
+            <ghgpolicy name="CO2">
+                <market>Global</market>
+            </ghgpolicy>
+        </region>
+        <region name="South Korea">
+            <ghgpolicy name="CO2">
+                <market>Global</market>
+            </ghgpolicy>
+        </region>
+        <region name="Southeast Asia">
+            <ghgpolicy name="CO2">
+                <market>Global</market>
+            </ghgpolicy>
+        </region>
+        <region name="Taiwan">
+            <ghgpolicy name="CO2">
+                <market>Global</market>
+            </ghgpolicy>
+        </region>
+    </world>
+</scenario>

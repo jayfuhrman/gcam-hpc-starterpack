@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+   <world>
+      <region name="VA">
+         <ghgpolicy name="CO2_ELEC">
+            <market>VA</market>
+            <constraint year="2025">5.48679</constraint>
+            <constraint year="2030">4.38943</constraint>
+            <constraint year="2035">3.29207</constraint>
+            <constraint year="2040">2.19471</constraint>
+            <constraint year="2045">1.09735</constraint>
+            <constraint year="2050">0.3</constraint>
+            <constraint year="2055">0.2</constraint>
+            <constraint year="2060">0.2</constraint>
+            <constraint year="2065">0.2</constraint>
+            <constraint year="2070">0.2</constraint>
+            <constraint year="2075">0.2</constraint>
+            <constraint year="2080">0.2</constraint>
+            <constraint year="2085">0.2</constraint>
+            <constraint year="2090">0.2</constraint>
+            <constraint year="2095">0.2</constraint>
+            <constraint year="2100">0.2</constraint>
+         </ghgpolicy>
+      </region>
+   </world>
+</scenario>
