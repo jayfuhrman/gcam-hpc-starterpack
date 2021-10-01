@@ -116,11 +116,11 @@ if [[ $run = 'y' ]]; then
     mkdir ${SCRATCHDIR}/errors
 
 
-	echo "copying addons to scratch..."
+	#echo "copying addons to scratch..."
 	#this is to avoid deleting addons directory when we go to build updated versions of GCAM source code, which require overwriting the gcam dir.
 	#cp -fR ../gcam_addons ${SCRATCHDIR}/input/addons
-	./copy_addons.sh
-	echo "done copying addon input files to scratch"
+	#./copy_addons.sh
+	#echo "done copying addon input files to scratch"
 
 		
 	
