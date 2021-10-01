@@ -44,10 +44,6 @@ cp -fR configuration-sets ${GCAMDIR}
 cp -fR libs ${GCAMDIR}
 
 
-
-
-
-
 cp -fR master.sh ${GCAMDIR}
 cp -fR batch_parser.pl ${GCAMDIR}
 cp -fR mpi_wrapper.cpp ${GCAMDIR}
@@ -92,12 +88,6 @@ cd ${GCAMDIR}
 echo "Successfully unpacked hector. Now building GCAM"
 sleep 2s
 
-cp ${INSTALLDIR}/libs ${GCAMDIR}
-
-
-
-
-
 #make clean #uncomment if error
 source gcam_build.setup
 make gcam -j 16 #comment out if error
@@ -109,7 +99,5 @@ module load goolf/7.1.0_3.1.4 R
 make
 
 cp ${GCAMDIR}/exe/configuration_ref.xml ${GCAMDIR}/configuration-sets
-cd ${GCAMDIR}/configuration-sets
-mv configuration_ref.xml configuration.xml
-cd ..
+cp ${GCAMDIR}/exe/configuration_usa.xml ${GCAMDIR}/configuration-sets
 echo "Finished copying config file"
