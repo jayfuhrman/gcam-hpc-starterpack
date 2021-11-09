@@ -7,7 +7,7 @@
 #./copy_config.sh
 
 export COMP_ID=cff2aa
-export GCAMDIR=/sfs/qumulo/qhome/${COMP_ID}/GCAM-core
+export GCAMDIR=/sfs/qumulo/qhome/${COMP_ID}/gcam-core
 export SCRATCHDIR=/sfs/lustre/bahamut/scratch/${COMP_ID}
 
 
