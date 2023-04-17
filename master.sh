@@ -8,7 +8,7 @@
 
 export COMP_ID=cff2aa
 export GCAMDIR=/sfs/qumulo/qhome/${COMP_ID}/gcam-core
-export SCRATCHDIR=/gpfs/gpfs0/scratch/wef7v/${COMP_ID}
+export SCRATCHDIR=/gpfs/gpfs0/scratch/${COMP_ID}
 #export SCRATCHDIR=/sfs/lustre/bahamut/scratch/${COMP_ID}
 
 
